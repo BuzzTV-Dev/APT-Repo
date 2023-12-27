@@ -1536,6 +1536,26 @@ Description: GStreamer core development files
  This package contains development files for the core library and
  elements.
 
+Package: libmali-utgard-450-r7p0-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 1694
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.3), libwayland-client0 (>= 1.3.92), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/mantic-rockchip/main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+Size: 522504
+MD5sum: adcd2988ed818c2908f711d058032520
+SHA1: d46d28201d21c1c6cc5e889d859181cb76a7bdf3
+SHA256: 0264e00c1bd3eeb2b969c8d2162109ae699dfc41929b15afa11cff664a7fb346
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
 Package: libpixman-1-0
 Source: pixman
 Version: 0.42.2-1
