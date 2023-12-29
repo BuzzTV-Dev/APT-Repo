@@ -1,3 +1,19 @@
+Package: buzztv-ota-tools
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Corey Moyer <cronmod.dev@gmail.com>
+Installed-Size: 10
+Depends: coreutils, curl, tar
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_0.0.1-1_all.deb
+Size: 1708
+MD5sum: d277e55a71139b644a4f950585b3062e
+SHA1: 6ee09ffafd30d6e5ea540b0e03e8c2556ae300f3
+SHA256: 5838f734ae2ef1313c57555e6cb3219a8cb4b396dc21cd0c233f78e84de2a9ad
+Section: utils
+Priority: optional
+Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
+Description: BuzzTV OTA Tools
+
 Package: dvb-tools
 Source: v4l-utils
 Version: 1.24.1-3
