@@ -6,13 +6,16 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Fri, 29 Dec 2023 15:57:58 +0000
+Date: Sun, 31 Dec 2023 08:13:33 +0000
 MD5Sum:
- 3e8cb9b32a317b123417adb5e7078af8 27410 InRelease
- 29ec42b0bd9f15dd208bac8486eab84a 854 Release.gpg
+ cc8b7ade720a2e1d02b61722bd16ed14 27720 InRelease
+ 86d62da90db56ae8f440aa6647df211e 854 Release.gpg
  7f84ad710dfa82ab8d638d3ede56e6b1 195928 main/binary-arm64/libgstreamer-gl1.0-0_1.22.6-1_arm64.deb
  d9f4fb8e3829e15c41fa1e3f8fc7a974 5629608 main/binary-arm64/libavcodec60_6.0-6ubuntu1_arm64.deb
+ 7a6386f7c1ff6298bf078589f1d84cb9 26732 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  d8493071882bb8c958b39b59d0344ba3 229040 main/binary-arm64/libpixman-1-dev_0.42.2-1_arm64.deb
+ 50a3cebaa62e7424e8c2ff66dcd65471 11456 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
+ 2c78f3d577a7d324dadba9bf35dd0e05 20216 main/binary-arm64/libkms1_2.4.104-1_arm64.deb
  14f6cc71678269a4f17f650d41c7d009 31118 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.22.6-1ubuntu1_arm64.deb
  79081df26bf5e39a2c484329347ab89b 27266 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.22.4-1ubuntu1_arm64.deb
  73ee99042866e41bd01d996d058b2be6 14114 main/binary-arm64/gstreamer1.0-pulseaudio_1.22.6-1ubuntu1_arm64.deb
@@ -23,14 +26,14 @@ MD5Sum:
  f4c21dcccddf80e625ec7427940eeeb9 90142 main/binary-arm64/libavdevice60_6.0-6ubuntu1_arm64.deb
  16fd91a4da5f5006e5bdf60e04d92962 112692 main/binary-arm64/libv4l-0_1.24.1-3_arm64.deb
  8125554311070a23b83b56e8db952dd0 60700 main/binary-arm64/gstreamer1.0-qt5_1.22.6-1ubuntu1_arm64.deb
- adcd2988ed818c2908f711d058032520 522504 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ 5945a3ca3c77f8330e9ab1a9c241b166 522092 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  51f6b6f9e6866de54514a501e7bd5f0b 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  d745b6628bcbfafd50558495d8e33d1a 41112 main/binary-arm64/gstreamer1.0-alsa_1.22.6-1_arm64.deb
  a4ceb03d95946aeb53e0760a8528b987 1749928 main/binary-arm64/libdvbv5-doc_1.24.1-3_all.deb
  57cc5097de5b23f8fbcbad52d66f08e1 204844 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  f4359b41ac6bcf4b058ae406214e7e46 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  fd47c23ee9583ede3d50a8ce16652897 445234 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.22.6-1_arm64.deb
- 96407bc7f168d5e8444aca8b78bfaa61 125054 main/binary-arm64/Packages
+ 974b791b983bcc419d0e129e34a1ad16 132136 main/binary-arm64/Packages
  15179ac51bcd6dbbf81a9efd16381430 180112 main/binary-arm64/libswscale7_6.0-6ubuntu1_arm64.deb
  f00955643fcd2479e36d03b542e352ae 49368 main/binary-arm64/libpostproc-dev_6.0-6ubuntu1_arm64.deb
  d2d0c98d4bb83bf238b86a09404cff2d 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -38,6 +41,7 @@ MD5Sum:
  f77be6f45a97cffc932e2af60ff97adb 679892 main/binary-arm64/gstreamer1.0-plugins-base_1.22.6-1_arm64.deb
  68ca71bbbfcc45b933613dd11180b8a9 113496 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.22.6-1_arm64.deb
  e49b5408f869bfc56d2ea7f8ece23104 39688 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.22.6-1_arm64.deb
+ 3ecb86bd8867d81e8fd91851f08237fc 11716 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  781e059392bb243c587cdd19db20083b 2645508 main/binary-arm64/gstreamer1.0-plugins-bad_1.22.4-1ubuntu1_arm64.deb
  a71a54f32688a1aa4c72ad4cbeb498f1 33136 main/binary-arm64/gstreamer1.0-gtk3_1.22.6-1ubuntu1_arm64.deb
  79a56e1a17b620821d042026d003f4ea 156518 main/binary-arm64/ir-keytable_1.24.1-3_arm64.deb
@@ -46,6 +50,7 @@ MD5Sum:
  001dd10d2d2a645e6d377a394187ec8d 23802 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.4-1ubuntu1_arm64.deb
  8ae44f67ca06736b3a3aad0354c2f7bc 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  329ae0a0fd405fb111a59084bad5cfea 246144 main/binary-arm64/libdvbv5-dev_1.24.1-3_arm64.deb
+ cafeb1805e6e5c23d8eec2688ee4207a 23708 main/binary-arm64/libkms1-dbgsym_2.4.104-1_arm64.deb
  87fce81da97c5de2dfaf1273f8a0bd75 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
  985ad7bf3d0852c3e58ee69dbd7332f3 364652 main/binary-arm64/libavutil58_6.0-6ubuntu1_arm64.deb
  ef63fa2deab0e979e4d15f5523cdc8fe 1177512 main/binary-arm64/libavformat-extra60_6.0-6ubuntu1_arm64.deb
@@ -56,11 +61,14 @@ MD5Sum:
  cef51ad6f6c859e669191db69776a5d1 1177236 main/binary-arm64/libavformat60_6.0-6ubuntu1_arm64.deb
  e228295499fd83301633ff06f21153cf 2133640 main/binary-arm64/libavfilter-dev_6.0-6ubuntu1_arm64.deb
  e442b09bd327269f7cad50b5f79802aa 79858 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.22.4-1ubuntu1_arm64.deb
+ a4e24960a4ad8c31033744f834c37ea5 525840 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
  19a06fd663963ad451755e9ff5c46669 23538 main/binary-arm64/libavcodec-extra_6.0-6ubuntu1_arm64.deb
  62d5428a6b5ef3f39f898c08576b950f 3941870 main/binary-arm64/libavfilter-extra9_6.0-6ubuntu1_arm64.deb
  122d3ab821334ee6b63add710db16c97 1860034 main/binary-arm64/ffmpeg_6.0-6ubuntu1_arm64.deb
  967b16993e8551e45f224e06527a95a0 6294586 main/binary-arm64/libavcodec-dev_6.0-6ubuntu1_arm64.deb
+ ef039123466a1ddfaeb412ce96c0dc13 517200 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
  aa3954b6c3150772ee27b38e83444878 515448 main/binary-arm64/libavutil-dev_6.0-6ubuntu1_arm64.deb
+ 32dfc8f4b959811c0db0cd18db65d0af 2980 main/binary-arm64/libdrm-cursor-dev_1.4.0-1_arm64.deb
  78874fa82303ae9709d374a00b5727da 30718 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  cb0b6d2159ff4ccec8bc46455e3b7243 40088 main/binary-arm64/gstreamer1.0-qt6_1.22.6-1ubuntu1_arm64.deb
  74c89ce5d4b1bf136734163f8a59a09d 23538 main/binary-arm64/libavformat-extra_6.0-6ubuntu1_arm64.deb
@@ -77,12 +85,14 @@ MD5Sum:
  95e038b7482d9e83bc1eecfbd36d46f1 3939892 main/binary-arm64/libavfilter9_6.0-6ubuntu1_arm64.deb
  f5c331c1d67573966b747327aa9ef10a 263304 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.22.4-1ubuntu1_arm64.deb
  eea4468c5fe8d5971771cc1004ed71d8 2041708 main/binary-arm64/ffmpeg-doc_6.0-6ubuntu1_all.deb
- 5d621f2f4613941cc915430b3bb95728 27198 main/binary-arm64/Packages.gz
+ 1d9b818393a73f8329ced2de0ab535e9 29520 main/binary-arm64/Packages.gz
  d5235772681b91f430eec8f07384bdfc 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  90db45ae4aaae96bd6d486b648e6e541 17966 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
  fd8b7ef0811cd26776325418e5b0686d 83762 main/binary-arm64/libv4l2rds0_1.24.1-3_arm64.deb
  a938bcef2283b7ae4bed2dc66616b4d3 66020 main/binary-arm64/libswresample4_6.0-6ubuntu1_arm64.deb
  c53578cd390f9de0d43065321992742b 1455568 main/binary-arm64/libavformat-dev_6.0-6ubuntu1_arm64.deb
+ 0a6909456c73a7df2f4ae3b99fbb66ee 19124 main/binary-arm64/libdrm-cursor_1.4.0-1_arm64.deb
+ a26f0edc601841f19babf5f057eba709 51016 main/binary-arm64/libdrm-cursor-dbgsym_1.4.0-1_arm64.deb
  579343399c73705b408ca60213a289bc 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  579d30d7f44002faf2b0c1a50b13a322 1195410 main/binary-arm64/libgstreamer1.0-0_1.22.5-1_arm64.deb
  6071b3a054aa4b491df8e81814d3f335 643852 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.4-1ubuntu1_arm64.deb
@@ -90,11 +100,14 @@ MD5Sum:
  d277e55a71139b644a4f950585b3062e 1708 main/binary-arm64/buzztv-ota-tools_0.0.1-1_all.deb
  fe197c368973cda4927ff3f3fed50311 2190490 main/binary-arm64/gstreamer1.0-plugins-good_1.22.6-1ubuntu1_arm64.deb
 SHA1:
- 1133f24240e2e938556c90d098a4e2aa1407fb1f 27410 InRelease
- 8b66baefcb39885d5426be1cf73adfb1fee2aefa 854 Release.gpg
+ 7814e44d5f241e31b627d4405c6d030f73f87953 27720 InRelease
+ a6abb83256f9d85683ddec6ad909f3c3655f878b 854 Release.gpg
  140542118b72788d59952efe24414f99079f6004 195928 main/binary-arm64/libgstreamer-gl1.0-0_1.22.6-1_arm64.deb
  ce45d4bbfacdbd9053aafa874a26a7cda12d5fc2 5629608 main/binary-arm64/libavcodec60_6.0-6ubuntu1_arm64.deb
+ 2389291b5d13d08c60e124764e0e3f72aba45a5a 26732 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  eabb8ed3cbea2e6aa6e17bb91e581ec7a06ccbcd 229040 main/binary-arm64/libpixman-1-dev_0.42.2-1_arm64.deb
+ 4069faa36a8fff6256ad6fc3674304959307e8c6 11456 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
+ 7e5a56caaf4ac599767de1614cbaedb3a3403750 20216 main/binary-arm64/libkms1_2.4.104-1_arm64.deb
  b2388e961bb38d584bbca762d3fd334509ba9513 31118 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.22.6-1ubuntu1_arm64.deb
  37e85f0c59b848f5571e7614106171d63b1861aa 27266 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.22.4-1ubuntu1_arm64.deb
  c1df5e78ccda31b8913c04c0a4b3520f343762ce 14114 main/binary-arm64/gstreamer1.0-pulseaudio_1.22.6-1ubuntu1_arm64.deb
@@ -105,14 +118,14 @@ SHA1:
  fb78092cf9c8d21ec47a0c4d50595750b514c63d 90142 main/binary-arm64/libavdevice60_6.0-6ubuntu1_arm64.deb
  5eb1a6d19aee61f1e2971ebcca26426bcd6a37fb 112692 main/binary-arm64/libv4l-0_1.24.1-3_arm64.deb
  41afaeb77363faa3ed63aef99dc395794d97fbd4 60700 main/binary-arm64/gstreamer1.0-qt5_1.22.6-1ubuntu1_arm64.deb
- d46d28201d21c1c6cc5e889d859181cb76a7bdf3 522504 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ 312c35c9620eb3f27ac2ac0d174e14cb58e1936e 522092 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  d1bba1e4ff93068df1cb56c8e1b82f0349bc3c44 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  a081e98a9558a5fa95b10350325213e3b55db3d5 41112 main/binary-arm64/gstreamer1.0-alsa_1.22.6-1_arm64.deb
  2f1411721464aeb8181a25740cee501f42723be8 1749928 main/binary-arm64/libdvbv5-doc_1.24.1-3_all.deb
  cf7ce303090eca0c6b955dfbab6d9a34c3025b5e 204844 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  3f2f90235175ceb3b3be6e672bebec938302fbb7 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  4b060f08cbb88bd90462b90a6baad7d7a48cbb35 445234 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.22.6-1_arm64.deb
- 28afbffa4836a873b98a7db4b9e9809e41004376 125054 main/binary-arm64/Packages
+ a2b203aec68bcfc20840ef8c8a2875a31763635a 132136 main/binary-arm64/Packages
  16142675397b01e0802c388ec358ae93968a4add 180112 main/binary-arm64/libswscale7_6.0-6ubuntu1_arm64.deb
  f5f0229d8aa3a1094ec449302622a9020277b23f 49368 main/binary-arm64/libpostproc-dev_6.0-6ubuntu1_arm64.deb
  2d457e52b164ad402de96c36dab4eea53d9578c3 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -120,6 +133,7 @@ SHA1:
  434f5381afd8174a48d0a72b12f9cbddd5ad73af 679892 main/binary-arm64/gstreamer1.0-plugins-base_1.22.6-1_arm64.deb
  e12269296a815cc35411d2d947bf0b75d641e0fb 113496 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.22.6-1_arm64.deb
  2743e56aad38eabd6cdc9237c9a43669e5e3ff14 39688 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.22.6-1_arm64.deb
+ f3d07ad433de559a5c38dc9bf1d179bc10e35de5 11716 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  693f429badfb8141f958cf95600cace4e5a6400a 2645508 main/binary-arm64/gstreamer1.0-plugins-bad_1.22.4-1ubuntu1_arm64.deb
  cbf239fab98f8365014c8685b7963efd2c91bcc3 33136 main/binary-arm64/gstreamer1.0-gtk3_1.22.6-1ubuntu1_arm64.deb
  3e2572dbf6b1c1ff28233ac15149a82daab4c8de 156518 main/binary-arm64/ir-keytable_1.24.1-3_arm64.deb
@@ -128,6 +142,7 @@ SHA1:
  1f26c4fa31ee02717c712f71c062ebf80e3a1d30 23802 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.4-1ubuntu1_arm64.deb
  8c56a8124a9ae0149a89df4db670b8e6ab481031 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  99cb02959ff9cacbb473813ad8201c809a019807 246144 main/binary-arm64/libdvbv5-dev_1.24.1-3_arm64.deb
+ 7b652cf091bacbeeb030e1f87e48387939c011cd 23708 main/binary-arm64/libkms1-dbgsym_2.4.104-1_arm64.deb
  c802391fe5d2a0c567aca6c76c50c3da1c6eb51f 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
  b69c997edc0a9a562ad3da3039649efa9d1d8856 364652 main/binary-arm64/libavutil58_6.0-6ubuntu1_arm64.deb
  df4873dcc2ab32563774b787a08bad48a64cbbae 1177512 main/binary-arm64/libavformat-extra60_6.0-6ubuntu1_arm64.deb
@@ -138,11 +153,14 @@ SHA1:
  5945646a29e8885b7581d6ddb4e142e78853ff21 1177236 main/binary-arm64/libavformat60_6.0-6ubuntu1_arm64.deb
  57508c6843d218869cb99bb53911098c76f30b17 2133640 main/binary-arm64/libavfilter-dev_6.0-6ubuntu1_arm64.deb
  ff1f0f17fad22a44c6a56547fae7a34d5e229fdd 79858 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.22.4-1ubuntu1_arm64.deb
+ ae3369248a5eaf8720675b031024d613099c72d6 525840 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
  6b242e3719442edab01407b68627970fdbf666c6 23538 main/binary-arm64/libavcodec-extra_6.0-6ubuntu1_arm64.deb
  21e575dd2475df6f54577f82d22c741fdd15bac6 3941870 main/binary-arm64/libavfilter-extra9_6.0-6ubuntu1_arm64.deb
  0ae73b29d24d36d0762508a64c99ddb894709d5d 1860034 main/binary-arm64/ffmpeg_6.0-6ubuntu1_arm64.deb
  c63a43324f7e00bba1c45f5e2430615b738223f0 6294586 main/binary-arm64/libavcodec-dev_6.0-6ubuntu1_arm64.deb
+ a649ea3788e0eba6afd1d0a4f313bb8eac2e00ac 517200 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
  ef5b1cec33157dfd47981f28d45817a37b3ec8c4 515448 main/binary-arm64/libavutil-dev_6.0-6ubuntu1_arm64.deb
+ 3b301e1fefcf2bec7643d7b10419c6a41ad25aad 2980 main/binary-arm64/libdrm-cursor-dev_1.4.0-1_arm64.deb
  92700d9f5746c5ccede5027446d5113666c85f6b 30718 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  86f241558eeeaabb598aa18e1443535a0a8e846a 40088 main/binary-arm64/gstreamer1.0-qt6_1.22.6-1ubuntu1_arm64.deb
  38c7d416f3e361aff9aea7319e269e4a2401d248 23538 main/binary-arm64/libavformat-extra_6.0-6ubuntu1_arm64.deb
@@ -159,12 +177,14 @@ SHA1:
  874eb48d68fbd404bd08cfb465c043e0f9481a4f 3939892 main/binary-arm64/libavfilter9_6.0-6ubuntu1_arm64.deb
  bbe53201b7e96b5779a176207024d2d0f3dbb421 263304 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.22.4-1ubuntu1_arm64.deb
  1d7fc4fbd6c2bf13e9962ea57c1e11775f1007c8 2041708 main/binary-arm64/ffmpeg-doc_6.0-6ubuntu1_all.deb
- d3d3d8b551eef670157914c95f060fea5653fc76 27198 main/binary-arm64/Packages.gz
+ cf45841956b62a12695e20c1ea0e6a5e851e69f1 29520 main/binary-arm64/Packages.gz
  411b6c0b95df6d704f903ca42673262bb995c655 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  3de8177e935079999709aae56e62ba149a10e61b 17966 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
  65d0498ca2201e818c692ff861e109f847ff98ed 83762 main/binary-arm64/libv4l2rds0_1.24.1-3_arm64.deb
  2969c1e0cd32dc817f29b3dd4d341cb60cf2b07f 66020 main/binary-arm64/libswresample4_6.0-6ubuntu1_arm64.deb
  ef7830da788aa828cecbdb6b976e35194c45c61b 1455568 main/binary-arm64/libavformat-dev_6.0-6ubuntu1_arm64.deb
+ cf3282f6f598f3b50128bf50e28a67a11a15d090 19124 main/binary-arm64/libdrm-cursor_1.4.0-1_arm64.deb
+ ecabb80aca45ee57bd80cfe7ebecac5b4c621201 51016 main/binary-arm64/libdrm-cursor-dbgsym_1.4.0-1_arm64.deb
  c555501c3904879ac0683215abfa20995f7b476c 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  384e29f2a0ef2a4e8caac7567ee53f85ea7bb22f 1195410 main/binary-arm64/libgstreamer1.0-0_1.22.5-1_arm64.deb
  e5560bd0dd49f62e14983ec7e41fe712c727e817 643852 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.4-1ubuntu1_arm64.deb
@@ -172,11 +192,14 @@ SHA1:
  6ee09ffafd30d6e5ea540b0e03e8c2556ae300f3 1708 main/binary-arm64/buzztv-ota-tools_0.0.1-1_all.deb
  99817ad2cbf92091b7cce2aa61fa2b0b4b1dd00c 2190490 main/binary-arm64/gstreamer1.0-plugins-good_1.22.6-1ubuntu1_arm64.deb
 SHA256:
- eb21e043b2a9d235697bb0037a52d050be9352bd6c8e933c9c7d23d8684716c4 27410 InRelease
- 9d70cb8f707da035b0190eebbdc3cffc39e8dcb1ca79b221fadb71805ef9da73 854 Release.gpg
+ dd55746c690e84280084d9d96f41ddf1dcd1ff6f376a1c811a787dcbdccea4a7 27720 InRelease
+ 25dcc36cc57a65e31d76453b29d670c98aeb8717ef3ae6c8aedc1b3a43dbd01d 854 Release.gpg
  ed85da75c31a0ec77bb05bc75c375ff2eb97ebeb6080687e137bfc631fe3b56e 195928 main/binary-arm64/libgstreamer-gl1.0-0_1.22.6-1_arm64.deb
  d0473ce584a4cf34cb45858a6a781762892baa05640ac6430a41ba775c5e6d72 5629608 main/binary-arm64/libavcodec60_6.0-6ubuntu1_arm64.deb
+ 862ecaf830723a9ef876a288d3b5869ae81d6b1e1ad4bdf303dbd6a513063513 26732 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
  b4f8b4be24c2d9f9dea50c8b91bc9092e52de81510e292ae77a1abebd84c394a 229040 main/binary-arm64/libpixman-1-dev_0.42.2-1_arm64.deb
+ b6f290c05a34a5c382d647661dac8a574fe88c96aa28376fce2e609810d03bf9 11456 main/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
+ a71fd87292c1b1bcce9a3996ed1183d4bc1a3a8b8a7a9f9fcf6ade329b377338 20216 main/binary-arm64/libkms1_2.4.104-1_arm64.deb
  c9489960f0a5318af7585eb441d6e9ac0285b26fae3a2af30ef25f0bb4a4db57 31118 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.22.6-1ubuntu1_arm64.deb
  603ba926ec6f2c00944b473e7eabd8aa6e88a6fa15b65323b951f3da10fbe720 27266 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.22.4-1ubuntu1_arm64.deb
  247acbbc47128ad393d4dba502bd9be60f413c4968827425d4892e0f94cfb3b8 14114 main/binary-arm64/gstreamer1.0-pulseaudio_1.22.6-1ubuntu1_arm64.deb
@@ -187,14 +210,14 @@ SHA256:
  3e844339ff2e1b5694f0b65cb4ebce036912990f49f67a200acf2b8f9735c1b3 90142 main/binary-arm64/libavdevice60_6.0-6ubuntu1_arm64.deb
  423f4c9f0e6ced90a1ab7228693b6b26c860e4a7bf90640d9e2ffca122db0b22 112692 main/binary-arm64/libv4l-0_1.24.1-3_arm64.deb
  af8a687249ea085571489e5d9c4560effcc99af1716298d612729d145a721c24 60700 main/binary-arm64/gstreamer1.0-qt5_1.22.6-1ubuntu1_arm64.deb
- 0264e00c1bd3eeb2b969c8d2162109ae699dfc41929b15afa11cff664a7fb346 522504 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ e75cc960f903fadc92f92f67c8d86cae9f2645ab7a06d701cdc1f76856cbbf5b 522092 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  7685170c5353997ab2e1c64096ff6199dcb07e398c0dee44a62000d66fea197d 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  50376ce54484f8aa91e7da8443da030ffca1675bbe0d66e541a7ed4ca67313c5 41112 main/binary-arm64/gstreamer1.0-alsa_1.22.6-1_arm64.deb
  f517f2f357a5bdb03ab7ac2fa644ebf0db1f1696690f66813fd27ea2890e6af5 1749928 main/binary-arm64/libdvbv5-doc_1.24.1-3_all.deb
  262a93523d75826a7f3ead745b9dee56a9047dbe6f8b039deaf59c605094532b 204844 main/binary-arm64/libpixman-1-0_0.42.2-1_arm64.deb
  1b2ee861cd602f4e2aca856a8c005e9943875e9c705ea4bb19c7adf6250544b8 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
  e63d524267ea185c991b6791d07382665b1f1e52438731c199520b6e7120da2a 445234 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.22.6-1_arm64.deb
- ec2d17013bb2241d31249faeb89408259682a0efc54416ca72501f563df91cfa 125054 main/binary-arm64/Packages
+ 8dda02ef7861af480c202deccad8f26c3cd210df18239ff68d361653f4ba0b7d 132136 main/binary-arm64/Packages
  eb503208e245bc0256113b9bb0ba727020ba362f9a88e11cb1c8ea63daa0c06a 180112 main/binary-arm64/libswscale7_6.0-6ubuntu1_arm64.deb
  1a000d0f2b49115e8305668afb1b7f47ad9c1352d76e7f7c0d7ebbd65796552d 49368 main/binary-arm64/libpostproc-dev_6.0-6ubuntu1_arm64.deb
  7df1473041d2b7c808df7a3a7b2494b253cefdc854fc7bb06e93f01ac9cb813e 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -202,6 +225,7 @@ SHA256:
  a86c1e1671d1e1b810f4f78fab52a08425053162422edfa70af231373f2594fa 679892 main/binary-arm64/gstreamer1.0-plugins-base_1.22.6-1_arm64.deb
  bd0fe45387414d5ad37f821d35d8775076f9cef68dcf9da7ec3891f3feb6ed6b 113496 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.22.6-1_arm64.deb
  82692b8985635459eea3b4c726bb1cfa595f75eefb05e866dc37f311b21606ac 39688 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.22.6-1_arm64.deb
+ 3b0ecfa5bba636818d3c076c49bcbab838234569d9c51ae51336b3d1d9f4a3fe 11716 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
  1a7888402ca827fbd9594dfd0c7e0cf6ad55859241c932f2da62f872d048f072 2645508 main/binary-arm64/gstreamer1.0-plugins-bad_1.22.4-1ubuntu1_arm64.deb
  2f3b5dcdee8347fae5a6be9fe4d02670e6815beb886c93d3eac1f3a0330e372d 33136 main/binary-arm64/gstreamer1.0-gtk3_1.22.6-1ubuntu1_arm64.deb
  c5226ab03d062ec7ff74dbd1a5a1ef1dfc958192c6fb541a5f4577112bf6033f 156518 main/binary-arm64/ir-keytable_1.24.1-3_arm64.deb
@@ -210,6 +234,7 @@ SHA256:
  1c3c9820bd27bda9ed1a5de15f9792ea27a10af464ceb87071b2b69a9625d644 23802 main/binary-arm64/libgstreamer-opencv1.0-0_1.22.4-1ubuntu1_arm64.deb
  3d604a8143151195a7eeab546de32b3b14663408de6c40f00ac9bb07005713a6 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  fad5a2c51fd28783e1decba012b7f1c32034e2b2d780d05645a58107214b8d31 246144 main/binary-arm64/libdvbv5-dev_1.24.1-3_arm64.deb
+ 70d83e18d7dcba51bafed0cb7b00d85973fce442d89403b947f2265b4cfcaae7 23708 main/binary-arm64/libkms1-dbgsym_2.4.104-1_arm64.deb
  b0b529487fbfbfb63c1f36b443e5f84c5262e930dc522ab8b1034b87c4d920b1 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
  040c41fcccd12a049ba82544cd92ccc9eebf909854f96a0a57d388e1b1e7ea94 364652 main/binary-arm64/libavutil58_6.0-6ubuntu1_arm64.deb
  663fd13207ecf3e3daf75e0c361b2ea5012cbe7761101dedf93ef94effe7c0a7 1177512 main/binary-arm64/libavformat-extra60_6.0-6ubuntu1_arm64.deb
@@ -220,11 +245,14 @@ SHA256:
  259b02aa4e065540f77a96229b7a0f1cd26bf4beea604d031db7e6f6fb6626ad 1177236 main/binary-arm64/libavformat60_6.0-6ubuntu1_arm64.deb
  7f195b2acbc7c4c48b3cfa738fc53b20575e5eb0211cb119506af4de9444e06c 2133640 main/binary-arm64/libavfilter-dev_6.0-6ubuntu1_arm64.deb
  5270d7a4cefb6d56ce611ef76a20f5a24c0743f9f394f9ae7f8c6a7bc547ead0 79858 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.22.4-1ubuntu1_arm64.deb
+ 9b54a95210826e676b3ba5236b4d1fa366d62f019d2dbb11ab09a1fb3189d30e 525840 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
  8a1268cde30f38cccca7796a2107b380568119ef2352ba96437ccc7ab5b08c2d 23538 main/binary-arm64/libavcodec-extra_6.0-6ubuntu1_arm64.deb
  31a8dcc7d12b589419f8b7e64284e908282e555975f3fb7a40dd760056ce53c9 3941870 main/binary-arm64/libavfilter-extra9_6.0-6ubuntu1_arm64.deb
  5b31d28df52ac84637f8237a574ea7983f9b4b28ec6dc658d5cbb77f1b67e508 1860034 main/binary-arm64/ffmpeg_6.0-6ubuntu1_arm64.deb
  3d3685100a5abdd0854b7223a40942e9fe8cd81fabfd8550b5e64027b0f9f535 6294586 main/binary-arm64/libavcodec-dev_6.0-6ubuntu1_arm64.deb
+ 61728041bf13f5e5ee38a75a5e0960df6d087eb56de4517eb8090666ce981630 517200 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
  474a17760922a2806e88f43b274ca2872596778c73829711ca4f5a5413c98982 515448 main/binary-arm64/libavutil-dev_6.0-6ubuntu1_arm64.deb
+ 025f244c4e8e9ef2bf74a729a0d73303485d797b9b11f5e328d4f52daae755e8 2980 main/binary-arm64/libdrm-cursor-dev_1.4.0-1_arm64.deb
  d1bf05699bdc86293714ea1d0be39b5c7ba6344a5a5dbc453e6effc4babcfffa 30718 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  aa077779e341091a8f239f8b45bbc046ced9f4f74ea87b603794526c2cdc0400 40088 main/binary-arm64/gstreamer1.0-qt6_1.22.6-1ubuntu1_arm64.deb
  e2e38368f494bc738de50da7dc15d32134eb5d47b1b6f7c4dd623e8749261e75 23538 main/binary-arm64/libavformat-extra_6.0-6ubuntu1_arm64.deb
@@ -241,12 +269,14 @@ SHA256:
  3740b035fb6f0c203b7a8766531f3542e33bcb13956db157caf442424ff216e8 3939892 main/binary-arm64/libavfilter9_6.0-6ubuntu1_arm64.deb
  025d796bf8bd9423654b1d9834c3b6e113dd9c304f5d71fda03d76cb746dffc3 263304 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.22.4-1ubuntu1_arm64.deb
  c9b4569787836ca499eb1f03a45fd6074f11492468afeb797da5ed7a6c36ab91 2041708 main/binary-arm64/ffmpeg-doc_6.0-6ubuntu1_all.deb
- b33ef6fae3a996fbd390ef5fdbf482bc71662c90fca0c0f7c3557036f6a7c713 27198 main/binary-arm64/Packages.gz
+ 5eb5cfc05669eedc4a45ebfa36cdae547e4bf2807f38af7c5f59a799a67eaedf 29520 main/binary-arm64/Packages.gz
  4937062aa8dde48361ff27be5319364ed8f622d45f951671455711950c0e54f3 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  0139edb386722d282b23211cc57afadeb07341e2cf6c259c690738081a41b29c 17966 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
  19c5a8ceb54236edc3a235f397f59e2685fc6129456ec9a1c81f335b19acb4ec 83762 main/binary-arm64/libv4l2rds0_1.24.1-3_arm64.deb
  842b61330eda85a0e17558c33db86f90368e4b081cb833ae651a0cd4111ef1f0 66020 main/binary-arm64/libswresample4_6.0-6ubuntu1_arm64.deb
  ce5e3058f39455bc3ea2a5864af92c7cdd455dad36cb6a8af46c9150f86b2f31 1455568 main/binary-arm64/libavformat-dev_6.0-6ubuntu1_arm64.deb
+ ba9941d70971b2c1973ac227a49512bb7cdd20e7f7a78ce214ba02a98ec0b580 19124 main/binary-arm64/libdrm-cursor_1.4.0-1_arm64.deb
+ 7a2a0ff11c8abbce0a008e9851a001140e9a24307f6045170f382ed132ac1b3d 51016 main/binary-arm64/libdrm-cursor-dbgsym_1.4.0-1_arm64.deb
  fb2f55b08769bcfd6722454333a9e131e2763f91d00bfc1ea8fe66123607127b 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  f6d80c275579b8c80788579e2cca0a40ae2db0d167cf828221b23d6af4ab45b4 1195410 main/binary-arm64/libgstreamer1.0-0_1.22.5-1_arm64.deb
  7b376e0a71ddb237baf88ffec61d62e9d55ab22e7911596a38815e197d1ef661 643852 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.22.4-1ubuntu1_arm64.deb
