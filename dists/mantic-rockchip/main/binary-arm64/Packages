@@ -36,9 +36,9 @@ Installed-Size: 10
 Depends: coreutils, curl, tar
 Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.2-1_all.deb
 Size: 1392
-MD5sum: 1ac68227807ffd7079cd96555b29454f
-SHA1: 0c7bf1f92c7f19a00397ef16acc1b3263690061f
-SHA256: ea24823ce479ace4fb8a0da293c78d2467f4123bbd117423b1b5252817856e63
+MD5sum: f0e753335c8d2fd569005cb075f12103
+SHA1: 7695dc33eb380cc4500e57cdcc0caf7c1776cedc
+SHA256: 2e5c1755f1afd2fd268bf46f768bc04e47111d0312986a469b172cd58550f21c
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
