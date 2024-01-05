@@ -13,32 +13,32 @@ Priority: optional
 Description: BuzzTV IPTV player
 
 Package: buzztv-dsw
-Version: 1.0.2-1
+Version: 1.0.3-1
 Architecture: arm64
 Maintainer: Stan Vlasic <stan@buzztv.com>
 Installed-Size: 10
 Depends: weston
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_1.0.2-1_arm64.deb
-Size: 10262980
-MD5sum: c71edbe566e6d1aeb78982a1d96a2ec3
-SHA1: 3299fb9ed76564ed2ebdc765a94ad7be7f726a4b
-SHA256: edaf92a052418947fa68cf89357e013b7cb4a082ef107cde1f2ad10e3064d690
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
+Size: 9829360
+MD5sum: adeebf19cc9b7daa3b45733a0b12fbcb
+SHA1: 355f1a01c326b7cd40b81eded1931c522e322ab8
+SHA256: c3ca96659bc1ba1245d4f8a6245abaff86a15888b06b93ea12e856071207bc5a
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-dsw
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.3-1
+Version: 1.0.4-1
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
 Installed-Size: 10
 Depends: coreutils, curl, tar
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
-Size: 1388
-MD5sum: 189fea14a042f39eaba4bc48e03301a9
-SHA1: 59750de50cbe84c5a45d6d045b9593c7b41137e0
-SHA256: ef6383d6cbb4a8ca1ca91ca9812eafcf98aee4b5dfd46ad6814b1381667f2b8b
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.4-1_all.deb
+Size: 1448
+MD5sum: efcba519fa604880e74997398b185fc4
+SHA1: f9ff32d62f95127b596e1a4eedd00b669b65d8a0
+SHA256: 7a0253cacd66a8c3bb5a459544245c4a114d66a9b29a1bb0828ed8b5080a45be
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
