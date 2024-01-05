@@ -19,10 +19,10 @@ Maintainer: Stan Vlasic <stan@buzztv.com>
 Installed-Size: 10
 Depends: weston
 Filename: dists/mantic-rockchip/main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
-Size: 9829360
-MD5sum: adeebf19cc9b7daa3b45733a0b12fbcb
-SHA1: 355f1a01c326b7cd40b81eded1931c522e322ab8
-SHA256: c3ca96659bc1ba1245d4f8a6245abaff86a15888b06b93ea12e856071207bc5a
+Size: 10264140
+MD5sum: cdb51f9aaebfd0285e4301fca597bc40
+SHA1: de26f4b6ff9e9364cbf8802ecd8c086f7d4b676e
+SHA256: c0f288bcf578ad58560fb84d918f57a27882dd5f59cce6ccadaff81e454ee243
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-dsw
