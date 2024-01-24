@@ -1,14 +1,14 @@
 Package: buzztv
-Version: 1.0.0+1
+Version: 1.0.0+2
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-rtsp,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,gstreamer1.0-pipewire
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+1_arm64.deb
-Size: 21129956
-MD5sum: e6ed38f3e2abb06b8c02a7881cb76b81
-SHA1: af04249803c5a87a23bb3e85fdb369a91d8743a3
-SHA256: 8f0f2a7a936f4836b9bafd90ee28b9dc032056214e48d41d6aff7158923814ce
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+2_arm64.deb
+Size: 21286404
+MD5sum: 58555d70082d6542f4f26a6bb02e591d
+SHA1: 463e8562704c4de3a5db33e9dfe236d0c3fe415f
+SHA256: 2a1f0ed076e68d402e2f6ac65e7d6634c842a3a204fae3e6a4292dcb1add684a
 Priority: optional
 Description: BuzzTV IPTV player
 
