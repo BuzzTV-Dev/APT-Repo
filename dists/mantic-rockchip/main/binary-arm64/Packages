@@ -1,3 +1,26 @@
+Package: alsa-ucm-conf
+Version: 1.2.9-1ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 828
+Depends: libasound2 (>= 1.2.7)
+Filename: dists/mantic-rockchip/main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
+Size: 60980
+MD5sum: d4ec9ccdb9cce14b30b1894348c006cd
+SHA1: ca2307cf645203102e4dcf4100d8a16cdb595361
+SHA256: 1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.alsa-project.org/
+Description: ALSA Use Case Manager configuration files
+ This package contains ALSA Use Case Manager configuration of audio
+ input/output names and routing for specific audio hardware. They can be
+ used with the alsaucm tool.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+
 Package: buzztv
 Version: 1.0.0+2
 Architecture: arm64
