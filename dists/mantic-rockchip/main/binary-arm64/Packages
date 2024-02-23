@@ -2270,6 +2270,22 @@ Priority: optional
 Homepage: http://www.rock-chips.com
 Description: Media Process Platform Demos
 
+Package: rockchip-multimedia-config
+Version: 1.0.0-3+mantic
+Architecture: all
+Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
+Installed-Size: 18
+Depends: libv4l-0, udev
+Filename: dists/mantic-rockchip/main/binary-arm64/rockchip-multimedia-config_1.0.0-3+mantic_all.deb
+Size: 2990
+MD5sum: 3aac896cd20b9146255881674d3a9311
+SHA1: 8a35e74d4155233e73ae1ecbb61ad90d4480de67
+SHA256: ae575e075e2618ed08262c5438a1b68e25f9a11a11113971a9e84dbe63d45e30
+Section: libs
+Priority: optional
+Homepage: https://github.com/amazingfate/rockchip-multimedia-config
+Description: System config for rockchip legacy multimedia
+
 Package: v4l-utils
 Version: 1.24.1-3
 Architecture: arm64
