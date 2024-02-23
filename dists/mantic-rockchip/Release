@@ -6,12 +6,12 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Fri, 23 Feb 2024 22:09:51 +0000
+Date: Fri, 23 Feb 2024 22:36:04 +0000
 MD5Sum:
- a9cda114bdce58ad98b436943b528884 30233 InRelease
- 2ae61e07ef30454f534b98c211877407 854 Release.gpg
- 2da575da3fb50c46149d8d38933d7a5e 130816 main/binary-arm64/Packages
- b48abdaca4bebb2e1998fd0de90ab783 29335 main/binary-arm64/Packages.gz
+ 894bf99e17bf9a535c3cb807661f6463 29971 InRelease
+ 5c1a78583b74ba36f36c374cf1b7df1a 854 Release.gpg
+ 8e1336240e7cc668721d8612878ed480 129128 main/binary-arm64/Packages
+ 9689cb2b858b642f027c9910d6b83373 28858 main/binary-arm64/Packages.gz
  d4ec9ccdb9cce14b30b1894348c006cd 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  cdb51f9aaebfd0285e4301fca597bc40 10264140 main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
  efcba519fa604880e74997398b185fc4 1448 main/binary-arm64/buzztv-ota-tools_1.0.4-1_all.deb
@@ -92,17 +92,14 @@ MD5Sum:
  d5235772681b91f430eec8f07384bdfc 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  51f6b6f9e6866de54514a501e7bd5f0b 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  87fce81da97c5de2dfaf1273f8a0bd75 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
- f4359b41ac6bcf4b058ae406214e7e46 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
- ec9ee8daab89b297371e58ab86b67bf3 32454 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
- 579343399c73705b408ca60213a289bc 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  8ae44f67ca06736b3a3aad0354c2f7bc 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  58555d70082d6542f4f26a6bb02e591d 21286404 main/binary-arm64/buzztv_1.0.0+2_arm64.deb
  3aac896cd20b9146255881674d3a9311 2990 main/binary-arm64/rockchip-multimedia-config_1.0.0-3+mantic_all.deb
 SHA1:
- 6faf9f8ce2f9999993c5f33e0b126d4a912f9cbf 30233 InRelease
- 30f901549c93d1893e1a431db42349f14423bc64 854 Release.gpg
- 70b3acfcb615b4068e69336b33f77008bc4e61a5 130816 main/binary-arm64/Packages
- d9e5250a83f123c152a544521c019eccb4db0435 29335 main/binary-arm64/Packages.gz
+ 896e83b98d213bc8d07209439840ca116a7ce19f 29971 InRelease
+ 97657394dbb7e72204288cb49295bf619e57c9ac 854 Release.gpg
+ d5aafd88ad015d72d247efcb0add6f97c81431c7 129128 main/binary-arm64/Packages
+ e7ac1a1dbea91cfbd011dde3dfc46ee07b0de83c 28858 main/binary-arm64/Packages.gz
  ca2307cf645203102e4dcf4100d8a16cdb595361 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  de26f4b6ff9e9364cbf8802ecd8c086f7d4b676e 10264140 main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
  f9ff32d62f95127b596e1a4eedd00b669b65d8a0 1448 main/binary-arm64/buzztv-ota-tools_1.0.4-1_all.deb
@@ -183,17 +180,14 @@ SHA1:
  411b6c0b95df6d704f903ca42673262bb995c655 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  d1bba1e4ff93068df1cb56c8e1b82f0349bc3c44 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  c802391fe5d2a0c567aca6c76c50c3da1c6eb51f 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
- 3f2f90235175ceb3b3be6e672bebec938302fbb7 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
- 7d095f93f2a9bfc283513aad68ac4e8185abc663 32454 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
- c555501c3904879ac0683215abfa20995f7b476c 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  8c56a8124a9ae0149a89df4db670b8e6ab481031 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  463e8562704c4de3a5db33e9dfe236d0c3fe415f 21286404 main/binary-arm64/buzztv_1.0.0+2_arm64.deb
  8a35e74d4155233e73ae1ecbb61ad90d4480de67 2990 main/binary-arm64/rockchip-multimedia-config_1.0.0-3+mantic_all.deb
 SHA256:
- f05887e26dd4e638159b47145fa4862ceb5eab28a012b6f6588dde1bc2efb4a4 30233 InRelease
- 8fe354559626eb6b190d34e586f817a92c2af5dd7c33a253a79bd0a1d1f9572b 854 Release.gpg
- ca71e97d50af4096d24eedd358ae7d131b6bb4271f65c410df0e7bf03bc19a66 130816 main/binary-arm64/Packages
- aac05b7d85297c3a6c53d9bcea07b44f95cd1706d6266881d045403b3780d489 29335 main/binary-arm64/Packages.gz
+ c6fc1cbbf9b59670378b7d5ba962bc24cade33f3bfac0d1fb1eb27bbfe46ef0f 29971 InRelease
+ 1c878adb7d3563a30e390fd8a50ea64d909751380ab4f0dcad2baf1703f3773d 854 Release.gpg
+ cafb406550d75f27ec51ed92e356ac7f49ac9dac28131aa1ee46f6934a67d161 129128 main/binary-arm64/Packages
+ 326c3e8eb242cdcacd50423d54a538a27563bfc8189e5b2c9e24ed58dec60f7b 28858 main/binary-arm64/Packages.gz
  1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  c0f288bcf578ad58560fb84d918f57a27882dd5f59cce6ccadaff81e454ee243 10264140 main/binary-arm64/buzztv-dsw_1.0.3-1_arm64.deb
  7a0253cacd66a8c3bb5a459544245c4a114d66a9b29a1bb0828ed8b5080a45be 1448 main/binary-arm64/buzztv-ota-tools_1.0.4-1_all.deb
@@ -274,9 +268,6 @@ SHA256:
  4937062aa8dde48361ff27be5319364ed8f622d45f951671455711950c0e54f3 152430 main/binary-arm64/libv4lconvert0_1.24.1-3_arm64.deb
  7685170c5353997ab2e1c64096ff6199dcb07e398c0dee44a62000d66fea197d 205702 main/binary-arm64/qv4l2_1.24.1-3_arm64.deb
  b0b529487fbfbfb63c1f36b443e5f84c5262e930dc522ab8b1034b87c4d920b1 178640 main/binary-arm64/qvidcap_1.24.1-3_arm64.deb
- 1b2ee861cd602f4e2aca856a8c005e9943875e9c705ea4bb19c7adf6250544b8 16886 main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
- f0670efaec608f371e20eea9eb28394e93b94c0f959b5508d4ad16095d253b99 32454 main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
- fb2f55b08769bcfd6722454333a9e131e2763f91d00bfc1ea8fe66123607127b 126722 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
  3d604a8143151195a7eeab546de32b3b14663408de6c40f00ac9bb07005713a6 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  2a1f0ed076e68d402e2f6ac65e7d6634c842a3a204fae3e6a4292dcb1add684a 21286404 main/binary-arm64/buzztv_1.0.0+2_arm64.deb
  ae575e075e2618ed08262c5438a1b68e25f9a11a11113971a9e84dbe63d45e30 2990 main/binary-arm64/rockchip-multimedia-config_1.0.0-3+mantic_all.deb

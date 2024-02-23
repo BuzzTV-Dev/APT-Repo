@@ -2221,55 +2221,6 @@ Description: Capture test utility for video4linux devices
  either using a video device, a file, or over network.
  This application can also serve as a generic video/TV viewer application.
 
-Package: rktoolkit
-Version: 1.0.0-1
-Architecture: arm64
-Maintainer: Eddie Cai <eddie.cai.linux@gmail.com>
-Installed-Size: 343
-Filename: dists/mantic-rockchip/main/binary-arm64/rktoolkit_1.0.0-1_arm64.deb
-Size: 16886
-MD5sum: f4359b41ac6bcf4b058ae406214e7e46
-SHA1: 3f2f90235175ceb3b3be6e672bebec938302fbb7
-SHA256: 1b2ee861cd602f4e2aca856a8c005e9943875e9c705ea4bb19c7adf6250544b8
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://github.com/rockchip-linux/rktoolkit
-Description: some small tool used in Rockchip SDK
-
-Package: rkwifibt-dev-tools
-Source: rkwifibt
-Version: 1.0.0-1
-Architecture: arm64
-Maintainer: Caesar Wang <wxt@rock-chips.com>
-Installed-Size: 211
-Filename: dists/mantic-rockchip/main/binary-arm64/rkwifibt-dev-tools_1.0.0-1_arm64.deb
-Size: 32454
-MD5sum: ec9ee8daab89b297371e58ab86b67bf3
-SHA1: 7d095f93f2a9bfc283513aad68ac4e8185abc663
-SHA256: f0670efaec608f371e20eea9eb28394e93b94c0f959b5508d4ad16095d253b99
-Section: libdevel
-Priority: optional
-Homepage: https://github.com/rockchip-linux/rkwifibt
-Description: include the rkwifibt broadcom tools for rockchip linux
-
-Package: rockchip-mpp-demos
-Source: mpp
-Version: 1.5.0-1
-Architecture: arm64
-Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 1067
-Depends: librockchip-mpp1 (= 1.5.0-1), librockchip-vpu0 (= 1.5.0-1)
-Filename: dists/mantic-rockchip/main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
-Size: 126722
-MD5sum: 579343399c73705b408ca60213a289bc
-SHA1: c555501c3904879ac0683215abfa20995f7b476c
-SHA256: fb2f55b08769bcfd6722454333a9e131e2763f91d00bfc1ea8fe66123607127b
-Section: libs
-Priority: optional
-Homepage: http://www.rock-chips.com
-Description: Media Process Platform Demos
-
 Package: rockchip-multimedia-config
 Version: 1.0.0-3+mantic
 Architecture: all
