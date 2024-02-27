@@ -22,16 +22,16 @@ Description: ALSA Use Case Manager configuration files
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 
 Package: buzztv
-Version: 1.0.0+2
+Version: 1.0.0+3
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-rtsp,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,gstreamer1.0-pipewire
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+2_arm64.deb
-Size: 21286404
-MD5sum: 58555d70082d6542f4f26a6bb02e591d
-SHA1: 463e8562704c4de3a5db33e9dfe236d0c3fe415f
-SHA256: 2a1f0ed076e68d402e2f6ac65e7d6634c842a3a204fae3e6a4292dcb1add684a
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.0+3_arm64.deb
+Size: 21228092
+MD5sum: b5e0cf928ed11e7f70a11bcfcec9842b
+SHA1: 5dfde600097eb48a0b538edc4cc098435fe2c955
+SHA256: 361d5ee44d273a34f0fbb80484766cef5369d45a30bc40f02d90917b0130b536
 Priority: optional
 Description: BuzzTV IPTV player
 
