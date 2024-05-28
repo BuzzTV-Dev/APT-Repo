@@ -21,6 +21,23 @@ Description: ALSA Use Case Manager configuration files
  ALSA is the Advanced Linux Sound Architecture.
 Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
 
+Package: avizo
+Version: 1.2.1-1
+Architecture: arm64
+Maintainer: Corey Moyer <cronmod.dev@gmail.com>
+Installed-Size: 1311
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.58.0), libgtk-3-0 (>= 3.21.4), libgtk-layer-shell0 (>= 0.6.0), pulseaudio-utils, pamixer
+Filename: dists/mantic-rockchip/main/binary-arm64/avizo_1.2.1-1_arm64.deb
+Size: 54420
+MD5sum: 64c18193bbfa41fa46796cc888e633f4
+SHA1: 22eb60c251ced54f055279b5386a818eb35d02c2
+SHA256: ea1fec12fadfd3a8f05293e46b2a4cb64538536e8d4814fa6f8f64d5e2e04fed
+Section: misc
+Priority: optional
+Homepage: https://github.com/misterdanb/avizo
+Description: Avizo is a simple notification daemon, mainly intended to be used
+ for multimedia keys for example with Sway.
+
 Package: buzztv
 Version: 1.0.0+10
 Architecture: arm64
