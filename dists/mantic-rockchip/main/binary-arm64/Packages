@@ -2064,6 +2064,46 @@ Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
 Description: Media Process Platform
 
+Package: libseat-dev
+Source: seatd
+Version: 0.8.0-1
+Architecture: arm64
+Maintainer: Mark Hindley <leepen@debian.org>
+Installed-Size: 27
+Depends: libseat1 (= 0.8.0-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
+Size: 6516
+MD5sum: f2b6543f5bd8219361c0d7ecd1368903
+SHA1: 32254ca50e16e9bcbdc19f8002a7fdedf2c15a5c
+SHA256: 62c2a5868cd28f905f8776b3b3bca3ef26ad8f9e3f928c2c3e316eb0ebdbd78b
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://git.sr.ht/~kennylevinsen/seatd
+Description: flexible user, seat and session management library (development files)
+ seatd session management development files.
+
+Package: libseat1
+Source: seatd
+Version: 0.8.0-1
+Architecture: arm64
+Maintainer: Mark Hindley <leepen@debian.org>
+Installed-Size: 83
+Depends: seatd | logind, libc6 (>= 2.33), libsystemd0 (>= 238)
+Filename: dists/mantic-rockchip/main/binary-arm64/libseat1_0.8.0-1_arm64.deb
+Size: 29428
+MD5sum: 63908341fe26487545b8e3030ae93684
+SHA1: 81efe7be7d21603607f3888d821128038f356d72
+SHA256: 4cb5baa9ea59038bebf294f5583723c3c931e2945b2ad2f091a7c46933d66f95
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://git.sr.ht/~kennylevinsen/seatd
+Description: flexible user, seat and session management library
+ This library provides runtime access to user, seat and session management. The
+ backend server used is configurable at runtime. Currently implemented backends
+ are seatd, elogind or systemd-logind.
+
 Package: libswresample-dev
 Source: ffmpeg
 Version: 7:6.0-6ubuntu1
@@ -2722,6 +2762,26 @@ Section: libs
 Priority: optional
 Homepage: https://github.com/amazingfate/rockchip-multimedia-config
 Description: System config for rockchip legacy multimedia
+
+Package: seatd
+Version: 0.8.0-1
+Architecture: arm64
+Maintainer: Mark Hindley <leepen@debian.org>
+Installed-Size: 172
+Pre-Depends: debconf, init-system-helpers (>= 1.54~)
+Depends: libc6 (>= 2.34)
+Recommends: libseat1
+Filename: dists/mantic-rockchip/main/binary-arm64/seatd_0.8.0-1_arm64.deb
+Size: 27896
+MD5sum: 6173418946f0b018bc4ad65f529796af
+SHA1: eef8793e1f7dc2130cf3d83b30cca61f5d772765
+SHA256: 3067662255d4bafa67060699332455e7368ad33a6ce379fc75c7ffdb8b646212
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://git.sr.ht/~kennylevinsen/seatd
+Description: minimal user, seat and session management daemon
+ Lightweight standalone implementation.
 
 Package: v4l-utils
 Version: 1.24.1-3
