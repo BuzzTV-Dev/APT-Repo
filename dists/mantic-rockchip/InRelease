@@ -9,12 +9,12 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Tue, 28 May 2024 18:09:09 +0000
+Date: Sun, 02 Jun 2024 09:14:06 +0000
 MD5Sum:
- eab9f31e7027793be56e9de2dc0c88a9 28635 InRelease
- 2402a7af976b97423a64286dbacf0253 854 Release.gpg
- bb9eff7ece59d5be5e44d48cbe020661 146018 main/binary-arm64/Packages
- de43d761c87c5bb4dfbc17a626eb29bd 32272 main/binary-arm64/Packages.gz
+ 82e05e3d386290891508e93c8f66d4ff 28635 InRelease
+ 39d823a8df7d5e0106e7ae824c945934 854 Release.gpg
+ abe692a9cd78bfd9854c5c4b5d954c62 155761 main/binary-arm64/Packages
+ e754b599f1dc52a779dceb3c20e7ebf0 34299 main/binary-arm64/Packages.gz
  d4ec9ccdb9cce14b30b1894348c006cd 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  c6830cedba7cfae16e94f73acc3f7e97 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  cc79f01f949468d99280e8fb224df93b 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -95,11 +95,21 @@ MD5Sum:
  8ae44f67ca06736b3a3aad0354c2f7bc 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  64c18193bbfa41fa46796cc888e633f4 54420 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  5905cfd58fcd8c4db0686935dab08b7e 23029136 main/binary-arm64/buzztv_1.0.1+11_arm64.deb
+ af6d18aeb43f12e6cffee48677998697 41486 main/binary-arm64/libdrm2_2.4.115-1_arm64.deb
+ 330998c8f5ba233fd54ee4667bce7ccb 21806 main/binary-arm64/libdrm-amdgpu1_2.4.115-1_arm64.deb
+ 8afa7d2ceade66e9fa33393a3410d2e7 7430 main/binary-arm64/libdrm-common_2.4.115-1_all.deb
+ 02327e3e818cbe5c210be5bc945c46bc 267384 main/binary-arm64/libdrm-dev_2.4.115-1_arm64.deb
+ 00ca4967db0f8c602e12578ad77ea8c8 14412 main/binary-arm64/libdrm-etnaviv1_2.4.115-1_arm64.deb
+ eff591a577930ce19101d0bb63560abf 22068 main/binary-arm64/libdrm-freedreno1_2.4.115-1_arm64.deb
+ 9b4655d2faa73e4316cd7603b95e15a2 19698 main/binary-arm64/libdrm-nouveau2_2.4.115-1_arm64.deb
+ e860e4a0619a494e6460db002a9811fb 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
+ cd16886eb82a385b9490bf2e288741f7 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
+ cbc62b33570f2f50d5de035568017c89 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
 SHA1:
- 76d9cfe90146e244f144237c999d964e22be594b 28635 InRelease
- 34a361e672a9a2e7f2668f903c44d85c5344046e 854 Release.gpg
- 02412a3d041ea75985e06795eb3dae60f0da727d 146018 main/binary-arm64/Packages
- 959df128e166e20ae10cd5ff937c708740096d89 32272 main/binary-arm64/Packages.gz
+ 7839a230f845eb631d6fe62fce69a63e7e5d15eb 28635 InRelease
+ 516e39f54c779f32a8ec89e627e5ab1a26ba58b7 854 Release.gpg
+ 066dd33be296533a45d52f06f0d66e0ba85583d1 155761 main/binary-arm64/Packages
+ 0ad354d74755a4d855d98fef17a1f3d3c5cb76cd 34299 main/binary-arm64/Packages.gz
  ca2307cf645203102e4dcf4100d8a16cdb595361 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  f4fb79ba7fd6f48e60cd3229d30c49cad211d3d9 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  279be803a2e39a98dea15569bcc233a573095169 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -180,11 +190,21 @@ SHA1:
  8c56a8124a9ae0149a89df4db670b8e6ab481031 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  22eb60c251ced54f055279b5386a818eb35d02c2 54420 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  f9f3fa928f80e4ccbc1e3ae571f37697653b1075 23029136 main/binary-arm64/buzztv_1.0.1+11_arm64.deb
+ ca8b67e66017ca60ffbf92002356a36ec590bb59 41486 main/binary-arm64/libdrm2_2.4.115-1_arm64.deb
+ 83e9768d0b9ef00ba03479bfa894ac6705dc444d 21806 main/binary-arm64/libdrm-amdgpu1_2.4.115-1_arm64.deb
+ 39aba1528bf72ede66f31147edede6bdafbbb409 7430 main/binary-arm64/libdrm-common_2.4.115-1_all.deb
+ 5894a42c3fc8c679f1553bd734388fd3cf8287f1 267384 main/binary-arm64/libdrm-dev_2.4.115-1_arm64.deb
+ 3151a1270df40bd5e5ff98c004b86942d35151c8 14412 main/binary-arm64/libdrm-etnaviv1_2.4.115-1_arm64.deb
+ 8a6b9fce8cbbf03ccf3b584bf5e07f4ad851e096 22068 main/binary-arm64/libdrm-freedreno1_2.4.115-1_arm64.deb
+ 266012de5525bea5636d5a5a9d7a3da733ae4e91 19698 main/binary-arm64/libdrm-nouveau2_2.4.115-1_arm64.deb
+ 4665d2f9ca593eea43800340d032c6a06747a09e 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
+ e411419a5161c5071470c40743d2eaeee3e42040 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
+ f895a8bb02e922b163fc110bd3a5e1fd026e871a 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
 SHA256:
- 66de2c66c8d8fc0d3fee155e9f589c26367a3c05d6b2192b622c823ab659168d 28635 InRelease
- 3d6db51e49f74ddd8172c86436bce2fa7342836efcf45793a22c68e344818d2d 854 Release.gpg
- 0ecb4da2b584957c0612e4763815fe8590f31d1e51ee5191a467ada763cbf550 146018 main/binary-arm64/Packages
- bfe3befb7ab8f5705c9edbc699b76ec420a30bbca8f3af47e6d4687fba70bc22 32272 main/binary-arm64/Packages.gz
+ 453be4b4e27e21572ca850d66e14183e57e21e7adf2f49282b97c3f071cff7e9 28635 InRelease
+ eb98e9144b02b476461151bf793ccb712a9e42d7f4b9dd62dcadd6f85415bf45 854 Release.gpg
+ ab9fdce82920bb9776b3f0a7b0acdbcce6d0b02d6fa72feb594a5cf1cb51003f 155761 main/binary-arm64/Packages
+ d0f3064ad02f77ba3022e2d9a5fdd64e8450b66c65ef387869f487dc4983a74a 34299 main/binary-arm64/Packages.gz
  1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  5d614da9027a064de758781fb2524a1e9625cfa52ab8529f59073a4bdf40d5c1 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  df80771a448af1deeb7de3915a2e735e9ab064814ceded8a88d7410a7e2a8c39 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -265,20 +285,30 @@ SHA256:
  3d604a8143151195a7eeab546de32b3b14663408de6c40f00ac9bb07005713a6 695620 main/binary-arm64/v4l-utils_1.24.1-3_arm64.deb
  ea1fec12fadfd3a8f05293e46b2a4cb64538536e8d4814fa6f8f64d5e2e04fed 54420 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  41aa926bd73d83ec41ac042d94f363213b6f662414a86996e875ea27fa270dc4 23029136 main/binary-arm64/buzztv_1.0.1+11_arm64.deb
+ 90a099c706018a97a0754fbec5b8136fc57513a3547877f184cffeb48709974d 41486 main/binary-arm64/libdrm2_2.4.115-1_arm64.deb
+ 35e7fcea10408470973d6d1ab4e398f1e3519857b623b79a503e1993cf8fd7cb 21806 main/binary-arm64/libdrm-amdgpu1_2.4.115-1_arm64.deb
+ b1def1953dc46083dd1925701a88226f80623a448a9e3f1f8d14747765c056cc 7430 main/binary-arm64/libdrm-common_2.4.115-1_all.deb
+ 6c8b21dcb7da9a2dfbd54e2a2a6bf730ef5b8f9992d8c0038782efa544f80748 267384 main/binary-arm64/libdrm-dev_2.4.115-1_arm64.deb
+ 5a63f0f60e6508fc468d7aba7f61bd593e1b865fe176b2fdeb905b4af33d8743 14412 main/binary-arm64/libdrm-etnaviv1_2.4.115-1_arm64.deb
+ b87590452adbd6887aa7000cec4b608a3a8ab1060fb7e6bc97aac4f4ef842054 22068 main/binary-arm64/libdrm-freedreno1_2.4.115-1_arm64.deb
+ 54667cbdaf415cbb94b47d8e3a0dfb2c7aaf62601db2e606c1352f55e68b9a10 19698 main/binary-arm64/libdrm-nouveau2_2.4.115-1_arm64.deb
+ a1603fdd88f4bcd85445244f31f39db571c2bf4e3c1dabe1cde82a9336e3c3cd 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
+ 36d7f8ee4a11ae3f377b9e72207496e9bb226bdd8a764b4da664065ef42e361a 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
+ 1bfba04e61c285c9c5c67a256e211931d1f2490f786f4f8664a1cb50a9496a4b 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmZWHccOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/X1phAArcOT5ivN0/KNEer7uzXz5npdyn/F4eAtN3fI
-m77VVYR7d0OTv7Y+HXpcGwGFwAM7KmP7nnUPKuvAVaGEDufdeySkAKgISns8Y4nS
-9Qz9QgEqV7L0yhsh4WbCahJg3p2b77VE7wqp3KJv0vj6ynS/Mz+EPNud3gE+ihnx
-0ePodYSVp0CAkgj5Oo8+g5FbdjQDNwCDxOTKhlj3WpAhkjPAHzBEVLdAaOQ4buoE
-8gtvW7BGpWaqBa1NkofZKDbmoTemqtCxXM7Ke6qu7wGvRwGr3OVKsxzL3ltQpwx4
-KkN664pnP0U95vZrXMDZ8A+T2BtMrCi0X7+8LKv+LVqVEk0D2p2l60czK90QnNvU
-AqLHteaQW9MURlHpeBY0d0MrpoDG/4DN0owy8FGA4w8WeAOT0l4QscHv7YFT3Ikl
-SIlkBQ7xCi+aLXDjZpNvaZjxXnBKJlCefK8pAvTzl4+Nws6OHEJN2P4TPni4pk6U
-s7vi63EJsq85qf0MQ6gN9n0n1KSrF2qCYOo8gYYLKlJIr/moWfQFP0UC6ecmLz9m
-F8VumSkwyLkaIr8RFYWEpYRQLFmH8Zbnx2lR9z6mXYcELFS3XqDT2NH65mkrjE3O
-5E8oVvbOiT7rXKJqTMKQ5pVPzKkLDvkpoU8FfagPiBb02FPRk0dFKbD/MYE7YHrt
-BOrOV0E=
-=tHvG
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmZcN+EOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/VuvA//QZN9ENj7rZs0m4XPbqg5VzIQvKTodVebHiCb
+THnwr0dxcb8XzaahF7KZJC97bk8QIuWEuJLGHd+0RVcInLZFiyJiSEWlt9toe353
+BUm0z/cECsnJ4+KXWUJHO4Ost3WdUYSyU36cutovBhETFaDC/Cg3ECnJfyrmA50z
+ZPLGJD/TjAJPtSGW+NL6bpFiltPPz4wOmeTU8WkXgD8gGQnX7ySOwupeirDcVuPZ
+6XYDLMo1KyfR9lTnkL5eDPAycKhNlWwjCOYIfhmmk1/OjCROjTGfPljpeDjpOgZy
+yVZIYeh9aJY2/CK5ucEmfoxUJwuNqajBfs182Knq5SraG/t3C8pypoxjKCfrsCB6
+NyGdjWTrx9Z/C6+tXKNuguZfgPLB6RcfAAoBIL9Prp0/tfWUdf185+MNPJ4tameh
+W4+XA44dMFOQ9yinmcWn3zMQ3+prThnjid2UlYw3Pv9XSiyNkvtW+/YOP4eqEfPO
+yyW6LfHBupVO3o4jJHkd904TVQefXYWOVSLyVYkkDfubXs7/Bv6xbd+EVHLzXsmN
+i/SaISLYqPz8/pAMjw0YrgAxp2H11uTOZSF+Ck/PB3ysc7oLGpPAb2JxCtJaFPz9
+z6RZ47G27VYPLxVopoUaVxW7VIotCOxYWkLtdxQVGk+UA4GyAWLbUxQkucoYBDjp
+rl1ZdwE=
+=jtfu
 -----END PGP SIGNATURE-----
