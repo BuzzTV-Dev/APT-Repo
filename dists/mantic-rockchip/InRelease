@@ -9,12 +9,12 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Sun, 02 Jun 2024 09:14:06 +0000
+Date: Sun, 02 Jun 2024 11:17:05 +0000
 MD5Sum:
- 82e05e3d386290891508e93c8f66d4ff 28635 InRelease
- 39d823a8df7d5e0106e7ae824c945934 854 Release.gpg
- abe692a9cd78bfd9854c5c4b5d954c62 155761 main/binary-arm64/Packages
- e754b599f1dc52a779dceb3c20e7ebf0 34299 main/binary-arm64/Packages.gz
+ eae59db17fa7ca1f1bb713650ec5a79b 31789 InRelease
+ 002fd3fe92620dcb00eb868353d3944a 854 Release.gpg
+ 450e1676d6df6dd449675e32fb593f2a 165495 main/binary-arm64/Packages
+ 14e9f7f14c69457693250f9c39590edf 35866 main/binary-arm64/Packages.gz
  d4ec9ccdb9cce14b30b1894348c006cd 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  c6830cedba7cfae16e94f73acc3f7e97 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  cc79f01f949468d99280e8fb224df93b 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -105,11 +105,19 @@ MD5Sum:
  e860e4a0619a494e6460db002a9811fb 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
  cd16886eb82a385b9490bf2e288741f7 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
  cbc62b33570f2f50d5de035568017c89 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
+ 9cadb56f2be2f2ea3ad152f59aefa1a6 20084 main/binary-arm64/libwayland-bin_1.22.0-2.1_arm64.deb
+ 66d09df6299694e441f46cc3c673f569 25582 main/binary-arm64/libwayland-client0_1.22.0-2.1_arm64.deb
+ 8ac0317e5c50e16d77b44c952e50fef3 11338 main/binary-arm64/libwayland-cursor0_1.22.0-2.1_arm64.deb
+ 98fff7552351dc0195cef1f78cb6b4e0 72432 main/binary-arm64/libwayland-dev_1.22.0-2.1_arm64.deb
+ 30fc1c1b29f57cec9284e16bb6a797a2 197956 main/binary-arm64/libwayland-doc_1.22.0-2.1_all.deb
+ efda05dee99b4c570f94df67b5594f30 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
+ 1d7aba0afd497239f9733086ee144956 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
+ 07aecace339e16f7887e6c4dc32ac6a3 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
 SHA1:
- 7839a230f845eb631d6fe62fce69a63e7e5d15eb 28635 InRelease
- 516e39f54c779f32a8ec89e627e5ab1a26ba58b7 854 Release.gpg
- 066dd33be296533a45d52f06f0d66e0ba85583d1 155761 main/binary-arm64/Packages
- 0ad354d74755a4d855d98fef17a1f3d3c5cb76cd 34299 main/binary-arm64/Packages.gz
+ 431a364f9048260f178dd444e4fafaf2d3454f7a 31789 InRelease
+ c3afe0f75b7ac6d0b50b2df18fb41961d0f9abeb 854 Release.gpg
+ 3a7abcef8770b89dae51f978f5da765d29ab5daf 165495 main/binary-arm64/Packages
+ 987d86238d074d4263e1140dcb6af5394c4dce34 35866 main/binary-arm64/Packages.gz
  ca2307cf645203102e4dcf4100d8a16cdb595361 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  f4fb79ba7fd6f48e60cd3229d30c49cad211d3d9 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  279be803a2e39a98dea15569bcc233a573095169 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -200,11 +208,19 @@ SHA1:
  4665d2f9ca593eea43800340d032c6a06747a09e 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
  e411419a5161c5071470c40743d2eaeee3e42040 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
  f895a8bb02e922b163fc110bd3a5e1fd026e871a 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
+ e002076651c95b307aa8209105382545c0e08bbc 20084 main/binary-arm64/libwayland-bin_1.22.0-2.1_arm64.deb
+ d69eb6a22823057e6d0a45ec533495badf5f3ac8 25582 main/binary-arm64/libwayland-client0_1.22.0-2.1_arm64.deb
+ a454352799ec266fc6dc7cace94ce42f17c2b107 11338 main/binary-arm64/libwayland-cursor0_1.22.0-2.1_arm64.deb
+ 9e8258384e48a628158cb8b7f14c1f66e35819e2 72432 main/binary-arm64/libwayland-dev_1.22.0-2.1_arm64.deb
+ f521727886ec0a0470df5cf769e2d98fae3837e6 197956 main/binary-arm64/libwayland-doc_1.22.0-2.1_all.deb
+ 5316524669a0322ce91b80c9c5a25dc3f783194d 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
+ 25dac5ce0d3b0ee613d24abcd0a6c043abe4fd8f 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
+ 67bb8ea3231df9eaaa78c71968b98f21eb98b80c 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
 SHA256:
- 453be4b4e27e21572ca850d66e14183e57e21e7adf2f49282b97c3f071cff7e9 28635 InRelease
- eb98e9144b02b476461151bf793ccb712a9e42d7f4b9dd62dcadd6f85415bf45 854 Release.gpg
- ab9fdce82920bb9776b3f0a7b0acdbcce6d0b02d6fa72feb594a5cf1cb51003f 155761 main/binary-arm64/Packages
- d0f3064ad02f77ba3022e2d9a5fdd64e8450b66c65ef387869f487dc4983a74a 34299 main/binary-arm64/Packages.gz
+ 3d7610204906ae14152130bf79ff50a9eca99e77391afc39ab59c0b05f1c7d6d 31789 InRelease
+ 1e31e75419c969518d5c78dcbca5e73e5fc40c5c704670c19212b7065bbee6d7 854 Release.gpg
+ dbe5cf3e921be19c5611cb6d702349aab2f9bb528cbd40c5eb6f4bcb4bfdd28c 165495 main/binary-arm64/Packages
+ f8feb850245ba9adbccb640af7250c89ddbda00f33bbce50f43c02734d7174e8 35866 main/binary-arm64/Packages.gz
  1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  5d614da9027a064de758781fb2524a1e9625cfa52ab8529f59073a4bdf40d5c1 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  df80771a448af1deeb7de3915a2e735e9ab064814ceded8a88d7410a7e2a8c39 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -295,20 +311,28 @@ SHA256:
  a1603fdd88f4bcd85445244f31f39db571c2bf4e3c1dabe1cde82a9336e3c3cd 22600 main/binary-arm64/libdrm-radeon1_2.4.115-1_arm64.deb
  36d7f8ee4a11ae3f377b9e72207496e9bb226bdd8a764b4da664065ef42e361a 11460 main/binary-arm64/libdrm-tegra0_2.4.115-1_arm64.deb
  1bfba04e61c285c9c5c67a256e211931d1f2490f786f4f8664a1cb50a9496a4b 67834 main/binary-arm64/libdrm-tests_2.4.115-1_arm64.deb
+ 305b7e7667dcdc19d5cb7f5948c830431410123fe78e5c7fa1dbf310d100cec8 20084 main/binary-arm64/libwayland-bin_1.22.0-2.1_arm64.deb
+ ba2d937a2391fcf05fae96ebaf64c177868bbb29e439b1f314106cf767a97453 25582 main/binary-arm64/libwayland-client0_1.22.0-2.1_arm64.deb
+ 7ae39402bb7b15ee379e6f87777a2a04f4f879d0b1c227e8f058eb7e3641bf45 11338 main/binary-arm64/libwayland-cursor0_1.22.0-2.1_arm64.deb
+ afdbd22ff66696ece7bbcee552bbe6625d4b0ab6ede077820bf2f38a0a660aa4 72432 main/binary-arm64/libwayland-dev_1.22.0-2.1_arm64.deb
+ 0c1fddf71d2ad6d448d482d58b27965c3f33e46b9f9b5005d157b1d5c4136d1b 197956 main/binary-arm64/libwayland-doc_1.22.0-2.1_all.deb
+ b8949c7f09c8d62f8e0240e32156264395cf47e83baaa47452daa1a5d0b1aea9 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
+ 2edeeda31f67d60a53618ec14473cce818a742f56afc24c5740c53bc3c274d71 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
+ 621eb9bf1342a9e0b9b31db8e07ba44feec56f60e6d15eab4d658aa1af008bfc 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmZcN+EOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/VuvA//QZN9ENj7rZs0m4XPbqg5VzIQvKTodVebHiCb
-THnwr0dxcb8XzaahF7KZJC97bk8QIuWEuJLGHd+0RVcInLZFiyJiSEWlt9toe353
-BUm0z/cECsnJ4+KXWUJHO4Ost3WdUYSyU36cutovBhETFaDC/Cg3ECnJfyrmA50z
-ZPLGJD/TjAJPtSGW+NL6bpFiltPPz4wOmeTU8WkXgD8gGQnX7ySOwupeirDcVuPZ
-6XYDLMo1KyfR9lTnkL5eDPAycKhNlWwjCOYIfhmmk1/OjCROjTGfPljpeDjpOgZy
-yVZIYeh9aJY2/CK5ucEmfoxUJwuNqajBfs182Knq5SraG/t3C8pypoxjKCfrsCB6
-NyGdjWTrx9Z/C6+tXKNuguZfgPLB6RcfAAoBIL9Prp0/tfWUdf185+MNPJ4tameh
-W4+XA44dMFOQ9yinmcWn3zMQ3+prThnjid2UlYw3Pv9XSiyNkvtW+/YOP4eqEfPO
-yyW6LfHBupVO3o4jJHkd904TVQefXYWOVSLyVYkkDfubXs7/Bv6xbd+EVHLzXsmN
-i/SaISLYqPz8/pAMjw0YrgAxp2H11uTOZSF+Ck/PB3ysc7oLGpPAb2JxCtJaFPz9
-z6RZ47G27VYPLxVopoUaVxW7VIotCOxYWkLtdxQVGk+UA4GyAWLbUxQkucoYBDjp
-rl1ZdwE=
-=jtfu
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmZcVLMOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/VDXxAAl4yVldjYv5J1YyRMDvw1ZClYFzBk5Zs2tRQf
+tgC4bJq8cTRnhRPS4pYR8vq9fYa1qfyKi20r8eFkAG+GBMyK+0gLS6JjWg3lnm8h
+Om7WpNZEVLqJ7ZnUnvD25r3Jadf1y7QPXkitmYt5qNPNi+3962hyGNi23C7ZFEon
+PoRdvfWKofzMsObMfi4d8TW6cipQnCxOjfAaVdsIOJMAcN2ZAdbp7fxDmENVFUwR
+vz+9o8FlD5gJca0K7G8HQrkFgd5J09sjq3hvgQiMnVLNShmrnDDT97cl2ZdqsoTv
+r5DrL7RXGEyx0FGJRIxfUmPWvPHIEeB8fSBNJj97nYOZ/u+r0akB3yIB/Tm7Y4Pk
++J2+DdZHTxpd/rzP4Dy0yny+1tRE/jalDo74Y/8pLhav1rHrpy5zGB5PuDy4C5DC
+R1DRwXmutmEczmd3jyGQ2WSbanCBL0DASpWSmUCavTaFUr+yYVTNnSMW5YTuboCQ
+oXq9iQjHjqF8pvfRsFPkRwQQXDRV7ZeHtztsyrD8YdA8Irpvzcum/pgYJ8do3vUq
+0waeNftnVeGHFTqXq2VLewcR826xh7FpIBi+Pz5mWRRrVDqqVtghf7Z99by14pNY
+tfZwKTDwtHjyZZuF7YKOf7uWjxe2Ya0Ww2AC2qZWkNzy9zsJjbL0D4u0iEYRccBf
+M6O3dfk=
+=6n9t
 -----END PGP SIGNATURE-----

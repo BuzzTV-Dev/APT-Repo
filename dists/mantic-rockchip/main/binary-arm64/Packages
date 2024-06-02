@@ -2356,6 +2356,236 @@ Description: Video4linux frame format conversion library
  .
  This package contains the shared library.
 
+Package: libwayland-bin
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.34), libexpat1 (>= 2.0.1), libxml2 (>= 2.7.4)
+Conflicts: libwayland-dev (<< 1.11.0-1)
+Replaces: libwayland-dev (<< 1.11.0-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-bin_1.22.0-2.1_arm64.deb
+Size: 20084
+MD5sum: 9cadb56f2be2f2ea3ad152f59aefa1a6
+SHA1: e002076651c95b307aa8209105382545c0e08bbc
+SHA256: 305b7e7667dcdc19d5cb7f5948c830431410123fe78e5c7fa1dbf310d100cec8
+Section: libdevel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - binary utilities
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the development binary utilities
+
+Package: libwayland-client0
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Replaces: libwayland0 (<< 1.1.0-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-client0_1.22.0-2.1_arm64.deb
+Size: 25582
+MD5sum: 66d09df6299694e441f46cc3c673f569
+SHA1: d69eb6a22823057e6d0a45ec533495badf5f3ac8
+SHA256: ba2d937a2391fcf05fae96ebaf64c177868bbb29e439b1f314106cf767a97453
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - client library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the client side of
+ the Wayland protocol.
+
+Package: libwayland-cursor0
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 95
+Depends: libc6 (>= 2.28), libwayland-client0 (>= 1.20.0)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Replaces: libwayland0 (<< 1.1.0-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-cursor0_1.22.0-2.1_arm64.deb
+Size: 11338
+MD5sum: 8ac0317e5c50e16d77b44c952e50fef3
+SHA1: a454352799ec266fc6dc7cace94ce42f17c2b107
+SHA256: 7ae39402bb7b15ee379e6f87777a2a04f4f879d0b1c227e8f058eb7e3641bf45
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - cursor library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships a helper library to manage cursors.
+
+Package: libwayland-dev
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 587
+Depends: libwayland-client0 (= 1.22.0-2.1), libwayland-server0 (= 1.22.0-2.1), libwayland-cursor0 (= 1.22.0-2.1), libwayland-egl1 (= 1.22.0-2.1), libwayland-bin (= 1.22.0-2.1), libffi-dev
+Suggests: libwayland-doc
+Breaks: libegl1-mesa-dev (<< 18.0.5-0)
+Replaces: libegl1-mesa-dev (<< 18.0.5-0)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-dev_1.22.0-2.1_arm64.deb
+Size: 72432
+MD5sum: 98fff7552351dc0195cef1f78cb6b4e0
+SHA1: 9e8258384e48a628158cb8b7f14c1f66e35819e2
+SHA256: afdbd22ff66696ece7bbcee552bbe6625d4b0ab6ede077820bf2f38a0a660aa4
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - development files
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the development headers for the Wayland libraries.
+ Non-developers likely have little use for this package.
+
+Package: libwayland-doc
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 742
+Conflicts: libwayland-dev (<< 1.10.0-2)
+Replaces: libwayland-dev (<< 1.10.0-2)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-doc_1.22.0-2.1_all.deb
+Size: 197956
+MD5sum: 30fc1c1b29f57cec9284e16bb6a797a2
+SHA1: f521727886ec0a0470df5cf769e2d98fae3837e6
+SHA256: 0c1fddf71d2ad6d448d482d58b27965c3f33e46b9f9b5005d157b1d5c4136d1b
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - documentation files
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the documentation for the Wayland libraries.
+ Non-developers likely have little use for this package.
+
+Package: libwayland-egl-backend-dev
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 17
+Breaks: libegl1-mesa-dev (<< 18.0.5-0), libwayland-dev (<< 1.15.0)
+Replaces: libegl1-mesa-dev (<< 18.0.5-0), libwayland-dev (<< 1.15.0)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
+Size: 4216
+MD5sum: 1d7aba0afd497239f9733086ee144956
+SHA1: 25dac5ce0d3b0ee613d24abcd0a6c043abe4fd8f
+SHA256: 2edeeda31f67d60a53618ec14473cce818a742f56afc24c5740c53bc3c274d71
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - EGL backend development files
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package contains the development headers for the Wayland EGL backend.
+
+Package: libwayland-egl1
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.17)
+Breaks: libwayland-egl1-mesa (<< 18.0.5-0)
+Replaces: libwayland-egl1-mesa (<< 18.0.5-0)
+Provides: libwayland-egl1-mesa
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
+Size: 5450
+MD5sum: efda05dee99b4c570f94df67b5594f30
+SHA1: 5316524669a0322ce91b80c9c5a25dc3f783194d
+SHA256: b8949c7f09c8d62f8e0240e32156264395cf47e83baaa47452daa1a5d0b1aea9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - EGL library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the Wayland EGL platform
+ of the Wayland protocol.
+
+Package: libwayland-server0
+Source: wayland
+Version: 1.22.0-2.1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 152
+Depends: libc6 (>= 2.38), libffi8 (>= 3.4)
+Conflicts: libwayland0 (<< 1.1.0-1)
+Breaks: weston (<< 1.2.0)
+Replaces: libwayland0 (<< 1.1.0-1)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
+Size: 34178
+MD5sum: 07aecace339e16f7887e6c4dc32ac6a3
+SHA1: 67bb8ea3231df9eaaa78c71968b98f21eb98b80c
+SHA256: 621eb9bf1342a9e0b9b31db8e07ba44feec56f60e6d15eab4d658aa1af008bfc
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wayland.freedesktop.org/
+Description: wayland compositor infrastructure - server library
+ Wayland is a protocol for a compositor to talk to its clients as well
+ as a C library implementation of that protocol. The compositor can be
+ a standalone display server running on Linux kernel modesetting and
+ evdev input devices, an X application, or a wayland client
+ itself. The clients can be traditional applications, X servers
+ (rootless or fullscreen) or other display servers.
+ .
+ This package ships the library that implements the server side of
+ the Wayland protocol.
+
 Package: qv4l2
 Source: v4l-utils
 Version: 1.24.1-3
