@@ -263,6 +263,34 @@ Description: GObject introspection data for the GStreamer library
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
 
+Package: gir1.2-gtk-3.0
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 991
+Depends: gir1.2-atk-1.0 (>= 2.35.1), gir1.2-freedesktop (>= 1.39.0), gir1.2-gdkpixbuf-2.0 (>= 2.40.0), gir1.2-glib-2.0 (>= 1.39.0), gir1.2-pango-1.0 (>= 1.44.0), libgtk-3-0 (>= 3.24.30), libgtk-3-common
+Breaks: python-gi (<< 3.18), python3-gi (<< 3.18)
+Provides: gir1.2-gdk-3.0 (= 3.24.38-5ubuntu1), gir1.2-gdkx11-3.0 (= 3.24.38-5ubuntu1)
+Filename: dists/mantic-rockchip/main/binary-arm64/gir1.2-gtk-3.0_3.24.38-5ubuntu1_arm64.deb
+Size: 261404
+MD5sum: 3e7649c68eb339a2f0df397d7da14e69
+SHA1: 4667cc9d967d118a26e6d84268f40d4b742a3cf6
+SHA256: 263633ee7ee06c43e2939354770775706dce22ac35a5c5195f1db3b691550741
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Description: GTK graphical user interface library -- gir bindings
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: gstreamer1.0-alsa
 Source: gst-plugins-base1.0
 Version: 1.22.6-1
@@ -763,6 +791,58 @@ Description: GStreamer plugins for X11 and Pango
  plugin for Pango-based text rendering and overlay.
 Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
 Gstreamer-Version: 1.22
+
+Package: gtk-3-examples
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 14877
+Depends: dconf-gsettings-backend | gsettings-backend, libatk1.0-0 (>= 2.35.1), libc6 (>= 2.38), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.77.0), libgtk-3-0 (= 3.24.38-5ubuntu1), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.44.0), libx11-6
+Filename: dists/mantic-rockchip/main/binary-arm64/gtk-3-examples_3.24.38-5ubuntu1_arm64.deb
+Size: 1660204
+MD5sum: e1ad6989c9f08c68585782745f25f2bf
+SHA1: 09c38e60b3ad4c44d206e6626b5fd74aea6a98ab
+SHA256: fd5b84d70d050f17abf2a4dbc34dd6aa14894020b2a552d5950ca4951691318b
+Section: x11
+Priority: optional
+Homepage: https://www.gtk.org/
+Description: example files for GTK 3
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the example files and a demonstration program
+ for GTK3. It also contains the installed tests.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gtk-update-icon-cache
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 156
+Depends: libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2)
+Breaks: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Replaces: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Filename: dists/mantic-rockchip/main/binary-arm64/gtk-update-icon-cache_3.24.38-5ubuntu1_arm64.deb
+Size: 49212
+MD5sum: 5513e787d677f274642d5559be120d65
+SHA1: 49b7bf86dc942795033f07cfad4440c510fbcd24
+SHA256: da68a14395cf0f987711d91e0f9bb8ab5913f96bee8d1223b72977449db4b32b
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Description: icon theme caching utility
+ gtk-update-icon-cache creates mmap()able cache files for icon themes.
+ .
+ GTK can use the cache files created by gtk-update-icon-cache to avoid a lot
+ of system call and disk seek overhead when the application starts. Since the
+ format of the cache files allows them to be mmap()ed shared between multiple
+ applications, the overall memory consumption is reduced as well.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: ir-keytable
 Source: v4l-utils
@@ -1581,6 +1661,82 @@ Description: Doxygen generated documentation for libdvbv5
  .
  This package provides doxygen generated documentation for the library.
 
+Package: libgail-3-0
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 157
+Depends: at-spi2-core, libatk1.0-0 (>= 2.35.1), libc6 (>= 2.17), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (= 3.24.38-5ubuntu1), libpango-1.0-0 (>= 1.44.0)
+Filename: dists/mantic-rockchip/main/binary-arm64/libgail-3-0_3.24.38-5ubuntu1_arm64.deb
+Size: 44964
+MD5sum: 96bfbfd435ad6e3cd7f941568027fbb3
+SHA1: 2491115ec624f03e63c7ebc7bd210d2a3fd4ac2f
+SHA256: 5a4d72e65271937bc34b91f7bdedd8c7d3729c0ba8d1bee7b3169503f16dafc4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Description: GNOME Accessibility Implementation Library -- shared libraries
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the shared library.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgail-3-dev
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 100
+Depends: libatk1.0-dev, libgail-3-0 (= 3.24.38-5ubuntu1), pkg-config, libgtk-3-dev (= 3.24.38-5ubuntu1)
+Suggests: libgail-3-doc
+Filename: dists/mantic-rockchip/main/binary-arm64/libgail-3-dev_3.24.38-5ubuntu1_arm64.deb
+Size: 37078
+MD5sum: cc0094b8a5473f2a19530659023b7d65
+SHA1: 1dfab0b2a409b7e2a6e5213c6bfef2cb4018aeb5
+SHA256: b2c11e3d8b1fd763c220f066cd86ddd77d2aa6ce96c02100aac350d33937215e
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Description: GNOME Accessibility Implementation Library -- development files
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the development files for Gail.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgail-3-doc
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 160
+Suggests: devhelp
+Filename: dists/mantic-rockchip/main/binary-arm64/libgail-3-doc_3.24.38-5ubuntu1_all.deb
+Size: 45412
+MD5sum: feb09fe3dc6641eea614bc2d8af53f5a
+SHA1: 9c2e59808baea267df75ceac73c0201717e1a9fb
+SHA256: 8e79346a8a3368ead1e5879e19af0c0ee0e540b1c10e22fe00e75df85c4079ae
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Description: documentation files of the Gail library
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the documentation files for Gail.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: libgstreamer-gl1.0-0
 Source: gst-plugins-base1.0
 Version: 1.22.6-1
@@ -1885,6 +2041,144 @@ Description: GStreamer core development files
  .
  This package contains development files for the core library and
  elements.
+
+Package: libgtk-3-0
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10860
+Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0 (>= 2.15.1), libatk1.0-0 (>= 2.35.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcolord2 (>= 0.1.10), libcups2 (>= 2.3~b6), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.77.3), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.14.91), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.38-5ubuntu1)
+Recommends: libgtk-3-bin, librsvg2-common
+Suggests: gvfs
+Provides: gtk3-binver-3.0.0
+Filename: dists/mantic-rockchip/main/binary-arm64/libgtk-3-0_3.24.38-5ubuntu1_arm64.deb
+Size: 2852046
+MD5sum: 437112f26a98bc3f37d55936a91617a3
+SHA1: 42149d8cf538db67f7e5eced96d1fd969e1dc1dc
+SHA256: 5371c8e85194408811c5f3b4e408fb128dfac8c8b46c1ae44c6074fd55ca8f50
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Description: GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgtk-3-bin
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 499
+Depends: gtk-update-icon-cache, libc6 (>= 2.38), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (>= 3.24.38-5ubuntu1), libgtk-3-common (>= 3.24.38-5ubuntu1)
+Breaks: gtk-3-examples (<< 3.24.13)
+Replaces: gtk-3-examples (<< 3.24.13)
+Filename: dists/mantic-rockchip/main/binary-arm64/libgtk-3-bin_3.24.38-5ubuntu1_arm64.deb
+Size: 89712
+MD5sum: 4ab2aff4a5d6fa7813c4af96354ed777
+SHA1: 0bc96965bbacad1b05bae04609b19b85cb7800ab
+SHA256: 610da43a49edb18baf8f754b4d3b69d87dec6e847ea22aa2f2f9f82c8add7308
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Description: programs for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the utilities which are used by the libraries
+ and other packages.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgtk-3-common
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 26581
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: libgtk-3-0
+Breaks: libgtk-3-dev (<< 3.24.30-3~)
+Replaces: libgtk-3-dev (<< 3.24.30-3~)
+Filename: dists/mantic-rockchip/main/binary-arm64/libgtk-3-common_3.24.38-5ubuntu1_all.deb
+Size: 4233316
+MD5sum: 7e081c8f40e393c3d0f625d27841811d
+SHA1: 3f89c4bf7e4731aaca203f5d27c3fd1a2293f3d5
+SHA256: 11e68253ad7cdeb51bf8f13d13e2ae4501afa635352387a97c3f5bcd12eaa23b
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Description: common files for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the common files which the libraries need.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgtk-3-dev
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 13981
+Depends: gir1.2-gtk-3.0 (= 3.24.38-5ubuntu1), libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.44.0), libwayland-dev (>= 1.9.91), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkg-config, wayland-protocols (>= 1.17), libgtk-3-common (>= 3.24.38-5ubuntu1), libgtk-3-0 (= 3.24.38-5ubuntu1)
+Suggests: libgtk-3-doc
+Filename: dists/mantic-rockchip/main/binary-arm64/libgtk-3-dev_3.24.38-5ubuntu1_arm64.deb
+Size: 1105434
+MD5sum: 53abdee922be2be023ded7615df0c7ef
+SHA1: 263628f72c68e4692de20b06bd89d7dc2b0e99a4
+SHA256: 79b5cfc4b13e4a93b76276980ea004ce34cbe7617d96cf6c5ef08d4db638b76f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Description: development files for the GTK library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the header and development files which are
+ needed for building GTK applications.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libgtk-3-doc
+Source: gtk+3.0
+Version: 3.24.38-5ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 24465
+Recommends: libatk1.0-doc, libglib2.0-doc, libpango1.0-doc
+Suggests: devhelp
+Filename: dists/mantic-rockchip/main/binary-arm64/libgtk-3-doc_3.24.38-5ubuntu1_all.deb
+Size: 3283592
+MD5sum: c0ace41c2e543f91d34bcab5dab19c98
+SHA1: 5fcd806be861f3b5c1efc69ef7af0e2c21fc25c5
+SHA256: ed24778db56e2f7c6b0f0ea699a9f473a526ebf07bd245bd90cb55097ede33ff
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Description: documentation for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the HTML documentation for the GTK library
+ in /usr/share/doc/libgtk-3-doc/ .
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: libpixman-1-0
 Source: pixman
