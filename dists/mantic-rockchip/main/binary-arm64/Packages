@@ -2586,6 +2586,71 @@ Description: wayland compositor infrastructure - server library
  This package ships the library that implements the server side of
  the Wayland protocol.
 
+Package: libwlroots-dev
+Source: wlroots
+Version: 0.16.2-3
+Architecture: arm64
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Installed-Size: 376
+Depends: libwlroots11 (= 0.16.2-3), libcap-dev, libdrm-dev, libegl-dev, libgbm-dev (>= 17.1.0), libgles2-mesa-dev, libinput-dev (>= 1.14.0), libpixman-1-dev, libseat-dev, libsystemd-dev, libvulkan-dev, libwayland-dev (>= 1.20), libxcb1-dev, libxcb-composite0-dev, libxcb-dri3-dev, libxcb-icccm4-dev, libxcb-image0-dev, libxcb-present-dev, libxcb-render0-dev, libxcb-render-util0-dev, libxcb-res0-dev, libxcb-xfixes0-dev, libxcb-xinput-dev, libxkbcommon-dev, libx11-xcb-dev, wayland-protocols (>= 1.24)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
+Size: 63770
+MD5sum: 3fc602f9d77e3cad812c9bc2c761f901
+SHA1: d429725324fc4e2ce007e2f816e5b04627e2e3fa
+SHA256: e48111e7e931771aede958676e9f25eee2568988a9eff6cf507bb99490c072e3
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.freedesktop.org/wlroots/wlroots/
+Description: Modular wayland compositor library - development headers
+ wlroots is a set of pluggable, composable modules to build a Wayland
+ compositor.
+ .
+ This package contains the development headers.
+
+Package: libwlroots-examples
+Source: wlroots
+Version: 0.16.2-3
+Architecture: arm64
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Installed-Size: 1693
+Depends: libavcodec60 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.34), libdrm2 (>= 2.4.75), libegl1, libgbm1 (>= 17.1.0~rc2), libgles2, libpng16-16 (>= 1.6.2-1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.20), libwayland-egl1 (>= 1.20), libwayland-server0 (>= 1.20), libwlroots11 (>= 0.16.0), libxkbcommon0 (>= 0.5.0)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
+Size: 131764
+MD5sum: 5f20f8aa9a2c6691a57879155748cd14
+SHA1: 4b650a3ece4d2d6bf91e53e708fe492d0c67aae2
+SHA256: 4de1ddd155d84fa7b892f73f7612537ac2780de4fa5747b8af1501ab10b10e2b
+Section: libs
+Priority: optional
+Homepage: https://gitlab.freedesktop.org/wlroots/wlroots/
+Description: Modular wayland compositor library - binaries
+ wlroots is a set of pluggable, composable modules to build a Wayland
+ composior.
+ .
+ This package contains various examples on how to use wlroots.
+
+Package: libwlroots11
+Source: wlroots
+Version: 0.16.2-3
+Architecture: arm64
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Installed-Size: 1056
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.113), libegl1, libgbm1 (>= 21.1.0), libgles2, libinput10 (>= 1.19.1), libpixman-1-0 (>= 0.27.4), libseat1 (>= 0.5.0), libudev1 (>= 183), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.20.92), libxcb-composite0, libxcb-dri3-0 (>= 1.13), libxcb-icccm4 (>= 0.4.1), libxcb-present0, libxcb-render-util0, libxcb-render0, libxcb-res0 (>= 1.10), libxcb-shm0 (>= 1.10), libxcb-xfixes0 (>= 1.15), libxcb-xinput0 (>= 1.15), libxcb1, libxkbcommon0 (>= 0.5.0)
+Filename: dists/mantic-rockchip/main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
+Size: 341584
+MD5sum: 50cf37a6704b6fba9320a109c0eee0b7
+SHA1: 475a5c5aadbc34dc6e760bf753087fa9575f8213
+SHA256: b1bbcfaab5616740e04f793c9037f46310674457bb4398eb4bd515d42308b111
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.freedesktop.org/wlroots/wlroots/
+Description: Modular wayland compositor library - shared library
+ wlroots is a set of pluggable, composable modules to build a Wayland
+ composior.
+ .
+ This package contains the shared library.
+
 Package: qv4l2
 Source: v4l-utils
 Version: 1.24.1-3

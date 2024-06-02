@@ -6,12 +6,12 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Sun, 02 Jun 2024 11:17:05 +0000
+Date: Sun, 02 Jun 2024 12:36:10 +0000
 MD5Sum:
- eae59db17fa7ca1f1bb713650ec5a79b 31789 InRelease
- 002fd3fe92620dcb00eb868353d3944a 854 Release.gpg
- 450e1676d6df6dd449675e32fb593f2a 165495 main/binary-arm64/Packages
- 14e9f7f14c69457693250f9c39590edf 35866 main/binary-arm64/Packages.gz
+ 0b923818993cb79961d5b666358630ee 34431 InRelease
+ b1a242f0a81d83f11a8405282e561ced 854 Release.gpg
+ 7ac95c77bbbcb016578b6862f2a76e03 169107 main/binary-arm64/Packages
+ ae8fabe64a820ee8c5b4b0661c5ce0a0 36752 main/binary-arm64/Packages.gz
  d4ec9ccdb9cce14b30b1894348c006cd 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  c6830cedba7cfae16e94f73acc3f7e97 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  cc79f01f949468d99280e8fb224df93b 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -110,11 +110,14 @@ MD5Sum:
  efda05dee99b4c570f94df67b5594f30 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
  1d7aba0afd497239f9733086ee144956 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
  07aecace339e16f7887e6c4dc32ac6a3 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
+ 50cf37a6704b6fba9320a109c0eee0b7 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
+ 3fc602f9d77e3cad812c9bc2c761f901 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
+ 5f20f8aa9a2c6691a57879155748cd14 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
 SHA1:
- 431a364f9048260f178dd444e4fafaf2d3454f7a 31789 InRelease
- c3afe0f75b7ac6d0b50b2df18fb41961d0f9abeb 854 Release.gpg
- 3a7abcef8770b89dae51f978f5da765d29ab5daf 165495 main/binary-arm64/Packages
- 987d86238d074d4263e1140dcb6af5394c4dce34 35866 main/binary-arm64/Packages.gz
+ 45247c77d891ae67090aa0d04cb3492ffb3dcf2c 34431 InRelease
+ 1d83822d90358a5dde290cb78437614e1c9342f5 854 Release.gpg
+ c13661e7d52bd811aa11f87710ca033d01bb6bba 169107 main/binary-arm64/Packages
+ 70c4f75a943dfaf2b25e5aa71047d0ff9e9ea8a7 36752 main/binary-arm64/Packages.gz
  ca2307cf645203102e4dcf4100d8a16cdb595361 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  f4fb79ba7fd6f48e60cd3229d30c49cad211d3d9 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  279be803a2e39a98dea15569bcc233a573095169 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -213,11 +216,14 @@ SHA1:
  5316524669a0322ce91b80c9c5a25dc3f783194d 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
  25dac5ce0d3b0ee613d24abcd0a6c043abe4fd8f 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
  67bb8ea3231df9eaaa78c71968b98f21eb98b80c 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
+ 475a5c5aadbc34dc6e760bf753087fa9575f8213 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
+ d429725324fc4e2ce007e2f816e5b04627e2e3fa 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
+ 4b650a3ece4d2d6bf91e53e708fe492d0c67aae2 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
 SHA256:
- 3d7610204906ae14152130bf79ff50a9eca99e77391afc39ab59c0b05f1c7d6d 31789 InRelease
- 1e31e75419c969518d5c78dcbca5e73e5fc40c5c704670c19212b7065bbee6d7 854 Release.gpg
- dbe5cf3e921be19c5611cb6d702349aab2f9bb528cbd40c5eb6f4bcb4bfdd28c 165495 main/binary-arm64/Packages
- f8feb850245ba9adbccb640af7250c89ddbda00f33bbce50f43c02734d7174e8 35866 main/binary-arm64/Packages.gz
+ a92690bf8b104b5026a33d65e67d6ef201d2edd456c58bcd1141bed2754f4126 34431 InRelease
+ 2ba717ae0f8b7825e7bcb95fddc948b69e5550887cb495ba18c9fbbacb80291d 854 Release.gpg
+ 4084086ffa034796776e1a5ca0ad86a34bcd2c6aee5ecb44f054b4f1144e3055 169107 main/binary-arm64/Packages
+ a791073270c847da4ffe189b1e889a376f6e2ec39ba59fca83d61728d0142c8c 36752 main/binary-arm64/Packages.gz
  1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  5d614da9027a064de758781fb2524a1e9625cfa52ab8529f59073a4bdf40d5c1 10933192 main/binary-arm64/buzztv-dsw_1.0.1+1_arm64.deb
  df80771a448af1deeb7de3915a2e735e9ab064814ceded8a88d7410a7e2a8c39 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
@@ -316,3 +322,6 @@ SHA256:
  b8949c7f09c8d62f8e0240e32156264395cf47e83baaa47452daa1a5d0b1aea9 5450 main/binary-arm64/libwayland-egl1_1.22.0-2.1_arm64.deb
  2edeeda31f67d60a53618ec14473cce818a742f56afc24c5740c53bc3c274d71 4216 main/binary-arm64/libwayland-egl-backend-dev_1.22.0-2.1_arm64.deb
  621eb9bf1342a9e0b9b31db8e07ba44feec56f60e6d15eab4d658aa1af008bfc 34178 main/binary-arm64/libwayland-server0_1.22.0-2.1_arm64.deb
+ b1bbcfaab5616740e04f793c9037f46310674457bb4398eb4bd515d42308b111 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
+ e48111e7e931771aede958676e9f25eee2568988a9eff6cf507bb99490c072e3 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
+ 4de1ddd155d84fa7b892f73f7612537ac2780de4fa5747b8af1501ab10b10e2b 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
