@@ -39,16 +39,16 @@ Description: Avizo is a simple notification daemon, mainly intended to be used
  for multimedia keys for example with Sway.
 
 Package: buzztv
-Version: 1.0.2+14
+Version: 1.0.2+17
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base
-Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.2+14_arm64.deb
-Size: 23336456
-MD5sum: d8373c985891193f15bd70e25657e72a
-SHA1: e8c8420593082bbb87e757cf790a077ec95e5394
-SHA256: e54d3fd83397542e18af9bdd4976eac0e72d6f21015b0d632b2283fb7e5206e4
+Filename: dists/mantic-rockchip/main/binary-arm64/buzztv_1.0.2+17_arm64.deb
+Size: 23544836
+MD5sum: 3562453638f7994e83f85669bf202040
+SHA1: 64d8d97beb81ac6ed412017d5d079d7aafb1ba51
+SHA256: 6aa9c6b7ab6f7538643ad07e97948cd164d95a7b96ec88a624c72c3dc705c94c
 Priority: optional
 Description: BuzzTV IPTV player
 
