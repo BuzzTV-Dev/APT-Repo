@@ -4417,10 +4417,10 @@ Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
 Installed-Size: 20
 Depends: libv4l-0, udev
 Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-multimedia-config_1.0.1-1_all.deb
-Size: 3336
-MD5sum: 4e4f2f7341cb194a86eade38f66d49ea
-SHA1: e7c0996b34e3109dd9206fe280f375eb98e7da0b
-SHA256: e26342b9a5eb448a67fb578e8c66ae55055a3c2116f2c26f33716d2b63e8833f
+Size: 3380
+MD5sum: 39dea1db3b5c6c04ebe4f786a29bb018
+SHA1: d74f10342c147b3c6f045ca709e00479c44a6660
+SHA256: 56bab0182202cec1c4819e9b344bd81ab8b4af1c91ce6587310596447d4a36eb
 Section: libs
 Priority: optional
 Homepage: https://github.com/amazingfate/rockchip-multimedia-config
