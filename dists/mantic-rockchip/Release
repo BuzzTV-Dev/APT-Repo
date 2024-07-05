@@ -6,12 +6,12 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Tue, 02 Jul 2024 20:19:51 +0000
+Date: Fri, 05 Jul 2024 18:37:54 +0000
 MD5Sum:
- 10789a6fbd3443e4998a4e7b382e507a 40311 InRelease
- e18348928c69aecb7b03c44256de9797 854 Release.gpg
- eb244ab20a66473adf1a6b61eb207742 185414 main/binary-arm64/Packages
- 7fe028a81b56461b13af3e6f60fb59f5 40991 main/binary-arm64/Packages.gz
+ 6361bf6c2fb9fec40c26adb72b51b8e7 40010 InRelease
+ b5d4fdcf91526f7869c45d6d5dc27213 854 Release.gpg
+ 54d5ca9d276db90e5bf83c7e7de77731 185414 main/binary-arm64/Packages
+ 9fd01a73b99e1d3b7b96770c45aea322 40983 main/binary-arm64/Packages.gz
  d4ec9ccdb9cce14b30b1894348c006cd 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  cc79f01f949468d99280e8fb224df93b 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
  d2d0c98d4bb83bf238b86a09404cff2d 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -111,8 +111,8 @@ MD5Sum:
  50cf37a6704b6fba9320a109c0eee0b7 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
  3fc602f9d77e3cad812c9bc2c761f901 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
  5f20f8aa9a2c6691a57879155748cd14 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
- 63908341fe26487545b8e3030ae93684 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  f2b6543f5bd8219361c0d7ecd1368903 6516 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
+ 63908341fe26487545b8e3030ae93684 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  6173418946f0b018bc4ad65f529796af 27896 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  3e7649c68eb339a2f0df397d7da14e69 261404 main/binary-arm64/gir1.2-gtk-3.0_3.24.38-5ubuntu1_arm64.deb
  e1ad6989c9f08c68585782745f25f2bf 1660204 main/binary-arm64/gtk-3-examples_3.24.38-5ubuntu1_arm64.deb
@@ -125,13 +125,13 @@ MD5Sum:
  7e081c8f40e393c3d0f625d27841811d 4233316 main/binary-arm64/libgtk-3-common_3.24.38-5ubuntu1_all.deb
  53abdee922be2be023ded7615df0c7ef 1105434 main/binary-arm64/libgtk-3-dev_3.24.38-5ubuntu1_arm64.deb
  c0ace41c2e543f91d34bcab5dab19c98 3283592 main/binary-arm64/libgtk-3-doc_3.24.38-5ubuntu1_all.deb
- 3562453638f7994e83f85669bf202040 23544836 main/binary-arm64/buzztv_1.0.2+17_arm64.deb
  a8d1a2b53aed9a14589236928936d2ba 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
+ c9d1aacb9bbea2a94f05afb072fec867 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
 SHA1:
- ba3ff80611baff3ab6c154f5d6e1b8548707fd79 40311 InRelease
- 039d6622958d3a6e54b316dce0827f2dda409ba6 854 Release.gpg
- 2fa3c28cc913f82c368ec88db7e2298372f0c86a 185414 main/binary-arm64/Packages
- 913150defba596f85c4138a0885692b18fafa03b 40991 main/binary-arm64/Packages.gz
+ 2e98031e7ab05102af464834a69c854bd586338a 40010 InRelease
+ fe382bc585d420ca5505d1a2585210990e4b4910 854 Release.gpg
+ 0e7093afc72003addabdd145ba110a3e4a6e4cd5 185414 main/binary-arm64/Packages
+ 6f5c41b2463a9833a0f0712ca7525a0c1ade2334 40983 main/binary-arm64/Packages.gz
  ca2307cf645203102e4dcf4100d8a16cdb595361 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  279be803a2e39a98dea15569bcc233a573095169 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
  2d457e52b164ad402de96c36dab4eea53d9578c3 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -231,8 +231,8 @@ SHA1:
  475a5c5aadbc34dc6e760bf753087fa9575f8213 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
  d429725324fc4e2ce007e2f816e5b04627e2e3fa 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
  4b650a3ece4d2d6bf91e53e708fe492d0c67aae2 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
- 81efe7be7d21603607f3888d821128038f356d72 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  32254ca50e16e9bcbdc19f8002a7fdedf2c15a5c 6516 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
+ 81efe7be7d21603607f3888d821128038f356d72 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  eef8793e1f7dc2130cf3d83b30cca61f5d772765 27896 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  4667cc9d967d118a26e6d84268f40d4b742a3cf6 261404 main/binary-arm64/gir1.2-gtk-3.0_3.24.38-5ubuntu1_arm64.deb
  09c38e60b3ad4c44d206e6626b5fd74aea6a98ab 1660204 main/binary-arm64/gtk-3-examples_3.24.38-5ubuntu1_arm64.deb
@@ -245,13 +245,13 @@ SHA1:
  3f89c4bf7e4731aaca203f5d27c3fd1a2293f3d5 4233316 main/binary-arm64/libgtk-3-common_3.24.38-5ubuntu1_all.deb
  263628f72c68e4692de20b06bd89d7dc2b0e99a4 1105434 main/binary-arm64/libgtk-3-dev_3.24.38-5ubuntu1_arm64.deb
  5fcd806be861f3b5c1efc69ef7af0e2c21fc25c5 3283592 main/binary-arm64/libgtk-3-doc_3.24.38-5ubuntu1_all.deb
- 64d8d97beb81ac6ed412017d5d079d7aafb1ba51 23544836 main/binary-arm64/buzztv_1.0.2+17_arm64.deb
  0c52f544c829a10b27e7ca1e31e2ae16dd1d0297 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
+ daf985b0ff1d238c5546eb5e0409f5dcf96c5232 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
 SHA256:
- e867aa1ec31f0779486ffcda0767a2583b3e03663fd7bceef2823027275f1665 40311 InRelease
- e11a61b670edb4d7eec04d3aea4c57842b7c5a991d91ebe05a1b543d29162d5e 854 Release.gpg
- c09b6ff49986f3cdce8dbde4413d182228b8c928df0b168202813acd3af011c0 185414 main/binary-arm64/Packages
- cfc98d26fa9d11bdfe1b04dabe8f8d50db89968747d2544c72e88c56b9c2b03f 40991 main/binary-arm64/Packages.gz
+ dada9af3a7432a4f0cc1fa17a13dca42a0e3a6a0ee9d91b0faa1fba39c1ca3df 40010 InRelease
+ 4eb803f4cab5c6ad4e722f99aa89730cab06650352a57d11898a0fb75bcab190 854 Release.gpg
+ 6f02752e1440794b03bd2ed8ee6cb603418c65e7a27719c6db1368729d1f12a4 185414 main/binary-arm64/Packages
+ 1d3a81e5bf30089afd32a7f691f0a666b8574a9039385420b28982a5061657f6 40983 main/binary-arm64/Packages.gz
  1a789cfb7ad80c0dc8f333782a62cdfa61aa25d3c94ed86c92c40c3a49b3ce74 60980 main/binary-arm64/alsa-ucm-conf_1.2.9-1ubuntu3_all.deb
  df80771a448af1deeb7de3915a2e735e9ab064814ceded8a88d7410a7e2a8c39 1814 main/binary-arm64/buzztv-ota-tools_1.0.1-1_all.deb
  7df1473041d2b7c808df7a3a7b2494b253cefdc854fc7bb06e93f01ac9cb813e 121688 main/binary-arm64/dvb-tools_1.24.1-3_arm64.deb
@@ -351,8 +351,8 @@ SHA256:
  b1bbcfaab5616740e04f793c9037f46310674457bb4398eb4bd515d42308b111 341584 main/binary-arm64/libwlroots11_0.16.2-3_arm64.deb
  e48111e7e931771aede958676e9f25eee2568988a9eff6cf507bb99490c072e3 63770 main/binary-arm64/libwlroots-dev_0.16.2-3_arm64.deb
  4de1ddd155d84fa7b892f73f7612537ac2780de4fa5747b8af1501ab10b10e2b 131764 main/binary-arm64/libwlroots-examples_0.16.2-3_arm64.deb
- 4cb5baa9ea59038bebf294f5583723c3c931e2945b2ad2f091a7c46933d66f95 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  62c2a5868cd28f905f8776b3b3bca3ef26ad8f9e3f928c2c3e316eb0ebdbd78b 6516 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
+ 4cb5baa9ea59038bebf294f5583723c3c931e2945b2ad2f091a7c46933d66f95 29428 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  3067662255d4bafa67060699332455e7368ad33a6ce379fc75c7ffdb8b646212 27896 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  263633ee7ee06c43e2939354770775706dce22ac35a5c5195f1db3b691550741 261404 main/binary-arm64/gir1.2-gtk-3.0_3.24.38-5ubuntu1_arm64.deb
  fd5b84d70d050f17abf2a4dbc34dd6aa14894020b2a552d5950ca4951691318b 1660204 main/binary-arm64/gtk-3-examples_3.24.38-5ubuntu1_arm64.deb
@@ -365,5 +365,5 @@ SHA256:
  11e68253ad7cdeb51bf8f13d13e2ae4501afa635352387a97c3f5bcd12eaa23b 4233316 main/binary-arm64/libgtk-3-common_3.24.38-5ubuntu1_all.deb
  79b5cfc4b13e4a93b76276980ea004ce34cbe7617d96cf6c5ef08d4db638b76f 1105434 main/binary-arm64/libgtk-3-dev_3.24.38-5ubuntu1_arm64.deb
  ed24778db56e2f7c6b0f0ea699a9f473a526ebf07bd245bd90cb55097ede33ff 3283592 main/binary-arm64/libgtk-3-doc_3.24.38-5ubuntu1_all.deb
- 6aa9c6b7ab6f7538643ad07e97948cd164d95a7b96ec88a624c72c3dc705c94c 23544836 main/binary-arm64/buzztv_1.0.2+17_arm64.deb
  5123d1da2eb445c755a90c7cf28a35d95443f37868c417b90834d34e49d5e63d 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
+ e3fa83809d7e43be8cb04bf02fa3a3e5114797c2afcd264437fed55cdf24210d 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
