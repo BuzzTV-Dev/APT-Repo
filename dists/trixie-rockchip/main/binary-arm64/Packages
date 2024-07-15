@@ -4411,16 +4411,16 @@ Description: debug symbols for rockchip-mpp-demos
 Build-Ids: 1f531fd0b4e34e14bd8d16aac5707624e6a63f4b 2742bfb3a9a5d6cfdcd11c1782c7873025fb9614 544fbaccbf3078c1e52d3c0e98767e9f88f4a6b5 77a8793ee6050432dc3ed0f950fa092c38840c13 9dbc02bbd6f80dc0f87daad1ad74b1e99a9ebf3e a9c3e6433ebe7c6cf38ed7f1a97d7d5b489af134 ac33c33439000520fc22d98f569406ba98413f90 b53e87b1328e7b7827de2e670628077dd3a1a280 db34b02a58247266153deb7a310d8941972e8293
 
 Package: rockchip-multimedia-config
-Version: 1.0.1-1
+Version: 1.0.1-2
 Architecture: all
 Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
-Installed-Size: 20
+Installed-Size: 18
 Depends: libv4l-0, udev
-Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-multimedia-config_1.0.1-1_all.deb
-Size: 3380
-MD5sum: 39dea1db3b5c6c04ebe4f786a29bb018
-SHA1: d74f10342c147b3c6f045ca709e00479c44a6660
-SHA256: 56bab0182202cec1c4819e9b344bd81ab8b4af1c91ce6587310596447d4a36eb
+Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
+Size: 3216
+MD5sum: a88da0379c1980c1fc8c11d6d7a946a2
+SHA1: dc245e3506a6d30f2c207dbdf1e29252f187e5c9
+SHA256: 459ee0e5e9eca7fc26b5637f4d6644856f29bc00138c68258b9b56bb0d924fe2
 Section: libs
 Priority: optional
 Homepage: https://github.com/amazingfate/rockchip-multimedia-config

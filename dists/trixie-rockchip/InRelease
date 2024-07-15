@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Fri, 05 Jul 2024 21:15:35 +0000
+Date: Mon, 15 Jul 2024 02:24:45 +0000
 MD5Sum:
  a17915a74e6bdef45cc9500f9a9c3607 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -196,13 +196,13 @@ MD5Sum:
  354fa633998cccf1567975774764809c 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  417be1dd21c368b02f4725e0a9533558 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  a8d1a2b53aed9a14589236928936d2ba 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 95ace2cb289bf6153076e7a7f7ffb4d3 291782 main/binary-arm64/Packages
- d532c81cbf983ed4a7b8ae4a4d9a885d 66319 main/binary-arm64/Packages.gz
- 39dea1db3b5c6c04ebe4f786a29bb018 3380 main/binary-arm64/rockchip-multimedia-config_1.0.1-1_all.deb
+ 729c2aef29992908458f2b6d6ad73538 291782 main/binary-arm64/Packages
+ 71dd04262c8ba65ca28d4e7cbc36fd60 66322 main/binary-arm64/Packages.gz
  c9d1aacb9bbea2a94f05afb072fec867 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  08213ded1d9ade2a274f3fd8fdf41135 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- 12710b253aa9660027bc5f931342ed5f 854 Release.gpg
- 08d9930c61ddbaffaf62109178efacfa 64227 InRelease
+ a88da0379c1980c1fc8c11d6d7a946a2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
+ d2ccf62936f9a2183f39e811fd6453d3 854 Release.gpg
+ d692c93763c04e213501c8e8eee27bac 64227 InRelease
 SHA1:
  cb8953ebdce2f545e13f21a45e13cfbdb1e6965b 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  8f71508dbadad6b7dfab97e5f812f96d8a0338ee 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -389,13 +389,13 @@ SHA1:
  b471ebc200baec97c536fdd7878d5abfeddc237d 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  1a7eddd6f632abf0c3b4f472d57a897b3bfdd2f2 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  0c52f544c829a10b27e7ca1e31e2ae16dd1d0297 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 5da876f36877dc52b27317907a9691d7a5b2c071 291782 main/binary-arm64/Packages
- 21f8f54972cd6b08370948037f5ba520ab4d7175 66319 main/binary-arm64/Packages.gz
- d74f10342c147b3c6f045ca709e00479c44a6660 3380 main/binary-arm64/rockchip-multimedia-config_1.0.1-1_all.deb
+ 2181bcd75aefb69bdb6380a01026f125cd52f830 291782 main/binary-arm64/Packages
+ 32b92cf63920dda4e8b9ef74a79c0c1d11223ae5 66322 main/binary-arm64/Packages.gz
  daf985b0ff1d238c5546eb5e0409f5dcf96c5232 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  c01667de43e846292eae91e39f848b7e06dc2c00 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- d83d726881a485e71f20ac9a09ffe515372b1cd7 854 Release.gpg
- d5f43e0608d462d9bbed2b4b485a08fc7492b7d5 64227 InRelease
+ dc245e3506a6d30f2c207dbdf1e29252f187e5c9 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
+ a61d87b5fb02b8aafe87091abb96da6a0457d56c 854 Release.gpg
+ 509a4629abc39595b600d429446c8e523c711c10 64227 InRelease
 SHA256:
  6792fcbd9b31afbca44944267acf24c87f8a4c9edca436900973fbdc575baa59 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  6625bfdb804465b5dcecd9731f2b4f7131bbe1574426c5621dbe824c99dfd472 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -582,27 +582,27 @@ SHA256:
  2f5d9d20e0d9730d6a92e5897d85711220a7fe05871000e5ccf240ccb68adbc9 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  6e2938dcca3d8991fe8e7f90679d92523044117531791d1b1c79752a29fd3b31 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  5123d1da2eb445c755a90c7cf28a35d95443f37868c417b90834d34e49d5e63d 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 8168f2d2154cab5a24f4eb2417d479b21822c8a6d3c76eab7fbdcbccf4ba02fb 291782 main/binary-arm64/Packages
- bfe9e485084484f224c6359a426506eceda584c3e53dc0d581fea3445003a2b2 66319 main/binary-arm64/Packages.gz
- 56bab0182202cec1c4819e9b344bd81ab8b4af1c91ce6587310596447d4a36eb 3380 main/binary-arm64/rockchip-multimedia-config_1.0.1-1_all.deb
+ 99651c611d80f71a6aef42cd4e692a009c61ee1dab980e4d9c115c643139d11b 291782 main/binary-arm64/Packages
+ ffa786ae7cdbaab33d4e701d62aa00da679a07605900dd7db53d6227e553fad4 66322 main/binary-arm64/Packages.gz
  e3fa83809d7e43be8cb04bf02fa3a3e5114797c2afcd264437fed55cdf24210d 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  28a093d8af91168c514820163f95d31e1bb10c68dd917506bf860f19b159f1f4 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- c04f060c1048cbb464140413b3a8fd4dffb3dbb906e86fcb1bf930b36e58f63d 854 Release.gpg
- 1f12e63e0a0763d8f395ef99b64593399c8b6f056fbad9e39f22689d42a5e0da 64227 InRelease
+ 459ee0e5e9eca7fc26b5637f4d6644856f29bc00138c68258b9b56bb0d924fe2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
+ ba05074a1971e9ec15d858720565ca4aca4f65676bdaa836bc24cf68fae57288 854 Release.gpg
+ b713b398e35b3a29bad0c972f859fc4fdcfe2f24a22ce3d6f98b94149c0d5b05 64227 InRelease
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmaIYnkOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/U4Xw/6AjqyvdcWAaPYr4i8wLgHVqRDZ0hiGqyHRYg6
-Q7/9yUUbDxli5tq5dppuSAXVRXZ+nTBAKRKuLfOJZzWUqwrqFogRV+SHcXyTFLvB
-T78em+kwd+prrpt2lH7OcBkALttuwbtGZ0GTs5Zqwexgs7HoaSLCnOzzpejMVNUV
-WyFbfutTWvNMekZdinkOFsPZOJghxlU42EixX48C2FmNA5vG7znCExW3Be+4/TEc
-Q4t7y2giy3aogR2eb+XXH3x/3Id10qllhwr0U7tvmPaZGABcBfKwnlGIMRdeh3k5
-zbkJE2MiVoei4pGjmqBKP0dERQpeE1BduTbpHHv1NxAggvXhbV+8SFMwiVB0HMCq
-Dcl7lsa95spNKcVhU3HMkCG+ahHdAGxwm7/+0qrN8Y7ZctNc5Es/fClCJSy+R7gT
-ZaxXScGf0J4c1kfR5iyV5y5//aKZaqjhD37GNlUDPVJyYdpFQ5GNSPdIHfOCu+Zs
-TvLvF7BgD/yl66yjZI/hTTZn9nqBKWSfAVnkyxpeCrmSMRCnrA5fSUH+fNOQ9EBm
-UaHNjhqeMBoTUxmGj6UAnQNi/6Sw+hLY/DP7/5tdKPvnU3jrIACgdDEEtjmhMFaM
-0Zeoc3nTThwMzWvU3QtaAEJaTxEQ7ARBh8CAh1Ol/SmhmeTLanDbRV9e0wAWF+yp
-JQSjJn4=
-=ZBAa
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmaUiG8OHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/X4jxAAjpC4mv42B3Z93YxMllTb7jWPdiFxikslnaum
+cUSLH7q6LgZxXTBZYXL8qpELhwXJGK+I4ysnRpbJWsdtrvyIsjsY/waJwO0PETgf
+jUbia5Rp6FYob0kdlQs0zwWxF9gWaubgXaxj15tCLV0iRjFLabq0cbIywe4+o/6x
+VRrh7YSLC4CVWFxBNsdXH/U7Z3tvjn44J4zAWJFYqb9fRpyF5CVDQjcBl0io7Ci6
++1nE6ybe+awGtIr+06IAuT0sH7Rr8+Fe93z7zDxA/p6uQYw7BlYHaNRZALG7atvb
+nM2jMPqYnWeY7FaJpALSnrGZMo5XvJJYQPV3HfcuNxQJWBwk1xFA161RI4wwys+L
+kE4BsENvpVtEnF1V0tpAOzY2ipnKasAS9sVWFk2gowMM+QkUg1GloTdu+3wTGPSF
+UK6ltFQGf6ZDIYk9ID3g5yPyapNm4bN9DRIMKWX0H6CaMx4+mSDp1cbvJC/1feMK
+GdW8gvqR+RkVbu8zwhcnsJQq91jNcCR5lFFtz4cz3LJzQetaKuBvJ5OCW4GrIMtu
+uWrHD7VoaFN9vxl015puAfLxmmIGspcH2Mr+Rk0M2p4bEjtafyX0Y3iTlsX5uCCj
+mmPnnyCd7foG6HhnF2Qzd8WzgSHjhfnPnEoFxPyVat6ggkxRZcTone0lMuqRT9S7
+coMI44o=
+=xSEu
 -----END PGP SIGNATURE-----
