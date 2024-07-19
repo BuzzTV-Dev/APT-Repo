@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Mon, 15 Jul 2024 02:24:45 +0000
+Date: Fri, 19 Jul 2024 15:18:43 +0000
 MD5Sum:
  a17915a74e6bdef45cc9500f9a9c3607 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -141,11 +141,6 @@ MD5Sum:
  4d5065dff536511a51383d2e8ab28e24 65736 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  e38faccab46e858f3c59d83531fb583e 319728 main/binary-arm64/librga2-dbgsym_2.2.0-1_arm64.deb
  cfe9f5a909ddf0e165c2b9beb84f7642 22224 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- 32f928b54da5ba824e2f52dbaf9d6fd9 773960 main/binary-arm64/librockchip-mpp1_1.0.6-1_arm64.deb
- d3b66ef94050ca240d8b639f46b264ae 3146724 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-1_arm64.deb
- 754571975a51fa337e1a1e7c4adab540 51576 main/binary-arm64/librockchip-mpp-dev_1.0.6-1_arm64.deb
- df6d439624548dcd49e8860580c7cc83 35000 main/binary-arm64/librockchip-vpu0_1.0.6-1_arm64.deb
- f487afdf55e508fa7ea9f3ff002d8002 85336 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-1_arm64.deb
  2f34b07ec8c485add495c0df6f1f214a 26780 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  6903ce41f134a9351e7f28bf74626202 72992 main/binary-arm64/libseat1-dbgsym_0.8.0-1_arm64.deb
  cf12d42434cf201f67cf8f3d39e625f3 6476 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
@@ -186,20 +181,25 @@ MD5Sum:
  2bfcee786e9c017ed7938b825746781b 2266100 main/binary-arm64/qv4l2-dbgsym_1.26.1-4_arm64.deb
  05b0e83acf7a6f8d9701df2c644ebfc6 182316 main/binary-arm64/qvidcap_1.26.1-4_arm64.deb
  1fc439210794b238ce03a320aedcbceb 1056220 main/binary-arm64/qvidcap-dbgsym_1.26.1-4_arm64.deb
- 639a5a6bcaa07caaf9d2ef25c676139a 111128 main/binary-arm64/rockchip-mpp-demos_1.0.6-1_arm64.deb
- cb1886b4d56fe8d4adcafbb75cc94c9f 648504 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-1_arm64.deb
  7aeddcd4b15d9ef03af97b85243e4fbc 26388 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  d62a723d742f318dd14a91a90a1f1c3f 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  354fa633998cccf1567975774764809c 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  417be1dd21c368b02f4725e0a9533558 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  a8d1a2b53aed9a14589236928936d2ba 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 729c2aef29992908458f2b6d6ad73538 291782 main/binary-arm64/Packages
- 71dd04262c8ba65ca28d4e7cbc36fd60 66322 main/binary-arm64/Packages.gz
+ f718aa7d598cf9dd1aef4930c2527dec 291782 main/binary-arm64/Packages
+ 84ad41ee60a106b59983b81952a10662 66330 main/binary-arm64/Packages.gz
  c9d1aacb9bbea2a94f05afb072fec867 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  08213ded1d9ade2a274f3fd8fdf41135 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
  a88da0379c1980c1fc8c11d6d7a946a2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
- d2ccf62936f9a2183f39e811fd6453d3 854 Release.gpg
- d692c93763c04e213501c8e8eee27bac 64227 InRelease
+ cbf84fb20769822f2c0de70453677ddb 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
+ 2493cad031a8e19df04eb0087b5c89bb 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
+ d0c5e282b45963950682fb8fde6fe77f 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
+ 6eb78e46e09fcde10d9e1d7cecc25881 35208 main/binary-arm64/librockchip-vpu0_1.0.6-2_arm64.deb
+ 54164fab386b8c5b3810d8c6502716c3 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
+ 1657d39de7b8ca23720c7207e9d61204 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
+ 480e7642b1ffed5ea6bff12e8badee23 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
+ af71ca5b2228c33a8330cd2d0b9480af 854 Release.gpg
+ d64f879fd92d46d9574a0a2e14c935ac 64227 InRelease
 SHA1:
  cb8953ebdce2f545e13f21a45e13cfbdb1e6965b 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  8f71508dbadad6b7dfab97e5f812f96d8a0338ee 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -334,11 +334,6 @@ SHA1:
  463be29d0f9fe8fa26c9eef92726939f3dd00c7c 65736 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  7fb49c7e846eb1400e86f8189a5400ccc2786a6c 319728 main/binary-arm64/librga2-dbgsym_2.2.0-1_arm64.deb
  c933629f8c0c11d736664cbe21fb71e95c7810b8 22224 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- 0c2a7b7e628a9223ff6e2aea51cf9dc1af5e04db 773960 main/binary-arm64/librockchip-mpp1_1.0.6-1_arm64.deb
- 266dcec889800280139d6b1614114037e9abae11 3146724 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-1_arm64.deb
- 371fe36e9fb741ce2590c6ff29eb4e53cd0cc490 51576 main/binary-arm64/librockchip-mpp-dev_1.0.6-1_arm64.deb
- 8ae741f162f5edc3ab46af03600e651fb974d9eb 35000 main/binary-arm64/librockchip-vpu0_1.0.6-1_arm64.deb
- 262e198c5035c6a004d7519b92300c2f8cc287d5 85336 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-1_arm64.deb
  bc53b2e97cd3f30d114c86e670fe073251d86022 26780 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  1f60e25639d9bd1337f8e05fc71fa4c67ea66d48 72992 main/binary-arm64/libseat1-dbgsym_0.8.0-1_arm64.deb
  2eb9a8fa3d07f73e879e6f09d301fbe1cd78c77c 6476 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
@@ -379,20 +374,25 @@ SHA1:
  34a408a2525283b775672baef9d5dba44355b4ef 2266100 main/binary-arm64/qv4l2-dbgsym_1.26.1-4_arm64.deb
  6d48fa639af37e4efc304c840510b2c866162f3d 182316 main/binary-arm64/qvidcap_1.26.1-4_arm64.deb
  0e29f4ea39e9864307d133273e05b72376ae236a 1056220 main/binary-arm64/qvidcap-dbgsym_1.26.1-4_arm64.deb
- 483ce2d697f914973cb990f294b8280459ff0c76 111128 main/binary-arm64/rockchip-mpp-demos_1.0.6-1_arm64.deb
- 811682637c0b9e7dd661764079e4f8975628cb85 648504 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-1_arm64.deb
  421379463c5aa0b87b5a90b28f448b541318376d 26388 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  1e975d109e27e7c5226efa91e4fc703310a4a893 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  b471ebc200baec97c536fdd7878d5abfeddc237d 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  1a7eddd6f632abf0c3b4f472d57a897b3bfdd2f2 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  0c52f544c829a10b27e7ca1e31e2ae16dd1d0297 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 2181bcd75aefb69bdb6380a01026f125cd52f830 291782 main/binary-arm64/Packages
- 32b92cf63920dda4e8b9ef74a79c0c1d11223ae5 66322 main/binary-arm64/Packages.gz
+ a85ca1fafcf6bc35a98d5db4f32035670688ff17 291782 main/binary-arm64/Packages
+ c9825d96b3e26d81868e2afd63120d0da0f05a2e 66330 main/binary-arm64/Packages.gz
  daf985b0ff1d238c5546eb5e0409f5dcf96c5232 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  c01667de43e846292eae91e39f848b7e06dc2c00 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
  dc245e3506a6d30f2c207dbdf1e29252f187e5c9 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
- a61d87b5fb02b8aafe87091abb96da6a0457d56c 854 Release.gpg
- 509a4629abc39595b600d429446c8e523c711c10 64227 InRelease
+ 7a374ab370dd9d91f6bd3a0a20394246441c5a52 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
+ f403457609b326052ed5dafe5426acd02339bce2 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
+ ef89536960a97341a8f1070579aa06c82c2fa9be 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
+ 0ea3a34ca4dcabad2b9c3c9b104be42464540516 35208 main/binary-arm64/librockchip-vpu0_1.0.6-2_arm64.deb
+ e854ee0c55f3e0f743b8863dee62ad0f5dc03c62 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
+ a03670833bc3757d24b1b4d80fefcc3e15931e24 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
+ a6d1317e70349f3b34246c1809eb68d5fbb6e2a7 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
+ 712b801aa34a68007bbd85a9040549c7eb6391f7 854 Release.gpg
+ 660e138a45a9dc486599c9e40447992ddf4e6777 64227 InRelease
 SHA256:
  6792fcbd9b31afbca44944267acf24c87f8a4c9edca436900973fbdc575baa59 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  6625bfdb804465b5dcecd9731f2b4f7131bbe1574426c5621dbe824c99dfd472 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -527,11 +527,6 @@ SHA256:
  d57212adbdbf1e7fb47717b68bb0d010f84814c3b558d119a98acc73bd4f7f3b 65736 main/binary-arm64/librga2_2.2.0-1_arm64.deb
  45c22029dd2663ced140ce509dff672bbc101cab6c711b24950e65b8ae384230 319728 main/binary-arm64/librga2-dbgsym_2.2.0-1_arm64.deb
  9420e5a2214bb8069deb37e54111999469d07a9751e49fce6d492b736e36b6e5 22224 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- b96f110ebc383d60d5912e567e5246bc93388ae8cbaa4e09f25ac38bdcc44b4c 773960 main/binary-arm64/librockchip-mpp1_1.0.6-1_arm64.deb
- fe8dcd4b75d20e1089291d0c1f843b0350effe31c31217876ba8c23a50e4c54b 3146724 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-1_arm64.deb
- abaf62f9c34130e48c8e111b4db14079cbaaf2ae11597e246d91fee1e1b7cd1f 51576 main/binary-arm64/librockchip-mpp-dev_1.0.6-1_arm64.deb
- a1f1b593567d6b0a99915dea66dca006133bbf4a68de3f4bc56642fda9a04702 35000 main/binary-arm64/librockchip-vpu0_1.0.6-1_arm64.deb
- d174e8ff0b3ed7f85f3f58a22ac297b202de553d8c32260db7632532421bf12d 85336 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-1_arm64.deb
  740205baeb1897a5011e9d49ceb1a4bbbde7606eeabf68b4070453b2aa9b38f4 26780 main/binary-arm64/libseat1_0.8.0-1_arm64.deb
  d30be2c59a791c45a16c4f2e473ced93bb13c20f6bdd02fb974fd342700053f9 72992 main/binary-arm64/libseat1-dbgsym_0.8.0-1_arm64.deb
  c6ccb55198d2169fdbd8edfc80bdc3c2e9ac46ec8b9abb7392e2b71c5ffed0db 6476 main/binary-arm64/libseat-dev_0.8.0-1_arm64.deb
@@ -572,17 +567,22 @@ SHA256:
  d7cf8aff6920a3e7db9ad9f6037f6c9897ad19fc608e7eff48d066866a2ea683 2266100 main/binary-arm64/qv4l2-dbgsym_1.26.1-4_arm64.deb
  257997ce6763a8f2edbcb54a2a4922024b5d5a589cb062ffd3854cfae4b02593 182316 main/binary-arm64/qvidcap_1.26.1-4_arm64.deb
  6e7211515a1cce6390e9e80694d0b6518cae9bb739b4ddfa44190d5d9eb0f841 1056220 main/binary-arm64/qvidcap-dbgsym_1.26.1-4_arm64.deb
- 34344ebadf006c8705d58134ce84728793ce5d629b09ed27d3259d2a7f54f713 111128 main/binary-arm64/rockchip-mpp-demos_1.0.6-1_arm64.deb
- 8cc72dc942ee9d39d6106e9cd25dd7f7b417959c66323a4fb910e205b694c61d 648504 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-1_arm64.deb
  6a2814e9cd594dfbcb0d519b6ab0a8cacb609079011e66e2d0d25be8bef86d57 26388 main/binary-arm64/seatd_0.8.0-1_arm64.deb
  0d0b30b4348816b574431cacdec50e3e16618384d07d19f49eb62b5bccb5b06d 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  2f5d9d20e0d9730d6a92e5897d85711220a7fe05871000e5ccf240ccb68adbc9 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  6e2938dcca3d8991fe8e7f90679d92523044117531791d1b1c79752a29fd3b31 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
  5123d1da2eb445c755a90c7cf28a35d95443f37868c417b90834d34e49d5e63d 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 99651c611d80f71a6aef42cd4e692a009c61ee1dab980e4d9c115c643139d11b 291782 main/binary-arm64/Packages
- ffa786ae7cdbaab33d4e701d62aa00da679a07605900dd7db53d6227e553fad4 66322 main/binary-arm64/Packages.gz
+ 1ea4bf7aa163869105476e44c9907c3517ca8567b1a4d0205612c1fd1eaff6d6 291782 main/binary-arm64/Packages
+ bc34a1b30207d13d5b7b0e272000ddf2f4ed3d58ba4eeddaa8c88f9ee55dfa02 66330 main/binary-arm64/Packages.gz
  e3fa83809d7e43be8cb04bf02fa3a3e5114797c2afcd264437fed55cdf24210d 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
  28a093d8af91168c514820163f95d31e1bb10c68dd917506bf860f19b159f1f4 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
  459ee0e5e9eca7fc26b5637f4d6644856f29bc00138c68258b9b56bb0d924fe2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
- ba05074a1971e9ec15d858720565ca4aca4f65676bdaa836bc24cf68fae57288 854 Release.gpg
- b713b398e35b3a29bad0c972f859fc4fdcfe2f24a22ce3d6f98b94149c0d5b05 64227 InRelease
+ 0105a0eed42085b835d42d96e11cea06be35a3edc8a1f9a31ef797d60af0036a 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
+ dd5cdc08244eb8f827666e5a887cba1229f9cea04a8adeaf0464be53bad7509d 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
+ d648c8ffd7d88055fd2c6f66cc2c79cbcfcbf0b5c3a4da9de9f652d25e995bef 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
+ 129d29be1480faf7888fbba4bb44dd609438f617a2429a3eb3917dcd52e97906 35208 main/binary-arm64/librockchip-vpu0_1.0.6-2_arm64.deb
+ bc2c81d952dc3229f41ab4b9deec0e015617cddff2b511259bb6e2a67111ea35 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
+ d1a152f19a80ea1b1f06c7d480c3ac881d7610f662ab87b1510c3c79a7926cb9 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
+ 15cc1f2bc06e79c62a548c11298dbba4208ac983c6abbb4ac679e1889b97e98a 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
+ b049b03fcc384dc016c70d0b1cc68ed8712e42dadd57612c6d52969bad00f233 854 Release.gpg
+ d5826eaca21df216e9c31485fc9ad8432204b230cbf9be46451023495357ea92 64227 InRelease

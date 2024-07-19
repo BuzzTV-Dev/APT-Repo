@@ -3307,16 +3307,16 @@ Build-Ids: d258c97ba414cc805abfdf814d566c1146f03eee
 
 Package: librockchip-mpp-dev
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 236
-Depends: librockchip-mpp1 (= 1.0.6-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp-dev_1.0.6-1_arm64.deb
-Size: 51576
-MD5sum: 754571975a51fa337e1a1e7c4adab540
-SHA1: 371fe36e9fb741ce2590c6ff29eb4e53cd0cc490
-SHA256: abaf62f9c34130e48c8e111b4db14079cbaaf2ae11597e246d91fee1e1b7cd1f
+Depends: librockchip-mpp1 (= 1.0.6-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
+Size: 51616
+MD5sum: d0c5e282b45963950682fb8fde6fe77f
+SHA1: ef89536960a97341a8f1070579aa06c82c2fa9be
+SHA256: d648c8ffd7d88055fd2c6f66cc2c79cbcfcbf0b5c3a4da9de9f652d25e995bef
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3324,16 +3324,16 @@ Description: Media Process Platform
 
 Package: librockchip-mpp1
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 2159
 Depends: libc6 (>= 2.38), libstdc++6 (>= 5)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1_1.0.6-1_arm64.deb
-Size: 773960
-MD5sum: 32f928b54da5ba824e2f52dbaf9d6fd9
-SHA1: 0c2a7b7e628a9223ff6e2aea51cf9dc1af5e04db
-SHA256: b96f110ebc383d60d5912e567e5246bc93388ae8cbaa4e09f25ac38bdcc44b4c
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
+Size: 774608
+MD5sum: cbf84fb20769822f2c0de70453677ddb
+SHA1: 7a374ab370dd9d91f6bd3a0a20394246441c5a52
+SHA256: 0105a0eed42085b835d42d96e11cea06be35a3edc8a1f9a31ef797d60af0036a
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3341,34 +3341,34 @@ Description: Media Process Platform
 
 Package: librockchip-mpp1-dbgsym
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 3307
-Depends: librockchip-mpp1 (= 1.0.6-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-1_arm64.deb
-Size: 3146724
-MD5sum: d3b66ef94050ca240d8b639f46b264ae
-SHA1: 266dcec889800280139d6b1614114037e9abae11
-SHA256: fe8dcd4b75d20e1089291d0c1f843b0350effe31c31217876ba8c23a50e4c54b
+Depends: librockchip-mpp1 (= 1.0.6-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
+Size: 3146260
+MD5sum: 2493cad031a8e19df04eb0087b5c89bb
+SHA1: f403457609b326052ed5dafe5426acd02339bce2
+SHA256: dd5cdc08244eb8f827666e5a887cba1229f9cea04a8adeaf0464be53bad7509d
 Section: debug
 Priority: optional
 Description: debug symbols for librockchip-mpp1
-Build-Ids: abb71c95526852f47bffb74cc3195b98cf78d932
+Build-Ids: 78cb83d50f123e4172760219f66fdc03a03cf804
 
 Package: librockchip-vpu0
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 157
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0_1.0.6-1_arm64.deb
-Size: 35000
-MD5sum: df6d439624548dcd49e8860580c7cc83
-SHA1: 8ae741f162f5edc3ab46af03600e651fb974d9eb
-SHA256: a1f1b593567d6b0a99915dea66dca006133bbf4a68de3f4bc56642fda9a04702
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0_1.0.6-2_arm64.deb
+Size: 35208
+MD5sum: 6eb78e46e09fcde10d9e1d7cecc25881
+SHA1: 0ea3a34ca4dcabad2b9c3c9b104be42464540516
+SHA256: 129d29be1480faf7888fbba4bb44dd609438f617a2429a3eb3917dcd52e97906
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3376,21 +3376,21 @@ Description: Media Process Platform
 
 Package: librockchip-vpu0-dbgsym
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 106
-Depends: librockchip-vpu0 (= 1.0.6-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-1_arm64.deb
-Size: 85336
-MD5sum: f487afdf55e508fa7ea9f3ff002d8002
-SHA1: 262e198c5035c6a004d7519b92300c2f8cc287d5
-SHA256: d174e8ff0b3ed7f85f3f58a22ac297b202de553d8c32260db7632532421bf12d
+Depends: librockchip-vpu0 (= 1.0.6-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
+Size: 85348
+MD5sum: 54164fab386b8c5b3810d8c6502716c3
+SHA1: e854ee0c55f3e0f743b8863dee62ad0f5dc03c62
+SHA256: bc2c81d952dc3229f41ab4b9deec0e015617cddff2b511259bb6e2a67111ea35
 Section: debug
 Priority: optional
 Description: debug symbols for librockchip-vpu0
-Build-Ids: 8298631eb93d131347fc45899018c1531ca15dad
+Build-Ids: 1d547c3e0aecf5375ee0ed1395d471072bcd5197
 
 Package: libseat-dev
 Source: seatd
@@ -4377,16 +4377,16 @@ Build-Ids: 01d882292662a7ca82f1824fa00b84bf43b477b3
 
 Package: rockchip-mpp-demos
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 1017
-Depends: librockchip-mpp1 (= 1.0.6-1), librockchip-vpu0 (= 1.0.6-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.6-1_arm64.deb
-Size: 111128
-MD5sum: 639a5a6bcaa07caaf9d2ef25c676139a
-SHA1: 483ce2d697f914973cb990f294b8280459ff0c76
-SHA256: 34344ebadf006c8705d58134ce84728793ce5d629b09ed27d3259d2a7f54f713
+Depends: librockchip-mpp1 (= 1.0.6-2), librockchip-vpu0 (= 1.0.6-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
+Size: 111456
+MD5sum: 1657d39de7b8ca23720c7207e9d61204
+SHA1: a03670833bc3757d24b1b4d80fefcc3e15931e24
+SHA256: d1a152f19a80ea1b1f06c7d480c3ac881d7610f662ab87b1510c3c79a7926cb9
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -4394,21 +4394,21 @@ Description: Media Process Platform Demos
 
 Package: rockchip-mpp-demos-dbgsym
 Source: mpp
-Version: 1.0.6-1
+Version: 1.0.6-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 786
-Depends: rockchip-mpp-demos (= 1.0.6-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-1_arm64.deb
-Size: 648504
-MD5sum: cb1886b4d56fe8d4adcafbb75cc94c9f
-SHA1: 811682637c0b9e7dd661764079e4f8975628cb85
-SHA256: 8cc72dc942ee9d39d6106e9cd25dd7f7b417959c66323a4fb910e205b694c61d
+Depends: rockchip-mpp-demos (= 1.0.6-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
+Size: 648812
+MD5sum: 480e7642b1ffed5ea6bff12e8badee23
+SHA1: a6d1317e70349f3b34246c1809eb68d5fbb6e2a7
+SHA256: 15cc1f2bc06e79c62a548c11298dbba4208ac983c6abbb4ac679e1889b97e98a
 Section: debug
 Priority: optional
 Description: debug symbols for rockchip-mpp-demos
-Build-Ids: 1f531fd0b4e34e14bd8d16aac5707624e6a63f4b 2742bfb3a9a5d6cfdcd11c1782c7873025fb9614 544fbaccbf3078c1e52d3c0e98767e9f88f4a6b5 77a8793ee6050432dc3ed0f950fa092c38840c13 9dbc02bbd6f80dc0f87daad1ad74b1e99a9ebf3e a9c3e6433ebe7c6cf38ed7f1a97d7d5b489af134 ac33c33439000520fc22d98f569406ba98413f90 b53e87b1328e7b7827de2e670628077dd3a1a280 db34b02a58247266153deb7a310d8941972e8293
+Build-Ids: 088cabfeee00b20e27a08d8f29c63844ba2f8ffe 1c82738b9aed055b4715b66737624548484cf4be 1f531fd0b4e34e14bd8d16aac5707624e6a63f4b 2742bfb3a9a5d6cfdcd11c1782c7873025fb9614 77a8793ee6050432dc3ed0f950fa092c38840c13 9dbc02bbd6f80dc0f87daad1ad74b1e99a9ebf3e ac33c33439000520fc22d98f569406ba98413f90 b53e87b1328e7b7827de2e670628077dd3a1a280 f3dc24b2c8c25c65ca94500399057f7180ae31b3
 
 Package: rockchip-multimedia-config
 Version: 1.0.1-2
