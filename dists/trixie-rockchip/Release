@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: BuzzTV software repository
-Date: Fri, 19 Jul 2024 15:18:43 +0000
+Date: Thu, 25 Jul 2024 02:20:57 +0000
 MD5Sum:
  a17915a74e6bdef45cc9500f9a9c3607 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -185,12 +185,9 @@ MD5Sum:
  d62a723d742f318dd14a91a90a1f1c3f 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  354fa633998cccf1567975774764809c 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  417be1dd21c368b02f4725e0a9533558 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- a8d1a2b53aed9a14589236928936d2ba 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- f718aa7d598cf9dd1aef4930c2527dec 291782 main/binary-arm64/Packages
- 84ad41ee60a106b59983b81952a10662 66330 main/binary-arm64/Packages.gz
- c9d1aacb9bbea2a94f05afb072fec867 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
+ 46fdf2e3febc87bd8b1782697d54ae30 291677 main/binary-arm64/Packages
+ 4da252e8ac1ec9f998f89fd49ee22315 66318 main/binary-arm64/Packages.gz
  08213ded1d9ade2a274f3fd8fdf41135 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- a88da0379c1980c1fc8c11d6d7a946a2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
  cbf84fb20769822f2c0de70453677ddb 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  2493cad031a8e19df04eb0087b5c89bb 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  d0c5e282b45963950682fb8fde6fe77f 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -198,8 +195,11 @@ MD5Sum:
  54164fab386b8c5b3810d8c6502716c3 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
  1657d39de7b8ca23720c7207e9d61204 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
  480e7642b1ffed5ea6bff12e8badee23 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
- af71ca5b2228c33a8330cd2d0b9480af 854 Release.gpg
- d64f879fd92d46d9574a0a2e14c935ac 64227 InRelease
+ 7477c4c3700bd871569a6c87734db189 7252 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
+ 0be1cbe9674041b45d23e7a2a5cb1452 24063236 main/binary-arm64/buzztv_1.0.2+21_arm64.deb
+ cbbcfbbb28003fa549c92d7958e3c23c 11236216 main/binary-arm64/buzztv-dsw_1.0.1+4_arm64.deb
+ e3190235b04e109a525a5835c3bd44fa 854 Release.gpg
+ c6a80832e2eba7374aa3429d2f6bda8d 64227 InRelease
 SHA1:
  cb8953ebdce2f545e13f21a45e13cfbdb1e6965b 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  8f71508dbadad6b7dfab97e5f812f96d8a0338ee 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -378,12 +378,9 @@ SHA1:
  1e975d109e27e7c5226efa91e4fc703310a4a893 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  b471ebc200baec97c536fdd7878d5abfeddc237d 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  1a7eddd6f632abf0c3b4f472d57a897b3bfdd2f2 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- 0c52f544c829a10b27e7ca1e31e2ae16dd1d0297 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- a85ca1fafcf6bc35a98d5db4f32035670688ff17 291782 main/binary-arm64/Packages
- c9825d96b3e26d81868e2afd63120d0da0f05a2e 66330 main/binary-arm64/Packages.gz
- daf985b0ff1d238c5546eb5e0409f5dcf96c5232 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
+ e80927849dd6dbd0971d6f18dd076925b114dfc8 291677 main/binary-arm64/Packages
+ 1c8dd50283e3d9088238384c3f2239a472769d3f 66318 main/binary-arm64/Packages.gz
  c01667de43e846292eae91e39f848b7e06dc2c00 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- dc245e3506a6d30f2c207dbdf1e29252f187e5c9 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
  7a374ab370dd9d91f6bd3a0a20394246441c5a52 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  f403457609b326052ed5dafe5426acd02339bce2 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  ef89536960a97341a8f1070579aa06c82c2fa9be 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -391,8 +388,11 @@ SHA1:
  e854ee0c55f3e0f743b8863dee62ad0f5dc03c62 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
  a03670833bc3757d24b1b4d80fefcc3e15931e24 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
  a6d1317e70349f3b34246c1809eb68d5fbb6e2a7 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
- 712b801aa34a68007bbd85a9040549c7eb6391f7 854 Release.gpg
- 660e138a45a9dc486599c9e40447992ddf4e6777 64227 InRelease
+ f07e109f33d40d70c5d186fd6f31e7379a3963ec 7252 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
+ d555d82c5f89fe228d93616c1760f2019e0b8797 24063236 main/binary-arm64/buzztv_1.0.2+21_arm64.deb
+ 9af0274b8561c9f00271621752a6520b926fd78a 11236216 main/binary-arm64/buzztv-dsw_1.0.1+4_arm64.deb
+ 03339bf1d8ab63cb5c8f2ed6bf6f9943264e4023 854 Release.gpg
+ 24cf85f6f681ead4f206d90c1dd1dcadefa80e22 64227 InRelease
 SHA256:
  6792fcbd9b31afbca44944267acf24c87f8a4c9edca436900973fbdc575baa59 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  6625bfdb804465b5dcecd9731f2b4f7131bbe1574426c5621dbe824c99dfd472 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -571,12 +571,9 @@ SHA256:
  0d0b30b4348816b574431cacdec50e3e16618384d07d19f49eb62b5bccb5b06d 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  2f5d9d20e0d9730d6a92e5897d85711220a7fe05871000e5ccf240ccb68adbc9 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  6e2938dcca3d8991fe8e7f90679d92523044117531791d1b1c79752a29fd3b31 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- 5123d1da2eb445c755a90c7cf28a35d95443f37868c417b90834d34e49d5e63d 11229648 main/binary-arm64/buzztv-dsw_1.0.1+3_arm64.deb
- 1ea4bf7aa163869105476e44c9907c3517ca8567b1a4d0205612c1fd1eaff6d6 291782 main/binary-arm64/Packages
- bc34a1b30207d13d5b7b0e272000ddf2f4ed3d58ba4eeddaa8c88f9ee55dfa02 66330 main/binary-arm64/Packages.gz
- e3fa83809d7e43be8cb04bf02fa3a3e5114797c2afcd264437fed55cdf24210d 23540492 main/binary-arm64/buzztv_1.0.2+18_arm64.deb
+ 101e3449623c97db2fbfad83b55ca5bc88b62dec544a43aadbc9c018f85454de 291677 main/binary-arm64/Packages
+ 1a81d8ecaee46957fc7a3fb73abdaa7cc9dabd84c3b02abbb1295caa75e76fbc 66318 main/binary-arm64/Packages.gz
  28a093d8af91168c514820163f95d31e1bb10c68dd917506bf860f19b159f1f4 2128 main/binary-arm64/buzztv-ota-tools_1.0.3-1_all.deb
- 459ee0e5e9eca7fc26b5637f4d6644856f29bc00138c68258b9b56bb0d924fe2 3216 main/binary-arm64/rockchip-multimedia-config_1.0.1-2_all.deb
  0105a0eed42085b835d42d96e11cea06be35a3edc8a1f9a31ef797d60af0036a 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  dd5cdc08244eb8f827666e5a887cba1229f9cea04a8adeaf0464be53bad7509d 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  d648c8ffd7d88055fd2c6f66cc2c79cbcfcbf0b5c3a4da9de9f652d25e995bef 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -584,5 +581,8 @@ SHA256:
  bc2c81d952dc3229f41ab4b9deec0e015617cddff2b511259bb6e2a67111ea35 85348 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.6-2_arm64.deb
  d1a152f19a80ea1b1f06c7d480c3ac881d7610f662ab87b1510c3c79a7926cb9 111456 main/binary-arm64/rockchip-mpp-demos_1.0.6-2_arm64.deb
  15cc1f2bc06e79c62a548c11298dbba4208ac983c6abbb4ac679e1889b97e98a 648812 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.6-2_arm64.deb
- b049b03fcc384dc016c70d0b1cc68ed8712e42dadd57612c6d52969bad00f233 854 Release.gpg
- d5826eaca21df216e9c31485fc9ad8432204b230cbf9be46451023495357ea92 64227 InRelease
+ 8415932e6f540117f1aa5f6b55dd5081aaa51b24dcd0831eeaa85ecc46b9adf0 7252 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
+ 7bd18a30abe2134ce5f85b827f6a5505d03c12f06447e1f76c7880b19087e9b2 24063236 main/binary-arm64/buzztv_1.0.2+21_arm64.deb
+ 815df66b0c9e0cc72ce2a2e60bf7625b0d51c5a0c92f46a3817fb9f7c3f87c13 11236216 main/binary-arm64/buzztv-dsw_1.0.1+4_arm64.deb
+ 9d440c73925bc7b19c3c8c256d75d8bb4684b77ef704615f184b145c1dcb949e 854 Release.gpg
+ 0bd64afa9decafe6cbc40e4528eaf5285e67d7f1616912036ec6be86dcc9900c 64227 InRelease
