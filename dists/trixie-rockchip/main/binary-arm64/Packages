@@ -70,15 +70,15 @@ Priority: optional
 Description: BuzzTV IPTV player
 
 Package: buzztv-dsw
-Version: 1.0.5+8
+Version: 1.0.6+9
 Architecture: arm64
 Essential: yes
 Maintainer: mvas
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.5+8_arm64.deb
-Size: 11484664
-MD5sum: b5ed02411f4b9e861f40f0c282e8c77e
-SHA1: f857c5dc6562ab480e4f385c685608d0e0d13d2b
-SHA256: 1a056a5605ae110cb8804151c6c4cf8b5286e51755badf49dcaa1e8be86ae3f3
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.6+9_arm64.deb
+Size: 11488732
+MD5sum: 7cd582cf26bd02dfa851ad5dd85a64c9
+SHA1: a2998b8b4a9cbe1fa2df842100ab52ebc9bb0dca
+SHA256: 63c0263e5ce66303aa77d0735c1125a79b59ff580c4c8cd549275038535b10d0
 Priority: optional
 Description: BuzzTV Device Setup Wizard
 
