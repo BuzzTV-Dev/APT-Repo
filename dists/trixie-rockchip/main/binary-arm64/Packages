@@ -4463,6 +4463,23 @@ Priority: optional
 Description: debug symbols for seatd
 Build-Ids: d94df8f3a8e1bc1a6e6f7900daba4019b3eefdd7 f46ba478efac8000e9fba696fe5b2b5a1d3204b4
 
+Package: speedtest
+Version: 1.2.0.84-1.ea6b6773cf
+Architecture: arm64
+Maintainer: support@ookla.com
+Installed-Size: 2497
+Depends: ca-certificates
+Filename: dists/trixie-rockchip/main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
+Size: 1081438
+MD5sum: 776b98705d697329f77935c5c698edd4
+SHA1: 7e1f1cf18ee9da51309b504985306af1b2137cd9
+SHA256: 98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37
+Section: default
+Priority: extra
+Homepage: https://www.speedtest.net/
+Description: Official Ookla Speedtest CLI for personal, non-commercial use
+License: https://www.speedtest.net/about/eula
+
 Package: v4l-utils
 Version: 1.26.1-4
 Architecture: arm64
