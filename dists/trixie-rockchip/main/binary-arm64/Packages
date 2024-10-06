@@ -56,29 +56,29 @@ Description: debug symbols for avizo
 Build-Ids: 249ed2659040872c0c498cd72cf050153eada08e aa4b951e189753496c73ee8a4aa6c734835bdb03
 
 Package: buzztv
-Version: 1.0.42+63
+Version: 1.0.43+64
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.42+63_arm64.deb
-Size: 27175120
-MD5sum: 43c4ca3698324727b13269a9f42be295
-SHA1: 194907bf8edf51ce8b2c6bd12950095084c1514a
-SHA256: c475c3ffc836ad6cb3c68154bb011c2546cc7dbf32d6779b9ea186fb4c97ca32
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.43+64_arm64.deb
+Size: 27188764
+MD5sum: 1a387dc2c44cc6a6a29d0fd997905da5
+SHA1: 7d79d04758ecf86d587c110aaa020d657bba74f3
+SHA256: 40feb4cc30467c43a83a87b7850be397a88e070259dbc5286fab4a7a1bf64705
 Priority: optional
 Description: BuzzTV IPTV player
 
 Package: buzztv-dsw
-Version: 1.0.10+13
+Version: 1.0.11+14
 Architecture: arm64
 Essential: yes
 Maintainer: mvas
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.10+13_arm64.deb
-Size: 11507600
-MD5sum: b7ac97d728c66080047ca86e7395d358
-SHA1: ed0b91c67bf25c03f3f7b19a80384a68b93d861e
-SHA256: 861a6908bf40c8074c9688e2cd9e1eab66ba35309616ffdae327360fdbbe71af
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.11+14_arm64.deb
+Size: 11488108
+MD5sum: c45d6025652ccf4ab22eca892e3b0cb2
+SHA1: 34ab425533a50e53701a560f75175a76eb748991
+SHA256: 432737d4cc85bae64e2abc62d4b5f562967ee4cee19d95fd9f1efde0feeae1a1
 Priority: optional
 Description: BuzzTV Device Setup Wizard
 
