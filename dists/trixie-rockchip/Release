@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Tue, 08 Oct 2024 20:26:23 +0000
+Date: Thu, 10 Oct 2024 21:20:47 +0000
 MD5Sum:
  a17915a74e6bdef45cc9500f9a9c3607 67308 main/binary-arm64/alsa-ucm-conf_1.2.11-1.1_all.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
@@ -185,8 +185,8 @@ MD5Sum:
  d62a723d742f318dd14a91a90a1f1c3f 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  354fa633998cccf1567975774764809c 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  417be1dd21c368b02f4725e0a9533558 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- f3eaeb29a311a2f8bb92089232eb9adc 292288 main/binary-arm64/Packages
- ad086c1323629ff9c7d98647706f47d9 66559 main/binary-arm64/Packages.gz
+ 17df5e0351c2586ebec0f589eb496e26 292288 main/binary-arm64/Packages
+ 1c63bd993abad004cf72b04f96ee5657 66557 main/binary-arm64/Packages.gz
  cbf84fb20769822f2c0de70453677ddb 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  2493cad031a8e19df04eb0087b5c89bb 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  d0c5e282b45963950682fb8fde6fe77f 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -198,9 +198,9 @@ MD5Sum:
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
  fd93172c8fc75a6780b826f5f740067b 2504 main/binary-arm64/buzztv-ota-tools_1.0.5-1_all.deb
  c45d6025652ccf4ab22eca892e3b0cb2 11488108 main/binary-arm64/buzztv-dsw_1.0.11+14_arm64.deb
- 4376c952bae610255101dfad9ae6f90e 27178684 main/binary-arm64/buzztv_1.0.45+66_arm64.deb
- e084c551a7350ae18c19028b1ddd1004 854 Release.gpg
- 9cb76459cd213dbb4244af30a0e50561 95092 InRelease
+ ff7ccfe68d7d4de25d254d673f22c7c0 27187384 main/binary-arm64/buzztv_1.0.47+68_arm64.deb
+ 0b9fdea293a4fdb439b7d84d6cc89f90 854 Release.gpg
+ 5b7b5d836dc690d8268720c1fc3ecec7 95092 InRelease
  63276242aa9f8c0fc3d46b744946ed2d 11974272 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  b0e484777fa9ef37307916311312013d 10948 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm-dbgsym_1.9-1_arm64.deb
  f8158b4416b69eff3bb665015ff6b668 10694688 non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
@@ -457,8 +457,8 @@ SHA1:
  1e975d109e27e7c5226efa91e4fc703310a4a893 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  b471ebc200baec97c536fdd7878d5abfeddc237d 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  1a7eddd6f632abf0c3b4f472d57a897b3bfdd2f2 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- 7f5ae4b32cf7159f6bee8a5270061bb33eb408c3 292288 main/binary-arm64/Packages
- a5493e9ddc9b711650c138151627c47454db00e5 66559 main/binary-arm64/Packages.gz
+ 912997c32dc127233989dc5b48cf20ba43a38a46 292288 main/binary-arm64/Packages
+ bab856e4ef5f39e93d19d7375657811d6b0e451e 66557 main/binary-arm64/Packages.gz
  7a374ab370dd9d91f6bd3a0a20394246441c5a52 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  f403457609b326052ed5dafe5426acd02339bce2 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  ef89536960a97341a8f1070579aa06c82c2fa9be 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -470,9 +470,9 @@ SHA1:
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
  28ae400f15625af33003b12bcff1b3d20e9946ca 2504 main/binary-arm64/buzztv-ota-tools_1.0.5-1_all.deb
  34ab425533a50e53701a560f75175a76eb748991 11488108 main/binary-arm64/buzztv-dsw_1.0.11+14_arm64.deb
- dc4fd618adef36c6a69033ee52ad4e7530d17374 27178684 main/binary-arm64/buzztv_1.0.45+66_arm64.deb
- e56bf4fad6b9edd1d8dae98a8eeffcc608147267 854 Release.gpg
- 2299684e9727e288a02dc9e9badf1b99c6282302 95092 InRelease
+ 1408f977b8413375dd554074c651efe8185acab4 27187384 main/binary-arm64/buzztv_1.0.47+68_arm64.deb
+ 148aa7b23f2089c2baa609f2f1339422628ebda9 854 Release.gpg
+ 02d76956ba31a29ca27ca0b0212668acf77ad5c3 95092 InRelease
  56cb34c39cf3b0cd0451f6b200ca26fde9179229 11974272 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  75743d2f19838b7d3e408ef0c4b5e352e129a32d 10948 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm-dbgsym_1.9-1_arm64.deb
  08f81f6e8b29a88570711c9db3f439edaeefe96e 10694688 non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
@@ -729,8 +729,8 @@ SHA256:
  0d0b30b4348816b574431cacdec50e3e16618384d07d19f49eb62b5bccb5b06d 55620 main/binary-arm64/seatd-dbgsym_0.8.0-1_arm64.deb
  2f5d9d20e0d9730d6a92e5897d85711220a7fe05871000e5ccf240ccb68adbc9 657104 main/binary-arm64/v4l-utils_1.26.1-4_arm64.deb
  6e2938dcca3d8991fe8e7f90679d92523044117531791d1b1c79752a29fd3b31 5021828 main/binary-arm64/v4l-utils-dbgsym_1.26.1-4_arm64.deb
- 91cc0c2b0c4d3a68fd73553d1aa882f70c7841055c60c07168bd6c126f05428f 292288 main/binary-arm64/Packages
- 45433db741013130a6116408c094c27fcd112eede973504d26903cc6e7746ffb 66559 main/binary-arm64/Packages.gz
+ 369d3121c5aeb323995677abe2acee775015658e4c3f229150169afbab966214 292288 main/binary-arm64/Packages
+ 6152562e7736e9ad108523757fa02d74142cc0cced365c15f94c23036abaed57 66557 main/binary-arm64/Packages.gz
  0105a0eed42085b835d42d96e11cea06be35a3edc8a1f9a31ef797d60af0036a 774608 main/binary-arm64/librockchip-mpp1_1.0.6-2_arm64.deb
  dd5cdc08244eb8f827666e5a887cba1229f9cea04a8adeaf0464be53bad7509d 3146260 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.6-2_arm64.deb
  d648c8ffd7d88055fd2c6f66cc2c79cbcfcbf0b5c3a4da9de9f652d25e995bef 51616 main/binary-arm64/librockchip-mpp-dev_1.0.6-2_arm64.deb
@@ -742,9 +742,9 @@ SHA256:
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
  9b9c1027bdacdb350e88cf99b786b9dd8300dbaa84b9606f9d49d9bd9f83acb1 2504 main/binary-arm64/buzztv-ota-tools_1.0.5-1_all.deb
  432737d4cc85bae64e2abc62d4b5f562967ee4cee19d95fd9f1efde0feeae1a1 11488108 main/binary-arm64/buzztv-dsw_1.0.11+14_arm64.deb
- 3fc80f219926fc1354cf9085888c0756e8b78a0c4fbe6b3469392a99c5688eae 27178684 main/binary-arm64/buzztv_1.0.45+66_arm64.deb
- 89321f01ecf2e4855a4d13ce080968587b4310af034e1680288d1f8089a2527d 854 Release.gpg
- 5e4def0fdf2b769c6655d0aff127e963db18d3854d302f35433b3f7c17533364 95092 InRelease
+ 80092d847369815f6af7c65bbe84f225211412e987e93a1cd3884232d636bc27 27187384 main/binary-arm64/buzztv_1.0.47+68_arm64.deb
+ a6dd8e4c44cd64823c1bfbf12a8e248f8858bdac585457b094a643e1e34fd70f 854 Release.gpg
+ 1805da0af4fa49088322079dac7e07053a6a78000653e13252a73ef224b0e04e 95092 InRelease
  863c63006a0db472d6566560e267c2a532d9372f83b18d3240d09856ba6ada0b 11974272 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  7a8911a322063ef51e36eb8a376a010f0e263c9df9e10f65afe839e9f9f6c85f 10948 non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm-dbgsym_1.9-1_arm64.deb
  8cc27caa1321e5514616517486a5c05a7ecc72fbb4f3537d7705a36eb31c7737 10694688 non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
