@@ -83,16 +83,16 @@ Priority: optional
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
 Installed-Size: 12
 Depends: coreutils, curl, tar
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.6-1_all.deb
-Size: 2624
-MD5sum: 1f77dd95ac055bf29ac90b0278d6504e
-SHA1: c05ff771584fb590a214434cd2222a3435d93ab3
-SHA256: 1c5c30a22f3fd06c05504410c55743c2fa42a98c6d972fc096d31b7cbb828380
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.6-2_all.deb
+Size: 2640
+MD5sum: 4e1124da9f269774d0833d7e8be5ecf6
+SHA1: 85f799090ec1312f5c24874949261e2fbf655f22
+SHA256: 03e623d528cae3b2ddf64cddacb64c77e37a07c8ce7b539170aef9effccaf449
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
