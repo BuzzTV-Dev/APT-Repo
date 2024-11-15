@@ -4480,3 +4480,319 @@ Priority: optional
 Description: debug symbols for v4l-utils
 Build-Ids: 1b7efb982cc4a9dc1948f721458607bebaae501f 21b7d1a56ce1a2aa6577ec4f554b8fc29503673a 4c5a56f138fbc1fc16cfbc3828469af633a7cc09 81a073f4edcc2449030a6f1d05c6f6f7b8d6284e 9cde348828363a2aaf1be916069bcd46d0b30556 a65a4bc40816bf00904f248fbeb50f6b7739ee49 bf8a9a50121564c0312a06cb6c7e2a5fb6f40d18 c247d2f0b891030ce5527e44a14d2d87162db42e d242efcf06111e750ede44c1cb77614db413144b dcb90e9dd1ee18d13744234263d5ce0c0fd92293 de0e1cf02fe22934f7274b4df34b32a28f09f3f7 df686eaf6f565c2fd856408f92f64e1a41f4658a fed08ee411eff2ab64d5de71ed2c16032e2e82bd
 
+Package: xnest
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4116
+Depends: xserver-common (>= 2:21.1.13-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6, libxau6 (>= 1:1.0.9), libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/trixie-rockchip/main/binary-arm64/xnest_21.1.13-2_arm64.deb
+Size: 2980868
+MD5sum: 7773ccc82c1d7a0d2ca686267c120de3
+SHA1: 74da497296b1dea9b91c40815ed3c24178816f4c
+SHA256: 6cf17f22b4ccc476ca432cd2d4dd0dac5f560f3bf9f12efc8e2df22a3746386c
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xnest-dbgsym
+Source: xorg-server
+Version: 2:21.1.13-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2840
+Depends: xnest (= 2:21.1.13-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xnest-dbgsym_21.1.13-2_arm64.deb
+Size: 2690776
+MD5sum: 4c23356ffea23232b0d625f4533c08f5
+SHA1: e234f083afa5fa8cea39ce7342ddc2dfde5e6e30
+SHA256: e890a98d06afa34253a0f627d47f5bc67db88acda59dc59fab370e86b9f568c1
+Section: debug
+Priority: optional
+Description: debug symbols for xnest
+Build-Ids: 4a6c624b9dc0c68f06c0d871f11237d0596a17f7
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 7417
+Filename: dists/trixie-rockchip/main/binary-arm64/xorg-server-source_21.1.13-2_all.deb
+Size: 7504356
+MD5sum: 7acdbebe82354a4175c2aacc3ec3d612
+SHA1: 2a317d3c10351492a5dc9cbdb583bfa7aa600334
+SHA256: f9fe4de2d336ae73323ed5c47210dc3e7030d0aa445c56609967b531794595d9
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2453
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-common_21.1.13-2_all.deb
+Size: 2392860
+MD5sum: ca3bd6546891c1273ff2df1237dabb5e
+SHA1: c887eeadb4836225236e5a71692fab16ad2edf76
+SHA256: 16ec3977f2c4386799c7b0746bfc51ad8e12895beb2eecd645816f730b521140
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4890
+Depends: xserver-common (>= 2:21.1.13-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgbm1 (>= 12.0.0~0), libgcrypt20 (>= 1.11.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1 (>= 2:1.8.7), libxau6 (>= 1:1.0.9), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xephyr_21.1.13-2_arm64.deb
+Size: 3232880
+MD5sum: fbe62c1bbd3af5dcd988a8a7155bffd2
+SHA1: 85ecd8bc267a15752ceeb83b516be4fd2244ef57
+SHA256: 1b262160e1430cd3c2393873321c17ea29c962407ef19220b821b4142044d4d2
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xephyr-dbgsym
+Source: xorg-server
+Version: 2:21.1.13-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4189
+Depends: xserver-xephyr (= 2:21.1.13-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xephyr-dbgsym_21.1.13-2_arm64.deb
+Size: 3946868
+MD5sum: 6d73841d561232dd59e909ff5add64a8
+SHA1: 74aeb55663465ea8faf4e13ff3b75aff47d53941
+SHA256: f63e7cd9d2e3ceb767bd673bf260b571c095744276716fe454c2039f1336d3f8
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xephyr
+Build-Ids: 3a129cd2f931265cac1e21548aa7c93188e39f2d
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6741
+Depends: xserver-common (>= 2:21.1.13-2), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.3.0~rc1), libgcrypt20 (>= 1.11.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), librga2, libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-core_21.1.13-2_arm64.deb
+Size: 3635932
+MD5sum: f04224e6f0a955c4ac61d7d079cdb13b
+SHA1: d01d0c9e19d5d1fa9f5dde84b1e56aab0cdb2737
+SHA256: 24cc87a7d853c7d79881319478d27500695289a627c8f57c7ffd6a64ada0e2b8
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-dbgsym
+Source: xorg-server
+Version: 2:21.1.13-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6270
+Depends: xserver-xorg-core (= 2:21.1.13-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-core-dbgsym_21.1.13-2_arm64.deb
+Size: 5842564
+MD5sum: 4fa104fc714513531d8d53a30fa5be27
+SHA1: 40d181388100d6bacaf2b314a1da86c055045926
+SHA256: a84a4c72410cdbe1e3c2240fb19553dd5a546b412d0b58b1167c8ee1f50de209
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xorg-core
+Build-Ids: 00fcc5e0de26737ebd03adf3005bc74bafdcd233 0ccba27253ce20af4905314a8e61c227e9f6671a 1d8dec04f722db6dccc8542e98acc7eb78487f49 2860679580dbd1c96b0358934bfa0a65b692a334 54b53e216a80eb431b10f8dfac5ffa1aec65e2cb 60a96422120a95e94ea4e43b0f14021fc2eee849 90bfd061ea6e601bb86959e8647b85bd199e85db a6781254c1533e2cbf5ac0d801cf29ebbf315f08 ae54a59ac38913129c1e0f9e50c3c3535388b0fe bf13043e972e418de07e765ab49e41c53cfc6af8 c518fd96d3ff2adde4ff66c3022e8b4dd73bdcb4 d959919ff20d952db6c4dd032bb25808743348e9 ef003be8d0652b8d5ee88523c102eece353f495d
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3638
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2021.5), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-dev_21.1.13-2_arm64.deb
+Size: 2564292
+MD5sum: acf1189087d71761f24fa4688361c189
+SHA1: 7fcbd74992bc3c500b381f8865196ae7f2e462d1
+SHA256: dad5bc056116c788ce2d9539763c89a1652946ebf9a67bec24af04fc493190fb
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2536
+Depends: xserver-common (>= 2:21.1.13-2), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
+Size: 2398292
+MD5sum: 90ccef0116ce071d65bf2e32029479c0
+SHA1: f63ee518815a911466400aa8dfecff9501c9724b
+SHA256: 249b92df7fcb0888e94620e5ed616b6342f633ca04d5f1af438e099a45c48dec
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xorg-legacy-dbgsym
+Source: xorg-server
+Version: 2:21.1.13-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 25
+Depends: xserver-xorg-legacy (= 2:21.1.13-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-legacy-dbgsym_21.1.13-2_arm64.deb
+Size: 9716
+MD5sum: a1ba27c19999fbaa1ba28eb043308dbe
+SHA1: 4bc06b01bb212c42e0bf75146c5c772bd0c29997
+SHA256: 302bfe6bebe41dc4c16ca69c20e6544a9a380c3339401220639fc63e89a58762
+Section: debug
+Priority: optional
+Description: debug symbols for xserver-xorg-legacy
+Build-Ids: d7a614fa59366a9a725fc48bd1f690c368773495
+
+Package: xvfb
+Source: xorg-server
+Version: 2:21.1.13-2
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4516
+Depends: xserver-common (>= 2:21.1.13-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Provides: xserver
+Filename: dists/trixie-rockchip/main/binary-arm64/xvfb_21.1.13-2_arm64.deb
+Size: 3105480
+MD5sum: 1b45ae3c7ff421aad258b2f1d262b7cf
+SHA1: 24c82f85ee0c1bf62f816a798474e27b2df6f457
+SHA256: b04c05712c8f8e3346d4d3a9daba604885f909fadd6b05f0c69076f8847788f3
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xvfb-dbgsym
+Source: xorg-server
+Version: 2:21.1.13-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3478
+Depends: xvfb (= 2:21.1.13-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
+Size: 3275920
+MD5sum: 909fef3c9cd15312fae98429179238c7
+SHA1: 1aebc31b3a2aa80abbc4574aded9c82f7a04504d
+SHA256: c08280bae25e30f7b532f44b62e7bd12d881becb2ce0bff3082dbc9ee8f7f850
+Section: debug
+Priority: optional
+Description: debug symbols for xvfb
+Build-Ids: 5c3a226b98e3b3d2b6b289e205ddca618e3382b2
+
