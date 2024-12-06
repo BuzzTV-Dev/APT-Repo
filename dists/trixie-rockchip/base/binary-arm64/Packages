@@ -9337,6 +9337,29 @@ Description: XZ-format compression library
  streams and the older LZMA format used by lzma. (For 7-Zip's related
  format, use the p7zip package instead.)
 
+Package: liblzo2-2
+Source: lzo2
+Version: 2.10-3
+Architecture: arm64
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 160
+Depends: libc6 (>= 2.17)
+Filename: dists/trixie-rockchip/base/binary-arm64/liblzo2-2_2.10-3_arm64.deb
+Size: 48932
+MD5sum: 4b640c520af1ef6d5597781d0d566d40
+SHA1: 5713a3d34a2049027154d6f2a40158bfa2a07b94
+SHA256: bc759adaa70d6ece8ceb9a314d935de44251df3e36fd6b1a32f94bf95b9d18e8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.oberhumer.com/opensource/lzo/
+Description: data compression library
+ LZO is a portable, lossless data compression library.
+ It offers pretty fast compression and very fast decompression.
+ Decompression requires no memory.  In addition there are slower
+ compression levels achieving a quite competitive compression ratio
+ while still decompressing at this very high speed.
+
 Package: libmali-utgard-450-r7p0-wayland-gbm
 Source: libmali
 Version: 1.9-1
@@ -12109,6 +12132,39 @@ Description: libraries for the PipeWire multimedia server - development
   - Generating graphs for audio and video processing.
  .
  This package contains the development files.
+
+Package: libpkcs11-helper1t64
+Source: pkcs11-helper
+Version: 1.30.0-1
+Architecture: arm64
+Maintainer: Debian OpenSC Maintainers <pkg-opensc-maint@lists.alioth.debian.org>
+Installed-Size: 166
+Depends: libc6 (>= 2.34), libssl3t64 (>= 3.0.0)
+Breaks: libpkcs11-helper1 (<< 1.30.0-1)
+Replaces: libpkcs11-helper1
+Provides: libpkcs11-helper1 (= 1.30.0-1)
+Filename: dists/trixie-rockchip/base/binary-arm64/libpkcs11-helper1t64_1.30.0-1_arm64.deb
+Size: 46980
+MD5sum: bb00e6cad1b1b190cd0c3599da732470
+SHA1: 805aade243b4b2adca1de73e97bcedfd9d684ee1
+SHA256: 194425cb8a640fa39476ec0cabf0036632d82211498bd1806d6cf9b1104ce274
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/OpenSC/pkcs11-helper
+Description: library that simplifies the interaction with PKCS#11
+ libpkcs11-helper is a library that simplifies the interaction with PKCS#11
+ providers for end-user applications.
+ .
+ libpkcs11-helper allows using multiple PKCS#11 providers at the same time,
+ enumerating available token certificates, or selecting a certificate
+ directly by serialized id, handling card removal and card insert
+ events, handling card re-insert to a different slot, supporting session
+ expiration and much more all using a simple API.
+ .
+ libpkcs11-helper is not designed to manage card content, since object
+ attributes are usually vendor specific, and 99% of application need to
+ access existing objects in order to perform signature and decryption.
 
 Package: libpkgconf3
 Source: pkgconf
@@ -20604,6 +20660,35 @@ Description: Secure Sockets Layer toolkit - cryptographic utility
  Such algorithms have commonly fallen out of use, have been deemed insecure by
  the cryptography community, or something similar.
  For details see OSSL_PROVIDER-legacy man page.
+
+Package: openvpn
+Version: 2.6.12-1
+Architecture: arm64
+Maintainer: Bernhard Schmidt <berni@debian.org>
+Installed-Size: 1904
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), liblz4-1 (>= 0.0~r130), liblzo2-2 (>= 2.02), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpam0g (>= 0.99.7.1), libpkcs11-helper1t64 (>= 1.28), libssl3t64 (>= 3.0.0), libsystemd0
+Recommends: easy-rsa
+Suggests: openssl, resolvconf, openvpn-dco-dkms, openvpn-systemd-resolved
+Filename: dists/trixie-rockchip/base/binary-arm64/openvpn_2.6.12-1_arm64.deb
+Size: 626072
+MD5sum: f2bd0bbeb80aec7867f41024d8cd14da
+SHA1: 7f18d0d07e21d792d5e47aac807658d5e9f62692
+SHA256: c2fdc3a28c01f53dbf305cea83f91643ee35e665bb1427a2bf88ff214b267dcd
+Section: net
+Priority: optional
+Homepage: https://openvpn.net/
+Description: virtual private network daemon
+ OpenVPN is an application to securely tunnel IP networks over a
+ single UDP or TCP port. It can be used to access remote sites, make
+ secure point-to-point connections, enhance wireless security, etc.
+ .
+ OpenVPN uses all of the encryption, authentication, and certification
+ features provided by the OpenSSL library (any cipher, key size, or
+ HMAC digest).
+ .
+ OpenVPN may use static, pre-shared keys or TLS-based dynamic key exchange. It
+ also supports VPNs with dynamic endpoints (DHCP or dial-up clients), tunnels
+ over NAT or connection-oriented stateful firewalls (such as Linux's iptables).
 
 Package: pamixer
 Version: 1.6-1

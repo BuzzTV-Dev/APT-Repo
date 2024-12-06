@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Fri, 06 Dec 2024 04:07:32 +0000
+Date: Fri, 06 Dec 2024 11:30:00 +0000
 MD5Sum:
  0ef569cbc9cd1796d8c7f2f0a242225f 11546224 main/binary-arm64/buzztv-dsw_1.0.13+16_arm64.deb
  4e1124da9f269774d0833d7e8be5ecf6 2640 main/binary-arm64/buzztv-ota-tools_1.0.6-2_all.deb
@@ -288,8 +288,8 @@ MD5Sum:
  025dc66fa30e377c2890fbe392b51c42 26356 non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  fbb0a9a3a0bc798b02b5dbefadd43adf 62924 non-free/binary-arm64/Packages
  2716c04ef0e6b30407d0f5e921e0194e 14911 non-free/binary-arm64/Packages.gz
- 6aec5457ce821e474643a08e3267ce19 366954 InRelease
- e4373700151d6366c3ebbfc01619a4ef 854 Release.gpg
+ 6d1b09e9e408d1ee7ccff942d62ebc4a 366957 InRelease
+ 2c5ebeff99cf69f80246728f69374dd6 854 Release.gpg
  3b5322221d61e04efc7be6b80da76b0a 139720 base/binary-arm64/adduser_3.137_all.deb
  d3b58df67a035bf27b7e0d45a7e3890e 463104 base/binary-arm64/adwaita-icon-theme_47.0-2_all.deb
  163d6a48940b43f57205e3bf18758c09 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
@@ -1134,8 +1134,11 @@ MD5Sum:
  84ef81bf3f678cfea89584f81af8554d 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  8048b4afea70ec3210428e37d66b39e3 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  4cdc38062926c43ca2e0a64d7b342299 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- 09593cd137c8d69c7a198f186ea58202 954834 base/binary-arm64/Packages
- 1807792a31ea493eea8f11de3ffd2de0 268290 base/binary-arm64/Packages.gz
+ e3d7f72fa7934b461c5fb8e8b23a4989 958580 base/binary-arm64/Packages
+ 80bbbdcb71bc2255305810252ea85332 269677 base/binary-arm64/Packages.gz
+ 4b640c520af1ef6d5597781d0d566d40 48932 base/binary-arm64/liblzo2-2_2.10-3_arm64.deb
+ bb00e6cad1b1b190cd0c3599da732470 46980 base/binary-arm64/libpkcs11-helper1t64_1.30.0-1_arm64.deb
+ f2bd0bbeb80aec7867f41024d8cd14da 626072 base/binary-arm64/openvpn_2.6.12-1_arm64.deb
 SHA1:
  0924ec7a8dc8dcf5f29d0f731a02e4ce3f2bb833 11546224 main/binary-arm64/buzztv-dsw_1.0.13+16_arm64.deb
  85f799090ec1312f5c24874949261e2fbf655f22 2640 main/binary-arm64/buzztv-ota-tools_1.0.6-2_all.deb
@@ -1417,8 +1420,8 @@ SHA1:
  72f6823ca2aea728e80958922a47987a71a98ccc 26356 non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  97c8fead2c26fdec3dcadf2f08c28d1e70720230 62924 non-free/binary-arm64/Packages
  e76ef8a8a849fb6f59db6bfdd9a8e2d37bb54889 14911 non-free/binary-arm64/Packages.gz
- 1dc3612c93917d1080a96b900245093436b02874 366954 InRelease
- fd3588fc41a823d49063f11b8bd56827070a2c5a 854 Release.gpg
+ 8c10e407854d570d410133d19cb997b2fa63ea92 366957 InRelease
+ 821081a2debcd360261b753aa7423dbafed37828 854 Release.gpg
  292761717213ec2745b50eacb737d0986acd30a6 139720 base/binary-arm64/adduser_3.137_all.deb
  7289805c0d68ddd5c0e55db85bc674a80010dd8c 463104 base/binary-arm64/adwaita-icon-theme_47.0-2_all.deb
  f6a50ba6f7b168a649b6002c4d841502f4d54b34 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
@@ -2263,8 +2266,11 @@ SHA1:
  a05e8a79b2cf8a41629fceb6b8688549a7ea2407 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  7be47b180397f3a1b0fa9ad20e90dd3ea1e7a241 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  f0983ff6d6a222bbd48c55aa72086ff1a6d95d2e 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- 3e37a4f91a6d90f994b889939d1623948ff3c954 954834 base/binary-arm64/Packages
- 65604787425a7545ff74e1617d849b107158324d 268290 base/binary-arm64/Packages.gz
+ 6053e54e4e13ae56ce2019f61d21057681e4b388 958580 base/binary-arm64/Packages
+ 5c89c52f20e2ef3801fc3b2df484c5245b97dd8f 269677 base/binary-arm64/Packages.gz
+ 5713a3d34a2049027154d6f2a40158bfa2a07b94 48932 base/binary-arm64/liblzo2-2_2.10-3_arm64.deb
+ 805aade243b4b2adca1de73e97bcedfd9d684ee1 46980 base/binary-arm64/libpkcs11-helper1t64_1.30.0-1_arm64.deb
+ 7f18d0d07e21d792d5e47aac807658d5e9f62692 626072 base/binary-arm64/openvpn_2.6.12-1_arm64.deb
 SHA256:
  48a6c3157ae8c5bf877d864856491aadaa56a236be895a4484837c448b353201 11546224 main/binary-arm64/buzztv-dsw_1.0.13+16_arm64.deb
  03e623d528cae3b2ddf64cddacb64c77e37a07c8ce7b539170aef9effccaf449 2640 main/binary-arm64/buzztv-ota-tools_1.0.6-2_all.deb
@@ -2546,8 +2552,8 @@ SHA256:
  01225abf89ed1614a79185002bf870449c38f1a5e7fa8be9530b4096e14b97c8 26356 non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
  8d470b8eee886de5c20afa8a0a19c7a73fbf7485dc886187f460e6916b072e47 62924 non-free/binary-arm64/Packages
  c4a91d92c7170d3dd17b05b36327f45be5bedf71fb5cefcc43cf708756e9f849 14911 non-free/binary-arm64/Packages.gz
- a1282ed11041f02855a28939fdbe57aac3404d827c5d3a5669a32ddd6b750b9f 366954 InRelease
- 71017db4599702c2b6b70f9731b69c28e7b5b9dbcd1b7249609482164f6ca3d2 854 Release.gpg
+ 47676c56c67c5267b4b875c3cbec99dbceded7de8ffe6e00beb499fd11e8465e 366957 InRelease
+ e237fbed74c5382848599239b6f4a380f7cc4f509638af5b998bcbddbb6b6085 854 Release.gpg
  40b77d8b5b482baee2d0c95bbb4a4b9bcf7271b79dec039ef45e541142edfc12 139720 base/binary-arm64/adduser_3.137_all.deb
  9fb75c4ce32965e2c7c7715d58917ef795f5cc53366516d1b81b8e19fae80621 463104 base/binary-arm64/adwaita-icon-theme_47.0-2_all.deb
  3db9bd4eb033baa2c0e99c95de4cae1b00fdce74010bfa19fd759d8cb52b1429 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
@@ -3392,5 +3398,8 @@ SHA256:
  2ad133b3d7a0b0d8d48efff5187828081d6a50d5ab3cd42924e1e992ea83cab8 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  368bd8d9a2f7add9f1e07f783290a714092af7d0f6c4ef526045744e99c750fc 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  b35e0f43b7f0c2df1fa1e1d11bf5ff781472e772aff283eac507b9752a449d13 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- 02055948d8bfa1b038cb2615a0a3b9313f09ea28e90b7bd0f955d186048fc1f4 954834 base/binary-arm64/Packages
- b18fdb87ef6d189d541c5c0e4e38d3e98a95d9c6ee874624d2c184bfc5b41cc8 268290 base/binary-arm64/Packages.gz
+ d0e3175d71f333889f88eaff2c227d3141c6fece90873860f4a4a950e4c6423f 958580 base/binary-arm64/Packages
+ 1f5b1b1f0c6b0ef1ff8c78d80e6d94c626edeea5d0c7451aed668a931dfc6bb7 269677 base/binary-arm64/Packages.gz
+ bc759adaa70d6ece8ceb9a314d935de44251df3e36fd6b1a32f94bf95b9d18e8 48932 base/binary-arm64/liblzo2-2_2.10-3_arm64.deb
+ 194425cb8a640fa39476ec0cabf0036632d82211498bd1806d6cf9b1104ce274 46980 base/binary-arm64/libpkcs11-helper1t64_1.30.0-1_arm64.deb
+ c2fdc3a28c01f53dbf305cea83f91643ee35e665bb1427a2bf88ff214b267dcd 626072 base/binary-arm64/openvpn_2.6.12-1_arm64.deb
