@@ -1,424 +1,6 @@
 Package: libmali-bifrost-g31-g13p0-gbm
 Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42745
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
-Size: 12447576
-MD5sum: a3798de90add8546008abcc67959c495
-SHA1: 6663b56072dfd2dea5c932c60c1786d63d9ae649
-SHA256: 8aa7c5fa64605739e8baa6ae206b39018fdf6f4b67553a93893633ed317e3d4b
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g13p0-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g31-g13p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10920
-MD5sum: 1107c31a1b6a4021c9e1756b95449a54
-SHA1: 624b57436b6038926fcd3d43c5d29be4f282ca13
-SHA256: 2270b38cd3a69b217cde9e6b8ad90adc6e6955e29e993bf7d4c07db339053a31
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g13p0-gbm
-Build-Ids: 2db6ffbc022a3deca7c2af57cf4a6a7e3b6a611c 35646bccd3d01fbd1e77ee5eec572793b199d8f1 81c35720924c25e766768ff879a88fa64e32f388 90a7f470ebaaed5a52a1a7cd66d4b26e8ac76852 a3ecc57e691dfdf9f440dae37709df9adf74abea c6b19c47b3cc864a7b3af897433e4e0463077b28
-
-Package: libmali-bifrost-g31-g13p0-only-cl
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42693
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
-Size: 12453172
-MD5sum: f9c00b60a59ea1735d2c2e7d80e7594b
-SHA1: 0b6a894ebffc7cc2d3efa0426cec06a17f74e2b8
-SHA256: 9628c12b6827588c76494227bd68da4a1fa225ad2df9698ee7477e2563b6929a
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g13p0-only-cl-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 46
-Depends: libmali-bifrost-g31-g13p0-only-cl (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-only-cl-dbgsym_1.9-1_arm64.deb
-Size: 8832
-MD5sum: aea50a716cd039374efb5de6a50ea535
-SHA1: 6501e5c5cbf0957dd21efef43a363d58fd826551
-SHA256: e4179fefea852adad21c13917d9971ec6acec6ff4a437b3a54b41a47741410da
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g13p0-only-cl
-Build-Ids: 302fb188b1541d78f4fcd8477dbb183c62f104de 407301f4fa89253993f985d24625f480bf0ba8b8 5db47eb3f05c492b2d3ea28d447febf94495470f 737e747b12c4425400bf78f7417d03280ff2e5c4 9bd602e7f8dd24ffbe7b59a0b55cad3ebb7f8bc4
-
-Package: libmali-bifrost-g31-g13p0-wayland-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42836
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 12452620
-MD5sum: 99362e707a8f64f0f2b9f828bf3e4f0b
-SHA1: 7e234b54c525f1c4c2b323981c67f22723773641
-SHA256: 3778a0df40768ebd79a6dddaefcc04272e6690366130e9c19d133992bf062bbb
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 60
-Depends: libmali-bifrost-g31-g13p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11224
-MD5sum: 464ea5b4066bfebcaee592e99a3c3d28
-SHA1: d7b3b0c3d6044867f3588a2881daed0863a2ef9b
-SHA256: 37f993dd104aa654810292ee21f3dcadd59a4a28b72ffe23daa5366138a196a6
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g13p0-wayland-gbm
-Build-Ids: 36f9cead7d1467a1afba08a4fe646b51f10ea22f 584a50bba000d4099b20618bd5d28690ede610c7 6cfaa78777ec7e0d9a7af344e64a1be90e8963f7 71b61ba1206d213ef8d5907b29f2964561fbe2d5 79ec1cf457b0119e193c29ddf6b1edd1cdcdd59f ad1026c783d19622b4a2ef43af0a4aaf3ce9eb0e e8b76c15ee27786e44280af8358c5d0c020d6fdc
-
-Package: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18910
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
-Size: 5600040
-MD5sum: 5cae53b5d50237d1629e835feafe5c5f
-SHA1: f95e0e8108e43329d9fec50eb4aec0bbabb1f6d8
-SHA256: 5a4b06610f034d749d959a5cfe9a213358a9ec699afb228ad385889b76cf0d42
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11148
-MD5sum: c77fb5fbbb272033280a2d2e827194f2
-SHA1: 35ecf0a207c0b6f2e800ba2efc4d4f3b0afda8a5
-SHA256: 19c093a2b6b70a8374c576270e6f1f2ce10166a941a9843a903d11a208710c57
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g13p0-without-cl-wayland-gbm
-Build-Ids: 31579901c8da0aca8187730b22834d021eaa9fb4 53396396a0198b0bc1186122c43898eba8fe8c6b 6b52b48860192eb3daa5185d2a980b20fcf004eb a1afbed6e5f809129fcb1bb16978f69317a9f3f6 c26ad15895525b6d0a28cc0566307fc04a0f4bdd ff74099736f884ddeeb343fa0dc79e4834193de1
-
-Package: libmali-bifrost-g31-g13p0-x11-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42765
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 12455140
-MD5sum: bc23274051f49cbb62e7d1fd6a2e236d
-SHA1: ce13f297203b9187de0aafe1cd254086c65afbd1
-SHA256: 9bba09df6d1d1511ad19569d62d27aa1876e4d662109e854baec98cb5384deef
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g13p0-x11-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-bifrost-g31-g13p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26124
-MD5sum: bb29dc99343b7c5d38b840919b59fc31
-SHA1: cfb59bd10b37d5ad3afae3489cf5c6ef8671304a
-SHA256: 388565ef28330998c4c47f6487b8458c616e331eed4ed158954677072ccb2bbc
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g13p0-x11-gbm
-Build-Ids: 13d34d86727e9004244ac54fae791679bdd61637 5c9e0e5e595a50cfbe1a6f4bca36a3866c295fa8 b8f8d216b20f4d1c9514785c26c19df2a143b54f beb5cf5dfaf421caf4fe834ca423710b692f68ca e1e9c557138f63912813f943bfe55349cb7a25f8 f1cf5b780b7dc5e03d8e493ac1b37d8f24926c01
-
-Package: libmali-bifrost-g31-g2p0-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44867
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
-Size: 11974272
-MD5sum: 63276242aa9f8c0fc3d46b744946ed2d
-SHA1: 56cb34c39cf3b0cd0451f6b200ca26fde9179229
-SHA256: 863c63006a0db472d6566560e267c2a532d9372f83b18d3240d09856ba6ada0b
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g2p0-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g31-g2p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10948
-MD5sum: b0e484777fa9ef37307916311312013d
-SHA1: 75743d2f19838b7d3e408ef0c4b5e352e129a32d
-SHA256: 7a8911a322063ef51e36eb8a376a010f0e263c9df9e10f65afe839e9f9f6c85f
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g2p0-gbm
-Build-Ids: 2edcb8eae14500f1499c8b849befd13e285d5281 551100d78be08a2632097a3aea17f8ce67789324 591799b9da8b0f24676d2c0cf28753982d73c09c 5facef69a93b78f5d093867f0cfd46d6af83f012 74be0bfbb3b59a1508a666ff5db5454e2492163a 8bcce66f567bab7aac5ce5e69b4c50fd5efd487c
-
-Package: libmali-bifrost-g31-g2p0-only-cl
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 39366
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
-Size: 10694688
-MD5sum: f8158b4416b69eff3bb665015ff6b668
-SHA1: 08f81f6e8b29a88570711c9db3f439edaeefe96e
-SHA256: 8cc27caa1321e5514616517486a5c05a7ecc72fbb4f3537d7705a36eb31c7737
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g2p0-only-cl-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 24
-Depends: libmali-bifrost-g31-g2p0-only-cl (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl-dbgsym_1.9-1_arm64.deb
-Size: 5012
-MD5sum: 323ea44f05f449328a534073bd9ab79f
-SHA1: a3bb0d3b25413b770d5a8ca194a334f7c15c11eb
-SHA256: a1c3c68c07b16d49368c61c17c566c982804d2b1ccbe2d6bbaa96b6995c93dce
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g2p0-only-cl
-Build-Ids: 26bbaa17b28cae7c8cebb20ef55403d6f1746bee 9a759a00a48edc9a5aefd554f907d30738e6d368
-
-Package: libmali-bifrost-g31-g2p0-wayland-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44947
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
-Size: 11979356
-MD5sum: 3f97f4cda770ac63bf26f22c76971c40
-SHA1: 33961ead93e392ee92768cf87be9ad81227f76e8
-SHA256: ce2fa514b5d551c205d63a2f39ab592102ac55fbb84ad8c3ada587ee910a85c8
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 60
-Depends: libmali-bifrost-g31-g2p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11244
-MD5sum: c365aaffd576b34178018b35af83b4c6
-SHA1: 1dc667e4069f15642bd3a966ae23f47a60faf61f
-SHA256: 0631afe9a4e5bc523c516aedb07bf573eaf6adb6f54c7b6c89b860f8fdddf9d9
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g2p0-wayland-gbm
-Build-Ids: 061b1cc11762374450d63248f6f734a21282f6a6 3a3bd3bb713e673d2fe1ee033d8348abe795c3a2 4b55c0426a7942b45506c40f4d306f9640d32a49 4fe7dbda88a9064aa680e9f41e461d0b8e422a74 d4923cc238460cba8b27b8992f2a56ffd1790339 f6bc436e0a57f418d8aad5cf35fa1c8886c90f58 fc069bd37b33514a6cd017bc2123cbc94f1423fa
-
-Package: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18668
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
-Size: 5375624
-MD5sum: ff60197baac6540d95c0f8830573cce8
-SHA1: 738c2cd3fb53f1fc5e59c39eb2b29ff887680a8b
-SHA256: 65b3b6bdd19b3425490eee9f0c9fa4054a3a59ee610601ba00f609302f351e42
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11104
-MD5sum: 4a1cfdaca31c3ca25d8b8afc517c6bec
-SHA1: d225417b7b90f486122a0024530dcb13412c18cc
-SHA256: e886a42fa0679bb63a9f3250882e302e3b71b109775dd491c7cd049f9eb2014f
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g2p0-without-cl-wayland-gbm
-Build-Ids: 2af266a78100ccd1f7d26cee7dffeb1974bf2dc2 31b6b4bfcc990f973a90f651f4a483ceb568d6f6 42a266488b35cb3cc96d95459a96bf97658da856 582b89635e02809ae308284027cbd4015d906b20 97235b8ef92e52d984baf1b54cd9d1e03f4718f1 b7c8775e8391ef21dc7402709a9a726641e2a050
-
-Package: libmali-bifrost-g31-g2p0-x11-gbm
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44851
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
-Size: 11984412
-MD5sum: b0b8081af114fe4b862859d0748582ea
-SHA1: c6a3af0d59f82c1fa2c97a67453221b3f4123d05
-SHA256: bd8397a2912b27a66e04e21d02f55b1e9a6f7801c0a2bdfaf97745a5652994f0
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g31-g2p0-x11-gbm-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-bifrost-g31-g2p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26072
-MD5sum: 88d083860ab787601e63543ba13e320c
-SHA1: 86f92b63534ea305a5e56c0626441e55740a4ae3
-SHA256: 80fe6f8db81f1d06c5aba048f7bbb279d41a4019d681ac68acf219e97c5e22f7
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g31-g2p0-x11-gbm
-Build-Ids: 0c9210f2fd6f58bb570d78027257745e83ea1b19 41cc5d0e3c1075dba1cbbaa96f771e7e4d2f4b41 48c98e2900c34cc1a9be6a35bb9ea6279d9b44c5 55339774322d2fe8e8649d33e166fca2289a7e11 7f9454051ab420a69d26a28cd56e325a3460103b a68d6c80dceec1193522ed20e225a11f91dfbf6c
-
-Package: libmali-bifrost-g52-g13p0-dummy
-Source: libmali
-Version: 1.9-1
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42705
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
-Conflicts: libmali
-Replaces: libmali
-Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
-Size: 12454596
-MD5sum: e1a9b195266ed97af1253c753dbae7e8
-SHA1: 7f959983a4158f11faa46f1fbabf964127507291
-SHA256: db0686bd7fefed4c3ed1dca05b73c2962048df8053e60204c521d316fd846467
-Section: libs
-Priority: optional
-Homepage: https://github.com/rockchip-linux/libmali
-Description: Mali GPU User-Space Binary Drivers
-
-Package: libmali-bifrost-g52-g13p0-dummy-dbgsym
-Source: libmali
-Version: 1.9-1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 46
-Depends: libmali-bifrost-g52-g13p0-dummy (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-dbgsym_1.9-1_arm64.deb
-Size: 8876
-MD5sum: 34c3e7ca888cd34c4e87a5766f3e0105
-SHA1: 952778039765ed8936f8f84cca32be0cf96f4b83
-SHA256: 5b375946299acc2be01bbe844bbd4b1ddd074687b43693055d1872620f3e8f97
-Section: debug
-Priority: optional
-Description: debug symbols for libmali-bifrost-g52-g13p0-dummy
-Build-Ids: 181959810af8d7086f95306ebe435ebd6480af8c 4d2f5c89bef02718ccd00ccb6e3d309c5faea1ce 568885af7b4da0b8bc83ec7a82fd1ac9fa5d41f9 8638e37ac33f8ac832cecb649f0a0c81727fef47 c79467428379938da02dcc179b79b51597500446
-
-Package: libmali-bifrost-g52-g13p0-dummy-gbm
-Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 42797
@@ -426,11 +8,619 @@ Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>=
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
-Size: 12458692
-MD5sum: 076f414bfe21543573abc0dd15bc21f0
-SHA1: 4c64dcda91acb5048f09a5d68187fe1f3f051c8e
-SHA256: e1d44f12a39c8c07b9bf3dc587c43c8a022e88faf1f19c8be1728f41ef80e7e8
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm_2.0-2_arm64.deb
+Size: 12448436
+MD5sum: c02ce9d7ffd9558914dc32a6a14489a7
+SHA1: 24d71a1ae23ab3e213e6a60f5c3f3ee3add9bf5c
+SHA256: e53db0a4db28073f1f9f8ef5c4e079e1c9b325b3c365ce0fa879138d879490f2
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g13p0-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 61
+Depends: libmali-bifrost-g31-g13p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12452
+MD5sum: 4c3fcb49dfa4a96c8a4275f78e02d2ee
+SHA1: b197affe792cd177784d9ea563a95878745a52d7
+SHA256: c2626e6e5186802b8728cfa5c3b9f12675bfce8eedbb901bead7a719db93e661
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g13p0-gbm
+Build-Ids: 13f47b85526782b53c2c4c4b70e6d225aa0cb416 2145f060d2a4acaae1504ac220c5fb3cd2e1f0bb 5e8c7442bc730ad562364b1d7c04653ada383fb8 6f85e2a8506bf986c9571ede8ac7e7b194f53907 72879191fba622d0f2d46063709476a67c48fa79 ad374ebd2ee41415b7a5b0db7961aac44d612bfd
+
+Package: libmali-bifrost-g31-g13p0-only-cl
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42701
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_2.0-2_arm64.deb
+Size: 12453680
+MD5sum: 5f6865ee77d615a6386d862e0b958736
+SHA1: de4947b7098a8c585022434c0b04158cd4a9d7f2
+SHA256: 7a3f4c2f4e560ebaeaac887af05411a33db0a770b9ff7f7b5aaf813db891e2c1
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g13p0-only-cl-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 52
+Depends: libmali-bifrost-g31-g13p0-only-cl (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-only-cl-dbgsym_2.0-2_arm64.deb
+Size: 10292
+MD5sum: a035c358e1f72b8131891054e9c4422d
+SHA1: 85d661bf02a5fd29e61e6611731bd9253e168443
+SHA256: 651d18b3b4797cbf7391742d8a42698e37e173d71be511f718a942319b4b4a46
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g13p0-only-cl
+Build-Ids: 0b03c2dcfa75533e8a4065d777eed0a1698ca6c7 41810bbbf96193c5347f1223026d15206325fca9 7ad25809c244e54ed059f30cbb411d3f738fe960 88f2e96170e2f9595a5e87b8ff7c8a269358a1c8 90cc295fe6ee1517a98b6952022e04d2b241e95c
+
+Package: libmali-bifrost-g31-g13p0-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42889
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_2.0-2_arm64.deb
+Size: 12448092
+MD5sum: cf650167ae2a6bc6b5f25762a449902a
+SHA1: e00d0e91a52cd5d5d436217443c6aa5824f27a75
+SHA256: dece342b85147e141d64508d0ad48523d4bff2d75592eb2b7503d614cbe220c0
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 68
+Depends: libmali-bifrost-g31-g13p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12684
+MD5sum: 2c10c6bf1078c545aeab97f71f20d9e8
+SHA1: d7a768568203ddb88db318ee2cb7129f48894a79
+SHA256: 3ce63ae591b3a0088721da502b8b1c382d7070c9968e87663e647dd54e8306ea
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g13p0-wayland-gbm
+Build-Ids: 1798f8a07e4d79ab6c16a9a8de2f553accacc4b4 1e04df168dd25c3227964312dfd1a86588fac097 3b01d60d453f16de3655439e50bbdc7d8cb22f97 4fc64d9e5804f7f9a79f01d8b1893889ad733347 7a320369addc95be24ea8d5eb3acf2a121e2eb37 8e1d85699bbbf53eed166fdee06644b02790d4e4 fd8452026d2d48038560ff43317d6979a0e72805
+
+Package: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 18944
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_2.0-2_arm64.deb
+Size: 5601952
+MD5sum: 3b80fae2e4818260b47735e46c7a6621
+SHA1: db70b540e50c8d9c729d3c495081c6321a2984c2
+SHA256: 6743677efaf499cb7c3acd4435feb939769a068269efb45f8e9c211f8a246776
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 60
+Depends: libmali-bifrost-g31-g13p0-without-cl-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12608
+MD5sum: 27742d01e5c3eeceb0dcdf78f67d56c8
+SHA1: fff7406fb496e322095ee400fa8d4e548fb2e148
+SHA256: f002303ece7bf1964ea303a588f764b0c3dbef57121d2ad6ec77811d1ed53316
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g13p0-without-cl-wayland-gbm
+Build-Ids: bf6eb9b08a1dcd7c853ce382dc49c00b7c4295d1 c71e7124890206a6b9e40c451545bf49d85dfac3 c7e2856ab3f41570af02d7982fc9d8c07158bd75 cfe4151d38567f409450c9a54b3b9467596c02e1 d2f77eb5d9e78bfc39178b9fe2dd1442829dd623 f2cbd05bfdb4d8ca18ce513de0b9dbdc204a9be8
+
+Package: libmali-bifrost-g31-g13p0-x11-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42818
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_2.0-2_arm64.deb
+Size: 12456544
+MD5sum: f39fee718fa3bc9678ddf3d11a216893
+SHA1: 8f77905d75682f6960c792918bb99275d5009480
+SHA256: 53e6091c01fd160baa215cd46cbd05a62c5983613bc2c2a5b6c905b43d1b7866
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g13p0-x11-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 76
+Depends: libmali-bifrost-g31-g13p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 27016
+MD5sum: 7e601795f2b72f909b8aef61fbda6ef8
+SHA1: 44be93c7d43d7809724f43dc9bd30962bdb858b5
+SHA256: 5a34b3bf9a4a95c33c5f65edb2f46b3cd29329b660284283e81b3ea06bd7797a
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g13p0-x11-gbm
+Build-Ids: 534e1caacd516544229e23df67ec076923797e1c 64320ff0a66ee5449c16b7a8649dad6b5b844a90 a9ec6fdc7f480f53319db979dfc3359a8982e842 bdfcebd81004317e58e12640c8e3975ebd7fdb60 fcb07fd11082579e50f7a40f6ef2c7fb8272b786 fdc1c0108716d9c80c5c5d70c6d7bee1535591a6
+
+Package: libmali-bifrost-g31-g24p0-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55357
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-gbm_2.0-2_arm64.deb
+Size: 15779672
+MD5sum: e34c600200575932e80efe1c8b573279
+SHA1: 41360e6e194640dc43bf78feb973d3a1582d392e
+SHA256: 6bcda35e3d22afb6fd4a934d63b1d9fddfb229aaeb1e7b017dca7d16de35e618
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 54
+Depends: libmali-bifrost-g31-g24p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11552
+MD5sum: 8c9876beabed6eb12b77d6a7b3b236f0
+SHA1: 07958c9bd1f7da3209e2f4f83b38f4c0122feb64
+SHA256: f00c480f58609e3a8e3389221437b9f0bed00c0d9cf80205bedd6b1d62b125c6
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g24p0-gbm
+Build-Ids: 4d29c20ab947559d6104fa49085dcb7527b8a6b6 af3994f6dce09a94d26c134f000513606b2a1a8f afe5ede07037feec08674c0a637531670783797e cae2fbee1213c1372fedbcb26f433f405180020c d84b9e86f9bbc9f6293a8d32ec84c167e23637d5 ec37d867b7bff16a332187c51ab6d468dac15ce0
+
+Package: libmali-bifrost-g31-g24p0-only-cl
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55313
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_2.0-2_arm64.deb
+Size: 15777656
+MD5sum: eda13fa1400c43a9b39dc285ee41aeb0
+SHA1: e0f9d71892f129464612c13c5cfbeecce589ed5b
+SHA256: 5ded68473a4062ce7554b4823ef88aa9c179c59da114493c6b7c7e8f9e26c7c7
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-only-cl-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 48
+Depends: libmali-bifrost-g31-g24p0-only-cl (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-only-cl-dbgsym_2.0-2_arm64.deb
+Size: 10236
+MD5sum: e1766a958a8d8b4332e2aa2686bfb542
+SHA1: b688fbbb28f1597d830aadb351283228c5acc29a
+SHA256: e560d7853677932bb64a657ac18549a1ca45340cdca071b0ea62b0354b9977ee
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g24p0-only-cl
+Build-Ids: 1360003178c979b1247261f6f391914857961017 4c8f8145419cb581d6b862fd581544d1120ca8fc 58109823c4603eafec499c6b600eb6f0a802aba1 dea0e5cb93c28b9607ca16c2b36d53be6536dedd f2ea45968dd7c3fe81cd59bc467bde8652a57636
+
+Package: libmali-bifrost-g31-g24p0-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55477
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_2.0-2_arm64.deb
+Size: 15797524
+MD5sum: 46b364e690b7feeaf415b02032f6659a
+SHA1: 7231c6482d53aebaa7047874b0b99adbf90e16e9
+SHA256: 5e31ca835bb18f655fdec45f5721fec8c2aa644aa59a111f929a00b4e0fc96f2
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 67
+Depends: libmali-bifrost-g31-g24p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11884
+MD5sum: 4bd88fc8f9cb2a73b0e3e4aed2676763
+SHA1: 869a2789465ade41ecd451b6d3a9df0a2b2afecb
+SHA256: 4e49d5b6a35602d84e160e567a55d3e7d0c367d972c05db08c6b034f1d8e5727
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g24p0-wayland-gbm
+Build-Ids: 128f7ddcca96f03bc5e096371349b72777e33988 59b30426e6212784e1e19c1f5c7eaf0761c23e1b 5d7fcbb55e3bf646ebe5fd08e1655672af5ff741 70c026e1935f4ba19918fe19bcc8ce3226b790e8 756c0ded2bfbf7106d9cea0cd00c154a655a88f9 94c2e41f7c79bffae8c301aba126d4ab71de276a d5ae5fb503e10566042bf7c26d5780e3fe151b2d
+
+Package: libmali-bifrost-g31-g24p0-without-cl-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 22726
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm_2.0-2_arm64.deb
+Size: 6683080
+MD5sum: b50484ce23fd75e3b1e7016299b15370
+SHA1: 5c761670177a5dd2a4431003269410e7be0cc2f4
+SHA256: 0f7b11fb5eeede0d7a69dee7279736cbbc1c88fa9e3bb6800f9fc1733ddfdd06
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-without-cl-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 61
+Depends: libmali-bifrost-g31-g24p0-without-cl-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11816
+MD5sum: b649afe5d2b8adda3466931711f5bdf5
+SHA1: 95cadb1e81fd497fa9e6fb38772e5790e51accae
+SHA256: 11390c15a54c3bc05bc587f259636534026103d7311f8b1922d6a5a67ec9f27c
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g24p0-without-cl-wayland-gbm
+Build-Ids: 4b722e303b249cd544817df47baa8487ccd03053 67e0445b8b0615683a40866f5d1e79fda9e082ad 6848c5c8da3318718478156bdfbdfa94cc30db46 73e83258c59dabac6bc4cf1558e8cf0430c22a6a a46cca23152d4e39a7f7f939f6bae76a99acb874 c704862a0733ae2d57dd2ae8e8c388f33d1372bd
+
+Package: libmali-bifrost-g31-g24p0-x11-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55391
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm_2.0-2_arm64.deb
+Size: 15791228
+MD5sum: 2cf7722342a9a3321cb287b70a1375b7
+SHA1: 6cd06a09083b8452d861e58dae7e746dc61447cd
+SHA256: 3947a240b6abdf0929837d92cc3cb227d24a1a809e1e5f5f1fc449c4350e9008
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-x11-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 75
+Depends: libmali-bifrost-g31-g24p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26184
+MD5sum: 8668967a13a41ca88efa3de901094f8c
+SHA1: ad435e22d3a07cb51d3c0afc1daa2d895a2bbceb
+SHA256: 17472307e9f6e64f8e9858ecfd74220d029da3fd616f1efc1326039c15522f09
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g24p0-x11-gbm
+Build-Ids: 33501391f7160e98bb045bbdbb958a7e41bf2235 5008853065b47a3d4ec3cf3685f3d16799748c78 6d453467a34cbe9e5301f5c9d84bd845e886e7c7 9c3990b0a9e29e0289175aacdc383ad3abd1d30c add7001e1073ce276e0c6d648f429a2fee1a6acb cedb661997948779a28b605754972a6e0c92116b
+
+Package: libmali-bifrost-g31-g2p0-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 44953
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm_2.0-2_arm64.deb
+Size: 11968280
+MD5sum: 89a430766a851a7d346aea79ec1c141f
+SHA1: e6b4c13b650cbca532be8b348a7e28883b45f608
+SHA256: a4407bf73b3ce969694686c90aaa707ada1ae2f12cb1b8eeb80d6023302e1219
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g2p0-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 61
+Depends: libmali-bifrost-g31-g2p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12420
+MD5sum: 84ad1f85fb333705ace8b65672146278
+SHA1: 78a7f5cdc002404e623ce4ba4b772bc33c633cc6
+SHA256: 154319504341abee77bb7053f346cd9481875230b62365b91a511f370ff33454
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g2p0-gbm
+Build-Ids: 1a49c0fcd9fc76102658a0ba4d602fa5f7f576d1 2e3c57082529e374a7c4225767bdb25cdd1da33d 2fabf76db53149fb805aec9bedcab8a800fc7958 39b3a4bdea1131554906a7a02fe482468c60ab25 968b0205f7b1e1bf69fa4084d94879fae49ffe08 d3b36734ef0158ccb1ecf6eba87ead148eb53dbc
+
+Package: libmali-bifrost-g31-g2p0-only-cl
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 39440
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_2.0-2_arm64.deb
+Size: 10697732
+MD5sum: 1f290c23e1ac35ebbc47a47ce01b2987
+SHA1: bd20504078cb3f24dd5b98e74f6d3ca7378cf43f
+SHA256: 9b9d673ccd165d825d6b8c82c1fe4a6681729cc92b0ba8e3a8e67db987afc633
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g2p0-only-cl-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 26
+Depends: libmali-bifrost-g31-g2p0-only-cl (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-only-cl-dbgsym_2.0-2_arm64.deb
+Size: 5116
+MD5sum: c48b008c0f029fe01c13b324f46b047a
+SHA1: 4e5ee000026886b347a5224fa4c84a602315b86c
+SHA256: dac66233c7804993331593094446dafc4b521b56063e0b99513d2105e5705095
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g2p0-only-cl
+Build-Ids: 052395028dd6795152e04356f9c1195d81a554b7 7d37648bb8133b2b2fb360eb84d7ef4099e2f6b3
+
+Package: libmali-bifrost-g31-g2p0-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 45028
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_2.0-2_arm64.deb
+Size: 11986312
+MD5sum: ae4cfb779aa2e53c4d1fbb3481b77ce4
+SHA1: 30909b9c384699b6070fa4b7d6f5bbadabbf4003
+SHA256: ee9702514a16c3ebd6167980d78488a43d5a1bb88b31695efcae158de93266c6
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 68
+Depends: libmali-bifrost-g31-g2p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12696
+MD5sum: 4dc254a6fe401653501ffb6559bfa9f9
+SHA1: 24251e6266d905e4f2599ed8c6e685ff6e688482
+SHA256: ad8b34efb22d219bc36368863ab3a16b06f3da9c7fa4b80be2e50223cabd3bed
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g2p0-wayland-gbm
+Build-Ids: 0e730db0e1d041553a4b5dacb02feb30ac7d7ec8 5852abd1182b0272fbe70558b5481e7bb591fc68 6b2cc6f40d955a253a5a1e2fe1f423e5a2d25a26 6c6e95873c5c58cf363c7f02ca9ea7bfa79861eb 8f09f68b849866425d5eced89e18e6bfcff943a8 d05c4ba4960c82b13e8faf5c19d86cc2c3d8cb63 dd30afcc772a1f3f392e8c7e425fc48cacf9c582
+
+Package: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 18765
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_2.0-2_arm64.deb
+Size: 5375476
+MD5sum: 47a421d06da5c314a7a3480d890685a3
+SHA1: 2485de4666d4d0b579c1e132a4ba80aacc781c65
+SHA256: 0fe430d02cd36473cf6203bd5e8c669a804e4babb12a5a1a365da1f0c2178829
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 61
+Depends: libmali-bifrost-g31-g2p0-without-cl-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12596
+MD5sum: 16bcae085f5c7b02f21e978d6fff6419
+SHA1: ee4eaf899949aa3836bf2342da3b5acca34990c5
+SHA256: 6368d69378224f41756f9aae878e32094ac061587b49c4a7537f311f2aee56ff
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g2p0-without-cl-wayland-gbm
+Build-Ids: 0bc4e43cd9945bc4d6391301743dbc89f6fbd1cb 2112c3d965abe5c933628539a11aa33c01d7b20a 31d514864717734ee9f6421347922b26ed5d7924 46f367df9ca4993bffd87ee2022cbf3da7582fc4 58889ce51e7a1c97b18a0adc56ca3de1111d1b65 6b7ea517bb61914be71c6abab971c452314bc6a8
+
+Package: libmali-bifrost-g31-g2p0-x11-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 44933
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_2.0-2_arm64.deb
+Size: 11979452
+MD5sum: e56a2bd572c036bb0ce6d62474ec0141
+SHA1: 1f529f52d1220e7512171b0d2c1982c940c34e75
+SHA256: e2a4b5e120af658c20bdc2e2cf0b766cb81db81e91fe9cdfc8e18abce256c69b
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g2p0-x11-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 76
+Depends: libmali-bifrost-g31-g2p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26972
+MD5sum: 1a933cde2c6bb63d734789f74d2bdbdd
+SHA1: d100e46408277b792ef6b58c84256dc892176728
+SHA256: a02e4934b237c0f97a241639ca302af4611477b77f720ea1df8f2b771e378900
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g31-g2p0-x11-gbm
+Build-Ids: 013de19044c09eefdaa695679f4a8b2da7132670 456e23c849cd4b23c72bcd2859849e547b75e6f1 52d62892997e7fdffae6e2074fbf523f4de66cc1 d3d582c2c57cd12ff70f5404579000b4cde13fad e0d91157c9b88c13df66cc9bb2c8e8d4d8dbcb19 f006b3e644bcd8a9d131321fc2c867b9e8397371
+
+Package: libmali-bifrost-g52-g13p0-dummy
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42709
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy_2.0-2_arm64.deb
+Size: 12454520
+MD5sum: a2f1f63bee18d9508c4936fedd7f55db
+SHA1: f589cc616e323c3d07d04c919e0df3d50d489516
+SHA256: 9d2fa1446123b2af003df7cea8d9d8d2f86fe6a9b63b451bc60b89af5797c51c
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g13p0-dummy-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 52
+Depends: libmali-bifrost-g52-g13p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10348
+MD5sum: ef01562f412c82d46c867d37171eb434
+SHA1: c8e926c872d59073d5ccf96465f38984ec44b236
+SHA256: f6ea269d847e4d93b822682e1b5bb7b2f95d05c959d43e2b073d3da82fc0b9fe
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g13p0-dummy
+Build-Ids: 342c63635fb843505da5838b7463704d5a47b7a9 6687142222a5cb7adf9076fc338c0ddab513b5fa 8d73d37df8389de0723f2f52d352d31f2f497b80 d8af7d173b63bc0ea67665cc6468744dd21d7577 f3174ac3a07ad1157e0bce365e9da2a3be86ed4d
+
+Package: libmali-bifrost-g52-g13p0-dummy-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42845
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_2.0-2_arm64.deb
+Size: 12462512
+MD5sum: 2548837ce5e3aa6a449af98188c2f067
+SHA1: 5608dbb6f86ecd70e4c0930500cfe0ec9fa79282
+SHA256: 3e9a7f3d43949d0c5f06bdbc91cd708fa1d27d6d1048f9c8542a3431874063ee
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -438,37 +628,75 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g13p0-dummy-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g52-g13p0-dummy-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10972
-MD5sum: 9404c9687d235039a13751be7e51f51f
-SHA1: 53e94b8b4dbefabfc791dc5e7b47fec691dda61c
-SHA256: 03b8b2f1838e61ed477b67acc915b1324eddcfc64b268a56892c94fc0eedc1ab
+Installed-Size: 61
+Depends: libmali-bifrost-g52-g13p0-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12512
+MD5sum: ae1e5841bef4cf2e6ab26aec8c3f9bc1
+SHA1: a1f252cf1663e5d24025af0f06f4d95ae8068173
+SHA256: c1568c62367acc2ad0e4599205b7d1571be19899c72628324bd35a914ff43d7b
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g13p0-dummy-gbm
-Build-Ids: 0b71a44435981389aba2c1f736cb7e0223548cfc 8b2016ed3b5f86e2129ae74ad32a696135807989 9677ed99315fdf96eccda216696804773d07ea3e 9c857021d65c9cf029525beaa738b3ee2c97a10c e7dad50bd58c76892de065610f34a928e7101976 f28d86cb13b14d7492fac62fa08f6191b6ca6005
+Build-Ids: 7757c563481f1d6e7da690a87ccf327d00ce17e6 78fdb9a9ad01a9ef0b79c1ccaa610c94d498b681 a3890e0bdceb974bce955747f2eda380e0e4428f b896ea7382e4fe3adcc794c3062ec67a8bf0650d c743bf089afe702d5e3fbbb227363efbb5f2ba54 eb29fb1ea4dce3663aec16ab32e9dd63f7f0ca81
+
+Package: libmali-bifrost-g52-g13p0-dummy-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42941
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm_2.0-2_arm64.deb
+Size: 12467084
+MD5sum: 97087a885b7deaa8bcbb873955f34cca
+SHA1: 82d697227892d961f93cb3ef998f3367a5e9995c
+SHA256: 863ffcf80812bca1fb494b90523db1eb051fa85779214f85d939f9f97ccf1e24
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g13p0-dummy-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 68
+Depends: libmali-bifrost-g52-g13p0-dummy-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12716
+MD5sum: cd0026e0f195c8d3123733bb49d5af5e
+SHA1: 898afef1889a74aaf703211a676d51c23572820e
+SHA256: 397deade23a0f28088fb23b76b335090ef20d5cdf98e464e6aa26d9e00ff2954
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g13p0-dummy-wayland-gbm
+Build-Ids: 1309cc28eb82385ec2482aa83dfa6ae8ea7ef2e8 1c2cc59f9719b923237201313674c50ecf24b4bc 6aa7abc3f75312626027a8e5e463f9faacbd6fe4 6fc5fb967f99f0498c6284914cf39d71b77f83fa b6192610165413b852908ce2e4a71db59bc1d9ba ce8061e012c1503e7e558778597baa9e0af317f5 e93c2b0b891d2982b0f16c8a6524b157ce8a9412
 
 Package: libmali-bifrost-g52-g13p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42741
+Installed-Size: 42793
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
-Size: 12451992
-MD5sum: e8279f744c0186687fdd3aa013e31913
-SHA1: cb3a2c69697158133a10ba244d06f63d3e7712a0
-SHA256: 1a0542ee295df05c59c4d68ca4f64e843fe9d539ec8d09ac002f4dfa6a6de7b9
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
+Size: 12448372
+MD5sum: e6af9a6080dba663ff843d7ce2dec165
+SHA1: 533ca356a96c84e18257cf10711685ce0bd140e7
+SHA256: 23d01f04ab969f6b76a4e75da7d3a7ae54f775af161b2065e28bac554416b7cf
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -476,37 +704,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g13p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g52-g13p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10920
-MD5sum: 42eb38840eaeb4d0f96ef8ac4ec5fea3
-SHA1: 4c4c8dc7d42c724d3f640abba4b1480f762ce31a
-SHA256: de34a78e409b6108c0c43b3c60352047590b3c645c9f6bb2851718ca43380950
+Installed-Size: 61
+Depends: libmali-bifrost-g52-g13p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12412
+MD5sum: 28cb361a376c6c3475879c5213b95b83
+SHA1: 4eae2a49e2f2596c82f142c35704cf2820115535
+SHA256: 05ada14ea6440f5dc44bf704ca32c564f426f1f79661f14b6230baff25b19e06
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g13p0-gbm
-Build-Ids: 55bfa9c73fb483ec9e496f6e33517489ba943577 6e77ebf2e5f6ef0e6545c18953e1472b83d7f2c7 7fdb1b723fb6d85b5d729691c34066efc349d612 9a78a126376c1299f9b6d9f05c808bb431d8ab5c a97199ee8592ebb081dfd4215a9d3786093dcdb8 ac911ac82bb3973aed2941b21d49ef85f2a2da77
+Build-Ids: 064d2bb3ad26b44b28b83f1e1e338e22671bd50f 2303522754618e23ab86563075a29ed4e1b52276 326330da95d7595ffb140c2f2f899fbe7a0f1c36 3e13bf9416b59b91cd578660b5f1d64280f42ba5 6c6146f607d469cf2dd4e56e933e4880f1bc7b65 d1d3b413ae7220ddc1fca3301c3d505206007303
 
 Package: libmali-bifrost-g52-g13p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42828
+Installed-Size: 42881
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 12455324
-MD5sum: 11a76de610e080c71e57fd677e6cbfec
-SHA1: 0ccb0a2e3bda62dc4004703f027863088b4f5cb7
-SHA256: 52ef24e56ad7381aae9193ef3420adaf78c90bca3f13960c32ee9c22a19bdf83
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_2.0-2_arm64.deb
+Size: 12457320
+MD5sum: 4fc0e6a7094c2cac137ad6552d65ac45
+SHA1: 9d1dc2df08d1b4fb3529e493890a12e5f55b65d9
+SHA256: 34cc6fd9a879c6ebdb2da9c37dfa3fd24eaa638ddbbd0bd23f936798e9ce68c6
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -514,37 +742,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 59
-Depends: libmali-bifrost-g52-g13p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11236
-MD5sum: bd675757cc768f09e9423bdffc6b0b32
-SHA1: 777b8e5deb18d7336a1945cfd2c40b8db72a3083
-SHA256: 20083767a35425e4b2402482a1671fb250bb7370f7b3a3cfdf7909f4c3991f0a
+Installed-Size: 68
+Depends: libmali-bifrost-g52-g13p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12700
+MD5sum: 5fd6b4a0396cd599774533e994922591
+SHA1: b83764e4b7c3976de687160abdcb52c2384a42c8
+SHA256: c08dfad942cb23793178cf7d7f00a75de47c10d53da345e418208c5fce5e667f
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g13p0-wayland-gbm
-Build-Ids: 0f22470c75d3ceed0ae3d86b5deeb701abf07c7d 269ef164364749b78e0d47315113eec90a3ad1ac 3e8cd0ee0ac3301d59ca38b13cff40a1fcc740be 4c0f69f6e408ba89adb679f638c03f461f4de7b5 4cfadcba4701e495393b1a9330951744f23ce900 58e8976693a0bd1919b10f51c1ab3190feab9bc9 c03ba3991c709144e6820ad4503c4cc96bc1df98
+Build-Ids: 07b404241c3f7a686b5467478ae3ec841f04a506 2a3efeea3d831fddedfb7805d76a338e2b6ce990 436dc4f10bec1c204e44d1492af86886397a9632 49d73fda7b2f602f11b5d68faf2d5de9cfef6212 7d30f692ac6aa0903513d3346c9a7efa8ea02318 9d03e9ca75aadf07c3b08a1c4f7ed883497f5e68 f36a20a2322cea453954fe182616c2fe0fa6986f
 
 Package: libmali-bifrost-g52-g13p0-without-cl-dummy-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18891
+Installed-Size: 18928
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 5.2)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
-Size: 5608348
-MD5sum: 3a92814a8b3e4cfb29f408fe32d4612b
-SHA1: b998958305124261225815e570e23c0b3fd01723
-SHA256: 4fde4db0e918c4137b1499b840595e1f1255e85c6d300cade22730856ecf23ed
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_2.0-2_arm64.deb
+Size: 5608452
+MD5sum: 3b26d1a2fd8c6f25349f760171fafb69
+SHA1: 247630b13e30bd5953e9589c849c1f3d1244cbc7
+SHA256: be6eed2726a617d25f7850c743434b2c792b726bde17be97951f50fc99e42db3
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -552,37 +780,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 48
-Depends: libmali-bifrost-g52-g13p0-without-cl-dummy-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10912
-MD5sum: da8fcdcc9e71f9f248881eb45051b42a
-SHA1: 07c797541a9ea0992c8e7e17c5e9e51669a819a0
-SHA256: e2cdf85ff762f5cc838ce712f5b29016b3a99784d47fcb8b0a8bea90ce42ada5
+Installed-Size: 54
+Depends: libmali-bifrost-g52-g13p0-without-cl-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12408
+MD5sum: b4c442d9e71a18453be07a42c939200c
+SHA1: a8b712cab4ae73e6b329c6ce445f12c4af5e967a
+SHA256: 4139ded6c9184c977c7180331d02daff14b7f5433e85027f5ebf89086732f24f
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g13p0-without-cl-dummy-gbm
-Build-Ids: 2a0447f3685e9cd77d27dfd435ee19d18a6d5201 8a34535ed540704909a383bdd969f7212fb63e92 9c9ca5d045a68a3a180ec80a6e0a26864eaa9bb5 f364e50584440dc3f550a8701451126748361add f66ff4779fde61a9b668f1639cd391cdbcd3d14f
+Build-Ids: 553d1df77e576b9147cfe8acda9c2432267b3fa3 5b41a737b41f3496833ec785aedd0d4cbf5e6fd2 a5dae92e64b2ca2f854d41d31e197853626a1e4d ad9473db543a9ea57dc1d94b0ca5c724cda56b72 c6a52e4562159be4ea7a71c8b8e245c3d8029ea9
 
 Package: libmali-bifrost-g52-g13p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42769
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 42822
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 12459208
-MD5sum: 7497d0e8aaf65b94699fb61b5b0c674f
-SHA1: af41999229f9b444e2a4e2662a951d5095c0bd31
-SHA256: de8c18155495c24d42d91ce776e9864eca53e631395a2942944e236e2041862a
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_2.0-2_arm64.deb
+Size: 12459012
+MD5sum: 8624c227da13d2022121886b7f294404
+SHA1: 1edc596c68faeb742452ec29f69da187850936f3
+SHA256: 8c9f7f101d5f1d77c03a3cdcafb9b2a591b958b1fbf66b8777f4a7119531ada7
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -590,37 +818,379 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g13p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-bifrost-g52-g13p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26072
-MD5sum: be60611e70413186d4ab2b9c97605ac9
-SHA1: 0758b482c8c0f1615ec7b2956baae3c1b3d845ce
-SHA256: eee124fa20caeb56394db69d351b3cca4780da5cd21ec45440754695fa8095bf
+Installed-Size: 76
+Depends: libmali-bifrost-g52-g13p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26980
+MD5sum: 6ab739cad475b9ce782568105bb4809d
+SHA1: e07e0d8cede5e3f8b63ccc76d5b126cef5250476
+SHA256: 0d0fb4b8c704895dce22e089eb9f02873e25bf5a6fa99d0ed1e4b947b23ca320
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g13p0-x11-gbm
-Build-Ids: 47ea7461497c53503f33fb04a06514357c867809 54d385a4ea3c0fa59724624bbc8fbf1f5ceea323 82730c3b7bb2365f38730c6ad227c3ecfb3c6e9d c6caa838e050127461782724a74c0bc4dcb26248 d1b85e6f510494638e10f6cacbe00870df1113f0 d3a00e53b32b7b265c3be9279fb3f2c03019beaf
+Build-Ids: 2c7f7b0e310af858bac44ac59db1551208ddebfa 3f3a454b63b4298871f51e6bc1fb629e382dd224 409549ab93ca6175de67e8eac609f4f0abec7760 69e0eaca92baa511ff1d43574d15d1886641ee64 6af7b2f3b8f6751c1f946c736630000e233b2bfa ae20ada60ae247e50b4870ccff4d6d8312042c79
+
+Package: libmali-bifrost-g52-g13p0-x11-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42914
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm_2.0-2_arm64.deb
+Size: 12463980
+MD5sum: ef98c4273d78eac980828ccde44b1cfe
+SHA1: 4bb391a1ab0a626cd5ed1bf70847c0b9f0d2efe0
+SHA256: b910294415cd15832d500790916a7b2b9b9455201d99785cb0246eb2dceea353
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g13p0-x11-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 83
+Depends: libmali-bifrost-g52-g13p0-x11-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 27208
+MD5sum: 4ff31e60c1603510220b489c662024db
+SHA1: a4a95600e83696d9d62147c59876f4006b0db8f3
+SHA256: 1a444469cd953789093b2f0b4773bf9185512b9458bc727e1fde60ee9ff269bd
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g13p0-x11-wayland-gbm
+Build-Ids: 0e995054ca1a29f7e60e96fa9ed8525edb246e88 29b6032b01b0e03ed601dd37cc3794c1776b1ece 67227ab4dc2b8bbf6f98da6e236b2d7342116209 73ef9c28ec8c03f9d9f3e3650e77ee5e074bc358 976dff38fdd0ff161b58dcdf0ad62ad1fc565cff c0c91a201d1cb53bb874e52cfd19436d48d52471 eb2eee493f1b0c2c1bf99f01727a0c03828d8236
+
+Package: libmali-bifrost-g52-g24p0-dummy
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55357
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy_2.0-2_arm64.deb
+Size: 15867576
+MD5sum: 08429bd6770be895c9ffa417280cd08b
+SHA1: 82d52960a774591679d0d16390b9f04d66ca8a21
+SHA256: f7ef9ddd3a55f277aa2302ea00c3bc6ea8ccc9adbc3b98db1e0f55803e0b2db6
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 48
+Depends: libmali-bifrost-g52-g24p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10240
+MD5sum: a99b2bd116c2601e6bd5cbc832f96f11
+SHA1: a6e3b1d7944ed0e1f04a8bf5366378cb047c78a2
+SHA256: 06079e5d38009679654cf5cd9e5683d16ab0e4b49b5f4b6e88a855842dcd5cb4
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-dummy
+Build-Ids: 812694ee3bcdf44d2eddf8ad830c812436ea918b 83f80965dae1c3b4793ab1dfb55e63b91d974b36 861e2c2548ed3237b3184667eda5b2ceb0d606c7 b36b6b85a488430fc76e09242da4327fb06545f6 b820a7ad6fd7c234d22d4ef658a3e9420de7158c
+
+Package: libmali-bifrost-g52-g24p0-dummy-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55481
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm_2.0-2_arm64.deb
+Size: 15877436
+MD5sum: d92e351ac875a1533088b35556a88cc7
+SHA1: 20208359a03e6ebaabc846d22cb1f6eb21f5f253
+SHA256: a7d98060963cd4023be4bdb6635f1b29f4920f4030f3d71ac87fc6b3b97b1469
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55
+Depends: libmali-bifrost-g52-g24p0-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11600
+MD5sum: 5fcd21781fbd1f353a7746a2b553448b
+SHA1: 0c27716e41c761b2f11e7f3f68c64481c9971d1f
+SHA256: df2a064b925f9bc2c78329609b44a460a808dc50ef3b1a8af57c0afdd7f1b4c3
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-dummy-gbm
+Build-Ids: 032fd7857cbee57e11a50442c85dc6695fed17be 08bcc6a835979b3cf063cafbee5c823177651116 2ad3ad95f45cd3038ea80620693f3df21de270c6 6e2fdea6bc10c7aa82efdfd2c2d2961c9edb2ffe 9264f11e040e4ad1167f89e4d4e21209a2df11b9 d1f95e5a96059363365f71d4847224ba4973f332
+
+Package: libmali-bifrost-g52-g24p0-dummy-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55614
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm_2.0-2_arm64.deb
+Size: 15891668
+MD5sum: b66998b517ca9ff921062f8056e388a4
+SHA1: 20bd0046ba3dde76752bee6e01105de9af7ed673
+SHA256: 80e67858d2e196100d1a849f42886a55c22807a4bc16127467aaa05fd273c103
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 68
+Depends: libmali-bifrost-g52-g24p0-dummy-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11940
+MD5sum: c7c7e5d91af21ebde39b1c90afff91a8
+SHA1: ec28b2a0b546ed2db3206c7e8cc2d277be2dc20e
+SHA256: 2618f1bd187976e1c3fb1db3dd8ad29a27076896242d761925f22cdfc82b71e6
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-dummy-wayland-gbm
+Build-Ids: 1e0c6fa70d2806476c8037d2f096972ccd2efc43 5462e87ca34e1c9af7798bac565f0de9b10ca4d3 648e0022d2ce93ebf90ca12a0cd982c86e2f4019 9880ceff59533e5dcce0daccd4154c7462f42a99 af333f984291bce66df13b97d933156980fda346 c3d467579a590c527ddcf102d2a1b5faa905c3d2 fdbc9ceb9ccdca405f48bf0496bbf885915f0fc8
+
+Package: libmali-bifrost-g52-g24p0-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55393
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-gbm_2.0-2_arm64.deb
+Size: 15865820
+MD5sum: 9a540eb907c6ffae9801cfc02142a7ff
+SHA1: 4f59b0ed0e86c1b5b3cfb14a26f17631b27ecb57
+SHA256: a8a4f014d7cb25d65956ece9cbb75f2c43dac8f4f326c319eab747e4aba30810
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55
+Depends: libmali-bifrost-g52-g24p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11564
+MD5sum: cc093c74d38d448e8654e39575d3d445
+SHA1: 6b528741c8334e5ac72d08c6c61f98328ec89bc1
+SHA256: 9b11fec3eae00b2c17efa77ec3cdb6be0d9ab5f1c77cbe1273e0eeabe0477ebf
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-gbm
+Build-Ids: 6845292ea3c3328f30c9f2e19d488354486fb687 7d41e23c0a00a0770f95b0358625cb9271cf1465 8a4f5072bb8d9bcfe5fba4d87da5db2ac0a55cdc a09a5301875341d5385872b7fe3bd1a2fbb02548 b9d7436e084118d70b614c6170d53b59d8500430 da64990a70543dc21361a7758538c9c24a235557
+
+Package: libmali-bifrost-g52-g24p0-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55521
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm_2.0-2_arm64.deb
+Size: 15887968
+MD5sum: 37952dbc465af05017dac2cc6d6a448b
+SHA1: 5a326f76b3274ab80b19c35c8bdfe53313f85fbe
+SHA256: 834908ab599e9b084971434de7941a272926a85e6c527255db07cf58c8611fda
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 68
+Depends: libmali-bifrost-g52-g24p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11892
+MD5sum: 2a80c2b5d3d1adcdabd0b4479b4965e5
+SHA1: 132b61a3c1a7fd8d863491130e61be912ad4aea6
+SHA256: a204fc01e2584a4348bf70851940d90bc363c4f74ede0ae8f677c24288e25a19
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-wayland-gbm
+Build-Ids: 355212c209462359f06b00a5b1581848da8b339f 3bca32bf1b62d63f6ce810d974b79c744be5309a 589770ec0420d1734c79f59d306566fa3f1eb80d d737317e65ff4ee226f27f49dec00688f15a5041 ddc6af10ebed5fe9d93d889ad9baf5ece89fab51 e6afb948268351f7ee44d253340b449b55be676f f4bcf17b35ad5ad1e98c51995076cffe22e4dbc3
+
+Package: libmali-bifrost-g52-g24p0-without-cl-dummy-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 22693
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_2.0-2_arm64.deb
+Size: 6717332
+MD5sum: 62ba88c5f4f7a2965c07f10b0db003dc
+SHA1: 42e8e2a71b1eca0e87a20cccbc612f42c8320cb7
+SHA256: e72efe595e35359914b365610662f81b24b95652c1c306c5948fe61a47c5d614
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-without-cl-dummy-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 49
+Depends: libmali-bifrost-g52-g24p0-without-cl-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11512
+MD5sum: a0b9e2ef77472498c1999946813ab488
+SHA1: 090270cbeffea45ecbbedc4b4212b44ce82efa30
+SHA256: 02d9cd2bfa9ec5e99b7d49d0b3f52c78c900e6771ac7d3cd97353ab892be16af
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-without-cl-dummy-gbm
+Build-Ids: 219c68263b8ffb161d1ed3ac9bb3a19e7c384c17 2b41f460a7e68832d054e5fc11823c5bd6d2876b af2688280c42d1527e268f55fb0ae9f7cb53d7f4 e901449e2270564db582e69f5294847804968064 fdcc5e290cb7873d45d6629328466d3091c3f5e3
+
+Package: libmali-bifrost-g52-g24p0-x11-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55435
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm_2.0-2_arm64.deb
+Size: 15877888
+MD5sum: e2d1f53dd54e0018111dfc5e5ba960f8
+SHA1: abc30e0b37a766936021c7d255ac58e194c0b508
+SHA256: 905d8a1ec3c2a7e6adae580cca8a9a31ea4757be7d35ac74be26301f8ef7be6f
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-x11-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 75
+Depends: libmali-bifrost-g52-g24p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26160
+MD5sum: 8ff1b7c8356d5ae6e686e164e6250a89
+SHA1: 3337676aa79b4000ced0cb6b76b931ce7e120cf4
+SHA256: 218e4829c5d70a5f664fee872029b7fc265a93f73ff488d59697640eac84e1e8
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-x11-gbm
+Build-Ids: 0bc7697c175b89c7098a3160e5d0992c4b191cfc 15fb96f8b345a81dd454f2c3912719bc96a94b7a 76e37f42c61f150b88038692f1f609539b05cee3 7e7c843269fce36297ba8a92e3b80c0e92cfd0ac cebc26a785dc08dad56124ad5152d3a7fadf2e91 e30c519a2670e14acba077d52b0627498cbe0bc1
+
+Package: libmali-bifrost-g52-g24p0-x11-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55559
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_2.0-2_arm64.deb
+Size: 15893676
+MD5sum: 756853c45cdafc1b84b67612817efe85
+SHA1: e971bdc4c731fd0740a272d535d83596f670e03f
+SHA256: c172f992795ec27a726ae3c1904bd7daacc7fe840a9c45178d24dabb725b44a2
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-x11-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 82
+Depends: libmali-bifrost-g52-g24p0-x11-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26392
+MD5sum: b4f98fe09c27b2f07953a82d2eefee2e
+SHA1: e2f6f26fe3493efb97064bf7882cfec984d8ab84
+SHA256: 0f7f4b08ff55a1ffd80e9670c29785eab9b3773685e82999112d9be326e98f5d
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-bifrost-g52-g24p0-x11-wayland-gbm
+Build-Ids: 193bcedf0ca199de8ddfe0ecd716aea7f9646027 450cee5a00cf042ace0847d17a5771c0e760cb15 82db800591e9b73f83274796733cb5251dd6bce8 98ad5d55e1d19f18d3b62a674d94aa654844b930 9d5e7473826730b4135222c6ccd1194714308c69 a9260c63ffed8bb4c874582dfc2e070d866e3285 f45d7f853efbab5405527acf6283538ffa7b5742
 
 Package: libmali-bifrost-g52-g2p0-dummy
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44807
+Installed-Size: 44898
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
-Size: 11982972
-MD5sum: 12b4f3cbe6869a0c4717332286b060c7
-SHA1: bef7db1ea93b9660ae4feea2b701946c97bf5530
-SHA256: b666838f1c74492c962f93e681c068ecb55761249eefa1fd3a42001bf52e938e
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy_2.0-2_arm64.deb
+Size: 11974660
+MD5sum: 1afdd0680aa228f0fc68d86f918cd5bd
+SHA1: 05467653d08104c6e3288971c7f3400dba44c7df
+SHA256: bf8c897a6309e775148b05f1db23673c239b003ff9261f0c77dd3c852ee9e5dc
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -628,37 +1198,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-dummy-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 46
-Depends: libmali-bifrost-g52-g2p0-dummy (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-dbgsym_1.9-1_arm64.deb
-Size: 8820
-MD5sum: e044cecd7c189910c708c8860286dbef
-SHA1: f5649bf42057d35af3bf257bf89a3d74efac3ad3
-SHA256: ab5ea5333e131a0c1002551da61c4efa0f4d5280f94ae2affe39741f3a8d76cb
+Installed-Size: 52
+Depends: libmali-bifrost-g52-g2p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10284
+MD5sum: 2a227f121c1135a8af39933de94613e5
+SHA1: 0a0fa7a85777085ba83268583277086cbc71ba97
+SHA256: d0dc898fe18fa3cc28cf525e2b737dd72135a081561e2831e10c9220a3da4379
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-dummy
-Build-Ids: 00a2f7db7086052652a2aad5369d01fa03d724f2 530f06e4d05fde9f18473a65c9acb1e30f48afb8 98c2104a0b51c5cabd9cfb40d7424ea66059db79 ada2fc5e488da7c89b14283e075c4dd06caaa3c4 f9c1ff6beeb5b04ee92ad39bc949bc90bbf088ad
+Build-Ids: 01209348842fa33c4291dcdd0bd95e078000d65b 05aec928874d35d6400db426194f61123f1a684a 3db2a1994573438d737720855d9f2e6f081464f0 8e4b9e0faaeee47b679e762339a21933dfc66806 a01e05d92e94d5e0662a36f052eddcf29c4acad3
 
 Package: libmali-bifrost-g52-g2p0-dummy-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44879
+Installed-Size: 44965
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
-Size: 11987352
-MD5sum: 637d50586f211e54dff0cffd042f7939
-SHA1: 1913b3d6819d7947a1570a8afe3f9a391377d6d9
-SHA256: 4e33c3c64b4782092a7ca5e3fede9a594315a42f0a6e35fb4b6841fc5b2cce22
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_2.0-2_arm64.deb
+Size: 11989960
+MD5sum: 190fc2dc5a20fe9f981285734e668684
+SHA1: 80573bdcd54aee421b2569946c9fcb3b3b16baa2
+SHA256: 083bda05e93a65772c01380009bd5a8040b326aef3886fa8ac694ac47772bd74
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -666,37 +1236,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g52-g2p0-dummy-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11008
-MD5sum: a36d9b9c64b4d0ce8f7ed19b8aa024a4
-SHA1: de83db22337e88caac2452e3337e02808cc81ddc
-SHA256: e51b3cba75c5844d4cad100316ccd9dd2b7bead9fdfbfab8d421fde5ec104912
+Installed-Size: 61
+Depends: libmali-bifrost-g52-g2p0-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12500
+MD5sum: d1022bcde99822c7a14ca6fb2b36a7a2
+SHA1: e316c4ecc2a5ab7a595da3d675ad7077474affb6
+SHA256: 6568342f9bd762420d2d16dd3f3649c814ce5de3e2c200fac89cb10ad6954ecb
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-dummy-gbm
-Build-Ids: 1cdd9eef95c961720073e338ebc50129d49730e9 31cb2ce92831014e4909225babfb48d71cb7b41a 3492196b481226b7d7334e3c1c8ebffd179a04a7 4ace85ec8edfe2cefe2c90be3a44c7266a6d8df5 7b6fa22625a2fec5460be51e45d8cf6a014b1b3e c88b98abeb2621e82308e12806f54e8bd42a6268
+Build-Ids: 3383c5681040de72728d8d5d6da3c7cecaeeb254 6eb885624d7dcedde4688157e8a0bbaac429f759 7aeff3c8ccf223310c32d91d620c69ce5a7fc6d1 7be0a470e5dee3ed4ff788c404697d44b1c945f7 d1e9b7d174525a6a65a60e88ee50e8bd21aa4e1b f1f2157b69f3b6ddd73523f9a462969b5051ad20
 
 Package: libmali-bifrost-g52-g2p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44839
+Installed-Size: 44921
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
-Size: 11983848
-MD5sum: 847d1a25af9a523cb76d71f8a416cdf2
-SHA1: 7990f65eaaed5a88b2e1fe38cd02333e6878ed75
-SHA256: 2332493cd4165ef74b7ccaf309d9baa6e65ae0fcbbfa9bebeef408a0b6f186dd
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-gbm_2.0-2_arm64.deb
+Size: 11984384
+MD5sum: 446ffcd4b45f33dffa347e05bfbdd691
+SHA1: ce8f1c3f827a398086f8c98c4050f20ad55bf35a
+SHA256: 08eef8737af2ab4f7ec093f85e919ddf3761dc0cba57f23e8a5d0de0ac0115d8
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -704,37 +1274,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-bifrost-g52-g2p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10924
-MD5sum: 242a1a5696ecf4f12bf325976a894b76
-SHA1: 5141893cb80a100d51fc8d89429585c3bcc585f1
-SHA256: 9f4837446f31093a570d98c6e72ec92a927ac8c1676c4138647c24d13e42db88
+Installed-Size: 61
+Depends: libmali-bifrost-g52-g2p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12420
+MD5sum: da4b4df8c5ae7e67ca590f266426653a
+SHA1: 734d638e3c593f61063631a9f932727270fb272f
+SHA256: a0c4d4c239ae680dc2fb2387b796c2d566925929bcbff175eebb47e5637377e5
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-gbm
-Build-Ids: 34db40cb40a93e1b259ce2cea666657184a21ea7 4c75fa7242cd2a216004a5e933e140f4d7f4d609 5a2094a361d2cd50e1997f2f368772e1601e06e0 a0e6353ea000121ae936ec2fb58839cd359ba6ff d589dde5c1cf47ef1c460d397819e8a46948fe05 d6a528162bbfdf700ee9c8f5cc1b8fc35200144b
+Build-Ids: 1c0d9101f725401669b8c4d8bb4d97accca105cd 648c104178ce474ee7b6fbea158c51da97e64a98 70165aabdfcaa1faf6f49350f4a49802d69be89b d4ac1b0a0cc99a19b0bf67715159faa94ce6ea45 efd65baa1a85e385b1f96456ff7ca0de18516a9b f8ad36ce7711a86e0823e4c10002342e0c24b914
 
 Package: libmali-bifrost-g52-g2p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44928
+Installed-Size: 44990
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
-Size: 11978492
-MD5sum: 19ffe6cb86863e36541de563395495df
-SHA1: 4757096dba7d622ac94a2cd85a682af73d865bd2
-SHA256: e6aa9fe375a2c46001ffd21319360ea5dce23f58d9c6260766e22ad4d5afd336
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_2.0-2_arm64.deb
+Size: 11981424
+MD5sum: 6dff0c72ab782dcdbdaee586e4681446
+SHA1: 2239e6a7a305ac324143bf3324ae013e04e2c402
+SHA256: b1900333be91e1db68ae8dea049038cfd696e1d367eacb1a5ae351172c0e1313
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -742,37 +1312,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 60
-Depends: libmali-bifrost-g52-g2p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11244
-MD5sum: 6f1f9a74166a88102bfe37a94c37cb47
-SHA1: fd256f01137f3fd3e2c1a6ab377a14a26af96388
-SHA256: 2b468e90dd8e64f12424f19b3ac1dfb6bb71baa4c91814041eaf2c6bfa457487
+Installed-Size: 68
+Depends: libmali-bifrost-g52-g2p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12684
+MD5sum: 697b7f008ce530fabd26ed8e99e548df
+SHA1: 8c3d6b5d04953616485860ea61cd5083d506cb03
+SHA256: 9492f79df905abf75bd6e7732c7fa1902c627f4b062477c5eced688843b97b0b
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-wayland-gbm
-Build-Ids: 380976bb331c7d7d8349e799b3fa1219a7c83666 4181af0af089ab1dadf452b9d6449837ca5f6933 6d586ee429d2b18b391f72e29dedcfd92dd609dd 99ea71b3c0f7104ab0b7fb698f691619c4962029 b205d5a05e701393fe71d4d1e0171f8bdab58749 bc9d82f5ac8d01512d0cf2d9718719945e1955fe fe11957fcea250a0fa4505265667e953e26ffe35
+Build-Ids: 20a2da391160f89075ad3a5e1681a80eac27064d 296cf1799c11f43cda6ce04e382cd9cca7d43841 6622a6143f712151991f3ec7009b449d329323d6 6e751d7845efb0dd2f2d29d5425466896a6ee984 80620be73cafd51b97a785a3d2365bf2a42819dd d6f0c766c50b8c087b1924f3f8c7912b97cccde3 ec9edcd9282c54228e84bcd81196291257497221
 
 Package: libmali-bifrost-g52-g2p0-without-cl-dummy-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18608
+Installed-Size: 18710
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
-Size: 5376284
-MD5sum: e1297201955881d2db59ee1529537bdb
-SHA1: 357843dd33e6675c5ccbd23e4e7789f8cd69b50d
-SHA256: 5e9a2ceecb725d78773ce53c5b65bfd2bd27c2eda1ba4015d5b59b5931394af5
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_2.0-2_arm64.deb
+Size: 5375512
+MD5sum: b6f529a441bb70eb978108ce268ce442
+SHA1: dfa2ecca936e867172e01f730dff03e04bc05bec
+SHA256: e597e8db15ed19bb5af9a83f1d867d068ad63fcdb9c17ab950e67bf87c6fcadd
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -780,37 +1350,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 48
-Depends: libmali-bifrost-g52-g2p0-without-cl-dummy-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10908
-MD5sum: c67551efc233759cbc806293983ddff3
-SHA1: 73415df476e43005ae10957b8de35cd407e1e786
-SHA256: e83139dcbaee1844d08a5586133efe9a477dc7b466f6a4411d0906908938a502
+Installed-Size: 54
+Depends: libmali-bifrost-g52-g2p0-without-cl-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12400
+MD5sum: 7e1c8f38bfffa43c4e589610446558ee
+SHA1: 11b611b24dd43b39b589ef72a7f4deb9d65a4479
+SHA256: b43536a7a59b90cb4e7f4b45164b69877fadc146ceb24128c89466b6d981f21e
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-without-cl-dummy-gbm
-Build-Ids: 93343d4e48a8f6d5af068f393badb0d7c8da5475 c8de7a02fba01838783a606734f4fb836eda832c e0459635fa7114e6ec82210d3c8f96b52c2c2ddd e80b77bbfbfaeff78ce1040c954071d1aa2a50ea f531d2e566b5052672d373f145252fa3770f9317
+Build-Ids: 0b47a6585f2f0af4e75a94f3a209a0c8472ae658 2ba47af785482dae141bae05322bd48a65f1254b 429595463fa157ad7d04b56ff7b8eb583ca6256c 5ca1f2f8be5e4614bcdbb760ab9c88fb3d087671 98478e4a256b559c641f44423bc5a9c72da92255
 
 Package: libmali-bifrost-g52-g2p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44876
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 44961
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
-Size: 11986584
-MD5sum: 157add4f37fb2f0a210c356da36f8e93
-SHA1: 4c2bd55e9f26ccf59c94c80e43016494fc7d4860
-SHA256: 77bb38c1d0cb3de57753df5fc4857646b2b1d1394186a83467d147c2231e29c5
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_2.0-2_arm64.deb
+Size: 11983488
+MD5sum: a756a8a72c5a67aea97c52e1d4125b7e
+SHA1: e3396d51c8bd1d82b3a825eb8cf19716931e6c38
+SHA256: b8d56e86d836b1c4682a2248b73bcbae648bff6f5078ed9a0fb5984dbc092bc1
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -818,25 +1388,25 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-bifrost-g52-g2p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-bifrost-g52-g2p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26044
-MD5sum: 1a7d7f0b3b6a72c8e8a142b747385bc5
-SHA1: a48a9960d77fe89b5a9b8761a1d9d77d990510a2
-SHA256: 67ce1df7aa1d92ecdf3ec23785fa296c9975f1afbfd203d4ebeed7a9a551387a
+Installed-Size: 76
+Depends: libmali-bifrost-g52-g2p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26968
+MD5sum: a2bd3195445455ee83a97f94c5f86fc5
+SHA1: 1f508d9d7cecf5e07cf2bdee5873a3eaca480cec
+SHA256: 331fd88bbd2d34d40ea49f056c7c85bb8edc57166ed17a126f05402c3a382559
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-bifrost-g52-g2p0-x11-gbm
-Build-Ids: 2fe35be91b43956128c50b6d578edb55b8fe44ad 63c93068cf7a0f10697f37c8b18b2a92fb6bf51d b0481c4e08e1532c09f75ee27ae91d7c394ed318 b77f3e4d3f219bf5c6ff68394026a488fe1e6254 ce78a4aecbda7424e4d7129f161780a5fbf4bae2 f7168e34871367615c796e812d83b7c66d094c02
+Build-Ids: 06d5b3d866cba53040afef805f48992f6ae599ea 23f63e60afa0460cc9385670e72abfe19df6cbc0 30e9bbf6f80b98e85ac123b2a20fde611cc6bd2d 35e963a01f96d31af20280ec697b5525c3438bcb 3d1372aa867887f0c852fc48c9b68866b45f129f a165b7712752d11ecc8e01d3fe5c09cbacad7dcd
 
 Package: libmali-midgard-t86x-r18p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 29496
@@ -844,11 +1414,11 @@ Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 3.0), libstdc++6 (>=
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
-Size: 8002784
-MD5sum: 9a1b7c7cfbd21888893e962432816cff
-SHA1: ddb3bec6c093689d518402a6f177810bc6885372
-SHA256: 10c06a1cbf4f76320c0c82c13b912559f80814323b14e1b10fdc183dbb860c90
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-gbm_2.0-2_arm64.deb
+Size: 8003576
+MD5sum: b57801f41717536b7576708afde48c91
+SHA1: 3e10482f10b2b70bb6daa877c578ac1c811075b7
+SHA256: b0d8fbf467284d8c35d52f08545194448d6c0627603f24c394c004a80c00ba54
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -856,37 +1426,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-midgard-t86x-r18p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 56
-Depends: libmali-midgard-t86x-r18p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 12692
-MD5sum: d1378dc81be13c9e6e14239defbb1637
-SHA1: b20158a33a29715fd6f5c8d9e91b0300a9a8b325
-SHA256: 983e1f5535b34400f80ce573778de17a6343ec13766e4ed4696c3156bee8791c
+Installed-Size: 63
+Depends: libmali-midgard-t86x-r18p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 14092
+MD5sum: 69ecd5218ef8c4ead9e141c009385f55
+SHA1: ccdfe0b99ab96ba060b80ea0a3242ab7aa713827
+SHA256: f043c0b70d70994df84b2be6c3493a0aa493de5e743c89b890f4069d1013a405
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-midgard-t86x-r18p0-gbm
-Build-Ids: 0a73f5763ab5ad749ddc601580e64dee3aff6dea 394d4fa4237c288c34fe5d512e02e2f650330555 52e26c860017bb2f8d58d1113ab3b4cdbc1f1d36 e3554bdd8b9af4bea3bd97787aac6ec861ba8293 e6885ba0a56a49cc0fd0cf848d2a513e0700dd0a eaf5459fa19d625c35fa7a58ccd06b772fda8181
+Build-Ids: 512b950f6be617e951ccd8685a69c5f165106fed 6885790064ed29b13463708544b6bf4aa97f63ea 8fb599fcca28e25aa52e48f648937fd86c39c61f e9352524cdbb63788d7e9dbbf6d940db6d32bf19 ec3891d51c4d9f95a651f96e8ed1430e742de922 f1cd2d6d9acbab7c70341b7d1c91528aa2fc47cc
 
 Package: libmali-midgard-t86x-r18p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 29564
+Installed-Size: 29576
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
-Size: 8010052
-MD5sum: ed8600e24c694f5344f66613b4b826dc
-SHA1: b1a36381b874ac95ec27063dccf5194609869c5a
-SHA256: 0aae530c68aca2b5f752fc7e3454d9e0bbb16f7df7c14c28ac58702dcd25e612
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_2.0-2_arm64.deb
+Size: 8014776
+MD5sum: 5b3941a3c14e61432d6d521ae28d2a1f
+SHA1: b46aeb88a9a143bc814050f886f05137a541ced0
+SHA256: 16e59a28ba4ac7579624e111f2a356c8c6927fa8318bfbba32da39b340976fc0
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -894,37 +1464,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 62
-Depends: libmali-midgard-t86x-r18p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 13008
-MD5sum: 5e86b4d120e70abc4d32244bedc954b2
-SHA1: f9636b16324d96566e48671c2dc062510130f25c
-SHA256: 4293950636daf6c34d745eadc2ebd10c01df3b1e294a5c534ea842ae68a3b78b
+Installed-Size: 70
+Depends: libmali-midgard-t86x-r18p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 14384
+MD5sum: 5982c6795b159ca87bc15f271a61ea37
+SHA1: 76aa12361814c16151ed0cccc899649806e2aa6f
+SHA256: 068951de11d08e6a5af2dc035b4f36a55f13a4dce9c3d912118565450d89324a
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-midgard-t86x-r18p0-wayland-gbm
-Build-Ids: 58bfa6dd723dfa0014f29d3452dbec6a72e020e7 5b7778ff5a5bf5030b3e6598eb7d21fd1e11b032 77b2cf8d392ba5d0b5981647e998aaebb6314845 8ed57b990ca009ad0f3664d85bbd0ea9759890a8 ab0477d17bc78f3f1e81e09623ba19c60a0670ac c9cf1afe016582683cf12493d92e92016785a4d0 e385fda9f8380cbac27ee853ba0de00db3d72fb7
+Build-Ids: 042134d1bd87188c5d36819996a732e3801401c8 65c09e333f364c3455ad90ebcadfd29ba8159461 67b613f0e13dd88e9a4077c9f9b1f224eb787b45 ba53b2be335c85d10693a63ec4599ae1853dd293 cb95fdecf44a77da2584541f7e90bd8d31a764de ebff6e0b3555f5b345093e364ff3091f999bfcce f5b5d3f523063cc5dfdb10858d226f34c8383292
 
 Package: libmali-midgard-t86x-r18p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 29505
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
-Size: 8011632
-MD5sum: 52722a10ae2b8bb3692f9993d78bf08c
-SHA1: 97f2c17b7a11bb58a5f1d70b7da1f7fc98f3b167
-SHA256: bb3d7ea57c518b03777b7e03ff1e429684906d3fd4959fc36f57694d16321d58
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_2.0-2_arm64.deb
+Size: 8013452
+MD5sum: aa050a62ece43ab0cd5bddb61bba53e3
+SHA1: d15ec6de419848b1a86a49ac00bcb40706509f8b
+SHA256: a8bbe23f08fb51e0dfa9c75ee35efb27aebf18a884212259abcaf7dc010c07cc
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -932,25 +1502,25 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-midgard-t86x-r18p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 71
-Depends: libmali-midgard-t86x-r18p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 27884
-MD5sum: 092d982a4ae1d0d4fe3f55c942334eed
-SHA1: ed1f7c29481fb265363593c3e4c539d4d38920e4
-SHA256: ea9e381a9d2950742739b8ca94c891c91adb0b137b9d8e3dfb66f734e7b74f4d
+Installed-Size: 78
+Depends: libmali-midgard-t86x-r18p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 28744
+MD5sum: 72086c33ed5b0dd2dbeb98ec5262b8d3
+SHA1: 1b25fcd01a0c9a8ea1e95f18a90b460a3e7ca9c2
+SHA256: 358cd1f47a2daee701a47472d803da2774b9e1453c5ad259c3e54872e193a86e
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-midgard-t86x-r18p0-x11-gbm
-Build-Ids: 2e29878e7ff34115081927689ce770729f003192 2ed74dda14cce28b6931e89feb3500f21536462a 7ceeb5c19f7ab107135b512ef460debb0f9f4542 b2117267f443ea8e9c88123d7338d758d889c1eb e2b817eeed7eaff0e3ba5c97b83f1d379f2238e2 fd33024c04f65f737e717bf829601ec7b60bb53a
+Build-Ids: 2564f312b5af678aa63a5bf67954543038021c05 609e63cccf7eb87cdff1d6066076fcf1efdb9360 7d483a4e3af17ccdcb47a5d75f34b499e0ed9deb db507392e842b4371572b8683e991a18efae3b8c e368cefc66ff1001ecf3275933f8c57655a61b2d f1c8721d4840e2cc2f43e7b285582af7e7b121d4
 
 Package: libmali-utgard-450-r7p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 2007
@@ -958,11 +1528,11 @@ Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
-Size: 515284
-MD5sum: 00859730155886e34d53ba0361bc74ce
-SHA1: 98460300c0e2fcabb95ca89261f7217032739b41
-SHA256: 0c75592d6109c69685761c9f75dab05b79f2f07cdcc7a92fb19ee3c0cd346ab0
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-gbm_2.0-2_arm64.deb
+Size: 517372
+MD5sum: db321db72095fc26b66d0734d4979e09
+SHA1: b639de4b3c4ca5dcff06e16d6b4d1f7d6b61c140
+SHA256: e9d7d7a4870f3595d433eeea145f5566182bdb1e681a970cb9e9b5a319de5e5a
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -970,25 +1540,25 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-utgard-450-r7p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 47
-Depends: libmali-utgard-450-r7p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10796
-MD5sum: 6ef96778251a511d7e3410124811a0f7
-SHA1: 0c731f1fd2e9dc20247f882b9c35783f1fd7e1ee
-SHA256: a9c2e628f7e37b786b89a02bc8dbfc22f6049a05fa95caf21ec5ccc4ff0a0ddb
+Installed-Size: 54
+Depends: libmali-utgard-450-r7p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12296
+MD5sum: dd75801f437ae4345bb2b4c12b7f5148
+SHA1: 726a9696a737f66437e1816dcc2f357ac0b6cfbc
+SHA256: 4966102841679144d99cdc7c795524641f9f7eb36ba5e9d3175956f7b4c92acf
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-utgard-450-r7p0-gbm
-Build-Ids: 0099916322d6430ccd9dfa7afe58a96141fd07a7 d570b6e3bb03b21bdacb46c98ecfce28eb9f9343 dceb5120cace7c2e18aa1a0b6815d0ae2820edcb de2f8dcbbe465de6bc745b569395602762049e68 de91667d8c3f7a1571ba205dc9ad786fd763eafa
+Build-Ids: 34c609cc6bfa6f3df6dfb7cfb9a4626e8cbe2d6a 38099f038acc6d7690a95b0f700cf76b430b0b85 613d33c03265fbb10a8659836e0f6b6afdb6e310 a728b2a4a3480d2b95b2bf7f6718dea03bb197e4 e90057f93af9503724016289f61c3215641b38e7
 
 Package: libmali-utgard-450-r7p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 2078
@@ -996,11 +1566,11 @@ Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libwayland-client0 (>= 1.3.92), li
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
-Size: 521008
-MD5sum: 4bc40858b46fa3d4e166b4c0a73befca
-SHA1: eea33a6c6c8d1f062a700ad203d0f38eafd1f69a
-SHA256: a03950969b8a9442baf800f5ff6414b3cebe7e59f50d3ee459e454ec4fde48bf
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_2.0-2_arm64.deb
+Size: 521916
+MD5sum: 499ae48c5815bd6699ec652d582a400e
+SHA1: 834583eb03139fed25670318b4834911c554379f
+SHA256: 6911541eb3a316414c3a0bd66b1d6553a5ce53ef6f70ac5cd9ec300c3a94adc7
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1008,37 +1578,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-utgard-450-r7p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-utgard-450-r7p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11064
-MD5sum: e5c0d7f951e97355cf27ccda90be7309
-SHA1: af0dc5003e63dd7829628678e66b76f749e9cc64
-SHA256: 44b5f372ad149786fdc91b701110aa6e966e62ee88e0074d02fccf56e8a8b716
+Installed-Size: 61
+Depends: libmali-utgard-450-r7p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12544
+MD5sum: 2e1b7b01261ceb64cb09cb386a8d9296
+SHA1: 5e7ef6ab38be16f6dc36a69a335f165cb14e842a
+SHA256: e6f9cc9439195aa951983276ad9b0a509c5776495b619411f1a75fb4158c555e
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-utgard-450-r7p0-wayland-gbm
-Build-Ids: 397f0dc39d0bcbf7231679deaa2c9c8ad7ac7b53 522294edf0fe74e32f769dbb2ac5b0cd5c74d447 61d7b91f95b55ee11ed5c96c17cc9d6296178ba8 966e6058797227e7ae85b7f3d8e3537322934da3 be678fc5f368a7160efca423793b9ab87b79801c e35cb043cf90537947db377a89e7b20d77f0e71b
+Build-Ids: 0b24b18fecaf0a4205551e665e979b1c54d4dc97 876b6c514be27ff5a002acd1afd52678553884ef 9b677c526d54cd1cc0d49e41dd423c5ed06ccc40 d54cf3cb38528d8b72f0a5c913166835cf451b25 eea61119163b6df3dcd32db5893874958ebdf878 fe2ca4b3c715accdf1230b47f04b3ea3c60446b0
 
 Package: libmali-utgard-450-r7p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 1887
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxau6 (>= 1:1.0.9), libxcb1, libxdamage1 (>= 1:1.1), libxdmcp6, libxext6, libxfixes3
+Installed-Size: 2010
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxau6 (>= 1:1.0.11), libxcb1, libxdamage1 (>= 1:1.1), libxdmcp6, libxext6, libxfixes3
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
-Size: 526888
-MD5sum: 7446fff9b3cd9061580319ff60659d20
-SHA1: 8a1b3d6d3524e801864f7cf385ef08a58fc877ed
-SHA256: c179dbe91e9bafff9578fc261220701a774ae12b75fcf44f6015145dfd0a4e95
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_2.0-2_arm64.deb
+Size: 526404
+MD5sum: ecf81d0fc3e9e242ce718554ff7c95a0
+SHA1: 40b056c2c4666df7d833d7df4dfa42c7a851a6c3
+SHA256: 0c26707d8d67a737fb5d7f454f1614e0b7904763fb64f8d409b83344df0345c7
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1046,37 +1616,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-utgard-450-r7p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 64
-Depends: libmali-utgard-450-r7p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 25904
-MD5sum: d49f347b3d29b504417ce9893cbceddc
-SHA1: 4489665c75a65001d74ae6e770086314be5d3d68
-SHA256: 5994586e16105ac27071c8a4a846c14ecf9a4f26ad4268609cdc760bed58988b
+Installed-Size: 69
+Depends: libmali-utgard-450-r7p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-utgard-450-r7p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26836
+MD5sum: 9e0352684bb6555a52580952197dba66
+SHA1: 9b4c103f26c98f369ee4a09777adcd9a9b8554b6
+SHA256: badb0ba9707567c0afbb82c48e110dedee88592d73623f47ae55befb38415ba5
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-utgard-450-r7p0-x11-gbm
-Build-Ids: 25d24f624af2d08ae31d92e4f344ae5212c5f61c 28831fb46ac900bcb172437022e0eb8cbf81b070 2904c43e7103fb226c03896ececc486e9296a8ed b7fc0a1f5aba361c82bf622f6f7a9722ed7683ff ed6701759eaa51f0c2ecb7822d61b9f5a6d006ca
+Build-Ids: 0175dcf43394f25825d0a032e3d130a2c9ae62a1 28c4363687a6598a351aa10e8ad135a40917ae50 646a9c74480d5d4562447335fc540a872f79a00e a115897a48cba4ae8b2f78a99353ac1ce5bc088e db17b629c2a6a278c490c4e00205116ad9dd3079
 
 Package: libmali-valhall-g610-g13p0-dummy
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42994
+Installed-Size: 42982
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
-Size: 12621544
-MD5sum: 5aa92cbcb142b075bb72b0e4d3e68b62
-SHA1: d4af531c9fda9a9008f46013a64ad731fed11405
-SHA256: fcd4bc46557b26eeac4acb9db8f0858fd9cea0f289fb3a4c848e309016c5a1d4
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-dummy_2.0-2_arm64.deb
+Size: 12622124
+MD5sum: e5c905dda63530c732b1e4a23cab280f
+SHA1: 20ae77d9bf29f3bf2c9487cedce2e32789d5d4c8
+SHA256: 02690366fbe52c553feb99050caa02678ca1205a6e20d4fbfed283cd7d749e5f
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1084,37 +1654,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g13p0-dummy-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 46
-Depends: libmali-valhall-g610-g13p0-dummy (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-dummy-dbgsym_1.9-1_arm64.deb
-Size: 8892
-MD5sum: ff4906f5e0922045c7bae3575948dda9
-SHA1: 84a846d4afd732e8f2ab8bbbd20fe31f43a3f53c
-SHA256: 92bde3fc33327c7fd6a86b195f466d0acc0f2e93d69edb1eca1e327812002938
+Installed-Size: 52
+Depends: libmali-valhall-g610-g13p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10344
+MD5sum: 1a2a90a8634b49226c57131216e2cace
+SHA1: a4ca4c022e2fea72c6432f6ce90de67784668117
+SHA256: 9b7db58bcbf08f40646a25e4cc05f3ddd0947cd744b313ac79d20f29d7b1a7b4
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g13p0-dummy
-Build-Ids: 0fd2ceef506257857a582478bcbebc9010208b60 36ca130baff3682f3b17bd8bca5c2565be9d42fb 4e0818a969240795ef8ada711e1a99d819444867 7b2925ee38fe7dca6060ad05e462c75ff7b96854 ea4f5e49ace8c1b044672daea0b0a573a211f42d
+Build-Ids: 2d53c850c2326244084166c885e2e9c8aa808b83 5f5f0e08223fa6ff818c43797808f0a7211017b7 b948019707db8de4e3935d9580d5ac615e606801 c20712025ff23ab535a8f5a097ce0e678802bb28 fcffc3cdda4ab3c1d7affc5e5fb611fe6d06b59f
 
 Package: libmali-valhall-g610-g13p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42999
+Installed-Size: 43042
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
-Size: 12614668
-MD5sum: bbca596a685a74473ba30e101ae3cc57
-SHA1: a11420322c91b8f8958e52168c3be67e85123653
-SHA256: 536d9894391e885bcf888188f308ee754bbd659a8edb28e03fd437d3f5e02994
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-gbm_2.0-2_arm64.deb
+Size: 12613840
+MD5sum: f72130fe3b7f8ace185732742e70e0a9
+SHA1: 4226f6f7051943e8fe10a38297f5b2f2cfb11e91
+SHA256: b3e51129b50917526958307bcf21114de1ef5c85148e360a83ed806ae20d5a04
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1122,37 +1692,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g13p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-valhall-g610-g13p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10936
-MD5sum: 7035c27b4204581483c198848786d0e5
-SHA1: 5bcb64a83e0797a58b54ee0354562aa6d3bb8511
-SHA256: f11738d3765dad5e90f9cedaa3c5280a72b663867ba0da5a1c7bac06faaa7a58
+Installed-Size: 61
+Depends: libmali-valhall-g610-g13p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12400
+MD5sum: da1bd82072132888acbb22cc924d96c9
+SHA1: 7e82c9c1a54251c056f2300170ae18f386cf81c6
+SHA256: 0c4b2e5b56d30ea884308624ff4f9f29047b6c21d3c8051dbe637d99b9b3f221
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g13p0-gbm
-Build-Ids: 0c41998e40e62e5b4cb232d000e683edb209764b 51ef0ec7a4d009895504f168abacd5412f0a45a7 6cf4b38c40749f25a899b7bf772177dcaf953140 96c8b82d897e8fdb48243b80aa297fa5648c18d5 acae4825c78f1b718a6f84dd3bebf6047d87b54a c355fd887a99956c5bff3b9f695c2d83c6f669d4
+Build-Ids: 08e4f2f9f17f616c13fe288087ca4da9ddb31071 505085620959b3f79eda778babf2da695e85a948 52dc55adb831f49561ea58426f61bec7fcacbc18 84441a0bec04e118177f23b8346c41d20ebbc2e4 9aca9ec279cbdba8c241d5d1fed6a9371bdac81e d2bd6be60204d7ab6ca35d5150d337688d850026
 
 Package: libmali-valhall-g610-g13p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43110
+Installed-Size: 43155
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 12624188
-MD5sum: 88e0e23c4ad8a30aa05e65280aebcfa2
-SHA1: aa4bb2a442a230318bb14632bee43059208e6b9b
-SHA256: c1ec49ef17e74c056fd3bd53ee5d3f875a0e34fb8e70e3775f92f7395110729a
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_2.0-2_arm64.deb
+Size: 12622100
+MD5sum: 2071f9d0154b6e84c80ca0573f61bc29
+SHA1: c1e3932010b131c4a72bbb726295a1d7d467c997
+SHA256: 0c75bd252e2a600c8f49516722b795792eda22058bca8a38087bca6815f8628f
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1160,37 +1730,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g13p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 59
-Depends: libmali-valhall-g610-g13p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11236
-MD5sum: 202b7c14fcd31f2a8989a4e24e3e8c27
-SHA1: 4cf03e9cb51356d810101d30fa827745b286a30a
-SHA256: 0d315cb413cf9a43829154ac4940bcf7e7a312601edab93f903e143f95d3d0ad
+Installed-Size: 68
+Depends: libmali-valhall-g610-g13p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12684
+MD5sum: 68b36ca5591fbc8df9647e39ea5261ba
+SHA1: 54cbd9020f0cc3a2d6b3ea619991a56aec0fe79c
+SHA256: 51026b27637c417c6486404fc3b6a087dcf56a723a68df7c7c3e533b450530f0
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g13p0-wayland-gbm
-Build-Ids: 0c2887d2c30563899d678f30835d229010bfc49c 2a21b0fc9a5789b56c5981c8e6e9da09548d991e 4445d403e8282027e6026ac4f17101f4ac3eebf1 4c6547f652f2b2714ba5d3aa8c24fbfdb5d26540 4cc39a56e0dfd992c4bf17c08e6a9feec576a4b6 8ca48f4c5321324f488d9ef7c4ddb4a501abdb2f bab0199421b54e61068ff46f68b843907f3ff17b
+Build-Ids: 21c1090eceacd606b3bc70e3e200a03d213e3751 3656336417c1a24f5a417c2b59fb6d9d80af2d89 71b7d913ed39bf20e3782ad0331dd1df229d4c94 acb9b5c5c5dc25647833605c20b7e13aae60695f b25291f84b265188f1f0680b7395ce8ca8e48d4f b9c44986ce4f59b1675fac7f5d842db6d505e701 fde2ce45a6f747473ebcda63d749bae9c1c50a36
 
 Package: libmali-valhall-g610-g13p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43055
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 43095
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 12627220
-MD5sum: c0c2a030ef25f8ebaf14ff20310a50e8
-SHA1: 3766e475d7f311be126f2de4b41aa4b88da99b8f
-SHA256: 696642b8829c5fb51d6cd8d81b53c53c92e0fbb39901d851d7877a976dceb688
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_2.0-2_arm64.deb
+Size: 12619388
+MD5sum: ea5deb4f8055f0f0f7ff414523c9d6e6
+SHA1: 208ace9c625a0b02f05e40559ebd9ffba5a828c6
+SHA256: cbe59f3f2bde8c43c825b42def745fe9b5ef3e048a2c19d3914f19fb43e76889
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1198,37 +1768,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g13p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-valhall-g610-g13p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26100
-MD5sum: 82a54428da1dfaf84a34de7d0bdccd90
-SHA1: 9b321a6d93bbd8cbb18516f35ddf9199dd3abfd5
-SHA256: 7a6678479729ad836906e465617eee005bac9ffb934ccefc2d9af7b469456985
+Installed-Size: 76
+Depends: libmali-valhall-g610-g13p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 27048
+MD5sum: abfc792bb17b53dff3460b296b13c467
+SHA1: 23dbcac95d69375f3a83c073b5fe6b7701ca21be
+SHA256: 4690653465921b8abb64047e03052734da5264135103728d381158cf57278208
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g13p0-x11-gbm
-Build-Ids: 2e27a90f446150c083c60abdfc3ffa6256c4de13 5dced8e1dbe6c7dc905941f8be99c93e0a4218e0 5f5db3cf4c93afb4c1e0c2d1613a502ebb4cc18f 6fb1947e0f03e4710431fee5a0f7b810d5d3d476 c34241ef00d5358a6f2d6396a8c518a0a48cc3c0 f387a998c7681ea08f442e560b02b8a8dac0264f
+Build-Ids: 18b77f37a1e325dc29de50f59f4b3e5f923c855f 41287029968709c7191c423aaa48d612eae9f9f0 4d0f72a7865b68f1ad357ee0f736de6551b94fa0 53785f3b9776546826b233efd4447aded9e5d253 81f835bd6fb33938ab7348d221f8a83091915e01 ab6fdcf7f8fd947e5d23cb9625ded9661ffa5e18
 
 Package: libmali-valhall-g610-g13p0-x11-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43146
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 43192
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 12629220
-MD5sum: c24f4a317281dc3c1dbdf9d1357b487b
-SHA1: b1d3272b4406ce71bcb96953c0e429b86f868aec
-SHA256: 7244e6f91b2c6dfdc57407b3b2b2bd61a342e815ec5689e34d58b202993869b8
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_2.0-2_arm64.deb
+Size: 12633256
+MD5sum: 2c39cea3bbf235068bf9fec80457168c
+SHA1: ef37bdd29a2bb10ec125fe420fe5668ccb556b4d
+SHA256: 316dfcab8fa3ff724c45136e8f322f451304f197329b3641839c017fdbb1d12e
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1236,37 +1806,303 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 76
-Depends: libmali-valhall-g610-g13p0-x11-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26356
-MD5sum: 025dc66fa30e377c2890fbe392b51c42
-SHA1: 72f6823ca2aea728e80958922a47987a71a98ccc
-SHA256: 01225abf89ed1614a79185002bf870449c38f1a5e7fa8be9530b4096e14b97c8
+Installed-Size: 83
+Depends: libmali-valhall-g610-g13p0-x11-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 27212
+MD5sum: 6683ffa4dcb6a5d1f4381509b3a80ec6
+SHA1: 7e2466e66671f44406c875077d0cf06ad526d470
+SHA256: 94afcf7820c426334cb949a2253d6570a7139994eb8e84b03cc54888d03a605d
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g13p0-x11-wayland-gbm
-Build-Ids: 096e2178c05a3dfa199f3bd377e21bdea53b9574 304e23fe1c0e1a36260608cdb611d6000bc7b30a 476a331e6b5caf7ce743797f717706949e4498dd 80add8755458ec3219ca777d9b80ffc8b96e1b9d 8b9246a8f7fe1588681e5b3505eca58ca9047cbc 97b220182a2c75770d5b46f5f6dd2c9460e21b06 ccb675118b873dec883df221f34673d8e7d9deb8
+Build-Ids: 1333338e595c09a63279de64c7489571bf064103 390bf69b87944d6551796df5466f00b37b30fb3f 42d627557df25dfa1f0c15fabc41cacc07576d53 63c05dd589a326de25e0813dcb236d266c7332b5 7d9195728d95917fe69a9dfca416ad861543e9bb b02c68010b2ec2ae3a6e7f0c8e73e597a04e0356 dff40510c1404832d464b615494813400562c8c8
+
+Package: libmali-valhall-g610-g24p0-dummy
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 56982
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy_2.0-2_arm64.deb
+Size: 16460152
+MD5sum: cbf561f7b1c14f0a39e1a758e2d14d29
+SHA1: 147d9e8fd33bf225cfad7827453310f4e71e022f
+SHA256: 6ab55529883ee3a7d9ec47a01b1fa246073bdd53ea62a1ea4e8f20ba8d4e6607
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-dummy-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 59
+Depends: libmali-valhall-g610-g24p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10464
+MD5sum: 32ebe3a0c5a392d84e4153605677b39c
+SHA1: e27745f7e57f0f5c699c0219f47b77923e4f1031
+SHA256: ac08f9c748e2f6b62fd4901024d36baeacc172f4c9cacf0c9f8e52759ca6332f
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-dummy
+Build-Ids: 2f5e9f810388ccb623f7caa5480fa09281804406 469b4ecf6c14b3132de8a11f98106f66b6b21a54 69d087884c1e87988d01a95435855b9c2b34ae62 8be1070462ffbcfe4391853216a20a7c1fa967db b05b87b77cf289b8a5ffc033528ce51482a04484 be249688b319ab32a60f3d94a79448e8eee42050
+
+Package: libmali-valhall-g610-g24p0-dummy-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57114
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy-gbm_2.0-2_arm64.deb
+Size: 16469196
+MD5sum: d7786801797f8372ede8ac5a089afb2e
+SHA1: 4fba376607cc0bc451b5e3aa2d8097eb3d5f78f4
+SHA256: 04910a332a8dfe6407be26eb7b4f34407ff2603c63d21097c02dde2cdd9a276d
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-dummy-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 67
+Depends: libmali-valhall-g610-g24p0-dummy-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11812
+MD5sum: 50d4336f1f5412a45a69f94ffbb71f05
+SHA1: 3d5aec20ae8f330f3d96cf3b718eb4bc7f6590b0
+SHA256: 4dff16e81740fc1c91df43f752b4658837d4a446bbc93d3da6fe24ed3daef99e
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-dummy-gbm
+Build-Ids: 079f1317450a1830b2b0ebf3a6e7a19765780970 182b7630f5938bc57fe43ae5152098d51286c14e 1ec55a40dee70e0c7337d998df476f6f8a2b8564 1f39a912c851d2c84287d2f73076fcd992a04133 5217833979dbe7f9591edecf945910b01e5e3019 a893c549f892f922f7a528fc86439a528ea0c6d0 cd6e0a110b06dd7aedafb7be86faa09b940b1243
+
+Package: libmali-valhall-g610-g24p0-dummy-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57182
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy-wayland-gbm_2.0-2_arm64.deb
+Size: 16478420
+MD5sum: de2571e096cf34f9e6ae46d28c0904df
+SHA1: 4ea19e3de4bc811c44e13c8011ce47d30a55fb09
+SHA256: c845d5931302c65b1a0bdf1625eeaed1b4da3df35c771fbfffc07228213347d7
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-dummy-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 75
+Depends: libmali-valhall-g610-g24p0-dummy-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-dummy-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12028
+MD5sum: be7b280e56c2fd53933b5fda5d5af87d
+SHA1: cdf2b2292ff52d63aacd31b22cd366c432f2d40c
+SHA256: ce20468b008142ce4040dea2bae65c9aded185b2317272537b072688edd56b88
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-dummy-wayland-gbm
+Build-Ids: 4fc213b5563bb566938fdb481a5073abd2b24ded 8332a8dde9a95da05bf41cfb6fc8d62692e4ad1c 8600739f71f29b3b4f925e95202a5ac55ae5ba65 905000fc975cb753c7782d1ffbc5c26c2e732c36 c943ba0d3dff79113507c7e4efc23b31a64be394 e060a220b111bab27e044087c6b488d44523f37d ed1e83fb230d956b2e97ac2bec4e7fb01f35f11a ef8439489f2744ba2d15382ccf30dd7a3f11a420
+
+Package: libmali-valhall-g610-g24p0-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57049
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-gbm_2.0-2_arm64.deb
+Size: 16454720
+MD5sum: b21240660863b712829d6b6b0688fc4a
+SHA1: 8995d3f063740a1c2c1fecb87b92580aade2b37c
+SHA256: cef97d6aa6aed580e77aaa0a0ec24cb5b57eb1c7758c6a98047b01a23589c567
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 67
+Depends: libmali-valhall-g610-g24p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 11768
+MD5sum: 74cca7a6cf4742a171273533dc27c55a
+SHA1: bd874a670974759562c02735d5a7b5821f5c088f
+SHA256: 955d690867b9f3eaaa5c1a185324fbdb181cb9ed625fa7c67506b7eb1a866237
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-gbm
+Build-Ids: 00f21f18d62f0e707dc6fd1ce4901f910aca8bad 270943f539d87170c9a2b532c2189b94ff9e8f2e 3b9d522e4d39339c3c8b1d70046aeee0b992607b 613a5a9049f38bcd70e81612fcd44acc6602b14d 84034ec5422bc979a69549f2d259e71ec74ca7dc de9057d5ed34c96121a3b416cc5c7e970d033823 ed84130330a990b2fb19af6a881362748e61958c
+
+Package: libmali-valhall-g610-g24p0-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57118
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm_2.0-2_arm64.deb
+Size: 16463804
+MD5sum: 5345a7b0d3aad7aa3ddf1041dc745b52
+SHA1: 5dddba606cdcca8303f333e395af5538c3decbf9
+SHA256: 8e1aee12ed6ce9e59e5469ac44dc1c1a4bb21e068e9421aaf2fa5d76b5e56bda
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 74
+Depends: libmali-valhall-g610-g24p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12004
+MD5sum: f9109c6161538da52ca224282e91eb7c
+SHA1: 676e9051b7808103019ab8c046573e86dfa77c35
+SHA256: fc41bd59c9d00f21f7fbe8e872ac97937cf65f19bfa8f0fb61b6e8b918dac0af
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-wayland-gbm
+Build-Ids: 1da341e2b48fb849a888704e7ad60991cdc34e96 47883784658411c8698ca46270fdb64b57d1e02d 4ccdf70b8bbfe43b3925439cd0578f9afe888009 61bcc8b2e0643598dad0c3e47adb1680319a42a9 ae6fdd02ffefaf8b7216c8aba8877c28368bc238 c217686e1527c174809654e887caf9dada47baeb e83041f0b04b6eba4a44f54b4e2be53e52001fed ec4cf7d8bad61ae07f15e173ccb64b0452917a6c
+
+Package: libmali-valhall-g610-g24p0-x11-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57050
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm_2.0-2_arm64.deb
+Size: 16464120
+MD5sum: 5d8f418187756412a165b0faa02ee83d
+SHA1: 5f9aa81a509ee2cf03fdd192e574e9d0b8b74094
+SHA256: 4fe197f0fe360b06bb1351f587cc394682ca2b57c4e95deba8c049552c91dd38
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-x11-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 82
+Depends: libmali-valhall-g610-g24p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26320
+MD5sum: c29ccede732cb1139ad6bcd592fec9ca
+SHA1: 55d04bed0715b914961923816d395ab15b467aaf
+SHA256: 03d360d3140b514bd626c90de449e6af65172758add43c9d50f414fe8b430138
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-x11-gbm
+Build-Ids: 5fd0211a7ff6e902649f026bc066032901faeadc 6a136aa50e4fddc02ef25943149074e2900b1f31 775c445561a0b62db4a55f566bdf594f6e138542 b623b7bf6d9231bceea8c4a0095cfdcb0f4a4ba4 b7cdb55e59b3e59dbb7c0ded2fd408bfe0f42bff bc21ad3d279ec91f503be44f022adb2ae4bfe72e f91ba1200fceaff14ccc2cf5804b0b95fb175ce4
+
+Package: libmali-valhall-g610-g24p0-x11-wayland-gbm
+Source: libmali
+Version: 2.0-2
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57119
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm_2.0-2_arm64.deb
+Size: 16472408
+MD5sum: 92f9a56d8dc5c333cf49d37467b679af
+SHA1: b77d2808222e24bcdb62d68dc636f14bb9137678
+SHA256: 62199933855d3d996f1f49edfa5f9cdc3aed5a2552a24ef0ad87a6ecc935d3d0
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-x11-wayland-gbm-dbgsym
+Source: libmali
+Version: 2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 89
+Depends: libmali-valhall-g610-g24p0-x11-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 26512
+MD5sum: 24a9aa9f9fbf3310c825bb8103ee1696
+SHA1: a37886e754968cdb959643d6f9a4571ca5e71a3a
+SHA256: ab89c225ad4a6e4804e8a839d709dbd8c7f8847eca14ee8c4e1d1a0395079e42
+Section: debug
+Priority: optional
+Description: debug symbols for libmali-valhall-g610-g24p0-x11-wayland-gbm
+Build-Ids: 5d1383adf499b7a00ba829468f2ddbf7e2b6008e 7c502b555945339be6b7e32e18aa80fc269d07c0 7f9e23da80c1aefbe8b54075d109418441b08b9a 85c936cf079ecd6739b3af2f8d49d1fa2a6eca47 9caf1b543788279f669546b88439925f6ee43281 bcddae759dbb13ec70151c319d2444d4e5dbe26e da472109fab561a98ae27d72ac560ed293e8c0d9 e71d30253e308b73fd890a14c2ec6645c2b4f279
 
 Package: libmali-valhall-g610-g6p0-dummy
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43372
+Installed-Size: 43424
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
-Size: 11690592
-MD5sum: 06440b2f3ae82af02c3223b43f520820
-SHA1: a8c691d27f969f661c2d402867879c7a8539263b
-SHA256: 19f7f91350fc730d0ff3fb7028656e1878cf2223318cd0a7e43fac7dacba87ca
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy_2.0-2_arm64.deb
+Size: 11695900
+MD5sum: 43a42ed3870517a8ce2c5a6aeb7d7486
+SHA1: 5205c86ea0ce9e583603ad57176de5a40d14c92f
+SHA256: e9a307e7eaf345155740abb800e3f61e395467dfde657979989c8b8a0579a9f8
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1274,37 +2110,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g6p0-dummy-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 46
-Depends: libmali-valhall-g610-g6p0-dummy (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_1.9-1_arm64.deb
-Size: 8864
-MD5sum: 180acd45820c63f36fdcb81a56182b2e
-SHA1: 658577bb9aba0b58e9b917b43877840c20e83e05
-SHA256: fea82c66e064429a9bf4043b631f813d917c1f93da16169bac560060987f07e4
+Installed-Size: 52
+Depends: libmali-valhall-g610-g6p0-dummy (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_2.0-2_arm64.deb
+Size: 10332
+MD5sum: 295a7563e7e35160deb404713ffb6d61
+SHA1: b3eea465574966fd4fa1404b25e73fe9c8896261
+SHA256: 117f716a56a13b602028d27a43c7fa37b57c8f09c3cd6f0a9be122a816c8c6bf
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g6p0-dummy
-Build-Ids: 288e5f3117e3b8323cb60c9f6d04fdb650f40c53 8948b312bdd6ceaac61dfee40097f1f923a9012d b6ac9ecec6a529ff0f482af405d6121123038d41 ba021805869db1acc218040bfb34671bad86c61f da3b0b4f9925aaf013d9678e2384a152567b6e45
+Build-Ids: 05425ea5422ca3e011dff5502e2eae255752d26e 0fb36f28509885009431ad88a001ad1114b1d367 775d35e06b391456fcb00867285f4a9c766a143b ad4dacd28d82bf1f6ca97cdaa8d58bdb4956b869 c3a058895699939dc26d230aa91e9e6a161f6197
 
 Package: libmali-valhall-g610-g6p0-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43433
+Installed-Size: 43543
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
-Size: 11697128
-MD5sum: 11b188498ef4830f45731064ea8f8002
-SHA1: fad671581f2b167295daf5f321d9a4b11333367e
-SHA256: cdea0b2fe2c3f7eefbd8d2e40413e8794fe7bc55c3c2bc5e24f3878d62013ef1
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm_2.0-2_arm64.deb
+Size: 11688016
+MD5sum: 1606b61b6a37c459a16ca5ffc4aa24e2
+SHA1: 3ad2e74e6a580eaa581570f836d12283c2de1dd5
+SHA256: 4bfda76137082fb59bcd7c499a83495fc763f9cf49cf4b76928bf32e61e049ac
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1312,37 +2148,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g6p0-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 54
-Depends: libmali-valhall-g610-g6p0-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm-dbgsym_1.9-1_arm64.deb
-Size: 10940
-MD5sum: 25bb0c30435b9a70d677495eb3115dbc
-SHA1: aaba0552c7033f6efd086c8d9411234493c5da5e
-SHA256: 3c7923bbde222c445caf0959f8d54e03d1504170e6875b7aef8550d6b7eedc57
+Installed-Size: 60
+Depends: libmali-valhall-g610-g6p0-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12412
+MD5sum: e78616fb1b3e7350a7024a417aa47729
+SHA1: cf27edd26fa3187fe7fd2e2783a1ac9f4bd16385
+SHA256: 88e6c49b01bd48d955be59fc06c17ba202ef3cd9d5881bd380c5831195f3490d
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g6p0-gbm
-Build-Ids: 19f120ca4b29520c1d7c69698bf91fe69165c146 2b91f7a0523bf4263fa7d183ad3d8dbb06d66433 49a0e8a843abfc3a5fb3b2836a50aa8c354271ce 8df537f31c6bb3539ae4406d64da98d7c38d4bcf 92fb0a7def8f64713853827a67e01334f8cc7493 bf16a641fbbb9b4bd84cbef4c9e4c34068a680be
+Build-Ids: 02274ab51dc75a3c9c73997e09b3c4041bde7c58 02ddbcc48e40c4aa89e2b380e39a4890e5c1bdcb 22694065b9303e494569627455c1918153850e83 4bab2907bf4b6eb71ae5e331e58de78c80829d6e 69a3f48f48ebecb0894da37d2526c34109f9c3aa fc216009f33bf876beda900b86032bd31da527aa
 
 Package: libmali-valhall-g610-g6p0-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43506
+Installed-Size: 43560
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
-Size: 11702268
-MD5sum: 5ad7c1505fcc673397613ce1af9cb775
-SHA1: 73625eacc8b0f1bf5add9a3b6d99a5e1ce41aca7
-SHA256: f1a0c6e2cc875b54e5683bcd060b91e583b701541fc92bbf61c3474f7d464f4c
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_2.0-2_arm64.deb
+Size: 11696324
+MD5sum: 521489c245249970bb1e51f277692fae
+SHA1: 6a2338c7140014a8638bed2a4bfa5c11da53d620
+SHA256: bb648f36816308d62e61309da8ec3f8223a97ab2013c143d0ee1674b3d1a02d8
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1350,37 +2186,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g6p0-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 60
-Depends: libmali-valhall-g610-g6p0-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 11228
-MD5sum: 16cfae52dbfc1a393063d3a3a7fdce12
-SHA1: 08502b1cef9d11e1963ed9600ba91a188a44d4da
-SHA256: a73c70ae7d23c092aa1fe2c6263bc188e464459c523e1f8edcd4d19d7a1af158
+Installed-Size: 68
+Depends: libmali-valhall-g610-g6p0-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 12672
+MD5sum: bf8fc600618062287f1f5d3aef29c99f
+SHA1: 27340edec5b3e681fd94b3e027f9d750ce9a4ef9
+SHA256: f179100f3848462b2f7a81eacfc3c6eb580e55e77e4a245ff180ffb3e8e62dec
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g6p0-wayland-gbm
-Build-Ids: 5d71c1a3f51e1b6e7b6986be46cfbee66682f96f 60d5426402f52d0a7e11aeadc7255b934cbd6925 65c94e6799db056aa5d9ea0a01953feaf71ae83f 901221d636368dd160a21b4522888e45708339a8 af330b7b21dd8d0d4e9b52d524ef47e8f8b51a99 c91f228622fc12af81348c376c005f2fe9b9d607 d37f31c9d1ca494bb3a33cfc5b0f3999856b889b
+Build-Ids: 17b483cea38fb65873d6ddfdbb0d5303ada3b0ce 34bb71958e8a95e73946c4a12727a448c8359458 41884cba1a06770be7644c7d5f2663ccd8cd068a 4aa674fce547b3f50400d04e3e3b8e49f1442eed 6dc710d023b0c15944d76abd83e33cf8e66ce20d a76054e8cb30d07ffd03ec5cc3a3d5b9475f633c da204b38fe372a199e6191410d284146b72e3f30
 
 Package: libmali-valhall-g610-g6p0-x11-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43450
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 43555
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
-Size: 11691216
-MD5sum: 32dcd20425a05bab6282d513d4e59d95
-SHA1: ccf804b78600cdb661238231eb392310c84161ae
-SHA256: a9dea55347f992a08b08da2d44bad227161ac2ef903a68facb3651d911fe03f5
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_2.0-2_arm64.deb
+Size: 11685572
+MD5sum: 312edf4b3a8da606934f47641c568636
+SHA1: 8b0a8f50592e90090d91811549bcd108bd6e8320
+SHA256: 31c0413265db3a623cfb817e4daa4ddb4d96917f6214057e43c7f32616d57db4
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1388,37 +2224,37 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g6p0-x11-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 70
-Depends: libmali-valhall-g610-g6p0-x11-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm-dbgsym_1.9-1_arm64.deb
-Size: 26120
-MD5sum: cfa484329d28eb7f84036cf5652736ae
-SHA1: e60bb2a8c60854fe491b0bee602c6cb8f421a8c8
-SHA256: 6145abc6f97572a3d89dcfbb225bd6ed8b9298dd8edfcbe0e0fc8142300c67f0
+Installed-Size: 76
+Depends: libmali-valhall-g610-g6p0-x11-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm-dbgsym_2.0-2_arm64.deb
+Size: 27016
+MD5sum: ec05a09a5b27063310d1e1b6dfae0876
+SHA1: 98af8069dcf46bb9c8ff7c8b5d6c5d0588847ce2
+SHA256: 1484b53205179b6d312251e19d4a82043aaf36ae08d274b454a7eb9ecbecda80
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g6p0-x11-gbm
-Build-Ids: 0ae178f12a4ae0447cc34f886aa300df2f36af56 0c523906e0fb66a08d7fdc9b388e356270468bbd 84092bba7098cd112eb332b801fb8b1da46ca6aa 913fe70f59f905b5007f3deccc62af0ab03b6d94 d421f2df7a090bccf5f1e9796bdd94e5e77cb367 efd352b612bf9f438a63fb284c43c7762e45f47b
+Build-Ids: 2ea04117330893d178480f8f02840f45e36ef47a 301306fe373ec0a4efed3830357d7bdecaa85c4b 4cdd61afcf4dfd4c19d40a00a9d1e8f495974f23 5b27bbbead2e74601f9c482e3f5856e76c1d3507 8a4e8b7f7bca5729c485adc01bcc3ac9e5d957dd e8c81fab30a7e8d058749e1b93112810d76f9f20
 
 Package: libmali-valhall-g610-g6p0-x11-wayland-gbm
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43531
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Installed-Size: 43586
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 11703084
-MD5sum: 10f0d8b0de46268921ce0e959d143c7e
-SHA1: c5703e8691472a5d967dfc4a5d9ce7002743fc4c
-SHA256: 087b77ba310c1771a191313698256171ef24ce5bf0bbcb9e35d5cec707e4af27
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_2.0-2_arm64.deb
+Size: 11700512
+MD5sum: 902ddc59c4144d15f2d67035ac5670d3
+SHA1: 1f2ea0719974c37fff6f3d76813089c71359b493
+SHA256: 85c8bfde161a6e43f9c0dacad4ab2a371be8bf8a92fc28a182099abdca4203a3
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -1426,19 +2262,19 @@ Description: Mali GPU User-Space Binary Drivers
 
 Package: libmali-valhall-g610-g6p0-x11-wayland-gbm-dbgsym
 Source: libmali
-Version: 1.9-1
+Version: 2.0-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 13094
-Depends: libmali-valhall-g610-g6p0-x11-wayland-gbm (= 1.9-1)
-Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm-dbgsym_1.9-1_arm64.deb
-Size: 1631796
-MD5sum: af70e5edb62ab84b0c3eb5629672b71f
-SHA1: 18045203cdaab46c2441ee53a4a000b7dd464c7b
-SHA256: c5aa93bfeabf14540a8f421972f9725b9ea76839b23b873488dc6eaea215f49b
+Installed-Size: 13101
+Depends: libmali-valhall-g610-g6p0-x11-wayland-gbm (= 2.0-2)
+Filename: dists/trixie-rockchip/non-free/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm-dbgsym_2.0-2_arm64.deb
+Size: 1635952
+MD5sum: 4d58efb2b2151310b1eab6c9dcdf0836
+SHA1: 6811320b1fe83038018cf07299174b540ba310c4
+SHA256: c3d30adca6e19751ce371a64e07a86d48763635ad40261412c6a3fa40fd96cbc
 Section: debug
 Priority: optional
 Description: debug symbols for libmali-valhall-g610-g6p0-x11-wayland-gbm
-Build-Ids: 12b34285a1b1f95de3ec6c9b341d047fe730af13 1456db08ca243a59e6e994cbabf3797edeed07a5 1d64d6933d5313ffc51e2d8d56ef9657b40cdadf 2f5c78b15e2acb704eb895bdca4677d144e60e07 4c2a2097997432a8b7ea1f62a2e9975d5a7414db 76100ba000e775389c58763fa0ee99b63f401610 8b8e8719e70bd6f3ecf2768c8f079c03785a94f7 eeb3dcdafb8383ebd1c9f38897bd8c56fbdb8849
+Build-Ids: 10ebb9750074f5b23270ed740faf8a6cb45a8396 13c8731b857a73ae81e0d9c985f0238b2edb9283 1d64d6933d5313ffc51e2d8d56ef9657b40cdadf 653b4c6fd677833b64a3d44cc8709ea15e9768c1 71d37921537ab864fdb40313e4f2349bb985b7ab b16045e35e6f5f2f5ed784468b36157653646b49 c8e9ca57be58b8fd99e630827ce23aea90f7235a de95cf4ef8d166d2ae0bd02aa81c6c70c0aacdc1
 
