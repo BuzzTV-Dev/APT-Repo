@@ -21,16 +21,16 @@ Description: ALSA Use Case Manager configuration files
  ALSA is the Advanced Linux Sound Architecture.
 
 Package: buzztv
-Version: 1.0.90+110
+Version: 1.0.95+115
 Architecture: arm64
 Essential: no
 Maintainer: mvas
-Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.90+110_arm64.deb
-Size: 29319248
-MD5sum: 4ad075bd69741e46fa37178740fe36a9
-SHA1: 2aaa9f26d1299ab15e0b85e05a51bc4bf0950ca6
-SHA256: 7dcf8c8d9dd05b0f848d47ca04c2860dff94834b04aa2fe97c02134c8efc4105
+Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,udisks2,network-manager-openvpn
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.95+115_arm64.deb
+Size: 32379748
+MD5sum: 2f0cccca36abe64bd5aa0b83d642b807
+SHA1: 5a31648af6f9ca47c667ccb044584d84454d87a8
+SHA256: e95d5ad083585fc1993140f7be6c518280fdb2daf0079ac17a85b2e13c5b2ecd
 Priority: optional
 Description: BuzzTV IPTV player
 
@@ -338,10 +338,10 @@ Installed-Size: 2821
 Depends: libavcodec61 (>= 7:7.1), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libc6 (>= 2.35), libplacebo349 (>= 7.349.0), libpostproc58 (>= 7:7.0), libsdl2-2.0-0 (>= 2.0.12), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0)
 Suggests: ffmpeg-doc
 Filename: dists/trixie-rockchip/main/binary-arm64/ffmpeg_7.1-3_arm64.deb
-Size: 1978208
-MD5sum: 5096e7de2849b62fa51a72549035029c
-SHA1: 15c6908fa9d8a43ceb97b84ce12364cc4e49d5a3
-SHA256: 91d958391f6f2e0629a177a463a8690dea316a0c4862b5ad206153f2c2d75bd8
+Size: 1977704
+MD5sum: 59b56e360c3a3c5ce14da247267dbd57
+SHA1: 17b1737e26fe5657729434fc4307199def27c0f7
+SHA256: a9343b0b191d2a5f5b6de6fbb624457f2ed51650b7b1b4be9e7434b6ca278746
 Section: video
 Priority: optional
 Multi-Arch: foreign
@@ -367,14 +367,14 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1645
 Depends: ffmpeg (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/ffmpeg-dbgsym_7.1-3_arm64.deb
-Size: 846364
-MD5sum: c8839dab9dd0891ee51cb4dacdfef703
-SHA1: 79b0b80b9765123b16d19083cce30dd32ad777b2
-SHA256: c8a1aa48920b5e9f68283954e281c018e611f706f739d7cbbae29e9fa8bff4e9
+Size: 846480
+MD5sum: ef0f7cc102ae8996bdb4be7d1edadfc4
+SHA1: 73ef19490f2bc28307130a87ce2ca0d6b0125cd8
+SHA256: 3019bbdcff233f5b05fa32e45970e90951277ed55f4e9a03d62abbf935ce33d2
 Section: debug
 Priority: optional
 Description: debug symbols for ffmpeg
-Build-Ids: 0d171982924416a5449eb103f360d1a99293365b 0e502dca658e809ca7a701496cc31106de421c2d 28399fe57c0d936696c3a6a486f92f79400b5b84 b623935997790d87b856b7a8bad579610c0c6008
+Build-Ids: 28399fe57c0d936696c3a6a486f92f79400b5b84 3044c73ffb6dbd53dc5865656584e973f823c754 c2e71fad2ee302c4d821119b9542fe9c18869ef7 c41b3614cd72f4c249147cfc304cccf4e4718579
 
 Package: ffmpeg-doc
 Source: ffmpeg
@@ -795,17 +795,17 @@ Version: 1.24.10-2
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 15364
-Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.10-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl4t64 (>= 7.16.2), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7t64 (>= 1.7.7), libdrm2 (>= 2.4.98), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0t64 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0t64 (>= 1:2.1.0+debian), libmplex2-2.1-0t64 (>= 1:2.1.0+debian), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.19.2 (>= 1.19.2), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.5.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libwildmidi2 (>= 0.2.3), libx11-6, libx265-209 (>= 3.6), libxml2 (>= 2.9.0), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing3 (>= 2.2.1)
+Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.10-2), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7t64 (>= 1.7.7), libdrm2 (>= 2.4.98), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0t64 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0t64 (>= 1:2.1.0+debian), libmplex2-2.1-0t64 (>= 1:2.1.0+debian), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.19.2 (>= 1.19.2), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.5.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libwildmidi2 (>= 0.2.3), libx11-6, libx265-209 (>= 3.6), libxml2 (>= 2.9.0), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing3 (>= 2.2.1)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2_arm64.deb
-Size: 2786040
-MD5sum: fed8d61b95b2f54bcf5e6f1bea443509
-SHA1: f838f49d4e0b87a577bd96601685379a5ea043d8
-SHA256: 770a963b5d8d533cc8cd28c023b7e99b521aa68d5d91c4482a827b7484f19532
+Size: 2785252
+MD5sum: 02569ffa469425e0ed515289a9838933
+SHA1: 3a09f77fb50a5e093883db958f1db8397bdff5f8
+SHA256: 713753ce36eb56079199ea5f7daf4bc97e8d9656d0df456e482cd171764a17d6
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -883,18 +883,18 @@ Version: 1.24.10-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12741
+Installed-Size: 12742
 Depends: gstreamer1.0-plugins-bad (= 1.24.10-2)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2_arm64.deb
-Size: 10453048
-MD5sum: cba2fd5c94c01572b115fb55bedab05d
-SHA1: 46c825288ab5e1e69b70d7c40cc53ed2c50c5122
-SHA256: 1d18c5bf1a40b0193dfcb1add8443545476aef089c5acbe778dc50ba2c08967f
+Size: 10453264
+MD5sum: 88bd829570e3b87be4e13216cd0146f5
+SHA1: 64fb95892b52c736ebf54ee3e8d6b5fb2742f5cb
+SHA256: b9f6dece01091611f0543cb8c2a241a35391125e887bb6ac1d26d7b65c8f20b3
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-bad
-Build-Ids: 019f26815f63737c84b23fad8bcc1499b1f5299b 026eeeb276c220943afed5e442c4bc18359eaeb2 04983e0643d67ede37f242f8df40c03a939b073b 05af47aabbad0e743fbb5ab2f0f1bddd97098f96 074e2cc91d4021bb58b7c03f07bed2202be8ec37 0b7d8597146a6aa867b853b1cae173afcafea41e 0e080aeddab2a35110551d64b7e657c0796d7824 0e2256e23e4b102afad1676bac4a026df5b30296 105b90e291491fa7bd09c4d966a1b62e3ca8ad0d 10a130fad1032c867ccb76c40e7c02188140647b 1183ff785bf122623f52def63073327e6eca7db8 154b63a09beedb119a48189f647036cb7b97bac0 174ab99add4412a3857c5cd2085ad9b6e6f7fd74 19dc09375103a088dfae0ae3d602fbb6e1ff704e 1a93e03742e72d45a1e5f3cb124c6aa51b0b742e 1d692e5c0ead9f25b42047f62f1b52b52088cd67 1de6ae265c03787ea5557b7bb137a05b5693fa16 202ee4334fa5db067af4d18a399093c12f01b124 214f62d65bd0cae65789bb858c63531ce34ac5ee 21be2ca449ce2dd3f79382f900a9f6ef647b391c 21c2256d8127c624840f292c85395653d885b8f0 232f2249e31a8789fbeafa01f7d801831c09ce73 2343172236da1e51a9ed2bc3ad62f5d830660eb0 2344b39d5e1384e134355b47b923c3669be7df77 236135cbb07be554782e4d666b3871396435fdd0 2378bacf3fee8594abf7ec9ccc535b1dfa52bfab 2398ac63b8a8373e931f180580c33e80ee48f471 25fc3ce060697e84d40ad31506183334acb65798 28d94ce83d827650922701a616e4780239209191 28ea330ef300aa2d2ebe01cd92085ebf7c187793 2ab67245ed6f7f20ffcd25c1c6faaf21a03c6d71 2b30af1d4c50e6640693f4411ecbe0048e8aaac4 2f3eb6c8a4532ffb468520474f1cd3c6ce8f84d5 322553c882f2a36eca32ef85331ae21144666f01 325568f03a357235e31a93ba6b5e3ab577324130 32ce35062f06e6dde070cd17b6193228c32fc9ad 34f7d6b67ff07f7360f7f7433732d77cde1aedad 35cad4ee397c5a8b8ae8191842437c39ce9523e4 390a86862bf2618bbaf7fcaf88adcc1b5f979a89 3987530722d5b5d67fa1aeaba273f7ddb478d980 399c4311bef42e48dcc075da39a94c955183ca73 39bf4425696e15a6a5bc958eafadf9834d41ac2f 4034333ddd4b6dc6da4b4729b3c2bdce23770a8f 4405b180f1d9eb84a6f5748b38db70438bfca2bb 4649817bd38660df88ef30b3fb5b05c60a34997c 46cc8992e7cf8a0a3d04520c7b3587a321184b56 48a7da511923aa8689915d44acf42dc5fbd4ff1f 49ce5dd225ee317d64987ffed1dad2b29e861e73 4a4100ca62b3aa2a55348cadebab891965fe9855 4e5a1c6aa4318493b183c4cd2d17f7358be6bcf3 4e8aaf965b8e16e14726d2c8c55fff8c923bf9a7 5215eddba6645d01f7676e2a78f9482cf13ab4fd 543a9fb848f8177594d39693589e87c868e8a62d 596e8af167c7e5b46f3f8fb03832baefdf576325 5c8e2cdfabf6a7fbcd8ae90e06b5a763ba2e851c 5e026429770db6aea646e94014db4ba6a07fdff3 6017bc04379bf37fb8dc4d32aaaa43a2574fe4f7 61de9b595888290c7ad477f4579a28bfbff8da23 679e61b8208168f80df2b1b2805eda0e70a5045d 6cb671e8ac4a6cbb2ff73c11fa1c1a8f3348f2c0 6ecca3af1882b9faff30a14901ee41ff1a8fbb3e 7131938cd9d7ee3b5edf4f7e1a21ec6298ac064f 721161f73d6484def1f1dce38bf19be574e6f4a4 7226b4e2b5bb06ea53e557f6bdaeed646a25f9ab 729bdc4eb8dbf2caeb4a4d7dac86f6a958f3c4ca 7947e53a26813f3b410bf68be57b7f1f740e691c 7a0392ee4899fa6aa00302426657948e19963b08 7afd0157ed0cbe910915438aa87e1d07d7cb3134 7bffbad2e2a1ff4dc1e617cb77fe4aedc73cf34f 7c968974a4265b1eb4b5919437481c8a6efb10ff 7f4d8c0e7da5f2321e24ee7f5fd3430edbd3b097 802a2f5a190beecd020702b3ad24f093949cd11a 851681f39adf76547f17a40e7428d13ac177e759 87eab153ec40e1d30b3bd82c41f9aed8b9b748d4 8ace4ad4ffc72f0cd17f7795e4735ae2fa2c051f 8e2a59070ed2bcc0bed85b9b5133d198d0976630 9065193d193a1ac056fe5cde970f0b8811ddbd92 9315036e1ab072c772058422adfcb2da6cd8a67a 9391f624dbd29b1f9991ad7a3b270615515d1063 94d5ef105c820099ca060a25d2589e8e8b9fbf45 9708835f12bae580cb7a276cfc9dc3e24adc69f8 978dc490db8adb9b12ed928b36cac8a865e1d476 98987affdb119d9b9358762c0b8195ea1d482b35 9a4fa675ec75481a7e47ee95ee444d36be9d2590 9b0ecb2667faa2609ad30dccb61a3e01a09c195d 9b40205618972f1036c82dd823539004e4d2d6f7 9c9fda9a0d0992985f06dceea9155250b65a834d 9d7c899b28e1dd0baef32793048419d9114b25da 9e1af5822254da7d152ed7105d8c6685a9589509 a35a7ec8071364d3e82728121cf2008aeb7a8ae4 aa2bea68bcc9e2491d452f3642e48fdd9b194a11 aacc855d6e23e3d602dd7ff8b2fd4a3bea319c6a ad621843b9e2a15a6a6bab0eb46224d0767f3596 adb0ec5b8033c04f35c32f0ed029ffb02cb0c7ca ae2d222ca039ad4517aec3000bb2f05a2d2dafbc b268f3a9af2a6644d3c6f1400cb5c61553a8cefd b28d0939ecff160c26c7d6a5adc4be730e277d7a b2a59eb0d671873fedd632b7b77d7833a8c40147 b39859ae9026334a698888c815503a7710563840 b69b8885e34962d12ad24198b5ad2d15b9a28c35 b86d6b139a57d20c51e24c63c528b2b05af4e5ca b94761c262de129dc969f7d5bc8f17cc6ebd5406 bb376bff02f495b03b6f0e73e5edf2e4c7d7d1f7 bc13241561ebe1b0a74404830415a004dc6950f6 bcb0aac8c68ac6bf47963877c7f1b818e1ca46ff bdfe42314a3ca3c0c57076ef666555dbbf024ee8 c21397cb7b2e7e36d665548810a56fc605809001 c8c822cee165a763eb109d30e19528dddd296f9b c90bfb7e9a1fa8d4f96701c3f3a8c9371f726520 c9810612dde5b996df853de546ebb8c0b06d1ae6 c9d187d74c124f513957c04ed9e21e51f86b7168 ca9d12499e8e2e0cb787d6b8b9fd7a5994b79453 cb975920ec11b40ed03fd327a39ccd37a364159d cbfcc9f3e07a2b852198eb4c369fa8831fefc41c ccb04d99fccb49c635d82883bade9c8212bed392 ccf672e9488e095d38290ff7fe3bff7b5f5873a6 cd6112742165b33738974ed04c6a4c786adad82f d02e247df77e864fe132e6dd8eb598267812c121 d17b43f7237e7e8ab3200d6a60617cba2bca46db d2454b0896ade7a14871c4e2fa3bda02d70ee781 d570ef9af40f153a18c1e301c90217657ab26f66 d72402a960c092e771c1c7c596560281a64f32ac d8808230dcdb37870fc329df038a61d6a1d89229 db54b70a619d8d987d724c4b176512ddb3d4b1a2 db72d8e6f20ca9acc86a1786ea3a0ccddd7bb1ac dca667a2775938d9224149368798efad7463772c dd9b3feeecf63a7df6a492c8bf5accfffd193434 dfda380418dbcc90bcf3a374af0c7d70eafaf593 e1838af65dab14b22952ea420caa353f2bc14561 e6642e8b041ecb4103c6887fc1191a98ff873cd2 e7616c0395a3a56e01d873efd0722cd231cd11fb e7891a8f3185161baa922624ec901217a7caf261 e8a24f0698c4843d1d5609ca61b281fcff1bb413 eb22e19a234dfc60f360ea86ad81e42873a71d62 eb91bdec868fb550ca914bedd7855c0c78605589 ee1b3b73b8210a18f10dfa984b732c826c449d62 ee95ba1c8e04eb95284ff6a2c4222645615a93cc efe02c7d0f068501f364205bb552f704a6554593 f1165038e266ef054b7b84b0b04b6952c62b2c66 f194f7f5ff421398c525c2ed50191c3535c783b9 f221cf3fb7012e20733876ab744cb643b090b050 f4724bc024d547638a0b434e5559eb5a4e7aec72 f5f22a49fe0246e55161e6964e43629a1d01621a f6bade76da388ae2bbec640a30418a97ab4ae9e6 f6c1aec070efedc30f56f450d28595a31cbf3af4 f75b834779a537397f2e51a4838c09d32d779e72 f7e3ff3e0ab06c1384c51b49024fec42bd5adf95 f88891c2a970534e23304b141be6a5b60ec9059b fceb46fd160ade6009126d9e6b4d7f4500604d0a fd51dbd6dc2fc618a6fac3d4afc7f8bbc9081614
+Build-Ids: 019f26815f63737c84b23fad8bcc1499b1f5299b 026eeeb276c220943afed5e442c4bc18359eaeb2 04983e0643d67ede37f242f8df40c03a939b073b 05af47aabbad0e743fbb5ab2f0f1bddd97098f96 074e2cc91d4021bb58b7c03f07bed2202be8ec37 0b7d8597146a6aa867b853b1cae173afcafea41e 0e080aeddab2a35110551d64b7e657c0796d7824 0e2256e23e4b102afad1676bac4a026df5b30296 105b90e291491fa7bd09c4d966a1b62e3ca8ad0d 10a130fad1032c867ccb76c40e7c02188140647b 1183ff785bf122623f52def63073327e6eca7db8 154b63a09beedb119a48189f647036cb7b97bac0 174ab99add4412a3857c5cd2085ad9b6e6f7fd74 19dc09375103a088dfae0ae3d602fbb6e1ff704e 1a93e03742e72d45a1e5f3cb124c6aa51b0b742e 1de6ae265c03787ea5557b7bb137a05b5693fa16 202ee4334fa5db067af4d18a399093c12f01b124 214f62d65bd0cae65789bb858c63531ce34ac5ee 21be2ca449ce2dd3f79382f900a9f6ef647b391c 21c2256d8127c624840f292c85395653d885b8f0 232f2249e31a8789fbeafa01f7d801831c09ce73 2343172236da1e51a9ed2bc3ad62f5d830660eb0 2344b39d5e1384e134355b47b923c3669be7df77 236135cbb07be554782e4d666b3871396435fdd0 2378bacf3fee8594abf7ec9ccc535b1dfa52bfab 2398ac63b8a8373e931f180580c33e80ee48f471 25fc3ce060697e84d40ad31506183334acb65798 28d94ce83d827650922701a616e4780239209191 28ea330ef300aa2d2ebe01cd92085ebf7c187793 2ab67245ed6f7f20ffcd25c1c6faaf21a03c6d71 2b30af1d4c50e6640693f4411ecbe0048e8aaac4 2f3eb6c8a4532ffb468520474f1cd3c6ce8f84d5 322553c882f2a36eca32ef85331ae21144666f01 325568f03a357235e31a93ba6b5e3ab577324130 32ce35062f06e6dde070cd17b6193228c32fc9ad 34f7d6b67ff07f7360f7f7433732d77cde1aedad 35cad4ee397c5a8b8ae8191842437c39ce9523e4 390a86862bf2618bbaf7fcaf88adcc1b5f979a89 3987530722d5b5d67fa1aeaba273f7ddb478d980 399c4311bef42e48dcc075da39a94c955183ca73 39bf4425696e15a6a5bc958eafadf9834d41ac2f 4034333ddd4b6dc6da4b4729b3c2bdce23770a8f 4405b180f1d9eb84a6f5748b38db70438bfca2bb 4649817bd38660df88ef30b3fb5b05c60a34997c 46cc8992e7cf8a0a3d04520c7b3587a321184b56 48a7da511923aa8689915d44acf42dc5fbd4ff1f 49ce5dd225ee317d64987ffed1dad2b29e861e73 4a4100ca62b3aa2a55348cadebab891965fe9855 4e5a1c6aa4318493b183c4cd2d17f7358be6bcf3 4e8aaf965b8e16e14726d2c8c55fff8c923bf9a7 5215eddba6645d01f7676e2a78f9482cf13ab4fd 543a9fb848f8177594d39693589e87c868e8a62d 596e8af167c7e5b46f3f8fb03832baefdf576325 5c8e2cdfabf6a7fbcd8ae90e06b5a763ba2e851c 5e026429770db6aea646e94014db4ba6a07fdff3 6017bc04379bf37fb8dc4d32aaaa43a2574fe4f7 61de9b595888290c7ad477f4579a28bfbff8da23 679e61b8208168f80df2b1b2805eda0e70a5045d 6cb671e8ac4a6cbb2ff73c11fa1c1a8f3348f2c0 6ecca3af1882b9faff30a14901ee41ff1a8fbb3e 7131938cd9d7ee3b5edf4f7e1a21ec6298ac064f 721161f73d6484def1f1dce38bf19be574e6f4a4 7226b4e2b5bb06ea53e557f6bdaeed646a25f9ab 729bdc4eb8dbf2caeb4a4d7dac86f6a958f3c4ca 7947e53a26813f3b410bf68be57b7f1f740e691c 7a0392ee4899fa6aa00302426657948e19963b08 7afd0157ed0cbe910915438aa87e1d07d7cb3134 7bffbad2e2a1ff4dc1e617cb77fe4aedc73cf34f 7c968974a4265b1eb4b5919437481c8a6efb10ff 7f4d8c0e7da5f2321e24ee7f5fd3430edbd3b097 802a2f5a190beecd020702b3ad24f093949cd11a 851681f39adf76547f17a40e7428d13ac177e759 87eab153ec40e1d30b3bd82c41f9aed8b9b748d4 8ace4ad4ffc72f0cd17f7795e4735ae2fa2c051f 8e2a59070ed2bcc0bed85b9b5133d198d0976630 8f3f7dac14a5281334a4f5426e49e67fd5a267e1 9065193d193a1ac056fe5cde970f0b8811ddbd92 9315036e1ab072c772058422adfcb2da6cd8a67a 9391f624dbd29b1f9991ad7a3b270615515d1063 94d5ef105c820099ca060a25d2589e8e8b9fbf45 9708835f12bae580cb7a276cfc9dc3e24adc69f8 978dc490db8adb9b12ed928b36cac8a865e1d476 98987affdb119d9b9358762c0b8195ea1d482b35 9a4fa675ec75481a7e47ee95ee444d36be9d2590 9b0ecb2667faa2609ad30dccb61a3e01a09c195d 9b40205618972f1036c82dd823539004e4d2d6f7 9c9fda9a0d0992985f06dceea9155250b65a834d 9d7c899b28e1dd0baef32793048419d9114b25da 9e1af5822254da7d152ed7105d8c6685a9589509 a35a7ec8071364d3e82728121cf2008aeb7a8ae4 aa2bea68bcc9e2491d452f3642e48fdd9b194a11 aacc855d6e23e3d602dd7ff8b2fd4a3bea319c6a ad621843b9e2a15a6a6bab0eb46224d0767f3596 adb0ec5b8033c04f35c32f0ed029ffb02cb0c7ca ae2d222ca039ad4517aec3000bb2f05a2d2dafbc b268f3a9af2a6644d3c6f1400cb5c61553a8cefd b28d0939ecff160c26c7d6a5adc4be730e277d7a b2a59eb0d671873fedd632b7b77d7833a8c40147 b39859ae9026334a698888c815503a7710563840 b69b8885e34962d12ad24198b5ad2d15b9a28c35 b86d6b139a57d20c51e24c63c528b2b05af4e5ca b94761c262de129dc969f7d5bc8f17cc6ebd5406 bb376bff02f495b03b6f0e73e5edf2e4c7d7d1f7 bc13241561ebe1b0a74404830415a004dc6950f6 bcb0aac8c68ac6bf47963877c7f1b818e1ca46ff bdfe42314a3ca3c0c57076ef666555dbbf024ee8 c21397cb7b2e7e36d665548810a56fc605809001 c8c822cee165a763eb109d30e19528dddd296f9b c90bfb7e9a1fa8d4f96701c3f3a8c9371f726520 c9810612dde5b996df853de546ebb8c0b06d1ae6 c9d187d74c124f513957c04ed9e21e51f86b7168 ca9d12499e8e2e0cb787d6b8b9fd7a5994b79453 cb975920ec11b40ed03fd327a39ccd37a364159d cbfcc9f3e07a2b852198eb4c369fa8831fefc41c ccb04d99fccb49c635d82883bade9c8212bed392 ccf672e9488e095d38290ff7fe3bff7b5f5873a6 cd6112742165b33738974ed04c6a4c786adad82f d02e247df77e864fe132e6dd8eb598267812c121 d17b43f7237e7e8ab3200d6a60617cba2bca46db d2454b0896ade7a14871c4e2fa3bda02d70ee781 d570ef9af40f153a18c1e301c90217657ab26f66 d72402a960c092e771c1c7c596560281a64f32ac d8808230dcdb37870fc329df038a61d6a1d89229 db54b70a619d8d987d724c4b176512ddb3d4b1a2 db72d8e6f20ca9acc86a1786ea3a0ccddd7bb1ac dca667a2775938d9224149368798efad7463772c dd9b3feeecf63a7df6a492c8bf5accfffd193434 dfda380418dbcc90bcf3a374af0c7d70eafaf593 e1838af65dab14b22952ea420caa353f2bc14561 e6642e8b041ecb4103c6887fc1191a98ff873cd2 e7616c0395a3a56e01d873efd0722cd231cd11fb e7891a8f3185161baa922624ec901217a7caf261 e8a24f0698c4843d1d5609ca61b281fcff1bb413 eb22e19a234dfc60f360ea86ad81e42873a71d62 eb91bdec868fb550ca914bedd7855c0c78605589 ee1b3b73b8210a18f10dfa984b732c826c449d62 ee95ba1c8e04eb95284ff6a2c4222645615a93cc efe02c7d0f068501f364205bb552f704a6554593 f1165038e266ef054b7b84b0b04b6952c62b2c66 f194f7f5ff421398c525c2ed50191c3535c783b9 f221cf3fb7012e20733876ab744cb643b090b050 f4724bc024d547638a0b434e5559eb5a4e7aec72 f5f22a49fe0246e55161e6964e43629a1d01621a f6bade76da388ae2bbec640a30418a97ab4ae9e6 f6c1aec070efedc30f56f450d28595a31cbf3af4 f75b834779a537397f2e51a4838c09d32d779e72 f7e3ff3e0ab06c1384c51b49024fec42bd5adf95 f88891c2a970534e23304b141be6a5b60ec9059b fceb46fd160ade6009126d9e6b4d7f4500604d0a fd51dbd6dc2fc618a6fac3d4afc7f8bbc9081614
 Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
 Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
@@ -914,10 +914,10 @@ Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1_arm64.deb
-Size: 690120
-MD5sum: 0f9a9703ffbe954837f66bb8f5c6a2cc
-SHA1: 30a6f83b38aae554c452aa2f06f82256a7eb8d10
-SHA256: 6349761d6a510b57b05ca42789205ec727087d4bf0b3351dc8f30b618c05f298
+Size: 689872
+MD5sum: 16d553c43d28da8857fcb93adb6cbce9
+SHA1: a896d784ee6dbc885b05aaaabdbb60f213d8f5b7
+SHA256: 8e6512c384b35497e8dba800f860b7c4410e1cadf7cabd57f71d6d25f84c1e75
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -989,18 +989,18 @@ Version: 1.24.10-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 2610
+Installed-Size: 2609
 Depends: gstreamer1.0-plugins-base (= 1.24.10-1)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1_arm64.deb
-Size: 2132124
-MD5sum: 2e2add0a6674b373edb0425def2c3e5d
-SHA1: 9780eedc4c97a37495872630f7202b166df61d42
-SHA256: 215216be5e168159e9be0e761c4436dbfefe822acb3809f0eb6505dd83caa3ad
+Size: 2131596
+MD5sum: 5d44ef16df3b979693e86c67dad7624c
+SHA1: 05e51743b7636c69d695f6a3f9d51d131bd2bafa
+SHA256: 7c92ba5ab400a24656deb0ba6691cb36a38bec1c85dec256632c3ae2413a11fe
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-base
-Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0ee293bd82dbfd12cc8c1fb5df6954636ffec178 157136842567b82d419918582eb8afbbfcc398d5 1b213e327d3226748991f05d3908dff43a81e700 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 24d8720bcd83921bfb151bc87d20dceaee1978ad 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 5507b3203c31136bf2e39962369f7760f5601097 58b438f91772bffdb6d946ea4e4f9a40bbc75752 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 696d01ac363c0f0acb20c6ef50f7f1be187e7a26 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 7263a3ed009aae21a2b199c61a011a1c21a1ef94 a525fc83796ecb59163d64e515c4c8b029bbaeca ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e ba7fbd6e8208d6e29ad79da84597ea641045023e bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b f6479e485626e8d2d36aac9c8019c485c97dbd3b faf1ff0e0d2a774bda529911369b39ae80d367e9
+Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0ee293bd82dbfd12cc8c1fb5df6954636ffec178 157136842567b82d419918582eb8afbbfcc398d5 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 24d8720bcd83921bfb151bc87d20dceaee1978ad 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 5507b3203c31136bf2e39962369f7760f5601097 58b438f91772bffdb6d946ea4e4f9a40bbc75752 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 67f519d3e126cea0466fec958be1ce8dea84c242 696d01ac363c0f0acb20c6ef50f7f1be187e7a26 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 7263a3ed009aae21a2b199c61a011a1c21a1ef94 a525fc83796ecb59163d64e515c4c8b029bbaeca ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e ba7fbd6e8208d6e29ad79da84597ea641045023e bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b f6479e485626e8d2d36aac9c8019c485c97dbd3b faf1ff0e0d2a774bda529911369b39ae80d367e9
 Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ A444_16LE, A444_16BE, AYUV64, RGBA64_LE, ARGB64, ARGB64_LE, BGRA64_LE, ABGR64_LE, RGBA64_BE, ARGB64_BE, BGRA64_BE, ABGR64_BE, A422_16LE, A422_16BE, A420_16LE, A420_16BE, A444_12LE, GBRA_12LE, A444_12BE, GBRA_12BE, Y412_LE, Y412_BE, A422_12LE, A422_12BE, A420_12LE, A420_12BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, BGR10A2_LE, RGB10A2_LE, Y410, A444, GBRA, AYUV, VUYA, RGBA, RBGA, ARGB, BGRA, ABGR, A422, A420, AV12, Y444_16LE, GBR_16LE, Y444_16BE, GBR_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, Y210, UYVP, v210, I420_10LE, I420_10BE, P010_10LE, NV12_10LE40, NV16_10LE40, NV12_10LE32, P010_10BE, MT2110R, MT2110T, NV12_10BE_8L128, NV12_10LE40_4L4, Y444, BGRP, GBR, RGBP, NV24, v308, IYU2, RGBx, xRGB, BGRx, xBGR, RGB, BGR, Y42B, NV16, NV61, YUY2, YVYU, UYVY, VYUY, I420, YV12, NV12, NV21, NV12_16L32S, NV12_32L32, NV12_4L4, NV12_64Z32, NV12_8L128, Y41B, IYU1, YUV9, YVU9, BGR16, RGB16, BGR15, RGB15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
 Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, dsdconvert, encodebin, encodebin2, fakevideodec, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
 Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
@@ -1157,13 +1157,13 @@ Version: 1.24.10-1
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
 Installed-Size: 408
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libmali-valhall-g610-g6p0-x11-wayland-gbm, libqt6core6t64 (>= 6.7.2), libqt6gui6 (>= 6.6.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libstdc++6 (>= 5), qt6-base-private-abi (= 6.7.2)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgles2, libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libqt6core6t64 (>= 6.7.2), libqt6gui6 (>= 6.6.0), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libstdc++6 (>= 5), qt6-base-private-abi (= 6.7.2)
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-qt6_1.24.10-1_arm64.deb
-Size: 156120
-MD5sum: bd4844e1f517c71890f7eb88c0fb4cd1
-SHA1: d22ffd2c1b3b2ca38a2f8d2548e50c61ed9d489c
-SHA256: 99124a0728993cb121e35fb6cd7b5ad5a08b6463a0145387daf3ed2ec3dde6cf
+Size: 156096
+MD5sum: ca2df57bdfea837d653ef25008354746
+SHA1: 40908fef08067c63a0e867e35b5d4d1f0caa398f
+SHA256: d7cca6dd501f10297c0b94ceed40f72f4fc6c822cc508af5483b380460246075
 Section: graphics
 Priority: optional
 Multi-Arch: same
@@ -1539,10 +1539,10 @@ Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Conflicts: libavcodec61
 Provides: libavcodec61 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavcodec-extra61_7.1-3_arm64.deb
-Size: 5398040
-MD5sum: 3156fc1bdb7605ba8da779d95c167607
-SHA1: 8299b2a56ab46a9cf5077b491c98a9242397aff1
-SHA256: bbbacf3c55c29e54503fc761d8eee8dd5134bcff541d6f8337b5a3e592b84279
+Size: 5387988
+MD5sum: 430b64290297d5d980d83fbb2ef0af64
+SHA1: 27bac439e720a51d55a8b36ea4686a565b76cf5f
+SHA256: 12dac9e9de73a60d08974cf90b04d3df8afc3186ffa91546b8e95520b6680964
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1582,15 +1582,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 22238
 Depends: libavcodec-extra61 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavcodec-extra61-dbgsym_7.1-3_arm64.deb
-Size: 21652524
-MD5sum: 55b4d48e329c681d93f6c45517cf8f88
-SHA1: f374e618d8112ae665c0418246ecddf08467d777
-SHA256: cbea9976036e92387a0d8cb0c28f0aa9e289e45b1f41ac2e7dc30a1ccf2c97eb
+Size: 21651636
+MD5sum: 2b27f2d2353d4b1e399baab8c167d99c
+SHA1: a5ff133c01ea0ab384a2a4d2082573b8c1d0741f
+SHA256: 59e02dff00c5f75e34919397e4c9f5e42ceb9becd619f5de954dcffd4f8f3ce0
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libavcodec-extra61
-Build-Ids: aebde3c8dfa2f2c10493d8faaac34f4415782e27
+Build-Ids: 22ca21da2c1edf4cda55bc4a063278f35f503e9a
 
 Package: libavcodec61
 Source: ffmpeg
@@ -1601,10 +1601,10 @@ Installed-Size: 14185
 Depends: libaom3 (>= 3.2.0), libavutil59 (= 7:7.1-3), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.9 (>= 0.8.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0.7 (>= 0.5.1), librga2, librockchip-mpp1, librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.2.1), libspeex1 (>= 1.2~), libsvtav1enc2 (>= 2.2.1), libswresample5 (>= 7:7.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-209 (>= 3.6), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Filename: dists/trixie-rockchip/main/binary-arm64/libavcodec61_7.1-3_arm64.deb
-Size: 5382420
-MD5sum: 8b9fedd641b4df0f437924cacc9ab92a
-SHA1: 7586ba1f1d0e928fe7848ee4e66bc77c44ffd252
-SHA256: e08093f410a5725ac95eee5897d0a5349b360be4519953f4cf6349fe47acd5aa
+Size: 5393200
+MD5sum: 63d1e0195d7db24499a5eb9a8c97ce21
+SHA1: c855c7d1081380874509fe7e85d21bbf465bf932
+SHA256: beb06fbd32ad60536e9102ddc3694554097e698e17ea957e87c7e7c7b853544d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1631,18 +1631,18 @@ Version: 7:7.1-3
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 22212
+Installed-Size: 22211
 Depends: libavcodec61 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavcodec61-dbgsym_7.1-3_arm64.deb
-Size: 21630812
-MD5sum: d941e3d9ed0c4fe5ecfefa70d983d021
-SHA1: 272844d7b0da1c241346a2cd25a22fe1b94c40e2
-SHA256: ba95975cc840bd54c48852aa61fa6012134729e470d258b85db01d70c6542036
+Size: 21628184
+MD5sum: 6fb6ff257693818a9d7d881e8d5f05e9
+SHA1: c9be02cb7c0d9d4fb7fdc8f9eb23156183bd77c8
+SHA256: b49e58b282549b1c52372b89518eadd0946776896251e1ef12cad562e6ca476e
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libavcodec61
-Build-Ids: a0dd8a83e401665d174b5f426e1d5fc73fd976d6
+Build-Ids: 48b0946737935353c1b85c92666c13905796549d
 
 Package: libavdevice-dev
 Source: ffmpeg
@@ -1782,10 +1782,10 @@ Depends: libass9 (>= 1:0.15.0), libavcodec61 (= 7:7.1-3), libavformat61 (>= 7:7.
 Conflicts: libavfilter10
 Provides: libavfilter10 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavfilter-extra10_7.1-3_arm64.deb
-Size: 3659700
-MD5sum: 022d1a829389f2e9d496888eeb6cde35
-SHA1: 8a8fb32e4c0dce50a437196fee77351292259a6c
-SHA256: 7a2bfff22188f7481ce64568c4dca65362d4e6ab8de771c2138d9a11e5b41ef7
+Size: 3658468
+MD5sum: 1c3b60415c762ba93c64d1186029fce9
+SHA1: e766199e1d3cdb8f935a7d77b2452869cf14bf44
+SHA256: 2a8fb2745699728e7b33cbf44e1da3fe82277258870e2fb92056c126383dcae8
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1817,15 +1817,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 8275
 Depends: libavfilter-extra10 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavfilter-extra10-dbgsym_7.1-3_arm64.deb
-Size: 6831024
-MD5sum: 676e14eb604d35a29c9dff42c47863db
-SHA1: 0a662a6d7b3efc312ad048b38735bb6304a34a2c
-SHA256: 675aaa7162bec73e38687fe3e8201e37ca61d5b5ea45fb5fdf0cb589ad89862a
+Size: 6832332
+MD5sum: 79c8ce26171f940e146e6fd14cd72e74
+SHA1: 02e1c08b0db170ee305a5cbc540eb14eb0921087
+SHA256: 22c92123cf7dcd91a0785cf2cf468acdbd38d324cbe640382c02be1b564f23de
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libavfilter-extra10
-Build-Ids: 6e067af77e2f8f4fa8bfeb36bdf457dbdcb715ab
+Build-Ids: cbdbc72a9850a327feab9429ff6524b0fabaebdc
 
 Package: libavfilter10
 Source: ffmpeg
@@ -1835,10 +1835,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 12711
 Depends: libass9 (>= 1:0.15.0), libavcodec61 (= 7:7.1-3), libavformat61 (>= 7:7.0), libavutil59 (= 7:7.1-3), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 0.9.9), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo349 (>= 7.349.0), libpocketsphinx3 (>= 0.8+5prealpha+1), libpostproc58 (>= 7:7.0), librga2, librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavfilter10_7.1-3_arm64.deb
-Size: 3658244
-MD5sum: 370b68ad7dd172c37faba6a91b0272ca
-SHA1: 3cdaddacbd54f9d4389cce61832390b5de5ef50d
-SHA256: f22472d100e6ecac7fd9283497881f1516ded980a38e1adde118e0007397b54b
+Size: 3659356
+MD5sum: 20ddf2bdeb0f7369dd83d20e40e59c2f
+SHA1: 8fb1324249d5b62ef32d481477c19452b5652a78
+SHA256: e96f9107fcb90a3a3908734bd9538d5cb64d5f44c65596f44115ddf6d5e77592
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1863,15 +1863,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 8271
 Depends: libavfilter10 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavfilter10-dbgsym_7.1-3_arm64.deb
-Size: 6828288
-MD5sum: 4a5f780a71ba3a33624591162172eb5b
-SHA1: 45caf38949e4e21205860f84a503ceb92c7c82a6
-SHA256: 289827363c45dc789d9bf2a8d79aee6fd9529b13b22ebcbc945ac817325ac68e
+Size: 6828576
+MD5sum: b9f8000cc132cd49d4b006c9852d678f
+SHA1: 62b723bc2b9505a33e190ed580831f5ad8deb7c0
+SHA256: dee4fc2d0a762913e8c46e76557c8a6a7749a58515d37abefe8203764ef6dd26
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libavfilter10
-Build-Ids: 69783103ea8f919f0268543da44121e38a0db3b0
+Build-Ids: 5c0c7f152895ee55e31376f93a366200ec39db5c
 
 Package: libavformat-dev
 Source: ffmpeg
@@ -2072,10 +2072,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1140
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), librockchip-mpp1, libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.21.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
 Filename: dists/trixie-rockchip/main/binary-arm64/libavutil59_7.1-3_arm64.deb
-Size: 378248
-MD5sum: 31106de4a399e9770b9a0ceba8672363
-SHA1: 2c5f5b44c8633ff278648c1eb9a971d4dc65aa79
-SHA256: 04d02d9f5f7c49b7d1d1884f12ad42bb55afbc9b5b01a590e6cb8b9723ecb509
+Size: 378568
+MD5sum: 244ccf7b55f84b4dd21445901d4a82f7
+SHA1: a56b54c8941070d04cc6e8eae9bf315ceb8a28c5
+SHA256: 16d440fbad7462f6c91900012ad38964b1af87b62513bff6f8c46893a2fff414
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2104,15 +2104,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1083
 Depends: libavutil59 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libavutil59-dbgsym_7.1-3_arm64.deb
-Size: 1009948
-MD5sum: 702b930284e9fcc86beb953d497b03d4
-SHA1: a64fd133451bee9e590e4bd440ec4cf5f0f3e8c8
-SHA256: 2d970bad82df003e9f975649213864e6eb635ec4f48c19c93c2f8554ea3ef7c3
+Size: 1009812
+MD5sum: 25b6fb1e062392c48b0dcc81c3fd9471
+SHA1: 9b57c95b101e72ac197721cff7bed8f5121653f8
+SHA256: d53a07570c84dcd621d0e81642f9d8bbad701e5f7f4593d3f55bb25a9f87ade1
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libavutil59
-Build-Ids: 2dce0287f981db10473b1cfdfb5b47b87d4f4126
+Build-Ids: 4cdbb88ced590b318dbffea40ac160bef170fdeb
 
 Package: libdrm-amdgpu1
 Source: libdrm
@@ -2783,15 +2783,15 @@ Version: 1.24.10-1
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 786
-Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.55), libglib2.0-0t64 (>= 2.80.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libmali-valhall-g610-g6p0-x11-wayland-gbm, libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libx11-6, libx11-xcb1, libxcb1
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0t64 (>= 2.80.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-1_arm64.deb
-Size: 261188
-MD5sum: 326873d640560128809afaa4d046815a
-SHA1: b57e576b81e4eac3b5cfc122ed1d79ab53957f8a
-SHA256: e89373d6f445cb185e34d78b0bb9549fb5fa9ef9112a130675983129e7128ba9
+Size: 261184
+MD5sum: 7c7dd32af62de3cd83e07c3ca0569ae5
+SHA1: 00d2260139ef066822c2d7582a3664caf24dfe7b
+SHA256: 3781064663af9fb986f382ea946065f5457d1cf64ddf316549679789728e91c7
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3139,17 +3139,17 @@ Version: 3.24.43-4
 Architecture: arm64
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 11184
-Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0t64 (>= 2.15.1), libatk1.0-0t64 (>= 2.35.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcloudproviders0 (>= 0.3.2), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0t64 (>= 2.80.0), libharfbuzz0b (>= 2.2.0), libmali-valhall-g610-g6p0-x11-wayland-gbm, libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.14.91), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.43-4)
+Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0t64 (>= 2.15.1), libatk1.0-0t64 (>= 2.35.1), libc6 (>= 2.38), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcloudproviders0 (>= 0.3.2), libcolord2 (>= 0.1.10), libcups2t64 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0t64 (>= 2.80.0), libharfbuzz0b (>= 2.2.0), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.44.0), libpangoft2-1.0-0 (>= 1.44.0), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.14.91), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.6), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.43-4)
 Recommends: libgtk-3-bin, librsvg2-common
 Suggests: gvfs
 Breaks: libgtk-3-0 (<< 3.24.41-1.1)
 Replaces: libgtk-3-0 (<< 3.24.41-1.1)
 Provides: gtk3-binver-3.0.0, libgtk-3-0 (= 3.24.43-4)
 Filename: dists/trixie-rockchip/main/binary-arm64/libgtk-3-0t64_3.24.43-4_arm64.deb
-Size: 2551020
-MD5sum: 2478ba09b3886d7b541012d3818b77f4
-SHA1: 3f03905e74756716194449a87dd66075ef2a3b93
-SHA256: 810bebeefe4884e1025f7e7f6c4009505e3d58befee2d0574816638b754b4bd3
+Size: 2550980
+MD5sum: c6b0a0a488d3d88a47884d36cd6308c8
+SHA1: 79ef06f64c4696c105ec2a8d16059d7404b48b7a
+SHA256: 1ad2f1d7829b2fe9eb5a7de76f4891aeb5d9602ebb61646dd58a3c56c5c22358
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3334,13 +3334,13 @@ Version: 0.38.0-1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 2731
-Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libbluray2 (>= 1:0.2.2), libc6 (>= 2.38), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmali-valhall-g610-g6p0-x11-wayland-gbm, libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsdl2-2.0-0 (>= 2.0.12), libsixel1 (>= 1.10.3), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
+Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libbluray2 (>= 1:0.2.2), libc6 (>= 2.38), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libegl1, libgbm1 (>= 17.1.0~rc2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsdl2-2.0-0 (>= 2.0.12), libsixel1 (>= 1.10.3), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
 Recommends: yt-dlp
 Filename: dists/trixie-rockchip/main/binary-arm64/libmpv2_0.38.0-1_arm64.deb
-Size: 877332
-MD5sum: c3b1dfa3ae88db59895a6a2f1e218a63
-SHA1: a68142d2323c5a768bd5295a0b4f489fb88dd313
-SHA256: 3084e60c62c551e6ec6f8dc363633cd673f9aee64a16568eec649b3f4eb918ef
+Size: 877324
+MD5sum: 911a392ffdde4297cea46147310d025c
+SHA1: 80cb04abe3c25ad014c07eaa6761ece0aa702d0c
+SHA256: 2a46d70689fddf6ab0f4357aa47b6b8a2822948875cc66af4b4bbb90a26bd16e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3510,10 +3510,10 @@ Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 143
 Filename: dists/trixie-rockchip/main/binary-arm64/librga-dev_2.10.1-1_arm64.deb
-Size: 23220
-MD5sum: ff59f1621528d5166e68eda991500ac8
-SHA1: 13eba6b13d50ae5bd982edcce497286ded76beb2
-SHA256: 754a74347dd3263b6ca675af4c2472c4fb979fe4319e3a77e949b0754b763fa0
+Size: 23228
+MD5sum: b4ebe95ef0ce9aa61613f8e2018ddfb7
+SHA1: 58b3178fab1382d3bab3ead5e82d837658fedca4
+SHA256: 94c60abe1800b0d605f8574dda499c74dd689c430f6725906450accb1c617083
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -3527,10 +3527,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 281
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Filename: dists/trixie-rockchip/main/binary-arm64/librga2_2.10.1-1_arm64.deb
-Size: 71836
-MD5sum: 26669a2085bc9b00ec6a52742349a3ee
-SHA1: 18ce20fd735f19fd25592ae4165a35e9c98b071d
-SHA256: 357720857e4d648f4f8496167dd440b854900ea759b53466f0fbef5b02ba0f83
+Size: 71880
+MD5sum: d6a0ca399f75761392d7dd04e4a8fc70
+SHA1: 7a9c211bbbff982739e8e78da9935d0ba70d9c02
+SHA256: f394f5e5ac59081b1e5d4464570cd7e38891ff10b144b40d55d841b72e7de7fc
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -3545,10 +3545,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 362
 Depends: librga2 (= 2.10.1-1)
 Filename: dists/trixie-rockchip/main/binary-arm64/librga2-dbgsym_2.10.1-1_arm64.deb
-Size: 336676
-MD5sum: 732d7e569eb35476dc912a099a91dfc1
-SHA1: 43f497b5670034a518f463381c43bd5ac6ed750c
-SHA256: bb48d0a34dd786f5ecf68a187f6445e49f03d430145bc9d2e126dee55282220e
+Size: 336684
+MD5sum: 2c811c36b2cec863719e961487f1f053
+SHA1: f147919728c216a9bc37a523654e2b1e21a91467
+SHA256: 29d6090ee85bdb810f4e73710e33bd02688df508035598d23453015fe18f532e
 Section: debug
 Priority: optional
 Description: debug symbols for librga2
@@ -3614,10 +3614,10 @@ Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 159
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
 Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0_1.0.7-3_arm64.deb
-Size: 37064
-MD5sum: ccb80f8254f6d312d60d24d8619a7518
-SHA1: 7e7eff1a1ad5dc0e3fc6df2a2b1546ba953163bf
-SHA256: 7b3d74758b3432f2764196f638cc8cae6a7635e7fba12b204a0831149c4e8f5b
+Size: 37024
+MD5sum: 82036bf6d24a1d517e27369ce021f3ac
+SHA1: 7e9777fcb2ffd458bb1c0a813487a0639ae7dcc8
+SHA256: 13883963126eff946cc743632ec631affe0344020b58c3956aa009285deb6118
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3632,14 +3632,14 @@ Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 107
 Depends: librockchip-vpu0 (= 1.0.7-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0-dbgsym_1.0.7-3_arm64.deb
-Size: 86140
-MD5sum: a88f73e91925d0246b4914e28a804737
-SHA1: 3a6a6b3f9a8c37c48f7b0623cfd9cf4e84065e15
-SHA256: 88904d1ffdc060e42fdad9279ba07fb74889cf4e2d33690c1892b45efc688d8f
+Size: 86148
+MD5sum: 349e21fddf1e7ee20caf21fbccf0d818
+SHA1: e23fd7c7ea4c18fbd992e86c8e524cdfb4dd5418
+SHA256: c93c2e1844208ef79e1eede554f46422638c33600b863f82a9ecf4a2c4036f29
 Section: debug
 Priority: optional
 Description: debug symbols for librockchip-vpu0
-Build-Ids: a238dd8072f95fa455b9a6035d55b4311a2cc55b
+Build-Ids: 3cf43ab4fa0c03de996886b6c2c4c882af2e8b03
 
 Package: libseat-dev
 Source: seatd
@@ -3751,10 +3751,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 222
 Depends: libavutil59 (>= 7:7.0), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
 Filename: dists/trixie-rockchip/main/binary-arm64/libswresample5_7.1-3_arm64.deb
-Size: 85660
-MD5sum: 18a66fccd1b04f659a53b177668fcae6
-SHA1: bca2adf70a2a166ed1ce070860d9398e4250401b
-SHA256: 4d40c45704600afbcb9936be9b36d6255474b92b9a4278d5b75f1a43c3b33337
+Size: 85640
+MD5sum: aca21e2fb23052f0a0e3603762029420
+SHA1: 01c45455893d21659fd02478269a20722d3a2750
+SHA256: e47bf32a303d544fcc9f3712d91fdc704857ca08dab26c1b28e55cdb2ec6bfd8
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3795,15 +3795,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 120
 Depends: libswresample5 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libswresample5-dbgsym_7.1-3_arm64.deb
-Size: 98732
-MD5sum: 30958fa6e39cd3f72a02050bdcdbce80
-SHA1: a95560343442a57214a5127019930c3a2f90b84c
-SHA256: a4380ccb90bbc6adb1c1a2408860695d0d4af36716e0c257226fbcf07782c394
+Size: 98700
+MD5sum: 95168dc705a7e4acfa4d659585bb49d2
+SHA1: 83a8a41bf25787db4c12ad01fd8e1794963d372f
+SHA256: 65632d14302584ef19115126fba180d58ec0c7d7f1f849eb0933d2596ff0dc7f
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libswresample5
-Build-Ids: 72f67b23309c2375421df21efeb813337c3d1c74
+Build-Ids: be0253df392c1ac78844a61ef9bde7588bd98cdc
 
 Package: libswscale-dev
 Source: ffmpeg
@@ -3850,10 +3850,10 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 606
 Depends: libavutil59 (= 7:7.1-3), libc6 (>= 2.34)
 Filename: dists/trixie-rockchip/main/binary-arm64/libswscale8_7.1-3_arm64.deb
-Size: 198372
-MD5sum: 38f871f7ad35c775e90fa1f9ed13f1c5
-SHA1: cb27d1e5fd7bf500d867d256eec4fee4fc85a900
-SHA256: be520c3e24014ac64e34dd7ba18032a465e161732981d9c62ca3992473d3d77b
+Size: 198384
+MD5sum: b7f5786eb51e7472b4c4037112b9bef4
+SHA1: 53707a50c0f0fcccfae28a1cb6377d96f95f25e4
+SHA256: ecf3688d5b1722b2f41a7d57815f2bdf8ec13152978e9af31eb252dd108450b5
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3888,15 +3888,15 @@ Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 691
 Depends: libswscale8 (= 7:7.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/libswscale8-dbgsym_7.1-3_arm64.deb
-Size: 648972
-MD5sum: e104e2a2360f38866fe0e5d4b9a66859
-SHA1: f53a57fe3bd946b637474eb0cb4f1e37bce209aa
-SHA256: 4e6961b0297a3608a7ad63c57db1d5bf8d4f66b4f63303e8b0945d6137e651e8
+Size: 649128
+MD5sum: c24fd5144f05779544d9d0c405c7080c
+SHA1: 6a8b9565768ef41a0749f07f1d0f2e589c141864
+SHA256: ebd62a26108ea0dfaf41f795d5bcd16960c59bad1d0cbccaebb940ae7755625e
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libswscale8
-Build-Ids: ef53f8c10c7e28d658d679ef64268a97d1eabc2e
+Build-Ids: e2cbeb254e927be056a04aea98cbc6f2cc60fff4
 
 Package: libv4l-0t64
 Source: v4l-utils
@@ -4450,12 +4450,12 @@ Version: 14.0.1-3
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1832
-Depends: libaml0t64 (>= 0.3.0), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.108), libfontconfig1 (>= 2.12.6), libfreerdp-server3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.0.0), libglib2.0-0t64 (>= 2.12.0), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), libinput10 (>= 1.2.0), libjpeg62-turbo (>= 1:2.0.2), liblcms2-2 (>= 2.16), libmali-valhall-g610-g6p0-x11-wayland-gbm, libneatvnc0 (>= 0.9.1+dfsg), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), librga2, libudev1 (>= 183), libva-drm2 (>= 1.1.0), libva2 (>= 1.7.3), libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libwinpr3-3 (>= 3.0.0), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-render0, libxcb-shm0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 0.5.0)
+Depends: libaml0t64 (>= 0.3.0), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.108), libegl1, libfontconfig1 (>= 2.12.6), libfreerdp-server3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.0.0), libgbm1 (>= 21.3.0~rc1), libgles2, libglib2.0-0t64 (>= 2.12.0), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), libinput10 (>= 1.2.0), libjpeg62-turbo (>= 1:2.0.2), liblcms2-2 (>= 2.16), libneatvnc0 (>= 0.9.1+dfsg), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), librga2, libudev1 (>= 183), libva-drm2 (>= 1.1.0), libva2 (>= 1.7.3), libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-egl1 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libwinpr3-3 (>= 3.0.0), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-render0, libxcb-shm0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 0.5.0)
 Filename: dists/trixie-rockchip/main/binary-arm64/libweston-14-0_14.0.1-3_arm64.deb
-Size: 394812
-MD5sum: 9a4958a8cca311dac09393f53fc66f61
-SHA1: 55d56effcc609438861daf66be0c82351e8ef2f8
-SHA256: b33df043127e683bc57e3b119448eda9519362d36cda45d0b004b139e4d9d6c6
+Size: 394796
+MD5sum: a024c7a6cc7c70c61cd7d6fd9ba4613e
+SHA1: e5c0da0ab147c3e32768ae5f57bd2ce843f50119
+SHA256: 82d606ee6ea998c642b933d659947fa1172ccde80268fd8ca561eadd70f18287
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4541,12 +4541,12 @@ Version: 0.17.4-1
 Architecture: arm64
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Installed-Size: 953
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libmali-valhall-g610-g6p0-x11-wayland-gbm, libwayland-client0 (>= 1.22), libwayland-server0 (>= 1.22), libwlroots12t64 (>= 0.17.0), libxkbcommon0 (>= 0.5.0)
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libegl1, libgles2, libwayland-client0 (>= 1.22), libwayland-egl1 (>= 1.22), libwayland-server0 (>= 1.22), libwlroots12t64 (>= 0.17.0), libxkbcommon0 (>= 0.5.0)
 Filename: dists/trixie-rockchip/main/binary-arm64/libwlroots-examples_0.17.4-1_arm64.deb
-Size: 73196
-MD5sum: 69dbdf164d2690ec3cd78e53e52d1f06
-SHA1: be918a55dd25a0bd472eebda43c497fa6d64addc
-SHA256: 977245def570b750aea094f65b82e23b2870c406ebd3f1801d3856a9597038c0
+Size: 73180
+MD5sum: ee90d0336ff08b72b001a7af6ce4813e
+SHA1: a1ccd6bdaeee2356d4e80672a39c7261245d45f3
+SHA256: abf82cfde00c3fa546a678931a127fde8c5c88b9ffe6c40cd758ebd2d4e75c3c
 Section: libs
 Priority: optional
 Homepage: https://gitlab.freedesktop.org/wlroots/wlroots/
@@ -4580,15 +4580,15 @@ Version: 0.17.4-1
 Architecture: arm64
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Installed-Size: 1187
-Depends: libc6 (>= 2.34), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.114), libinput10 (>= 1.19.1), libliftoff0 (>= 0.4.1), libmali-valhall-g610-g6p0-x11-wayland-gbm, libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.22), libwayland-server0 (>= 1.22), libxcb-composite0, libxcb-dri3-0 (>= 1.13), libxcb-ewmh2 (>= 0.4.2), libxcb-icccm4 (>= 0.4.2), libxcb-present0, libxcb-render-util0, libxcb-render0, libxcb-res0 (>= 1.10), libxcb-shm0 (>= 1.10), libxcb-xfixes0 (>= 1.15), libxcb-xinput0 (>= 1.17.0), libxcb1, libxkbcommon0 (>= 0.5.0)
+Depends: libc6 (>= 2.34), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.114), libegl1, libgbm1 (>= 21.1.0), libgles2, libinput10 (>= 1.19.1), libliftoff0 (>= 0.4.1), libpixman-1-0 (>= 0.30.0), libseat1 (>= 0.5.0), libudev1 (>= 183), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.22), libwayland-server0 (>= 1.22), libxcb-composite0, libxcb-dri3-0 (>= 1.13), libxcb-ewmh2 (>= 0.4.2), libxcb-icccm4 (>= 0.4.2), libxcb-present0, libxcb-render-util0, libxcb-render0, libxcb-res0 (>= 1.10), libxcb-shm0 (>= 1.10), libxcb-xfixes0 (>= 1.15), libxcb-xinput0 (>= 1.17.0), libxcb1, libxkbcommon0 (>= 0.5.0)
 Breaks: libwlroots12 (<< 0.17.4-1)
 Replaces: libwlroots12
 Provides: libwlroots12 (= 0.17.4-1)
 Filename: dists/trixie-rockchip/main/binary-arm64/libwlroots12t64_0.17.4-1_arm64.deb
-Size: 338732
-MD5sum: e7fafe0c0064ecab0064ef1732466a33
-SHA1: 129f967bc7d561a69b492291ec99db6200be7a55
-SHA256: a49f49a9312ac061b2919e25c423faae3d9218c670ea98d4c93a35f559a91a17
+Size: 338728
+MD5sum: 06a4dd206366f81349a77e9641d6f69e
+SHA1: 7709e38ecb00d8e3ecbc34a00331ad2307e69102
+SHA256: 1bfca259facd4b4d562713397732a4827b66745a78e5b9c0bd6e4410ec7a5cf5
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -4623,14 +4623,14 @@ Version: 0.38.0-1
 Architecture: arm64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 3245
-Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libbluray2 (>= 1:0.2.2), libc6 (>= 2.38), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmali-valhall-g610-g6p0-x11-wayland-gbm, libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsdl2-2.0-0 (>= 2.0.12), libsixel1 (>= 1.10.3), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
+Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.1), libbluray2 (>= 1:0.2.2), libc6 (>= 2.38), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libegl1, libgbm1 (>= 17.1.0~rc2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsdl2-2.0-0 (>= 2.0.12), libsixel1 (>= 1.10.3), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
 Recommends: xdg-utils, yt-dlp
 Suggests: libcuda1
 Filename: dists/trixie-rockchip/main/binary-arm64/mpv_0.38.0-1_arm64.deb
 Size: 1198500
-MD5sum: 2580e4c3f1ac6ea11afaebacb92f57b9
-SHA1: 08d07cde6fe1efd3be2ed241a7fe1ecbeac6a275
-SHA256: 33bba83b0d3b706275a53fda9274f96d0811f01a4742cceb364c68dae91bbf18
+MD5sum: cccaf74c0b985109e3b20977d0cb8495
+SHA1: dab63c989d27d3efdc453b7cbfb0c0e79de0a977
+SHA256: 2c981f20228706e7c24023c472e9b2b0e16aab9637fab1ab0e4c50a116eb9fef
 Section: video
 Priority: optional
 Multi-Arch: foreign
@@ -4767,10 +4767,10 @@ Maintainer: Herman Chen <herman.chen@rock-chips.com>
 Installed-Size: 1085
 Depends: librockchip-mpp1 (= 1.0.7-3), librockchip-vpu0 (= 1.0.7-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.7-3_arm64.deb
-Size: 115508
-MD5sum: 03d15e46712a89c188a3b97d56ebd4b8
-SHA1: ae8f422381137d80f8ed4081fedadcfff38a2bd3
-SHA256: c5a3c41dbb8bdcb567c142fbd0b31479b2324aba6cfb6dbe01acd039c95765b5
+Size: 116588
+MD5sum: e8351478c0624f6ccf1a4f2e2ecc1a93
+SHA1: 30999027058d03168888d98b67c6dd7c4ad706bf
+SHA256: 874774824dbc5de27ad25b6f120ce61ec8cf2c7ffad8186dc4ca7f2202f2c714
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -4782,17 +4782,17 @@ Version: 1.0.7-3
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 1411
+Installed-Size: 1415
 Depends: rockchip-mpp-demos (= 1.0.7-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.7-3_arm64.deb
-Size: 683124
-MD5sum: 7e20162635ec3082dabc8e8c8bfff508
-SHA1: 58729852b20902ae17eb318e84bbcd1fd1b5b4b7
-SHA256: d81916f9da90c9d516bd06c0b598e081d7288b9ec5088ea0fc3ee83a97a4c6a5
+Size: 683960
+MD5sum: 1bf6382a20f0899c881bbb484e50598c
+SHA1: 35452cb4fbdc430a0c37c920047f502466146d8d
+SHA256: 598263243f612160c17ea5a97f7ec2f9ad91a95bf4df4d449905596037e48ee9
 Section: debug
 Priority: optional
 Description: debug symbols for rockchip-mpp-demos
-Build-Ids: 089735a6990c9f54b49c44b382a780fb3192612a 292832d71d0567c1c61ba417395c88e1e5fd8e6a 4c2d52184c896952648ad9873719526f976696ab 627ad9246e4c073297e424abc1ca1ad0aee879aa 71e7036958384ccf38d0fca0e1aabba45681d041 86f56d1d8005ff49ce4ec65a69f346f67164a621 91e5532344fddac8fd3cc3fb43d1403da17434fc af7850a8f3513b6341cdc8fbcb10ad021d18938e f458d17ecb90be6f214dabc63ec042838a28cede
+Build-Ids: 00100ef94b69e39751c04dcd19c499122ff2c140 05529fbf8805b9c6385e8903840e80f755e54ee4 11579a6c6f265c43a6673b2a7c1b94481213e50e 220f00ceda2af071c4ceb62c1dbeab7d84b9c350 275594161639ecc79a626c658569c6f92ea05eb2 4898ee41cd5d89321a7a8aa6474ac442a4398edb 4c2d52184c896952648ad9873719526f976696ab 6be813cd55c156038f3d511ae7f7586bab86a2f0 a2b404571f99a440f8a07b0b7666d9aa0eeb64e2
 
 Package: seatd
 Version: 0.9.1-1
@@ -4898,14 +4898,14 @@ Version: 14.0.1-3
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 6270
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.108), libevdev2 (>= 0.9.1), libfontconfig1 (>= 2.12.6), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.4.0), libjpeg62-turbo (>= 1:2.0.2), libmali-valhall-g610-g6p0-x11-wayland-gbm, libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), libsystemd0, libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libweston-14-0 (>= 14.0.0), libxkbcommon0 (>= 0.5.0)
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.108), libegl1, libevdev2 (>= 0.9.1), libfontconfig1 (>= 2.12.6), libgbm1 (>= 21.3.0~rc1), libgles2, libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.4.0), libjpeg62-turbo (>= 1:2.0.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), libsystemd0, libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-egl1 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libweston-14-0 (>= 14.0.0), libxkbcommon0 (>= 0.5.0)
 Recommends: libgl1-mesa-dri, xwayland
 Suggests: wayland-utils
 Filename: dists/trixie-rockchip/main/binary-arm64/weston_14.0.1-3_arm64.deb
-Size: 877600
-MD5sum: 5ec00a3542fa78cf5f781ccfeb183a05
-SHA1: c06078a5ff63b0dff022931d2014196292f152e8
-SHA256: 75f7a548389959aeac33efea7e8a3228b544d0ac85f1b595596e2c775796f135
+Size: 876392
+MD5sum: 9b8224bbd6566377eff7f048b777629f
+SHA1: 68ee193a5f2f3763bfdf28f0df91aaca7da0dcd8
+SHA256: 4329201289e91ee3c10ec1f90bc7acb2ab558b3451d41dcc10cc3c10df34497b
 Section: x11
 Priority: optional
 Homepage: https://wayland.pages.freedesktop.org/weston/
@@ -4922,17 +4922,17 @@ Version: 14.0.1-3
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 9460
+Installed-Size: 9459
 Depends: weston (= 14.0.1-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/weston-dbgsym_14.0.1-3_arm64.deb
-Size: 4569044
-MD5sum: 705f6d74ee38860d7d1028b6d87da875
-SHA1: 94631bbd84ee0d693897e843d25c71ca44edf3c4
-SHA256: 29c818d60709cf00e53fa11cdffd4656968ebd1ab7166f49481e83b16db07326
+Size: 4568568
+MD5sum: 936f78a612fcc798a5e2a8bd00f1544e
+SHA1: 3823e07ef035aa9d4eb98132ed42119caf0d2171
+SHA256: c40702e1cf0e438f8fdd9048438a4ea0e2a358dfe2b0a3630b8978733219cb83
 Section: debug
 Priority: optional
 Description: debug symbols for weston
-Build-Ids: 038aa6db2dfee64e4d7b1152c100288cd9398744 0970075ed87d9b3495f8f69c330028b96306ae45 0bda491becabd71c3a9ad926e75e6412f5aed049 1c87717456fb3e313ee2dd0f8878e867077e7073 1f1a61da3e7d78b7109cea4a2359ab47a3de8ba7 23d511c1eb7401c4ef35a9a42d2c0adc7a227ec9 24cc68a059be8359a9f3d5cb35f79a61cdd6ce80 25629eb53518868a27add83982d2f390e4ef1b09 38cfab8a01b94fa1a8a4a521a6bf8dd16f113b1b 3b37ddd4db33e358d460826c78aa5547d1607c74 451ae207af9659f5133d0ac5c219ac476d77af5d 46535f620bdc749a9b6656a1e28d5def44650d6b 641859c2442a4faedd609d0d3a42acaa68b3c088 67851f16404e27e2c34d8f305d6c5d36b6ddc0bb 67adb1d91bfce5b5d75b50bf1dc7c9a8adc1f7f8 6bfe9c924cda78bdc21e58733bec7351325288ba 6fe35966631aa2864ce22d5abb5930c2d50e87b7 706455a9692e122359825fa37f8e9be72b8a7cc9 78de941c4e42e578c2b63f405dce946c44d42a22 7abd5772266914b4fb229fdcaa9e5eaca1c605de 7e553173a3bbbf2c8a6ec55237e301b4356227ff 8757b95919b11b65ae589b2baee89dec0e8f0b60 8bb860a5594adbbe4693dae1f1b2f696adc1449c 8e10d9d1103f518e35cd32eceaadbdc96564cf5e 954900c1058a81b48bea0b8218d964da0436f259 956ec20cc7c8810934c8925a0e7f6cd5350e1701 99585aab4395a7dd6120afed0f898e9a7a1cd114 9a211b6969361588c31d66049c9425edac667203 9bfd4e5fb50cb2ff3cfd384d233b7a257ca8a1ca 9ef8d8b5decf82b402fcb8942787c8930c4e1593 a41e2ec82cdddd253c92b7bfe135cc971c4c3ab5 a6d72df12392336e4fe1778e643a4474f20cb892 ac2de9c572666bbd920062f174f5acc4db35224c b1e8e4b85ab068975cc7ee6f26c6967ed31c7b63 b21686b3e8915aa27bbfa7d05644911373013763 c19ab8b85b5a1f8d0886b4fffb45b16142b07fda c404b1bce4fe7b9ee418d41c2244b5599d821d30 c77d85d96034ee265347c2b09fef62e328500471 e5705971af6440919162a91ae8cc0907cd2a5ec6 e5fdede4bfa83e927654eb69b4a602c195ca66de f1f3204c430d996f17f771fb2d17b5206c05294d f3cf6b521dac84a3c69cab27f7ea9431844793cd f4a89cf0319b9cf1b30cfa3c735d504e50f5e059 f9fd7e21e9d35696f7a60e85a487924160c1581c fb3a510bbe3965530c0f3587a35cdb9d2af8c68a
+Build-Ids: 038aa6db2dfee64e4d7b1152c100288cd9398744 0970075ed87d9b3495f8f69c330028b96306ae45 0bda491becabd71c3a9ad926e75e6412f5aed049 1f1a61da3e7d78b7109cea4a2359ab47a3de8ba7 23d511c1eb7401c4ef35a9a42d2c0adc7a227ec9 24cc68a059be8359a9f3d5cb35f79a61cdd6ce80 25629eb53518868a27add83982d2f390e4ef1b09 38cfab8a01b94fa1a8a4a521a6bf8dd16f113b1b 39b7a9a9705518293e94688a0fc9500e50ce26e7 3b37ddd4db33e358d460826c78aa5547d1607c74 46535f620bdc749a9b6656a1e28d5def44650d6b 641859c2442a4faedd609d0d3a42acaa68b3c088 67851f16404e27e2c34d8f305d6c5d36b6ddc0bb 67adb1d91bfce5b5d75b50bf1dc7c9a8adc1f7f8 6bfe9c924cda78bdc21e58733bec7351325288ba 6fe35966631aa2864ce22d5abb5930c2d50e87b7 706455a9692e122359825fa37f8e9be72b8a7cc9 76bec6c964e57c9df5bed80d8a8cd42d044bfdd7 78de941c4e42e578c2b63f405dce946c44d42a22 7abd5772266914b4fb229fdcaa9e5eaca1c605de 7e553173a3bbbf2c8a6ec55237e301b4356227ff 8757b95919b11b65ae589b2baee89dec0e8f0b60 8bb860a5594adbbe4693dae1f1b2f696adc1449c 8e10d9d1103f518e35cd32eceaadbdc96564cf5e 954900c1058a81b48bea0b8218d964da0436f259 956ec20cc7c8810934c8925a0e7f6cd5350e1701 99585aab4395a7dd6120afed0f898e9a7a1cd114 9a211b6969361588c31d66049c9425edac667203 9bfd4e5fb50cb2ff3cfd384d233b7a257ca8a1ca 9ef8d8b5decf82b402fcb8942787c8930c4e1593 a41e2ec82cdddd253c92b7bfe135cc971c4c3ab5 abc794ad98f113ad111f76b002b0bf60cebfdb8d ac2de9c572666bbd920062f174f5acc4db35224c b1e8e4b85ab068975cc7ee6f26c6967ed31c7b63 b21686b3e8915aa27bbfa7d05644911373013763 c19ab8b85b5a1f8d0886b4fffb45b16142b07fda c404b1bce4fe7b9ee418d41c2244b5599d821d30 c77d85d96034ee265347c2b09fef62e328500471 e5705971af6440919162a91ae8cc0907cd2a5ec6 e5fdede4bfa83e927654eb69b4a602c195ca66de f1f3204c430d996f17f771fb2d17b5206c05294d f3cf6b521dac84a3c69cab27f7ea9431844793cd f4a89cf0319b9cf1b30cfa3c735d504e50f5e059 f9fd7e21e9d35696f7a60e85a487924160c1581c fb3a510bbe3965530c0f3587a35cdb9d2af8c68a
 
 Package: weston-dev
 Source: weston
@@ -5059,14 +5059,14 @@ Version: 2:21.1.14-2
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 4895
-Depends: xserver-common (>= 2:21.1.14-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgcrypt20 (>= 1.11.0), libgl1, libmali-valhall-g610-g6p0-x11-wayland-gbm, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libx11-6, libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-common (>= 2:21.1.14-2), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgbm1 (>= 12.0.0~0), libgcrypt20 (>= 1.11.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libx11-6, libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Provides: xserver
 Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xephyr_21.1.14-2_arm64.deb
-Size: 3237360
-MD5sum: bdc8a41dac80eb382cd8f7a4341dced1
-SHA1: 014da609dbffd04ab4fc2eda9d63387d8dc14c21
-SHA256: 5db6246c955d24ff5bc8e9f0e16801ee9c99a0ee767b90dde59abfeef7459dcd
+Size: 3237336
+MD5sum: 9ed1e25598c459df580bd605bf25b56b
+SHA1: c589c77d305f141d028cb404342bfbe696969f7c
+SHA256: 2b3d37eac3e1cb67d109455f94cc293d964d45890ec3c9d4c8340a8157db1542
 Section: x11
 Priority: optional
 Homepage: https://www.x.org/
@@ -5105,7 +5105,7 @@ Version: 2:21.1.14-2
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 6746
-Depends: xserver-common (>= 2:21.1.14-2), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgcrypt20 (>= 1.11.0), libgl1, libmali-valhall-g610-g6p0-x11-wayland-gbm, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), librga2, libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-common (>= 2:21.1.14-2), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.3.0~rc1), libgcrypt20 (>= 1.11.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), librga2, libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
@@ -5113,10 +5113,10 @@ Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7
 Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
 Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
 Filename: dists/trixie-rockchip/main/binary-arm64/xserver-xorg-core_21.1.14-2_arm64.deb
-Size: 3639592
-MD5sum: ec42133ef2446bdfed2b1a0279c50e4a
-SHA1: b8d0b4515563999597d712fe9dfd2f3832a30133
-SHA256: 64d0817f9be5e50349b83da74afccf9587ac1ec06462db7e996fe4faf651f92c
+Size: 3639572
+MD5sum: 243326acfea947ecbc4cd140811f6b09
+SHA1: 5f0950ba22275f12642e8cb428aa3db76e005330
+SHA256: 268a33fef903ab03492cffbb06d49e166007a0cfba28865ce2fd7f911e3b33c6
 Section: x11
 Priority: optional
 Homepage: https://www.x.org/
