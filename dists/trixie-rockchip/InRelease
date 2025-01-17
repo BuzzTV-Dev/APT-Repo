@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Fri, 17 Jan 2025 05:11:25 +0000
+Date: Fri, 17 Jan 2025 05:55:13 +0000
 MD5Sum:
  f963b3533c90d30435ee58ce56590fab 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -516,8 +516,8 @@ MD5Sum:
  621253ab7a6fff3756d4fd90b7840ec9 57840 base/binary-arm64/xserver-xorg_1%3a7.7+23.1_arm64.deb
  be35b2d0ce4293607b001a13f486fab1 98740 base/binary-arm64/xtrans-dev_1.4.0-1_all.deb
  4cdc38062926c43ca2e0a64d7b342299 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- e3d7f72fa7934b461c5fb8e8b23a4989 958580 base/binary-arm64/Packages
- 80bbbdcb71bc2255305810252ea85332 269677 base/binary-arm64/Packages.gz
+ 63491673cb81604225fcef3e5ec5cdd8 984189 base/binary-arm64/Packages
+ 43a7990da3c8ccb24fde84b35a4ea302 277228 base/binary-arm64/Packages.gz
  163d6a48940b43f57205e3bf18758c09 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
  231074a84ea31f8a11ef66249ee405fa 305768 base/binary-arm64/apt-utils_2.9.8_arm64.deb
  5a2406b95ef2c7371362b079f68ba3b3 1328916 base/binary-arm64/apt_2.9.8_arm64.deb
@@ -1140,8 +1140,32 @@ MD5Sum:
  1280078272ff7ea383497eea4f64fa15 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  8048b4afea70ec3210428e37d66b39e3 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  84ef81bf3f678cfea89584f81af8554d 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 8be3de49db02592dfe635412c72c356e 367884 InRelease
- 606bc7ace3109afe8a2bf3a5d4b0bf87 854 Release.gpg
+ db9249974115c44c17fee710185242f4 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
+ a098f0433597182ce5beb265f6cf7c61 22240 base/binary-arm64/libatasmart4_0.19-5+b1_arm64.deb
+ 57c9bf6b35ccf5bf85fb0f531bb00fe9 47504 base/binary-arm64/libblockdev3_3.2.0-2_arm64.deb
+ 7735b175c82d0cc9bf2e76b839e7ce72 23872 base/binary-arm64/libblockdev-crypto3_3.2.0-2_arm64.deb
+ a1e33ec60f433886e9fde36fb5d55ea5 37388 base/binary-arm64/libblockdev-fs3_3.2.0-2_arm64.deb
+ 1e4456b12acefc574482b5cd9af7e71d 10356 base/binary-arm64/libblockdev-loop3_3.2.0-2_arm64.deb
+ 62dcebf60635acb6c009beb234a90818 17156 base/binary-arm64/libblockdev-mdraid3_3.2.0-2_arm64.deb
+ 941dde66a64e881021d228032ffbfeae 21288 base/binary-arm64/libblockdev-nvme3_3.2.0-2_arm64.deb
+ 7b89ca591aa942ce7bad3187a4496309 19172 base/binary-arm64/libblockdev-part3_3.2.0-2_arm64.deb
+ 0036e2f56797286dd3b81feffd4af0bd 12788 base/binary-arm64/libblockdev-swap3_3.2.0-2_arm64.deb
+ 3432be56efccd102c40a8cea484d0604 17492 base/binary-arm64/libblockdev-utils3_3.2.0-2_arm64.deb
+ 94be88a5ddeb243a1f06b0a10637a1ce 11776 base/binary-arm64/libbytesize1_2.11-1_arm64.deb
+ 6757eedc5f7dc93bf8c7bb7c356cbd3d 8212 base/binary-arm64/libbytesize-common_2.11-1_all.deb
+ cd98177ba3b8a916d967a6b36f0ff619 231752 base/binary-arm64/libcryptsetup12_2%3a2.7.5-1_arm64.deb
+ 517c03ae7850c84bad499ea929acf37c 116560 base/binary-arm64/libdevmapper1.02.1_2%3a1.02.196-1+b1_arm64.deb
+ d9b6344627985c95aad185c9c6432939 288008 base/binary-arm64/libgpgme11t64_1.18.0-6+b1_arm64.deb
+ 3427feaddf3b92db54daffb279c3804f 673632 base/binary-arm64/libmpfr6_4.2.1-1+b1_arm64.deb
+ 7e60540e23b6223285b3034b64b4cdcc 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
+ d13acc62634173719beff1eae1db5cbc 292916 base/binary-arm64/libparted2t64_3.6-4_arm64.deb
+ f289e096da4b255504cc0588dbd1dd75 142600 base/binary-arm64/libudisks2-0_2.10.1-11_arm64.deb
+ 5f8f613dc62e082f10273dcd4695c993 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
+ 4bf05ed180e072d1eba43e3b7a8256b4 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
+ 7837e029d06ddef2eb2beceb843fb28d 37668 base/binary-arm64/parted_3.6-4_arm64.deb
+ b791cdf71cb7baf8390aa39b17e4e954 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
+ 66085df1d469b3f78cf8325b20c4cadb 367884 InRelease
+ 7a89bc6cd27856516fab1f11fa304503 854 Release.gpg
 SHA1:
  c35c3960b916c2314c96848168198e421cc6abb3 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -1648,8 +1672,8 @@ SHA1:
  c17a798686d7a765426dbbbe49fb33b24c2961fa 57840 base/binary-arm64/xserver-xorg_1%3a7.7+23.1_arm64.deb
  8a2f6eeedfdcb942de8ebc2495c055e9c2266080 98740 base/binary-arm64/xtrans-dev_1.4.0-1_all.deb
  f0983ff6d6a222bbd48c55aa72086ff1a6d95d2e 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- 6053e54e4e13ae56ce2019f61d21057681e4b388 958580 base/binary-arm64/Packages
- 5c89c52f20e2ef3801fc3b2df484c5245b97dd8f 269677 base/binary-arm64/Packages.gz
+ e71cbf406b96c529179e4d8d11cee453acdc433d 984189 base/binary-arm64/Packages
+ 5edb8cbe38a8cc5a469faeffe29611d323a166f7 277228 base/binary-arm64/Packages.gz
  f6a50ba6f7b168a649b6002c4d841502f4d54b34 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
  73490d714beddac73c3e8ab72a2420dc98a80b4c 305768 base/binary-arm64/apt-utils_2.9.8_arm64.deb
  4a3b44e9188cb47b4fc98c1092acc4ee8ca2a7be 1328916 base/binary-arm64/apt_2.9.8_arm64.deb
@@ -2272,8 +2296,32 @@ SHA1:
  d617c51e20c0ac8754830121fba49dab972b0b9e 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  7be47b180397f3a1b0fa9ad20e90dd3ea1e7a241 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  a05e8a79b2cf8a41629fceb6b8688549a7ea2407 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 77c6ab77d0f7812847cf6d98d0b9861d983247a0 367884 InRelease
- 2dd1475dfb4ef4e8cdd0f975f3f7746fa8298295 854 Release.gpg
+ 0081c84a6e0e84fb1278094479bd6308f422510c 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
+ 299644f18d5e30176fcd09758d9894a36eb9dfa2 22240 base/binary-arm64/libatasmart4_0.19-5+b1_arm64.deb
+ 8fad9a5aaac6bb868054eaaf115ffe89967edef8 47504 base/binary-arm64/libblockdev3_3.2.0-2_arm64.deb
+ 00666a3aade2954e588f3307e28cd7115da45702 23872 base/binary-arm64/libblockdev-crypto3_3.2.0-2_arm64.deb
+ e98fe05b56def8f628a2413de8bbd9afce19edfc 37388 base/binary-arm64/libblockdev-fs3_3.2.0-2_arm64.deb
+ dc79c561f6092119d7ed837c1e4d41bab8fde9ed 10356 base/binary-arm64/libblockdev-loop3_3.2.0-2_arm64.deb
+ 114054698bfbdcdbf5dd3731f8d2ede141d56cc5 17156 base/binary-arm64/libblockdev-mdraid3_3.2.0-2_arm64.deb
+ 0d98ba0ee0164cdaed225890346d0b04739cd278 21288 base/binary-arm64/libblockdev-nvme3_3.2.0-2_arm64.deb
+ fd90bbf9ad10ba810e0965f6bcf2a6f6c2ab80c5 19172 base/binary-arm64/libblockdev-part3_3.2.0-2_arm64.deb
+ 1e3c5acd061ec48c1eedcc5b8acd0df6535941ce 12788 base/binary-arm64/libblockdev-swap3_3.2.0-2_arm64.deb
+ 942e86faa11432ea0907221026d1fca5a8ff2c15 17492 base/binary-arm64/libblockdev-utils3_3.2.0-2_arm64.deb
+ 1c8a381235d38902ee1396fc5c3ee8f7f03603ce 11776 base/binary-arm64/libbytesize1_2.11-1_arm64.deb
+ 965253fcca2ae0cc60423a659bb1a49f94a57673 8212 base/binary-arm64/libbytesize-common_2.11-1_all.deb
+ 221e19856cc75c162f87be7789cff65fa1af91fc 231752 base/binary-arm64/libcryptsetup12_2%3a2.7.5-1_arm64.deb
+ 22a42468c35f6f8b3c2475afb40d6a92904f17fc 116560 base/binary-arm64/libdevmapper1.02.1_2%3a1.02.196-1+b1_arm64.deb
+ 6a2a409acb6a7c5254c5a19e454748747a411364 288008 base/binary-arm64/libgpgme11t64_1.18.0-6+b1_arm64.deb
+ cb9a76cde630d0c977c4f98af70e6ee55b6a1aef 673632 base/binary-arm64/libmpfr6_4.2.1-1+b1_arm64.deb
+ 5785177bdb7d17a5089b06f3fe304c11945c0e03 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
+ fc7ef68514637d278ad6b7ccccaee4e7cf22d129 292916 base/binary-arm64/libparted2t64_3.6-4_arm64.deb
+ 89a47d416a1bfbda8d3f2df63d6477331767662b 142600 base/binary-arm64/libudisks2-0_2.10.1-11_arm64.deb
+ 1526dc9d744a6431d3f477bd81add500df9c5579 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
+ 0963b329f166e0e625353f8ac1c58cb023911d76 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
+ d7a02b4c08affae55a85dea0f4ad1df8aea8d7f8 37668 base/binary-arm64/parted_3.6-4_arm64.deb
+ 56da8f85e6f92e0d1df8448e716e4189cf540a3b 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
+ 2fdbe57200636b4a6af9f8e668173b76cc9eba52 367884 InRelease
+ 755246146a512a38de79833b52133a6261104e73 854 Release.gpg
 SHA256:
  6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -2780,8 +2828,8 @@ SHA256:
  9c492dbb0fb61209d954fcaec78605eb7c0dbe401d377cfefce1d082c61e4c2f 57840 base/binary-arm64/xserver-xorg_1%3a7.7+23.1_arm64.deb
  9ce1af9464faee0c679348dd11cdf63934c12e734a64e0903692b0cb5af38e06 98740 base/binary-arm64/xtrans-dev_1.4.0-1_all.deb
  b35e0f43b7f0c2df1fa1e1d11bf5ff781472e772aff283eac507b9752a449d13 166464 base/binary-arm64/zutty_0.16.2.20241020+dfsg1-1_arm64.deb
- d0e3175d71f333889f88eaff2c227d3141c6fece90873860f4a4a950e4c6423f 958580 base/binary-arm64/Packages
- 1f5b1b1f0c6b0ef1ff8c78d80e6d94c626edeea5d0c7451aed668a931dfc6bb7 269677 base/binary-arm64/Packages.gz
+ 264522d4537e63e443375d3873ff2cacf671ea012ac2050070f5e22e05750d23 984189 base/binary-arm64/Packages
+ 7c6014275e72adc3e95becf36242f5c7837466ee1af644c92cef49b2b1e7b6e3 277228 base/binary-arm64/Packages.gz
  3db9bd4eb033baa2c0e99c95de4cae1b00fdce74010bfa19fd759d8cb52b1429 1104096 base/binary-arm64/alsa-utils_1.2.12-1_arm64.deb
  790ab534847353c0bbdd2ef2a9d15bb7983b184440a2e265e73eee192a159431 305768 base/binary-arm64/apt-utils_2.9.8_arm64.deb
  f4bd49b22c0973647182c25fdec92baa0973ed87c81013f6467d63c65874d50f 1328916 base/binary-arm64/apt_2.9.8_arm64.deb
@@ -3404,22 +3452,46 @@ SHA256:
  24c310b274f0fda7a80a1a0f74688acc1845b19c7c2d4b6307629e964149116f 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  368bd8d9a2f7add9f1e07f783290a714092af7d0f6c4ef526045744e99c750fc 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  2ad133b3d7a0b0d8d48efff5187828081d6a50d5ab3cd42924e1e992ea83cab8 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 6a22028041402691aa73c09c7f940cf32eec3c5057a51dcf5c2ee5e3328bba24 367884 InRelease
- b76e090ace7ff4e3a39dcf9fe00ad17a3558991694e944c11ae9456c6f3c523b 854 Release.gpg
+ b89969a2e09e9ef27d589486f932c4c7bf97ad5fd0c5c5eb29f647cfa49e7175 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
+ 19fa8aac808910ce0d6a3ef0ea100e3377b56e67f7b6c8e6f27d19fb102a698e 22240 base/binary-arm64/libatasmart4_0.19-5+b1_arm64.deb
+ 36c84f58e998ae915a140b5045f1a6c3d858b3a36c1f8fd0686599048d71e4bf 47504 base/binary-arm64/libblockdev3_3.2.0-2_arm64.deb
+ dccb8144418970e0dc3218babebf0678b1ee79e29ecae9c8ad0eb87db134ae4e 23872 base/binary-arm64/libblockdev-crypto3_3.2.0-2_arm64.deb
+ c50865af5822d1798e504f78bb12b41730d42c785bd47fdb1e762d0b701a984b 37388 base/binary-arm64/libblockdev-fs3_3.2.0-2_arm64.deb
+ 99dd2d97105da33898dee667f6c471acaed1a2600c4872fee165112f9a7a3a9a 10356 base/binary-arm64/libblockdev-loop3_3.2.0-2_arm64.deb
+ e7625572039811c38a719d285460270c522f4b8141cf180e16329ba9cfc1e484 17156 base/binary-arm64/libblockdev-mdraid3_3.2.0-2_arm64.deb
+ d697fb1e892c30b30e252b113c164fbd6996ac850529b81476376e15837b07f6 21288 base/binary-arm64/libblockdev-nvme3_3.2.0-2_arm64.deb
+ d685602620b5c33741a12d58798eb81eb0e52a9c6afbfec2ad4bef429a18cff1 19172 base/binary-arm64/libblockdev-part3_3.2.0-2_arm64.deb
+ 901095979eaf452c07e1bd6c1067a654d821d4c37096caa70cee6fc8ded42ca7 12788 base/binary-arm64/libblockdev-swap3_3.2.0-2_arm64.deb
+ 92675073471c3a761028ab3c94029cacaa14e8d5634ca967e721af626a8c7de2 17492 base/binary-arm64/libblockdev-utils3_3.2.0-2_arm64.deb
+ 1fe9445ae307e032a337a0bfec1358419624c6db3f4ae587df694f653293e423 11776 base/binary-arm64/libbytesize1_2.11-1_arm64.deb
+ 76f7a0a451c978b51f0dd95622962c6e9f6113aca81a997e5bb41f2558937c66 8212 base/binary-arm64/libbytesize-common_2.11-1_all.deb
+ 5c89a3d284ff54eee4adc60dab622498e932d066ad6efcf87c3513d631f50f3f 231752 base/binary-arm64/libcryptsetup12_2%3a2.7.5-1_arm64.deb
+ 645c6d6dbd61c211cd52c9f6266e1dd67dd114efa5b917171f128ee272110535 116560 base/binary-arm64/libdevmapper1.02.1_2%3a1.02.196-1+b1_arm64.deb
+ 5ed61dee202dcb1b4fc65f92e93a669cedb286f8fb26d33b59f16f45811413cc 288008 base/binary-arm64/libgpgme11t64_1.18.0-6+b1_arm64.deb
+ 6fe1d3736899013a0abb1bc9c1af62677cde239656e796372fda73ba0707360d 673632 base/binary-arm64/libmpfr6_4.2.1-1+b1_arm64.deb
+ 385751694b3cfcbdc2184dde0c32cba957090aca42fa04c73867685eca6dd770 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
+ 7c4658b02100c11c8b7851042153a1ae2d3c5714fdec53276c6c9b2f58d05488 292916 base/binary-arm64/libparted2t64_3.6-4_arm64.deb
+ ddeb633071bbfbeed9100302da4425bf1f021a8990b1a9ce05cb72cadf4025c9 142600 base/binary-arm64/libudisks2-0_2.10.1-11_arm64.deb
+ 19adcd023c32dd96d5fc9a815847ad97de48be691d9e4ac5ebfc00dbc76a6a4f 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
+ 2dcbf55626772ceb029489d4f1aa8dc8a79e545b465ed7bd2df2c5c1c283b719 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
+ bae92fe7d27fd274304e52a0b2c61c5ca69435fe9015348c5dc412411d8b3d49 37668 base/binary-arm64/parted_3.6-4_arm64.deb
+ 6050a18fc95c16698cb5a265f7eb803a4c532814520f4f91db524d88e0a76a22 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
+ 2a9262042475870a2d883ea8d9ea72d8615da8341888d408a35d04e836c0732b 367884 InRelease
+ 2c293b1fc56d57f8eb97b10ad6d5b0c099616f360bc273e19a87c1e579b494c1 854 Release.gpg
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmeJ5p4OHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/XhRA//RsvHOVAJZrh9aCDwi6u6XG3MUsKyfHjSDsdb
-ZUpVsvBkF1H4LFQG2OuOL1oHpHY1fhjP/qkltOke8WX47N44IDT1U6IQMyMKLJ+4
-dXmMaMIffBSs/ANoVqZIJKoE2hEGc5hoijuNd16kf443LuLaKUv1S1INfj6Vu4vF
-7TER048dEaOAHJJM0IpFVNOrLiJ3uw5mgGr/DcJyTw6Y9izMhVqWeq05qG3AV6RF
-8qsg5Xns+rGg0nHwVAdV4Tt+le6EoMPbzMOmxYdg+EgWP0vXuWfH6Xgq4didoO35
-jrh9vw0Nes0YrwgJR7cv4gI83tzWdxa7c4FkAee4p+gmBRNBjSswTXHbcCqx96Tr
-DaZUtw14MalQ6UdjEb2RHSPShptTO0wJPJiEPycnf9DBdofu2GEM/2Np/dW0yrZG
-iTMSYdfv6mT0+SIq8snG+9oPbhzyZ0SQIxquPVFvfV3aIqGzTdNYNgpqWFfrLKfe
-f5tFSqPtl/B+1w3uk7eFD9vVEhbA/qMRuv7chpFxtgrugd3nhwnahnFnDd5z9/AQ
-ts08Cq2H3lAd8Uu65y20T37pPTwPoCkPNQzls10akrImXm2b6HK57H8ntlxWonVV
-gjVWXn0vQQQ1hW1mO4rBSgluZFPzWtx5AvfPOkCoUE42NQHcHsE6cDJDyBjJXTkQ
-S5xq3uY=
-=1Ht+
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmeJ8OIOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/XVxQ//WKj5nx7Z3LtKauFXQxGJiDN/m7haBVEgqOKM
+E+7cSD0ljidh/ZC9QyKRa1IqwGyM6MpjAlo2hVfDtjJ/MIRV0Sl5+GSYbMx8536T
+Qg9+HC5jRaOuggKRIP6mofluQkVDmVBIal+GZBvfR8K1wBm0Lf6DJIIQGgExeLQT
+diEyP6wyAIHtAW1z/YX6jyu7Z2gAfx0jJwbCCa8MT6+fnKKGWIQbJ6xGhaB6canW
+f/gMyqf/2KNJBcUvL17mE+NpUEOKIu5srIS8LuH8rh/6ydW8paW2Ni5dmqkZ60Gx
+dkZmtMC59F2o+rONUDFxgu/h0OpzB3s3vfTm5Soa5lPEfzNBFA8WrW01vjAhvv3A
+XFxvPATet2XKh0IvYJmwt5oi6SROM29bHxXpcMMMETIUE6etNPMtqU86LWXcBPrp
+kKpPTnAgg4WKN7vY+U7iD/dn+1ITl92jF0+1ZBSGJrI2KfWdjv3RGtMUmreyXFEq
+OdZjHNZLdQRJkLWUctNgSInu1aWRclVhk9OocEnHD2BHXyTjiT9ZYxHI27LQP98L
+rLOEp6Hh2dNNiu2/+34sFNRjXmVkJQZEwsbw+03evjfk7cx430mwVojG3u4yf9g8
+xHiwk2d1Fkolm7SKluQhAzaDjU7XFmkruUyT4r3Lx3UT1CYMy7MM2UCNXLZKIs6R
+2Lx2ifI=
+=C2bB
 -----END PGP SIGNATURE-----

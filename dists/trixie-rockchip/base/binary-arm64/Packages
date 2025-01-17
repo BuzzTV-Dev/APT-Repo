@@ -1002,6 +1002,31 @@ Description: SMBIOS/DMI table decoder
  Beware that DMI data have proven to be too unreliable to be blindly trusted.
  Dmidecode does not scan the hardware, it only reports what the BIOS told it to.
 
+Package: dmsetup
+Source: lvm2 (2.03.22-1)
+Version: 2:1.02.196-1+b1
+Architecture: arm64
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 280
+Depends: libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.181)
+Filename: dists/trixie-rockchip/base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
+Size: 75844
+MD5sum: db9249974115c44c17fee710185242f4
+SHA1: 0081c84a6e0e84fb1278094479bd6308f422510c
+SHA256: b89969a2e09e9ef27d589486f932c4c7bf97ad5fd0c5c5eb29f647cfa49e7175
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://sourceware.org/lvm2/
+Description: Linux Kernel Device Mapper userspace library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains a utility for modifying device mappings.
+
 Package: dpkg
 Version: 1.22.11
 Architecture: arm64
@@ -2869,6 +2894,28 @@ Description: Asynchronous name service query library
  asynchronously. It is an asynchronous wrapper around getaddrinfo(3),
  getnameinfo(3), res_query(3) and res_search(3) from libc and libresolv.
 
+Package: libatasmart4
+Source: libatasmart (0.19-5)
+Version: 0.19-5+b1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.33), libudev1 (>= 183)
+Filename: dists/trixie-rockchip/base/binary-arm64/libatasmart4_0.19-5+b1_arm64.deb
+Size: 22240
+MD5sum: a098f0433597182ce5beb265f6cf7c61
+SHA1: 299644f18d5e30176fcd09758d9894a36eb9dfa2
+SHA256: 19fa8aac808910ce0d6a3ef0ea100e3377b56e67f7b6c8e6f27d19fb102a698e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://0pointer.de/blog/projects/being-smart.html
+Description: ATA S.M.A.R.T. reading and parsing library
+ A small and lightweight parser library for ATA S.M.A.R.T. hard disk
+ health monitoring.
+ .
+ This package contains the shared library.
+
 Package: libatk-bridge2.0-0t64
 Source: at-spi2-core
 Version: 2.54.0-1
@@ -3330,6 +3377,195 @@ Description: block device ID library
  This allows system administrators to avoid specifying filesystems by
  hard-coded device names and use a logical naming system instead.
 
+Package: libblockdev-crypto3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils3 (>= 3.0), libc6 (>= 2.17), libcryptsetup12 (>= 2:2.7), libglib2.0-0t64 (>= 2.42.2), libkeyutils1 (>= 1.4), libnss3 (>= 2:3.13.4-2~), libvolume-key1 (>= 0.3.9)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-crypto3_3.2.0-2_arm64.deb
+Size: 23872
+MD5sum: 7735b175c82d0cc9bf2e76b839e7ce72
+SHA1: 00666a3aade2954e588f3307e28cd7115da45702
+SHA256: dccb8144418970e0dc3218babebf0678b1ee79e29ecae9c8ad0eb87db134ae4e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Crypto plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to encrypted devices (LUKS).
+
+Package: libblockdev-fs3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 155
+Depends: libblkid1 (>= 2.24.2), libblockdev-utils3 (>= 3.0), libc6 (>= 2.17), libext2fs2t64 (>= 1.42.11), libglib2.0-0t64 (>= 2.42.2), libmount1 (>= 2.30.2), libuuid1 (>= 2.16)
+Recommends: e2fsprogs
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-fs3_3.2.0-2_arm64.deb
+Size: 37388
+MD5sum: a1e33ec60f433886e9fde36fb5d55ea5
+SHA1: e98fe05b56def8f628a2413de8bbd9afce19edfc
+SHA256: c50865af5822d1798e504f78bb12b41730d42c785bd47fdb1e762d0b701a984b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: file system plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to operations with file systems.
+
+Package: libblockdev-loop3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 87
+Depends: libblockdev-utils3 (>= 2.14), libc6 (>= 2.27), libglib2.0-0t64 (>= 2.42.2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-loop3_3.2.0-2_arm64.deb
+Size: 10356
+MD5sum: 1e4456b12acefc574482b5cd9af7e71d
+SHA1: dc79c561f6092119d7ed837c1e4d41bab8fde9ed
+SHA256: 99dd2d97105da33898dee667f6c471acaed1a2600c4872fee165112f9a7a3a9a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Loop device plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to loop devices.
+
+Package: libblockdev-mdraid3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libblockdev-utils3 (>= 3.0), libbytesize1 (>= 2.6), libc6 (>= 2.27), libglib2.0-0t64 (>= 2.42.2)
+Suggests: mdadm
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-mdraid3_3.2.0-2_arm64.deb
+Size: 17156
+MD5sum: 62dcebf60635acb6c009beb234a90818
+SHA1: 114054698bfbdcdbf5dd3731f8d2ede141d56cc5
+SHA256: e7625572039811c38a719d285460270c522f4b8141cf180e16329ba9cfc1e484
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: MD RAID plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to MD RAID.
+
+Package: libblockdev-nvme3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libblockdev-utils3 (>= 3.0), libc6 (>= 2.17), libglib2.0-0t64 (>= 2.42.2), libnvme1t64 (>= 1.10)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-nvme3_3.2.0-2_arm64.deb
+Size: 21288
+MD5sum: 941dde66a64e881021d228032ffbfeae
+SHA1: 0d98ba0ee0164cdaed225890346d0b04739cd278
+SHA256: d697fb1e892c30b30e252b113c164fbd6996ac850529b81476376e15837b07f6
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: NVMe plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to NVMe.
+
+Package: libblockdev-part3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 87
+Depends: libblockdev-utils3 (>= 3.0), libc6 (>= 2.17), libfdisk1 (>= 2.31.1), libglib2.0-0t64 (>= 2.42.2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-part3_3.2.0-2_arm64.deb
+Size: 19172
+MD5sum: 7b89ca591aa942ce7bad3187a4496309
+SHA1: fd90bbf9ad10ba810e0965f6bcf2a6f6c2ab80c5
+SHA256: d685602620b5c33741a12d58798eb81eb0e52a9c6afbfec2ad4bef429a18cff1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partitioning plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to partitioning devices.
+
+Package: libblockdev-swap3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 87
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils3 (>= 2.20), libc6 (>= 2.17), libglib2.0-0t64 (>= 2.42.2), libuuid1 (>= 2.16)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-swap3_3.2.0-2_arm64.deb
+Size: 12788
+MD5sum: 0036e2f56797286dd3b81feffd4af0bd
+SHA1: 1e3c5acd061ec48c1eedcc5b8acd0df6535941ce
+SHA256: 901095979eaf452c07e1bd6c1067a654d821d4c37096caa70cee6fc8ded42ca7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Swap plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to swap devices.
+
+Package: libblockdev-utils3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libc6 (>= 2.17), libglib2.0-0t64 (>= 2.76.0), libkmod2 (>= 19), libudev1 (>= 216)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev-utils3_3.2.0-2_arm64.deb
+Size: 17492
+MD5sum: 3432be56efccd102c40a8cea484d0604
+SHA1: 942e86faa11432ea0907221026d1fca5a8ff2c15
+SHA256: 92675073471c3a761028ab3c94029cacaa14e8d5634ca967e721af626a8c7de2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Utility functions for libblockdev
+ The libblockdev-utils is a library providing utility functions used by the
+ libblockdev library and its plugins.
+
+Package: libblockdev3
+Source: libblockdev
+Version: 3.2.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 305
+Depends: libblockdev-utils3 (>= 3.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.42.2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libblockdev3_3.2.0-2_arm64.deb
+Size: 47504
+MD5sum: 57c9bf6b35ccf5bf85fb0f531bb00fe9
+SHA1: 8fad9a5aaac6bb868054eaaf115ffe89967edef8
+SHA256: 36c84f58e998ae915a140b5045f1a6c3d858b3a36c1f8fd0686599048d71e4bf
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Library for manipulating block devices
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ The library uses plugins (LVM, BTRFS,...) and serves as a thin wrapper around
+ its plugins' functionality. All the plugins, however, can be used as
+ standalone libraries. One of the core principles of libblockdev is that it is
+ stateless from the storage configuration's perspective (e.g. it has no
+ information about VGs when creating an LV).
+
 Package: libblosc1
 Source: c-blosc (1.21.5+ds-1)
 Version: 1.21.5+ds-1+b1
@@ -3560,6 +3796,55 @@ Description: utility functions from BSD systems - shared library
  .
  For a detailed list of the provided functions, please see the libbsd-dev
  package description.
+
+Package: libbytesize-common
+Source: libbytesize
+Version: 2.11-1
+Architecture: all
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 120
+Filename: dists/trixie-rockchip/base/binary-arm64/libbytesize-common_2.11-1_all.deb
+Size: 8212
+MD5sum: 6757eedc5f7dc93bf8c7bb7c356cbd3d
+SHA1: 965253fcca2ae0cc60423a659bb1a49f94a57673
+SHA256: 76f7a0a451c978b51f0dd95622962c6e9f6113aca81a997e5bb41f2558937c66
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/storaged-project/libbytesize
+Description: library for common operations with sizes in bytes - translations
+ This package contains localization files used by libbytesize.
+
+Package: libbytesize1
+Source: libbytesize
+Version: 2.11-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libmpfr6 (>= 3.1.3), libpcre2-8-0 (>= 10.22), libbytesize-common (= 2.11-1)
+Filename: dists/trixie-rockchip/base/binary-arm64/libbytesize1_2.11-1_arm64.deb
+Size: 11776
+MD5sum: 94be88a5ddeb243a1f06b0a10637a1ce
+SHA1: 1c8a381235d38902ee1396fc5c3ee8f7f03603ce
+SHA256: 1fe9445ae307e032a337a0bfec1358419624c6db3f4ae587df694f653293e423
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/storaged-project/libbytesize
+Description: library for common operations with sizes in bytes
+ Many projects need to work with sizes in bytes (be it sizes of storage
+ space, memory, ...) and all of them need to deal with the same issues
+ like:
+ .
+  * How to get a human-readable string for the given size?
+  * How to store the given size so that no significant information is lost?
+  * How to handle sizes bigger than MAXUINT64?
+  * How to interpret sizes entered by users according to their locale and
+    typing conventions?
+  * How to deal with the decimal/binary units (MB vs. MiB) ambiguity?
+ .
+ This library aims to be as much generally usable as possible, small, fast and
+ be easily interfaced from other languages.
 
 Package: libbz2-1.0
 Source: bzip2
@@ -4382,6 +4667,30 @@ Description: libcrypt shared library
  It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
  as well as a set of extended interfaces like 'crypt_gensalt'.
 
+Package: libcryptsetup12
+Source: cryptsetup
+Version: 2:2.7.5-1
+Architecture: arm64
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Installed-Size: 652
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.38), libdevmapper1.02.1 (>= 2:1.02.98), libjson-c5 (>= 0.15), libssl3t64 (>= 3.2.0), libuuid1 (>= 2.16)
+Filename: dists/trixie-rockchip/base/binary-arm64/libcryptsetup12_2%3a2.7.5-1_arm64.deb
+Size: 231752
+MD5sum: cd98177ba3b8a916d967a6b36f0ff619
+SHA1: 221e19856cc75c162f87be7789cff65fa1af91fc
+SHA256: 5c89a3d284ff54eee4adc60dab622498e932d066ad6efcf87c3513d631f50f3f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - shared library
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ This package provides the libcryptsetup shared library.
+
 Package: libcups2t64
 Source: cups
 Version: 2.4.10-2
@@ -4832,6 +5141,33 @@ Description: fast, whole-buffer DEFLATE-based compression and decompression
  library, both for compression and decompression, and especially on x86
  processors. In addition, libdeflate provides optional high compression modes
  that provide a better compression ratio than the zlib's "level 9".
+
+Package: libdevmapper1.02.1
+Source: lvm2 (2.03.22-1)
+Version: 2:1.02.196-1+b1
+Architecture: arm64
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 503
+Depends: libc6 (>= 2.33), libselinux1 (>= 3.1~), libudev1 (>= 183), dmsetup (>= 2:1.02.196-1+b1~)
+Filename: dists/trixie-rockchip/base/binary-arm64/libdevmapper1.02.1_2%3a1.02.196-1+b1_arm64.deb
+Size: 116560
+MD5sum: 517c03ae7850c84bad499ea929acf37c
+SHA1: 22a42468c35f6f8b3c2475afb40d6a92904f17fc
+SHA256: 645c6d6dbd61c211cd52c9f6266e1dd67dd114efa5b917171f128ee272110535
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://sourceware.org/lvm2/
+Description: Linux Kernel Device Mapper userspace library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains the (user-space) shared library for accessing the
+ device-mapper; it allows usage of the device-mapper through a clean,
+ consistent interface (as opposed to through kernel ioctls).
 
 Package: libdirectfb-1.7-7t64
 Source: directfb
@@ -7288,6 +7624,32 @@ Description: GnuPG development runtime library
  possibly more in the future.
  .
  It will likely be renamed "gpgrt" in the future.
+
+Package: libgpgme11t64
+Source: gpgme1.0 (1.18.0-6)
+Version: 1.18.0-6+b1
+Architecture: arm64
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Installed-Size: 590
+Depends: gnupg (>= 2.1.21-4) | gpg, libassuan9 (>= 2.4.2), libc6 (>= 2.38), libgpg-error0 (>= 1.36)
+Recommends: dirmngr, gpg-agent, gpg-wks-client, gpgsm
+Breaks: libgpgme11 (<< 1.18.0-6)
+Replaces: libgpgme11
+Provides: libgpgme11 (= 1.18.0-6+b1)
+Filename: dists/trixie-rockchip/base/binary-arm64/libgpgme11t64_1.18.0-6+b1_arm64.deb
+Size: 288008
+MD5sum: d9b6344627985c95aad185c9c6432939
+SHA1: 6a2a409acb6a7c5254c5a19e454748747a411364
+SHA256: 5ed61dee202dcb1b4fc65f92e93a669cedb286f8fb26d33b59f16f45811413cc
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: GPGME - GnuPG Made Easy (library)
+ GPGME is a wrapper library which provides a C API to access some of the
+ GnuPG functions, such as encrypt, decrypt, sign, verify, ...
+ .
+ This package contains the library.
 
 Package: libgpm2
 Source: gpm
@@ -9864,6 +10226,30 @@ Description: MJPEG capture/editing/replay and MPEG encoding toolset (library)
  .
  This package contains the shared mpeg2encpp library.
 
+Package: libmpfr6
+Source: mpfr4 (4.2.1-1)
+Version: 4.2.1-1+b1
+Architecture: arm64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1124
+Depends: libc6 (>= 2.17), libgmp10 (>= 2:6.3.0+dfsg)
+Breaks: libcgal13 (<< 4.11-2+b1), libflint-2.5.2 (<< 2.5.2-17+b2), libgiac0 (<< 1.2.3.57+dfsg1-2+b4), libgmp3 (<< 4.1.4-3), libmpc3 (<< 1.1.0-1~), libnormaliz3 (<< 3.5.1+ds-4), sagemath (<< 8.1-2+b2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libmpfr6_4.2.1-1+b1_arm64.deb
+Size: 673632
+MD5sum: 3427feaddf3b92db54daffb279c3804f
+SHA1: cb9a76cde630d0c977c4f98af70e6ee55b6a1aef
+SHA256: 6fe1d3736899013a0abb1bc9c1af62677cde239656e796372fda73ba0707360d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.mpfr.org/
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
 Package: libmpg123-0t64
 Source: mpg123
 Version: 1.32.7-1
@@ -10705,6 +11091,33 @@ Homepage: https://github.com/numactl/numactl
 Description: Libraries for controlling NUMA policy
  Library to control specific NUMA (Non-Uniform Memory Architecture)
  scheduling or memory placement policies.
+
+Package: libnvme1t64
+Source: libnvme
+Version: 1.10-1
+Architecture: arm64
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Installed-Size: 294
+Depends: libc6 (>= 2.38), libjson-c5 (>= 0.15), libkeyutils1 (>= 1.5.9), libssl3t64 (>= 3.0.0)
+Suggests: nvme-cli
+Breaks: libnvme1 (<< 1.10-1)
+Replaces: libnvme1
+Provides: libnvme1 (= 1.10-1)
+Filename: dists/trixie-rockchip/base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
+Size: 74404
+MD5sum: 7e60540e23b6223285b3034b64b4cdcc
+SHA1: 5785177bdb7d17a5089b06f3fe304c11945c0e03
+SHA256: 385751694b3cfcbdc2184dde0c32cba957090aca42fa04c73867685eca6dd770
+Section: libs
+Priority: optional
+Homepage: https://github.com/linux-nvme/libnvme
+Description: NVMe management library (library)
+ NVM Express (NVMe) is a interface specification for accessing non-volatile
+ storage media, typically modern solid state drives (SSDs) through PCI Express
+ (PCIe). libnvme provides library functions for accessing and managing NVMe
+ devices.
+ .
+ This package contains the shared library.
 
 Package: libodbc2
 Source: unixodbc (2.3.12-1)
@@ -11816,6 +12229,34 @@ Description: Layout and rendering of internationalized text
   - Native fonts on Microsoft backends
  .
  This package contains the shared libraries.
+
+Package: libparted2t64
+Source: parted
+Version: 3.6-4
+Architecture: arm64
+Maintainer: Parted Maintainer Team <parted-maintainers@alioth-lists.debian.net>
+Installed-Size: 609
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.97), libuuid1 (>= 2.16)
+Suggests: parted, libparted-dev, libparted-i18n (= 3.6-4)
+Conflicts: libparted2 (<< 3.6-4)
+Replaces: libparted2
+Provides: libparted, libparted2 (= 3.6-4)
+Filename: dists/trixie-rockchip/base/binary-arm64/libparted2t64_3.6-4_arm64.deb
+Size: 292916
+MD5sum: d13acc62634173719beff1eae1db5cbc
+SHA1: fc7ef68514637d278ad6b7ccccaee4e7cf22d129
+SHA256: 7c4658b02100c11c8b7851042153a1ae2d3c5714fdec53276c6c9b2f58d05488
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/parted
+Description: disk partition manipulator - shared library
+ GNU Parted is a program that allows you to create, destroy, resize,
+ move, and copy disk partitions. This is useful for creating space
+ for new operating systems, reorganizing disk usage, and copying data
+ to new hard disks.
+ .
+ This package contains the shared library.
 
 Package: libpciaccess-dev
 Source: libpciaccess (0.17-3)
@@ -16121,6 +16562,31 @@ Description: UDF reader library
  The library is created and maintained by VideoLAN Project and is used by
  projects like VLC and Kodi.
 
+Package: libudisks2-0
+Source: udisks2
+Version: 2.10.1-11
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 983
+Depends: libc6 (>= 2.17), libglib2.0-0t64 (>= 2.80.0)
+Filename: dists/trixie-rockchip/base/binary-arm64/libudisks2-0_2.10.1-11_arm64.deb
+Size: 142600
+MD5sum: f289e096da4b255504cc0588dbd1dd75
+SHA1: 89a47d416a1bfbda8d3f2df63d6477331767662b
+SHA256: ddeb633071bbfbeed9100302da4425bf1f021a8990b1a9ce05cb72cadf4025c9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/udisks
+Description: GObject based library to access udisks2
+ The udisks daemon serves as an interface to system block devices,
+ implemented via D-Bus. It handles operations such as querying, mounting,
+ unmounting, formatting, or detaching storage devices such as hard disks
+ or USB thumb drives.
+ .
+ This provides a convenience library for communicating with udisks2 from
+ GObject based programs.
+
 Package: libunibreak-dev
 Source: libunibreak
 Version: 6.1-2
@@ -16662,6 +17128,32 @@ Description: VisualOn AMR-WB encoder library
  the Google Android project.
  .
  This package contains development files.
+
+Package: libvolume-key1
+Source: volume-key
+Version: 0.3.12-8
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 811
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.17), libcryptsetup12 (>= 2:1.4), libglib2.0-0t64 (>= 2.18.0), libgpgme11t64 (>= 1.4.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), gnupg
+Filename: dists/trixie-rockchip/base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
+Size: 118304
+MD5sum: 5f8f613dc62e082f10273dcd4695c993
+SHA1: 1526dc9d744a6431d3f477bd81add500df9c5579
+SHA256: 19adcd023c32dd96d5fc9a815847ad97de48be691d9e4ac5ebfc00dbc76a6a4f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pagure.io/volume_key
+Description: Library for manipulating storage encryption keys and passphrases
+ This package provides libvolume_key, a library for manipulating storage volume
+ encryption keys and storing them separately from volumes.
+ .
+ The main goal of the software is to allow restoring access to an encrypted
+ hard drive if the primary user forgets the passphrase.  The encryption key
+ back up can also be useful for extracting data after a hardware or software
+ failure that corrupts the header of the encrypted volume, or to access the
+ company data after an employee leaves abruptly.
 
 Package: libvorbis0a
 Source: libvorbis
@@ -20407,6 +20899,29 @@ Description: network management framework (daemon and userspace tools)
     teamed together and act like a single one. This process is called "ethernet
     bonding", "channel teaming" or "link aggregation".
 
+Package: network-manager-openvpn
+Version: 1.12.0-2
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1466
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.36.0), libnm0 (>= 1.46), network-manager (>= 1.46), openvpn, adduser
+Filename: dists/trixie-rockchip/base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
+Size: 232724
+MD5sum: 4bf05ed180e072d1eba43e3b7a8256b4
+SHA1: 0963b329f166e0e625353f8ac1c58cb023911d76
+SHA256: 2dcbf55626772ceb029489d4f1aa8dc8a79e545b465ed7bd2df2c5c1c283b719
+Section: net
+Priority: optional
+Homepage: https://networkmanager.dev
+Description: network management framework (OpenVPN plugin core)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides a VPN plugin for OpenVPN.
+
 Package: nftables
 Version: 1.1.1-1
 Architecture: arm64
@@ -20740,6 +21255,45 @@ Description: build and execute command lines from standard input in parallel
  output as you would get had you run the commands sequentially. This
  makes it possible to use output from GNU Parallel as input for other
  programs.
+
+Package: parted
+Version: 3.6-4
+Architecture: arm64
+Maintainer: Parted Maintainer Team <parted-maintainers@alioth-lists.debian.net>
+Installed-Size: 218
+Depends: libc6 (>= 2.34), libparted2t64 (= 3.6-4), libreadline8t64 (>= 6.0), libtinfo6 (>= 6), libuuid1 (>= 2.16)
+Suggests: parted-doc
+Conflicts: parted-doc (<< 3.5-2~)
+Filename: dists/trixie-rockchip/base/binary-arm64/parted_3.6-4_arm64.deb
+Size: 37668
+MD5sum: 7837e029d06ddef2eb2beceb843fb28d
+SHA1: d7a02b4c08affae55a85dea0f4ad1df8aea8d7f8
+SHA256: bae92fe7d27fd274304e52a0b2c61c5ca69435fe9015348c5dc412411d8b3d49
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/parted
+Description: disk partition manipulator
+ GNU Parted is a program that allows you to create, destroy, resize,
+ move, and copy disk partitions. This is useful for creating space
+ for new operating systems, reorganizing disk usage, and copying data
+ to new hard disks.
+ .
+ This package contains the binary and manual page. Further
+ documentation is available in parted-doc.
+ .
+ Parted currently supports DOS, Mac, Sun, BSD, GPT, MIPS, and PC98
+ partitioning formats, as well as a "loop" (raw disk) type which
+ allows use on RAID/LVM. It can detect and remove ASFS/AFFS/APFS,
+ Btrfs, ext2/3/4, FAT16/32, HFS, JFS, linux-swap, UFS, XFS, and ZFS
+ file systems. Parted also has the ability to create and modify file
+ systems of some of these types, but using it to perform file system
+ operations is now deprecated.
+ .
+ The nature of this software means that any bugs could cause massive
+ data loss. While there are no such bugs known at the moment, they
+ could exist, so please back up all important files before running
+ it, and do so at your own risk.
 
 Package: passwd
 Source: shadow
@@ -21866,6 +22420,37 @@ Homepage: https://systemd.io
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
+
+Package: udisks2
+Version: 2.10.1-11
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2925
+Depends: libudisks2-0 (= 2.10.1-11), libblockdev-crypto3, libblockdev-fs3, libblockdev-loop3, libblockdev-mdraid3, libblockdev-nvme3, libblockdev-part3, libblockdev-swap3, default-dbus-system-bus | dbus-system-bus, parted, udev, libacl1 (>= 2.2.23), libatasmart4 (>= 0.13), libblkid1 (>= 2.16), libblockdev-utils3 (>= 3.0), libblockdev3 (>= 3.0), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgudev-1.0-0 (>= 212), libmount1 (>= 2.30), libpolkit-agent-1-0 (>= 0.102), libpolkit-gobject-1-0 (>= 0.102), libsystemd0 (>= 209), libuuid1 (>= 2.16)
+Recommends: dosfstools, e2fsprogs, eject, ntfs-3g, polkitd, libpam-systemd, exfatprogs
+Suggests: btrfs-progs, f2fs-tools, mdadm, nilfs-tools, reiserfsprogs, udftools, udisks2-btrfs, udisks2-lvm2, xfsprogs
+Filename: dists/trixie-rockchip/base/binary-arm64/udisks2_2.10.1-11_arm64.deb
+Size: 432568
+MD5sum: b791cdf71cb7baf8390aa39b17e4e954
+SHA1: 56da8f85e6f92e0d1df8448e716e4189cf540a3b
+SHA256: 6050a18fc95c16698cb5a265f7eb803a4c532814520f4f91db524d88e0a76a22
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/udisks
+Description: D-Bus service to access and manipulate storage devices
+ The udisks daemon serves as an interface to system block devices,
+ implemented via D-Bus. It handles operations such as querying, mounting,
+ unmounting, formatting, or detaching storage devices such as hard disks
+ or USB thumb drives.
+ .
+ This package also provides the udisksctl utility, which can be used to
+ trigger these operations from the command line (if permitted by
+ PolicyKit).
+ .
+ Creating or modifying file systems such as XFS, RAID, or LUKS encryption
+ requires that the corresponding mkfs.* and admin tools are installed, such as
+ dosfstools for VFAT, xfsprogs for XFS, or cryptsetup for LUKS.
 
 Package: unixodbc-common
 Source: unixodbc
