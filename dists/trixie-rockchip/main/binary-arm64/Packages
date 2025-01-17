@@ -56,16 +56,16 @@ Description: debug symbols for avizo
 Build-Ids: 249ed2659040872c0c498cd72cf050153eada08e aa4b951e189753496c73ee8a4aa6c734835bdb03
 
 Package: buzztv
-Version: 1.0.87+107
+Version: 1.0.97+117
 Architecture: arm64
 Essential: no
 Maintainer: mvas
-Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.87+107_arm64.deb
-Size: 29236176
-MD5sum: 2f27257f3da454179f6e6041feb33a10
-SHA1: 2f97e9aba5976276c31cc1e6319e7a54b17f3f65
-SHA256: 74291a7f581c1432d6517978b17006a4d1584e81d24748c25458656b42009dd4
+Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,udisks2,network-manager-openvpn
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.97+117_arm64.deb
+Size: 32482968
+MD5sum: 960b4a6746f6d0037edc91c0acd62d21
+SHA1: c6f984675d39dd34a30986f0f6131851f58328b0
+SHA256: c74b7535170997a6bbc1167fb6927ec62282b289b1f239706637753c866ad906
 Priority: optional
 Description: BuzzTV IPTV player
 
@@ -83,16 +83,16 @@ Priority: optional
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.6-2
+Version: 1.0.7-1
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
-Installed-Size: 12
+Installed-Size: 22
 Depends: coreutils, curl, tar
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.6-2_all.deb
-Size: 2640
-MD5sum: 4e1124da9f269774d0833d7e8be5ecf6
-SHA1: 85f799090ec1312f5c24874949261e2fbf655f22
-SHA256: 03e623d528cae3b2ddf64cddacb64c77e37a07c8ce7b539170aef9effccaf449
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.7-1_all.deb
+Size: 3848
+MD5sum: 18bfc5de3f6100645a5aef905cc8096b
+SHA1: 5c21612bdded9f289186d042d0dcf062ce6b8bda
+SHA256: d04acbe68017d117cc09f6d7883957572a59e81717a10b97f40f1af4f487cab4
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
