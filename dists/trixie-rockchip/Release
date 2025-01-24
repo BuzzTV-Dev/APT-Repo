@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Sat, 18 Jan 2025 02:31:07 +0000
+Date: Fri, 24 Jan 2025 15:55:47 +0000
 MD5Sum:
  f963b3533c90d30435ee58ce56590fab 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -23,8 +23,8 @@ MD5Sum:
  edb469e396649d135f905b70a9b0e2ef 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  7df464bccd0452210c57467f3cc9803c 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  b1ba1faa69913c6af18e0ebfa25954a5 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- 85bef31efcae81a1b4379df5110cf562 304376 main/binary-arm64/Packages
- dff95a792a17f40ce624e207a1f7a29b 70279 main/binary-arm64/Packages.gz
+ 202319c1bc928166a307c131adece5be 304376 main/binary-arm64/Packages
+ d334af9bd923b2e283e80ffcfb16863a 70282 main/binary-arm64/Packages.gz
  bdc8145abe4154f83aaec0f0e9a2c5be 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  b63c51e63dbf0fa7b7d5cbd6f6e623b2 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
@@ -208,8 +208,8 @@ MD5Sum:
  90ccef0116ce071d65bf2e32029479c0 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  909fef3c9cd15312fae98429179238c7 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  1b45ae3c7ff421aad258b2f1d262b7cf 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- 1f154752a7d90e8733b55252c43ec3d0 3876 main/binary-arm64/buzztv-ota-tools_1.0.7-2_all.deb
  29f091773639c25ffd8563cf1d86b64c 32481148 main/binary-arm64/buzztv_1.0.98+118_arm64.deb
+ 534c1d43e4e460bee52331ff1718482e 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  fbb0a9a3a0bc798b02b5dbefadd43adf 62924 non-free/binary-arm64/Packages
  2716c04ef0e6b30407d0f5e921e0194e 14911 non-free/binary-arm64/Packages.gz
  1107c31a1b6a4021c9e1756b95449a54 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -1161,8 +1161,8 @@ MD5Sum:
  4bf05ed180e072d1eba43e3b7a8256b4 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  7837e029d06ddef2eb2beceb843fb28d 37668 base/binary-arm64/parted_3.6-4_arm64.deb
  b791cdf71cb7baf8390aa39b17e4e954 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- aad4a8bc98d3f248fc3c57e2ebd74f5d 375522 InRelease
- 034bbaaa32b010388060444d4164c1ea 854 Release.gpg
+ 58c49d5aadf329e9a34b3ae1573bd7ce 375522 InRelease
+ c3b4b68b82ab3ff4c6e670f595a26008 854 Release.gpg
 SHA1:
  c35c3960b916c2314c96848168198e421cc6abb3 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -1179,8 +1179,8 @@ SHA1:
  4fd809799663f5034d153067da7bc09206795cf6 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  25800ff1d749facd6904cbf2990a68901d7f7f86 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  4a7bf6a8b182d40dca2ab8921b68995d9cd875ee 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- 26b42347902bb75de9f9f10443fc96850c3035b8 304376 main/binary-arm64/Packages
- e6501c30eb6edde578904a4fb0d2726d3a48da09 70279 main/binary-arm64/Packages.gz
+ 69d46b2b97bb9a694736c5eee67939813ed268ec 304376 main/binary-arm64/Packages
+ f8ba87224b0a76641e165f63d4ce5fa1bbf95ce8 70282 main/binary-arm64/Packages.gz
  ca20e93261692d16773ce447eaea623f7e4fe02a 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  8f71508dbadad6b7dfab97e5f812f96d8a0338ee 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  648bdf461ef867ce0b8d8c4e700534d244e21479 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
@@ -1364,8 +1364,8 @@ SHA1:
  f63ee518815a911466400aa8dfecff9501c9724b 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  1aebc31b3a2aa80abbc4574aded9c82f7a04504d 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  24c82f85ee0c1bf62f816a798474e27b2df6f457 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- 2c2bccc1ee299e6a58959d42dbacc16fe82fc672 3876 main/binary-arm64/buzztv-ota-tools_1.0.7-2_all.deb
  d444fdb1a91148978c1639ccbf7ce26c1b485106 32481148 main/binary-arm64/buzztv_1.0.98+118_arm64.deb
+ 7ef5bde331fe0da3803e935508b87388be425d7d 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  97c8fead2c26fdec3dcadf2f08c28d1e70720230 62924 non-free/binary-arm64/Packages
  e76ef8a8a849fb6f59db6bfdd9a8e2d37bb54889 14911 non-free/binary-arm64/Packages.gz
  624b57436b6038926fcd3d43c5d29be4f282ca13 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -2317,8 +2317,8 @@ SHA1:
  0963b329f166e0e625353f8ac1c58cb023911d76 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  d7a02b4c08affae55a85dea0f4ad1df8aea8d7f8 37668 base/binary-arm64/parted_3.6-4_arm64.deb
  56da8f85e6f92e0d1df8448e716e4189cf540a3b 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- 81d7bc2e58859af51ca7caa15d03bc83e379ad42 375522 InRelease
- ca1dbd1a68031d271ac55476f069916c88f91840 854 Release.gpg
+ 5aff3deb5e681855115d65e568dd3df530237e88 375522 InRelease
+ 235b3ea2184758f67fa637f3e288f18c227dba42 854 Release.gpg
 SHA256:
  6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -2335,8 +2335,8 @@ SHA256:
  bc604e0e1ecbfd68c387148652c41e8e63838a9b9c5508b0a419bd94cf575c5e 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  5f8eb68107ce87945a82f6cec3480eef6cfb8689c9a36c574a4bbea3100e2e8a 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  a717e27729385f4e323cc641e1ea2a2785e24bcc0503f642ac40c6395bffa933 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- aa22c382e0469d6b933cc45ce6280cdd534acfcf337f9f044dc8108ea2e84ae5 304376 main/binary-arm64/Packages
- 2a24ea8eb4f7c578bf732bb23646662841adb6661013b4ab3952137ddc04ef90 70279 main/binary-arm64/Packages.gz
+ a024649ae364c449a399220d22ac28042bdb9d0e5c6f242b13f18f61c1b7f418 304376 main/binary-arm64/Packages
+ daa569ba6b9bb84bb249bd9159f1871584bf4cc7b0a65451a486a2c284184840 70282 main/binary-arm64/Packages.gz
  4845000cef51a8340c1e3c6c6ecf0c80daca4f3d60c72742d7cc842bdedb58f0 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  6625bfdb804465b5dcecd9731f2b4f7131bbe1574426c5621dbe824c99dfd472 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
  de0d080ad47ada7ab58aaf681c4c60e2541ab014662edd43f48e21988a1ff1d2 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
@@ -2520,8 +2520,8 @@ SHA256:
  249b92df7fcb0888e94620e5ed616b6342f633ca04d5f1af438e099a45c48dec 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  c08280bae25e30f7b532f44b62e7bd12d881becb2ce0bff3082dbc9ee8f7f850 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  b04c05712c8f8e3346d4d3a9daba604885f909fadd6b05f0c69076f8847788f3 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- 4d09c871119013891b127ec35aaafeb473268f7620a5f53881df01347893ba04 3876 main/binary-arm64/buzztv-ota-tools_1.0.7-2_all.deb
  f24b0fdb97319b429992cc84b01b653f2e497859e33ea96b4e3f69a199120bf1 32481148 main/binary-arm64/buzztv_1.0.98+118_arm64.deb
+ cf59d47ea7ae471c3ef003c48549b8214e1c46838eff82cd6bdf36cf91436930 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  8d470b8eee886de5c20afa8a0a19c7a73fbf7485dc886187f460e6916b072e47 62924 non-free/binary-arm64/Packages
  c4a91d92c7170d3dd17b05b36327f45be5bedf71fb5cefcc43cf708756e9f849 14911 non-free/binary-arm64/Packages.gz
  2270b38cd3a69b217cde9e6b8ad90adc6e6955e29e993bf7d4c07db339053a31 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -3473,5 +3473,5 @@ SHA256:
  2dcbf55626772ceb029489d4f1aa8dc8a79e545b465ed7bd2df2c5c1c283b719 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  bae92fe7d27fd274304e52a0b2c61c5ca69435fe9015348c5dc412411d8b3d49 37668 base/binary-arm64/parted_3.6-4_arm64.deb
  6050a18fc95c16698cb5a265f7eb803a4c532814520f4f91db524d88e0a76a22 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- 8d08451c1d2e6e0e39a625ad98a9287a875341a1ebda222c49925b3691f84802 375522 InRelease
- 37d26739339a1c67410cb001416d1797888c18e6b834dfa150d57681916613ed 854 Release.gpg
+ 4da03f0560fc369b02581faf3034e1215d3724cce6a550d26793f9aadcedbac1 375522 InRelease
+ 66e54af4d09a6cef36283617b66f008f71f9603c3df4f5afb70e70a03c024048 854 Release.gpg
