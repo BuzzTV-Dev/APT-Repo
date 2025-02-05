@@ -1107,6 +1107,27 @@ Description: utility to monitor Linux input device events
  features of the latest kernels; evemu-record from the evemu-tools
  package should be used instead.
 
+Package: exfat-fuse
+Source: fuse-exfat
+Version: 1.4.0-3
+Architecture: arm64
+Maintainer: Sven Hoexter <hoexter@debian.org>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), libfuse3-3 (>= 3.2.3)
+Recommends: exfatprogs
+Filename: dists/trixie-rockchip/base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
+Size: 28644
+MD5sum: 40711804bcaa9c89fd36b99408441551
+SHA1: 5161fc7e8ece5118622dd4c6e4e6dbc378650cd7
+SHA256: 889f7b3e19f1cdbd11031e2eca793592efd6fecbec6a9b68bc65722aaa2e17f0
+Section: otherosfs
+Priority: optional
+Homepage: https://github.com/relan/exfat
+Description: read and write exFAT driver for FUSE
+ fuse-exfat is a read and write driver implementing
+ the extended file allocation table as a filesystem in userspace.
+ A mounthelper is provided unter the name mount.exfat-fuse.
+
 Package: fdisk
 Source: util-linux
 Version: 2.40.2-9
@@ -1308,6 +1329,28 @@ Description: Fast, lightweight and minimalistic Wayland terminal emulator
   * Multi-seat
   * Synchronized Updates support
   * Sixel image support
+
+Package: fuse3
+Version: 3.14.0-10
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 184
+Depends: libc6 (>= 2.38), libfuse3-3 (= 3.14.0-10), adduser, mount (>= 2.19.1), sed (>= 4)
+Conflicts: fuse (<< 3.14.0-10)
+Provides: fuse (= 3.14.0-10)
+Filename: dists/trixie-rockchip/base/binary-arm64/fuse3_3.14.0-10_arm64.deb
+Size: 35744
+MD5sum: 338bc4428647fe30e8b49976369f1775
+SHA1: 043b2b029bddd040fcc59fde6cd76ed68b089de7
+SHA256: 44c8d62edab776f227975a5db53a41cfb5c2abc6b0d270608e0359cf1c05febb
+Section: utils
+Priority: optional
+Homepage: https://github.com/libfuse/libfuse/wiki
+Description: Filesystem in Userspace (3.x version)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
 
 Package: gcc-14-base
 Source: gcc-14
@@ -6481,6 +6524,31 @@ Description: Free Implementation of the Unicode BiDi algorithm
  languages.
  This package contains the shared libraries.
 
+Package: libfuse3-3
+Source: fuse3
+Version: 3.14.0-10
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 307
+Depends: libc6 (>= 2.38)
+Suggests: fuse3
+Filename: dists/trixie-rockchip/base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
+Size: 84772
+MD5sum: d1e61c2570edd1a0a6a5a056da0c1f47
+SHA1: 0ede08d1c87f4e7f1211e0dab0104ee92307ac6f
+SHA256: f24d97ec99594f56dacb500c84ab44071b9c0c7e53ba785f0750f27acd6caf1b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libfuse/libfuse/wiki
+Description: Filesystem in Userspace (library) (3.x version)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the shared library.
+
 Package: libfyba0t64
 Source: fyba
 Version: 4.1.1-11
@@ -11071,6 +11139,31 @@ Description: Network Security Service libraries
  of security-enabled client and server applications. It can support SSLv2
  and  v4, TLS, PKCS #5, #7, #11, #12, S/MIME, X.509 v3 certificates and
  other security standards.
+
+Package: libntfs-3g89t64
+Source: ntfs-3g
+Version: 1:2022.10.3-5
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 419
+Depends: libc6 (>= 2.38)
+Conflicts: libntfs-3g89 (<< 1:2022.10.3-5)
+Replaces: libntfs-3g89
+Provides: libntfs-3g89 (= 1:2022.10.3-5)
+Filename: dists/trixie-rockchip/base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
+Size: 151076
+MD5sum: e6b99d664ec9f3c3be0abee352711898
+SHA1: cac8a9d559722ad092aade33d5f405fb4abb773f
+SHA256: 045db448e206c139a4738a4ae995a7f50d55e10ff34ec19a62701b6ac57e10fe
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/tuxera/ntfs-3g/wiki
+Description: read/write NTFS driver for FUSE (runtime library)
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
+ .
+ This package contains the actual library.
 
 Package: libnuma1
 Source: numactl
@@ -20952,6 +21045,25 @@ Description: Program to control packet filtering rules by Netfilter project
  proxying, advanced routing and traffic control.
  .
  A Linux kernel >= 3.13 is required. However, >= 4.14 is recommended.
+
+Package: ntfs-3g
+Version: 1:2022.10.3-5
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 2106
+Depends: libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgnutls30t64 (>= 3.7.2), libntfs-3g89t64 (= 1:2022.10.3-5), fuse3
+Suggests: fdisk
+Filename: dists/trixie-rockchip/base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
+Size: 377792
+MD5sum: dd1cdaccdb489ce4f11a429be40041f8
+SHA1: 079ccfac0de33b8a18fea8f0352ea370d79bd17e
+SHA256: 3e45bce3d720317d740a57a8192e51250b049a543645f4e317d2e946d93df67a
+Section: otherosfs
+Priority: optional
+Homepage: https://github.com/tuxera/ntfs-3g/wiki
+Description: read/write NTFS driver for FUSE
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
 
 Package: ocl-icd-libopencl1
 Source: ocl-icd (2.3.2-1)
