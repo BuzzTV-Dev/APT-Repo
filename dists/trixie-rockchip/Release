@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Fri, 07 Feb 2025 04:12:57 +0000
+Date: Tue, 11 Feb 2025 21:57:20 +0000
 MD5Sum:
  f963b3533c90d30435ee58ce56590fab 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -23,11 +23,11 @@ MD5Sum:
  edb469e396649d135f905b70a9b0e2ef 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  7df464bccd0452210c57467f3cc9803c 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  b1ba1faa69913c6af18e0ebfa25954a5 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- 534c1d43e4e460bee52331ff1718482e 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
- 3b44b8b53f822597ad7027f20d49a8ee 304378 main/binary-arm64/Packages
- 5961cca666cef1e47ea4c368cdc2b3c4 70277 main/binary-arm64/Packages.gz
+ 0e80c1a8781e47cbafc3a332753ff465 304378 main/binary-arm64/Packages
+ 2ed6d5fbe8675d4b3933af24711b4a4c 70282 main/binary-arm64/Packages.gz
  bdc8145abe4154f83aaec0f0e9a2c5be 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  164e5ef770e08f4218159c3761fb9a0f 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
+ 534c1d43e4e460bee52331ff1718482e 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  b63c51e63dbf0fa7b7d5cbd6f6e623b2 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
  fd0043a814be4ca8ce00985340b832ff 120608 main/binary-arm64/dvb-tools_1.28.1-1_arm64.deb
  475995825cd7a7fb6c21af06615c77f1 846200 main/binary-arm64/ffmpeg-dbgsym_7.0.2-3_arm64.deb
@@ -209,7 +209,7 @@ MD5Sum:
  90ccef0116ce071d65bf2e32029479c0 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  909fef3c9cd15312fae98429179238c7 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  1b45ae3c7ff421aad258b2f1d262b7cf 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- 8bcb4cd8de331dd2e68a9aec4573f0ba 34824204 main/binary-arm64/buzztv_1.0.106+126_arm64.deb
+ fe2482cb247e634e4698ff4d0b63fb49 34934960 main/binary-arm64/buzztv_1.0.109+129_arm64.deb
  fbb0a9a3a0bc798b02b5dbefadd43adf 62924 non-free/binary-arm64/Packages
  2716c04ef0e6b30407d0f5e921e0194e 14911 non-free/binary-arm64/Packages.gz
  1107c31a1b6a4021c9e1756b95449a54 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -551,10 +551,12 @@ MD5Sum:
  db9249974115c44c17fee710185242f4 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
  446c066d9c24c511aeac198592cb89ce 558280 base/binary-arm64/e2fsprogs_1.47.1-1_arm64.deb
  b0ec11f9d5cbab36778249a0d1d736e1 15832 base/binary-arm64/evtest_1%3a1.35-1_arm64.deb
+ 40711804bcaa9c89fd36b99408441551 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
  5acf0a629338c64c181f8d0bad32fe0f 149704 base/binary-arm64/fdisk_2.40.2-9_arm64.deb
  eaabdaed762e0bf1019c5519e95d7a4a 317280 base/binary-arm64/fontconfig-config_2.15.0-1.1_arm64.deb
  75d67e7655990eb4fd82249402f8e4f5 462128 base/binary-arm64/fontconfig_2.15.0-1.1_arm64.deb
  669b6aa11176ebf97b073188dbe04c05 271628 base/binary-arm64/foot_1.18.1-1_arm64.deb
+ 338bc4428647fe30e8b49976369f1775 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
  385054b91518dacb6e404303aa858f98 46780 base/binary-arm64/gcc-14-base_14.2.0-6_arm64.deb
  1c0f09c0f05701420b2db4ef92b4f585 342444 base/binary-arm64/gdal-plugins_3.9.3+dfsg-1_arm64.deb
  d1d83e95789bb1cfff910616a1fdc901 902016 base/binary-arm64/gir1.2-glib-2.0-dev_2.82.1-1_arm64.deb
@@ -691,6 +693,7 @@ MD5Sum:
  b15e73ee1736d484ebeb51e2b6eb6e1b 22224 base/binary-arm64/libfontenc1_1%3a1.1.8-1_arm64.deb
  9798af5b06febd16a8571f76a20b5d17 12356 base/binary-arm64/libfreeaptx0_0.1.1-2+b1_arm64.deb
  815f9563d770fc765d7a25118589bd61 38140 base/binary-arm64/libfreexl1_2.0.0-1+b2_arm64.deb
+ d1e61c2570edd1a0a6a5a056da0c1f47 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
  b822d50d2a618801a1d88e33f2fd12b4 105980 base/binary-arm64/libfyba0t64_4.1.1-11_arm64.deb
  58855341cb19636c95284363dee1a84e 480536 base/binary-arm64/libgav1-1_0.19.0-2+b1_arm64.deb
  8778d3fbadd2f8e56ed395a6850ead00 22484 base/binary-arm64/libgbm-dev_24.2.4-1_arm64.deb
@@ -824,6 +827,7 @@ MD5Sum:
  7461d11446e0a32a1150c8b449c21d0f 37712 base/binary-arm64/libnsl2_1.3.0-3+b2_arm64.deb
  df89dd1c05a669f2bb6a1e14e6ce1a0d 101460 base/binary-arm64/libnspr4_2%3a4.35-1.1+b1_arm64.deb
  dcda085326a8c6abf3bb178bf62c7dd9 1291572 base/binary-arm64/libnss3_2%3a3.105-2_arm64.deb
+ e6b99d664ec9f3c3be0abee352711898 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
  f954b6b43e2108ae374e9e7d0bd2a84a 21384 base/binary-arm64/libnuma1_2.0.18-1_arm64.deb
  7e60540e23b6223285b3034b64b4cdcc 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
  a5135263e78c48f239ac73b749537cfe 132784 base/binary-arm64/libodbc2_2.3.12-1+b2_arm64.deb
@@ -1109,6 +1113,7 @@ MD5Sum:
  3c211e0a213240126fb93a99e0e310b9 427620 base/binary-arm64/ncurses-bin_6.5-2_arm64.deb
  e23f9aade010f19d8af980ff333dcb84 1322660 base/binary-arm64/nettle-dev_3.10-1_arm64.deb
  8a9f7679030ae4a6fb61260e2cd21757 3161480 base/binary-arm64/network-manager_1.50.0-1_arm64.deb
+ dd1cdaccdb489ce4f11a429be40041f8 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
  d13fb4a1c8f171952c901b6261e74c57 39292 base/binary-arm64/ocl-icd-libopencl1_2.3.2-1+b1_arm64.deb
  89b48900f938e5bdc82de6edb1af2383 926672 base/binary-arm64/openssh-client_1%3a9.9p1-2_arm64.deb
  4da667411c4e615d247c0d5e3df61bf4 476264 base/binary-arm64/openssh-server_1%3a9.9p1-2_arm64.deb
@@ -1161,13 +1166,8 @@ MD5Sum:
  1280078272ff7ea383497eea4f64fa15 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  8048b4afea70ec3210428e37d66b39e3 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  84ef81bf3f678cfea89584f81af8554d 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 40711804bcaa9c89fd36b99408441551 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
- 338bc4428647fe30e8b49976369f1775 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
- d1e61c2570edd1a0a6a5a056da0c1f47 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
- e6b99d664ec9f3c3be0abee352711898 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
- dd1cdaccdb489ce4f11a429be40041f8 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
- 71a21e37a9fe646bd152fe407bff45e6 377087 InRelease
- 4b198bcea0c9120a41640984c5a08359 854 Release.gpg
+ e8eda3c46d11947c702cfc67bf10f862 377087 InRelease
+ 05ac498297eccf529fa80e6761428cf0 854 Release.gpg
 SHA1:
  c35c3960b916c2314c96848168198e421cc6abb3 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -1184,11 +1184,11 @@ SHA1:
  4fd809799663f5034d153067da7bc09206795cf6 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  25800ff1d749facd6904cbf2990a68901d7f7f86 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  4a7bf6a8b182d40dca2ab8921b68995d9cd875ee 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- 7ef5bde331fe0da3803e935508b87388be425d7d 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
- bf1f91fed1e50e8764a29a120fc65b3d7bccd58b 304378 main/binary-arm64/Packages
- 1afd7bdb6493bc606e4fb4fe98a252dbab93db7f 70277 main/binary-arm64/Packages.gz
+ f4d0f330bf353226ee241bc80edd2bf6f935e382 304378 main/binary-arm64/Packages
+ 1dbe89448170128367865d4af80bae1846caab9b 70282 main/binary-arm64/Packages.gz
  ca20e93261692d16773ce447eaea623f7e4fe02a 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  8f71508dbadad6b7dfab97e5f812f96d8a0338ee 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
+ 7ef5bde331fe0da3803e935508b87388be425d7d 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  648bdf461ef867ce0b8d8c4e700534d244e21479 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
  c5b97a738deddfb1477c3c0ab9c679596331bbb8 120608 main/binary-arm64/dvb-tools_1.28.1-1_arm64.deb
  773ae57a47ccb026868496352b4c9c6c5f082aa9 846200 main/binary-arm64/ffmpeg-dbgsym_7.0.2-3_arm64.deb
@@ -1370,7 +1370,7 @@ SHA1:
  f63ee518815a911466400aa8dfecff9501c9724b 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  1aebc31b3a2aa80abbc4574aded9c82f7a04504d 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  24c82f85ee0c1bf62f816a798474e27b2df6f457 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- 45cda4efadef82cb94106bdf02697083e387f50e 34824204 main/binary-arm64/buzztv_1.0.106+126_arm64.deb
+ c06cb6cafe8c3b821c65e48626bf161cc2acd473 34934960 main/binary-arm64/buzztv_1.0.109+129_arm64.deb
  97c8fead2c26fdec3dcadf2f08c28d1e70720230 62924 non-free/binary-arm64/Packages
  e76ef8a8a849fb6f59db6bfdd9a8e2d37bb54889 14911 non-free/binary-arm64/Packages.gz
  624b57436b6038926fcd3d43c5d29be4f282ca13 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -1712,10 +1712,12 @@ SHA1:
  0081c84a6e0e84fb1278094479bd6308f422510c 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
  3c61c66ed3e636729b3a93a20fd7956abe2dfeaa 558280 base/binary-arm64/e2fsprogs_1.47.1-1_arm64.deb
  a856910e61fadce96a6e5311f9e90992eb951eb5 15832 base/binary-arm64/evtest_1%3a1.35-1_arm64.deb
+ 5161fc7e8ece5118622dd4c6e4e6dbc378650cd7 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
  470f547de31ea9aaf8630a636553833b0de994e7 149704 base/binary-arm64/fdisk_2.40.2-9_arm64.deb
  36e34e14e0cdd190f8172d14c22c9564abb8edeb 317280 base/binary-arm64/fontconfig-config_2.15.0-1.1_arm64.deb
  54730660f67af45b970f405db063096f6499aa98 462128 base/binary-arm64/fontconfig_2.15.0-1.1_arm64.deb
  edf974a6f2ca2cdb4dfd94bcb162eaef58505bfc 271628 base/binary-arm64/foot_1.18.1-1_arm64.deb
+ 043b2b029bddd040fcc59fde6cd76ed68b089de7 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
  62930d7e0477d35744c51f8d9cf8252c6051a57a 46780 base/binary-arm64/gcc-14-base_14.2.0-6_arm64.deb
  e11f5778d5504468ba67af9e98e1c1861306fb51 342444 base/binary-arm64/gdal-plugins_3.9.3+dfsg-1_arm64.deb
  b00c9d313a457b62873638b5aeaffb50bf906a17 902016 base/binary-arm64/gir1.2-glib-2.0-dev_2.82.1-1_arm64.deb
@@ -1852,6 +1854,7 @@ SHA1:
  456fc322d65604d8ea5775c84dccccc57dca6dcd 22224 base/binary-arm64/libfontenc1_1%3a1.1.8-1_arm64.deb
  1913a07035a8412d9e5b8f0d286e98a5e943e053 12356 base/binary-arm64/libfreeaptx0_0.1.1-2+b1_arm64.deb
  587ab8b311af0180ae91e2dc908612ec12f9bc0c 38140 base/binary-arm64/libfreexl1_2.0.0-1+b2_arm64.deb
+ 0ede08d1c87f4e7f1211e0dab0104ee92307ac6f 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
  0958afef08c9d5f4e0ef6271d5c4cbbf5aaf4ff6 105980 base/binary-arm64/libfyba0t64_4.1.1-11_arm64.deb
  11802616e8d1f3d17d313dd2952bf7417a9c2204 480536 base/binary-arm64/libgav1-1_0.19.0-2+b1_arm64.deb
  4b0f3deec8dd7b18ff396e05f3fea91d38173029 22484 base/binary-arm64/libgbm-dev_24.2.4-1_arm64.deb
@@ -1985,6 +1988,7 @@ SHA1:
  6e856df0078fa2c650838d6b474ba1091a633f47 37712 base/binary-arm64/libnsl2_1.3.0-3+b2_arm64.deb
  f2e02d2d39f0e67451e5d7ed05fb757f44f0c27d 101460 base/binary-arm64/libnspr4_2%3a4.35-1.1+b1_arm64.deb
  f140119d79130ed45e2167b28bef33f321e38434 1291572 base/binary-arm64/libnss3_2%3a3.105-2_arm64.deb
+ cac8a9d559722ad092aade33d5f405fb4abb773f 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
  f2964c62bdcb129f8b2d674ccf0580f49fa218f3 21384 base/binary-arm64/libnuma1_2.0.18-1_arm64.deb
  5785177bdb7d17a5089b06f3fe304c11945c0e03 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
  78884cb2d72ab2e3c19e503a2950d387353d01bd 132784 base/binary-arm64/libodbc2_2.3.12-1+b2_arm64.deb
@@ -2270,6 +2274,7 @@ SHA1:
  d9bdab84793295560a44a1e4ab1122978947d61f 427620 base/binary-arm64/ncurses-bin_6.5-2_arm64.deb
  996e6d2bc5b8f9a1ce13862b7e54771869d881de 1322660 base/binary-arm64/nettle-dev_3.10-1_arm64.deb
  8d66ec8ad002b9c48d864fa03c15e34b5153f951 3161480 base/binary-arm64/network-manager_1.50.0-1_arm64.deb
+ 079ccfac0de33b8a18fea8f0352ea370d79bd17e 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
  1ee4a691a13f463a32d9954ed3bf4c5f664a7a10 39292 base/binary-arm64/ocl-icd-libopencl1_2.3.2-1+b1_arm64.deb
  45d26b4c10bbf837472024fecb7d87c43b1f1b78 926672 base/binary-arm64/openssh-client_1%3a9.9p1-2_arm64.deb
  8abac6d5a8a54cd22b6d92e8d3bdb03608103c9d 476264 base/binary-arm64/openssh-server_1%3a9.9p1-2_arm64.deb
@@ -2322,13 +2327,8 @@ SHA1:
  d617c51e20c0ac8754830121fba49dab972b0b9e 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  7be47b180397f3a1b0fa9ad20e90dd3ea1e7a241 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  a05e8a79b2cf8a41629fceb6b8688549a7ea2407 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 5161fc7e8ece5118622dd4c6e4e6dbc378650cd7 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
- 043b2b029bddd040fcc59fde6cd76ed68b089de7 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
- 0ede08d1c87f4e7f1211e0dab0104ee92307ac6f 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
- cac8a9d559722ad092aade33d5f405fb4abb773f 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
- 079ccfac0de33b8a18fea8f0352ea370d79bd17e 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
- 93db064ab5c5c3cd4c0d306a106995eefa34531a 377087 InRelease
- 640a664b4c6a72439ef209be6ed012a034349958 854 Release.gpg
+ b031d007caf770af7f3faee98c9ac6005feb7e6c 377087 InRelease
+ 050c710c916fe88fcf4b9156d7d27c57aaba1013 854 Release.gpg
 SHA256:
  6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -2345,11 +2345,11 @@ SHA256:
  bc604e0e1ecbfd68c387148652c41e8e63838a9b9c5508b0a419bd94cf575c5e 201696 main/binary-arm64/libwayland-doc_1.23.0-1_all.deb
  5f8eb68107ce87945a82f6cec3480eef6cfb8689c9a36c574a4bbea3100e2e8a 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  a717e27729385f4e323cc641e1ea2a2785e24bcc0503f642ac40c6395bffa933 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
- cf59d47ea7ae471c3ef003c48549b8214e1c46838eff82cd6bdf36cf91436930 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
- b95c4b73c5a78e8ae38a0d0a81aaa2f3c025c1e044137153aa2b6900fa5bc2c4 304378 main/binary-arm64/Packages
- 5cf1573cb85b51fc6bc29ab6f29d70e9c08cd2f4e8fc3d7ad7aa1ff2e1813d11 70277 main/binary-arm64/Packages.gz
+ 3961d257e3749f0296534d6c496c3345d450074cf41900fe2d7469640bc4ad80 304378 main/binary-arm64/Packages
+ 09e853686a9108c1312fe76211dc6626e687d4b8e36eb487079ed3b78c0d2d72 70282 main/binary-arm64/Packages.gz
  4845000cef51a8340c1e3c6c6ecf0c80daca4f3d60c72742d7cc842bdedb58f0 152688 main/binary-arm64/avizo-dbgsym_1.2.1-1_arm64.deb
  6625bfdb804465b5dcecd9731f2b4f7131bbe1574426c5621dbe824c99dfd472 51080 main/binary-arm64/avizo_1.2.1-1_arm64.deb
+ cf59d47ea7ae471c3ef003c48549b8214e1c46838eff82cd6bdf36cf91436930 3944 main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
  de0d080ad47ada7ab58aaf681c4c60e2541ab014662edd43f48e21988a1ff1d2 91068 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1_arm64.deb
  1ac6db8882b8703e417c2a9aba1c7e75fe282f8fe8438464f22906cde5874018 120608 main/binary-arm64/dvb-tools_1.28.1-1_arm64.deb
  ef35a50a2363e859d981befcbd6d4babcb80958a25ae5e03f70112c25c4c2965 846200 main/binary-arm64/ffmpeg-dbgsym_7.0.2-3_arm64.deb
@@ -2531,7 +2531,7 @@ SHA256:
  249b92df7fcb0888e94620e5ed616b6342f633ca04d5f1af438e099a45c48dec 2398292 main/binary-arm64/xserver-xorg-legacy_21.1.13-2_arm64.deb
  c08280bae25e30f7b532f44b62e7bd12d881becb2ce0bff3082dbc9ee8f7f850 3275920 main/binary-arm64/xvfb-dbgsym_21.1.13-2_arm64.deb
  b04c05712c8f8e3346d4d3a9daba604885f909fadd6b05f0c69076f8847788f3 3105480 main/binary-arm64/xvfb_21.1.13-2_arm64.deb
- c8e519b070a220cef1ad1b110bd2b5f032a3076a512bd8d881d33178f1c8e784 34824204 main/binary-arm64/buzztv_1.0.106+126_arm64.deb
+ ec2e8534d255fce96866e6c750a0b008ea0992ed4f13229d7540774f0fb3a542 34934960 main/binary-arm64/buzztv_1.0.109+129_arm64.deb
  8d470b8eee886de5c20afa8a0a19c7a73fbf7485dc886187f460e6916b072e47 62924 non-free/binary-arm64/Packages
  c4a91d92c7170d3dd17b05b36327f45be5bedf71fb5cefcc43cf708756e9f849 14911 non-free/binary-arm64/Packages.gz
  2270b38cd3a69b217cde9e6b8ad90adc6e6955e29e993bf7d4c07db339053a31 10920 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_1.9-1_arm64.deb
@@ -2873,10 +2873,12 @@ SHA256:
  b89969a2e09e9ef27d589486f932c4c7bf97ad5fd0c5c5eb29f647cfa49e7175 75844 base/binary-arm64/dmsetup_2%3a1.02.196-1+b1_arm64.deb
  eacfbe5a7aca31e6bdb1c27410b6cbcd61a9bbb580d27c2fd233b4885af33c57 558280 base/binary-arm64/e2fsprogs_1.47.1-1_arm64.deb
  81f8ad93d8041fd37f7e4f97952199639da5680bbb6bcd377e9d403e37e2e8d4 15832 base/binary-arm64/evtest_1%3a1.35-1_arm64.deb
+ 889f7b3e19f1cdbd11031e2eca793592efd6fecbec6a9b68bc65722aaa2e17f0 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
  b63e766258cee4507a1f99fa2fdc4f126d93a02b2aca2d52b40be18bf90530fc 149704 base/binary-arm64/fdisk_2.40.2-9_arm64.deb
  dcd7d0c535ebbf444928ffb7eff51a55a5128674defd70575bd646243ae9f4cb 317280 base/binary-arm64/fontconfig-config_2.15.0-1.1_arm64.deb
  8185f6fe1356071f913e98df9e4b8325265d06de2069c3cf9fb1baac379cc7e6 462128 base/binary-arm64/fontconfig_2.15.0-1.1_arm64.deb
  07b56248471d97dca917b8ce509015afa5c882aad1d6594e57d84b796ad4f723 271628 base/binary-arm64/foot_1.18.1-1_arm64.deb
+ 44c8d62edab776f227975a5db53a41cfb5c2abc6b0d270608e0359cf1c05febb 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
  5aae251c8f7795d06e8dcf9b98a6eea5d0d1a4cff2c6a85efc67618a40c10d2a 46780 base/binary-arm64/gcc-14-base_14.2.0-6_arm64.deb
  bd37a30a98b2acaae3596588b81e14ca6065e96e8d2725089427e52b4beab395 342444 base/binary-arm64/gdal-plugins_3.9.3+dfsg-1_arm64.deb
  151761248e18031db1d51ef07f0096a11a171c08486a9b303df92f8ede4bd840 902016 base/binary-arm64/gir1.2-glib-2.0-dev_2.82.1-1_arm64.deb
@@ -3013,6 +3015,7 @@ SHA256:
  685f636d263c8abf9f1dcbdd36857b0185dd99474311d8ac5a835ac0bb563c65 22224 base/binary-arm64/libfontenc1_1%3a1.1.8-1_arm64.deb
  d945493f86e771fe3ae2a4af6055081572f8ad6880501a524ca113ad44b1793f 12356 base/binary-arm64/libfreeaptx0_0.1.1-2+b1_arm64.deb
  9a594cbb814568482a2ba30bf2d0c13c7bf0619c4bed3bd22bb6b6e19fc5f8e2 38140 base/binary-arm64/libfreexl1_2.0.0-1+b2_arm64.deb
+ f24d97ec99594f56dacb500c84ab44071b9c0c7e53ba785f0750f27acd6caf1b 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
  9b3a9289a21bde666abc62854007563af0e55ad44f22a362f8f467ac8f76f91e 105980 base/binary-arm64/libfyba0t64_4.1.1-11_arm64.deb
  15bde7f1117667e6dd7706cac00a6cf4607cece69059c1c8517e67caf7c1c0f4 480536 base/binary-arm64/libgav1-1_0.19.0-2+b1_arm64.deb
  f6dd0455db7a451cc6a85d0911fa421158e616a562079b7eabcae112791ed5b3 22484 base/binary-arm64/libgbm-dev_24.2.4-1_arm64.deb
@@ -3146,6 +3149,7 @@ SHA256:
  c02de5316bf47a1012cbea31e8f5c3ca89ad7eb29cb9c1f4f1a226812591da56 37712 base/binary-arm64/libnsl2_1.3.0-3+b2_arm64.deb
  da0b1461f5d0d2faecb1d305550f4b65e17524c2d1344aa684a8f3b90ab4f2fc 101460 base/binary-arm64/libnspr4_2%3a4.35-1.1+b1_arm64.deb
  b50671551483291e03976fe6009dd9a68bbff3216ebd967ed7349fc33138f473 1291572 base/binary-arm64/libnss3_2%3a3.105-2_arm64.deb
+ 045db448e206c139a4738a4ae995a7f50d55e10ff34ec19a62701b6ac57e10fe 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
  0d3478bfaf96da932399a7a334f83b609ffec5d2aeed73a32cd61de229b4effa 21384 base/binary-arm64/libnuma1_2.0.18-1_arm64.deb
  385751694b3cfcbdc2184dde0c32cba957090aca42fa04c73867685eca6dd770 74404 base/binary-arm64/libnvme1t64_1.10-1_arm64.deb
  fe5769abfbb58ce0faaa1b2186ad8f554d253e5f22010ed9b38b7bb53f8bb8e3 132784 base/binary-arm64/libodbc2_2.3.12-1+b2_arm64.deb
@@ -3431,6 +3435,7 @@ SHA256:
  4d156628040c7b3798581d9cb12d0abb4abacebd7bdc4cef900df163e511c878 427620 base/binary-arm64/ncurses-bin_6.5-2_arm64.deb
  b396df83cf3b0232bbb63f98ba2d1c4be2ecdbe3478692e7edcfb46404d90e30 1322660 base/binary-arm64/nettle-dev_3.10-1_arm64.deb
  390a312b22f42e0dde0a42e6fa43b27b6ca953b74ceb0096810b20d4ead701bb 3161480 base/binary-arm64/network-manager_1.50.0-1_arm64.deb
+ 3e45bce3d720317d740a57a8192e51250b049a543645f4e317d2e946d93df67a 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
  a8293e54bc05305157014850cd406ba56f57482bd05613384824475cafd603a7 39292 base/binary-arm64/ocl-icd-libopencl1_2.3.2-1+b1_arm64.deb
  fea1972da3dc79e7bf4166545916b721303e8ca98573ec804068eb744b14d800 926672 base/binary-arm64/openssh-client_1%3a9.9p1-2_arm64.deb
  d1deed8e38e95ea6ec272e915eb676c54169ea8f5b0bae1dcae7ea4a609ed70d 476264 base/binary-arm64/openssh-server_1%3a9.9p1-2_arm64.deb
@@ -3483,10 +3488,5 @@ SHA256:
  24c310b274f0fda7a80a1a0f74688acc1845b19c7c2d4b6307629e964149116f 520704 base/binary-arm64/xz-utils_5.6.2-2_arm64.deb
  368bd8d9a2f7add9f1e07f783290a714092af7d0f6c4ef526045744e99c750fc 915704 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
  2ad133b3d7a0b0d8d48efff5187828081d6a50d5ab3cd42924e1e992ea83cab8 84008 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1_arm64.deb
- 889f7b3e19f1cdbd11031e2eca793592efd6fecbec6a9b68bc65722aaa2e17f0 28644 base/binary-arm64/exfat-fuse_1.4.0-3_arm64.deb
- 44c8d62edab776f227975a5db53a41cfb5c2abc6b0d270608e0359cf1c05febb 35744 base/binary-arm64/fuse3_3.14.0-10_arm64.deb
- f24d97ec99594f56dacb500c84ab44071b9c0c7e53ba785f0750f27acd6caf1b 84772 base/binary-arm64/libfuse3-3_3.14.0-10_arm64.deb
- 045db448e206c139a4738a4ae995a7f50d55e10ff34ec19a62701b6ac57e10fe 151076 base/binary-arm64/libntfs-3g89t64_1%3a2022.10.3-5_arm64.deb
- 3e45bce3d720317d740a57a8192e51250b049a543645f4e317d2e946d93df67a 377792 base/binary-arm64/ntfs-3g_1%3a2022.10.3-5_arm64.deb
- 38b884719c08259c2d3c0d5b8b11b6c14fd96ae8fff8575a0c7faa23e9c9a12e 377087 InRelease
- e83378237bb644dea97027322666556df6b433e8b1ed6bd1d42e1f360fb018ce 854 Release.gpg
+ e81a36b2d170817581e08c6ae6c86cd6af0699ad094b01dc6b19f03a52ee7862 377087 InRelease
+ a45f7ed002af593ce0d10e021efff76c24a9480c663ad91f6504ce386337cf30 854 Release.gpg
