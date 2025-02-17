@@ -9677,16 +9677,16 @@ Description: linear timecode library
 
 Package: libltdl7
 Source: libtool
-Version: 2.4.7-8
+Version: 2.5.4-3
 Architecture: arm64
 Maintainer: Alastair McKinstry <mckinstry@debian.org>
-Installed-Size: 450
+Installed-Size: 471
 Depends: libc6 (>= 2.38)
-Filename: dists/trixie-rockchip/base/binary-arm64/libltdl7_2.4.7-8_arm64.deb
-Size: 392380
-MD5sum: fbb4b198653eb4822566573f364159c1
-SHA1: d8aa2ab0f99ea140818b4082d19bdc17af5c57f4
-SHA256: 5489973bb110ee11177c2a07fbab902fcb0e4ba51f8425588af67da57b6fc45c
+Filename: dists/trixie-rockchip/base/binary-arm64/libltdl7_2.5.4-3_arm64.deb
+Size: 414900
+MD5sum: 6ee5a9e8bc483bf195ef5631c051e119
+SHA1: 2d61d5bc7742e794244fe23523939c05009fef5b
+SHA256: bb04a1b59d1c69543449e55d71c2679d2fd56ee6530fb0626da6fbd620e88202
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -13209,21 +13209,21 @@ Description: pthread-based thread pool for C/C++ (shared object)
  This package contains the shared object.
 
 Package: libpulse-dev
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Source: pulseaudio
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 480
-Depends: libpulse0 (= 16.1+dfsg1-5.1+b1), libpulse-mainloop-glib0 (= 16.1+dfsg1-5.1+b1), libglib2.0-dev
-Filename: dists/trixie-rockchip/base/binary-arm64/libpulse-dev_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 89708
-MD5sum: 17300d09f93093b2a0d1e4f3285f8347
-SHA1: c81c9291f6ad905b0c3c9d4d9574149480cddc45
-SHA256: 14a3f924e21b3d7cf91e7262a5b819af8582571f7a7a952b722197f86458b771
+Installed-Size: 479
+Depends: libpulse0 (= 17.0+dfsg1-2), libpulse-mainloop-glib0 (= 17.0+dfsg1-2), libglib2.0-dev
+Filename: dists/trixie-rockchip/base/binary-arm64/libpulse-dev_17.0+dfsg1-2_arm64.deb
+Size: 90280
+MD5sum: 9e5547da74a55bd3cd2c3691361cb8f5
+SHA1: ef85a297fabdc17d11e6464b5cbc0954a0060650
+SHA256: 7d49f9306ffb0401ebcb54a703c95c12c841d48766b2a79d2b97c80c86bfa77a
 Section: libdevel
 Priority: optional
 Multi-Arch: same
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: PulseAudio client development headers and libraries
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -13233,21 +13233,21 @@ Description: PulseAudio client development headers and libraries
  sound server via PulseAudio's native interface.
 
 Package: libpulse-mainloop-glib0
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Source: pulseaudio
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 119
-Depends: libc6 (>= 2.17), libglib2.0-0t64 (>= 2.28.0), libpulse0 (= 16.1+dfsg1-5.1+b1)
-Filename: dists/trixie-rockchip/base/binary-arm64/libpulse-mainloop-glib0_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 27364
-MD5sum: 2c7868b13b767a931d6baa6d9d362183
-SHA1: 266f0be4b9748ead4d6ed7183e244620edc5093a
-SHA256: be656c838b12873b785967aae88e5f211fc844d0c4560d7476cf5012d3c9cd8b
+Installed-Size: 118
+Depends: libc6 (>= 2.17), libglib2.0-0t64 (>= 2.28.0), libpulse0 (= 17.0+dfsg1-2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libpulse-mainloop-glib0_17.0+dfsg1-2_arm64.deb
+Size: 27936
+MD5sum: 631b6c00b8d57ef7b5cdec4d7bd00b3b
+SHA1: 93477d928f829e8541050bd39db9cc1d7d251d20
+SHA256: e147550417cf495dcf5a96d60088062527d258b00643217341ae1dae4e852df0
 Section: libs
 Priority: optional
 Multi-Arch: same
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: PulseAudio client libraries (glib support)
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -13259,22 +13259,22 @@ Description: PulseAudio client libraries (glib support)
  This package adds support for glib2 client applications.
 
 Package: libpulse0
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Source: pulseaudio
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 1113
-Depends: libasyncns0 (>= 0.3), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libsndfile1 (>= 1.0.20), libsystemd0, libx11-6, libx11-xcb1, libxcb1
+Installed-Size: 1108
+Depends: libasyncns0 (>= 0.3), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libsndfile1 (>= 1.0.20), libsystemd0, libx11-6, libx11-xcb1, libxcb1
 Suggests: pulseaudio
-Filename: dists/trixie-rockchip/base/binary-arm64/libpulse0_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 234512
-MD5sum: 61b8aae3fb26d807348acbb3977e0e71
-SHA1: 24e44f36e4f84f436ca0e27fc23fb121a8cb1177
-SHA256: 7a96bec8c6d9fbcb8fd333d002cd52e085c4f4d208ad38a979aacd1326f3e3e8
+Filename: dists/trixie-rockchip/base/binary-arm64/libpulse0_17.0+dfsg1-2_arm64.deb
+Size: 235896
+MD5sum: 15be87657fdfb93c5b06d1755b333db8
+SHA1: c7f56be949363410d12c4db09b4a8161f1bba384
+SHA256: 085855ff377dd0c566f5feb0588d947adf57f4516cdb6f0a287ec52df7702d67
 Section: libs
 Priority: optional
 Multi-Arch: same
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: PulseAudio client libraries
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -13284,21 +13284,21 @@ Description: PulseAudio client libraries
  via PulseAudio's native interface.
 
 Package: libpulsedsp
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Source: pulseaudio
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 115
-Depends: libc6 (>= 2.38), libpulse0 (= 16.1+dfsg1-5.1+b1)
-Filename: dists/trixie-rockchip/base/binary-arm64/libpulsedsp_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 35816
-MD5sum: bb614e71b06e24de99c79b0137533526
-SHA1: e51435f4ff7062ed9593cb1dee925f8ef4450424
-SHA256: c447e54ef4c9e0115c090adf5e2982bb83a96d2577cd028e6b3c9dd233204b3a
+Installed-Size: 114
+Depends: libc6 (>= 2.38), libpulse0 (= 17.0+dfsg1-2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libpulsedsp_17.0+dfsg1-2_arm64.deb
+Size: 36384
+MD5sum: c36c17e5dcd8e950abe45df6a7fa8fba
+SHA1: 8a9558c5a4ea6b29de4a75f303ea5595cabba624
+SHA256: 66cbb43a8c74af49129ccfa9a26a074def04fda7db3a45fd085cd2c9ccbb452f
 Section: libs
 Priority: optional
 Multi-Arch: same
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: PulseAudio OSS pre-load library
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -17639,23 +17639,23 @@ Description: Lossy compression of digital photographic images
  compression of images for the web. More than 30% extra gain over
  optimized JPEG, for same quality, is not unusual.
 
-Package: libwebrtc-audio-processing1
-Source: webrtc-audio-processing (0.3-1)
-Version: 0.3-1+b2
+Package: libwebrtc-audio-processing-1-3
+Source: webrtc-audio-processing
+Version: 1.3-3
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 730
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 14)
-Filename: dists/trixie-rockchip/base/binary-arm64/libwebrtc-audio-processing1_0.3-1+b2_arm64.deb
-Size: 248180
-MD5sum: 1060e10c6efdbc82ad0c09efceaed77a
-SHA1: a4b6faac9ba99c616f7d378c3400b88b6c75a2ae
-SHA256: 7355923234e2a21d381661efaa09729238b511e85efe358c2b48925367f4b81a
+Installed-Size: 1047
+Depends: libabsl20230802 (>= 20230802.0-1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: dists/trixie-rockchip/base/binary-arm64/libwebrtc-audio-processing-1-3_1.3-3_arm64.deb
+Size: 339880
+MD5sum: 0da579200764230c3a35e64e4fbf6c32
+SHA1: 6aac7c50aab69b8dd2c2cb5d17ed0b0c4fcd6058
+SHA256: 7b42db2b8cd3d1f7f502dcfdb844375e1a2cf2eaf67c0644bd069573da1bcc4b
 Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: http://freedesktop.org/software/pulseaudio/webrtc-audio-processing/
-Description: AudioProcessing module from the WebRTC project.
+Description: WebRTC Audio Processing library
  Audio processing library (echo-cancellation, gain control etc) around the
  AudioProcessing module from the WebRTC project
 
@@ -19974,17 +19974,17 @@ Description: netfilter xtables library
  kernel framework.
 
 Package: libxtst6
-Source: libxtst (2:1.2.3-1.1)
-Version: 2:1.2.3-1.1+b2
+Source: libxtst
+Version: 2:1.2.5-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.17), libx11-6 (>= 2:1.6.0), libxext6, x11-common
-Filename: dists/trixie-rockchip/base/binary-arm64/libxtst6_2%3a1.2.3-1.1+b2_arm64.deb
-Size: 25980
-MD5sum: eb5b8884405686c97c72a451420aa7ba
-SHA1: 9cdbff30aa58bd2ca5d592f94f7f88410ec96abd
-SHA256: ab7e7ffb4c9a629292864e44ddc36e133f8e20bf43f65f399f0a897943dfc5c4
+Filename: dists/trixie-rockchip/base/binary-arm64/libxtst6_2%3a1.2.5-1_arm64.deb
+Size: 25716
+MD5sum: c843f04bfbe8e0ff51b847a9ade88ea3
+SHA1: bf639835c6c2c38ff63477795fa9369945039157
+SHA256: 55325d4bbd1f7a7363ef5c5d150603a3d955cb2c307e33c1e5faaa0c92394212
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -21934,24 +21934,22 @@ Description: Cartographic projection filter and library (datum package)
  library and tools.
 
 Package: pulseaudio
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
-Installed-Size: 9562
-Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: libasound2t64 (>= 1.2.1.1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.32.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.14.0), libice6 (>= 1:1.0.0), libltdl7 (>= 2.4.7), liborc-0.4-0t64 (>= 1:0.4.34), libpulse0 (= 16.1+dfsg1-5.1+b1), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 11), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing1, libwrap0 (>= 7.6-4~), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxcb1, libxtst6, adduser, lsb-base, libasound2-plugins, pulseaudio-utils
+Installed-Size: 9690
+Depends: libabsl20230802 (>= 20230802.0-1), libasound2t64 (>= 1.2.1.1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.10), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.32.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.14.0), libice6 (>= 1:1.0.0), libltdl7 (>= 2.5.4), liborc-0.4-0t64 (>= 1:0.4.34), libpulse0 (= 17.0+dfsg1-2), libsm6, libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 4.1.1), libsystemd0, libtdb1 (>= 1.2.7+git20101214), libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3), libwrap0 (>= 7.6-4~), libx11-6 (>= 2:1.7.0), libx11-xcb1, libxcb1, libxtst6 (>= 2:1.2.5), init-system-helpers (>= 1.52), adduser, libasound2-plugins, pulseaudio-utils
 Recommends: rtkit, default-logind | logind, dbus-user-session
 Suggests: udev, pavumeter, pavucontrol, paprefs
-Filename: dists/trixie-rockchip/base/binary-arm64/pulseaudio_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 1051132
-MD5sum: b22cf734e2fabf068c3457f978a547d3
-SHA1: 224a253c002bef8eea6ef60487722f16d20dbd9b
-SHA256: a261567a0eb1873ffff8aa15ba1d077c714b78f80598794068a33d4f1068c91d
+Filename: dists/trixie-rockchip/base/binary-arm64/pulseaudio_17.0+dfsg1-2_arm64.deb
+Size: 1052128
+MD5sum: 444795c0b5172a5b1a08f42808c50d84
+SHA1: 78425adfa573804fd0a6de558215c2650b89315f
+SHA256: 5e3be52e1b456e4fec22d4189bdf0e07a940286a8e54b225567a9a19b6d36df1
 Section: sound
 Priority: optional
 Multi-Arch: foreign
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
@@ -21980,23 +21978,23 @@ Description: PulseAudio sound server
  This package contains the daemon and basic module set.
 
 Package: pulseaudio-utils
-Source: pulseaudio (16.1+dfsg1-5.1)
-Version: 16.1+dfsg1-5.1+b1
+Source: pulseaudio
+Version: 17.0+dfsg1-2
 Architecture: arm64
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
 Installed-Size: 534
-Depends: libc6 (>= 2.38), libpulse0 (= 16.1+dfsg1-5.1+b1), libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libpulsedsp
+Depends: libc6 (>= 2.38), libpulse0 (= 17.0+dfsg1-2), libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libpulsedsp
 Suggests: avahi-daemon, pulseaudio
 Breaks: pulseaudio (<< 14.2-3~)
 Replaces: pulseaudio (<< 14.2-3~)
-Filename: dists/trixie-rockchip/base/binary-arm64/pulseaudio-utils_16.1+dfsg1-5.1+b1_arm64.deb
-Size: 82972
-MD5sum: 25f41355f00555a62c6bd3088ab71532
-SHA1: b17f31d149ce75f8e5eec5b0684d7b206ce5754f
-SHA256: f9221ed0f9906ba8ee1c9a3e3c2f1d9415cd6116d873ccc765fea2981a13381a
+Filename: dists/trixie-rockchip/base/binary-arm64/pulseaudio-utils_17.0+dfsg1-2_arm64.deb
+Size: 84052
+MD5sum: 73d043479d220230442298c9ac37e5dc
+SHA1: 41ffdb9c100373775bae11c26732de3161b9888f
+SHA256: 192bb8a1ce46a8f103b7cace2d5f1aa76d294f1cf16cd20e24c260b643ea5d0a
 Section: sound
 Priority: optional
-Homepage: https://www.pulseaudio.org
+Homepage: http://pulseaudio.org
 Description: Command line tools for the PulseAudio sound server
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
  WIN32 systems. It is a drop in replacement for the ESD sound server with
