@@ -2021,6 +2021,34 @@ Description: GSettings desktop-wide schemas
  gsettings-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
 
+Package: gstreamer1.0-pipewire
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 228
+Depends: pipewire (= 1.2.7-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.2.7-1)
+Filename: dists/trixie-rockchip/base/binary-arm64/gstreamer1.0-pipewire_1.2.7-1_arm64.deb
+Size: 65148
+MD5sum: b6f5da6c875ff267a24ff05a5c83845c
+SHA1: 22456364aca060e30e298592bb8f2784039fcd35
+SHA256: d87cf713467ebb2a96d9414766f57064c185e6a9debf8dd82ca64b33f6595e48
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: GStreamer 1.0 plugin for the PipeWire multimedia server
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin to make devices managed by the PipeWire
+ server available as GStreamer sources and sinks.
+
 Package: gstreamer1.0-plugins-ugly
 Source: gst-plugins-ugly1.0
 Version: 1.24.10-1
@@ -4847,6 +4875,35 @@ Description: common error description library
  manipulate the most common form of error code in a fashion that does not
  have the problems identified with mechanisms commonly in use.
 
+Package: libconfig++9v5
+Source: libconfig (1.5-0.4)
+Version: 1.5-0.4+b2
+Architecture: arm64
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Installed-Size: 155
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: libconfig++9
+Replaces: libconfig++9
+Filename: dists/trixie-rockchip/base/binary-arm64/libconfig++9v5_1.5-0.4+b2_arm64.deb
+Size: 37116
+MD5sum: f43812b48918b35153667e751e41501c
+SHA1: 8b9f00bca5abc35bece33a2e7dda1ce11ce17bd1
+SHA256: dba05f02d7e10fffba46a647eed7895ac53013a366605cca57fe146d004cba1f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.hyperrealm.com/libconfig/
+Description: parsing/manipulation of structured configuration files (C++ binding)
+ This library features a fully reentrant parser and includes bindings for
+ both the C and C++ programming languages. It runs on modern POSIX-compliant
+ systems such as Linux, Solaris, and Mac OS X (Darwin), as well as on
+ Microsoft Windows 2000/XP and later (Visual Studio or MinGW).
+ .
+ This library allows parsing, manipulating and writing structured configuration
+ files.
+ .
+ This is the C++ binding.
+
 Package: libcpuinfo0
 Source: cpuinfo
 Version: 0.0~git20240830.fa1c679-5
@@ -6085,6 +6142,30 @@ Description: fdisk partitioning library
  The libfdisk library is used for manipulating partition tables. It is
  the core of the fdisk, cfdisk, and sfdisk tools.
 
+Package: libffado2
+Source: libffado (2.4.9-1)
+Version: 2.4.9-1+b1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2503
+Depends: libc6 (>= 2.38), libconfig++9v5 (>= 1.5-0.4~), libgcc-s1 (>= 3.0), libglibmm-2.4-1t64 (>= 2.66.7), libiec61883-0 (>= 1.2.0), libraw1394-11 (>= 2.1.2), libstdc++6 (>= 14), libxml++2.6-2v5 (>= 2.42.3)
+Filename: dists/trixie-rockchip/base/binary-arm64/libffado2_2.4.9-1+b1_arm64.deb
+Size: 586096
+MD5sum: 2579051766353db16478959cc4cc54ef
+SHA1: 4953bbc0da94a8f573fcde1ce5b08f0d1df4c3e3
+SHA256: 3158b09de45927730c8cd16e614f941dc04452b0620e2c04df2caaf4de697b9b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.ffado.org/
+Description: FFADO API
+ FFADO is a Linux driver for FireWire (IEEE1394) audio devices.
+ .
+ The FFADO library permits discovering and configuring such
+ devices and provides an API for streaming clients.
+ .
+ This package holds the shared library.
+
 Package: libffi-dev
 Source: libffi
 Version: 3.4.6-1
@@ -6766,6 +6847,34 @@ Description: Free Implementation of the Unicode BiDi algorithm
  FriBiDi is a BiDi algorithm implementation for Hebrew and/or Arabic
  languages.
  This package contains the shared libraries.
+
+Package: libfuse2t64
+Source: fuse
+Version: 2.9.9-9
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 470
+Depends: libc6 (>= 2.38)
+Suggests: fuse3
+Conflicts: fuse (<< 2.9.9-9), libfuse2 (<< 2.9.9-9)
+Replaces: libfuse2
+Provides: libfuse2 (= 2.9.9-9)
+Filename: dists/trixie-rockchip/base/binary-arm64/libfuse2t64_2.9.9-9_arm64.deb
+Size: 115796
+MD5sum: 65f288197b443595ba89023ccddab88a
+SHA1: 43908c8083a04e90fcf1d20ae697058390ae32de
+SHA256: c92aa3f45505aa5fbc4495e621e76edbfbfdd5ea33e90fd9c977b8b3b8df6543
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/libfuse/libfuse/wiki
+Description: Filesystem in Userspace (library)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the shared library.
 
 Package: libfuse3-3
 Source: fuse3
@@ -7646,6 +7755,33 @@ Description: Development utilities for the GLib library
  This package is needed to compile programs against libglib2.0-0. It contains
  development utilities typically run during compilation and should not be
  installed directly. Use libglib2.0-dev instead.
+
+Package: libglibmm-2.4-1t64
+Source: glibmm2.4 (2.66.7-1)
+Version: 2.66.7-1+b1
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3035
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.62.0), libsigc++-2.0-0v5 (>= 2.9.1), libstdc++6 (>= 14)
+Conflicts: libglibmm-2.4-1c2a
+Breaks: libglibmm-2.4-1v5 (<< 2.66.7-1)
+Replaces: libglibmm-2.4-1c2a, libglibmm-2.4-1v5
+Provides: libglibmm-2.4-1v5 (= 2.66.7-1+b1)
+Filename: dists/trixie-rockchip/base/binary-arm64/libglibmm-2.4-1t64_2.66.7-1+b1_arm64.deb
+Size: 569852
+MD5sum: b9a1776acfe578adca610f9ccb597d1e
+SHA1: 696a07ce44e1a31d022a3650dc8469e34188f2a2
+SHA256: ca0200d5d8cae23e306479f234b2861ef08dddef7748c371c729bfb954235605
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gtkmm.org/
+Description: C++ wrapper for the GLib toolkit (shared libraries)
+ GLib is a low-level general-purpose library used mainly by GTK+/GNOME
+ applications, but is useful for other programs as well.
+ glibmm is the C++ wrapper for GLib.
+ .
+ This package contains shared libraries.
 
 Package: libglvnd0
 Source: libglvnd (1.7.0-1)
@@ -9805,6 +9941,34 @@ Description: Little CMS 2 color management library development headers
  This package contains the development headers used for building software that
  uses Little CMS.
 
+Package: libldacbt-abr2
+Source: libldac
+Version: 2.0.2.3+git20200429+ed310a0-5
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 81
+Depends: libc6 (>= 2.17), libldacbt-enc2 (>= 2.0.2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libldacbt-abr2_2.0.2.3+git20200429+ed310a0-5_arm64.deb
+Size: 5408
+MD5sum: 97d3b4093453a417006aeee73d52524b
+SHA1: a59eec8abcca3253f21b2c0a3f6f42e507c425c7
+SHA256: a92ee0393921c1694ffae70fa7c328a6bbd33941447cead62759a6a07ac2a184
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://android.googlesource.com/platform/external/libldac
+Description: LDAC Bluetooth ABR library (shared library)
+ LDAC is a lossy audio coding technology enabling the transmission
+ of high-resolution audio content over a Bluetooth connection.
+ .
+ LDAC employs a hybrid coding scheme based on the modified discrete
+ cosine transform to provide more efficient data compression.
+ .
+ LDAC is used by Bluetooth audio devices such as headphones, smart
+ phones, portable media players, active speakers and home theaters.
+ .
+ This package ships the shared LDAC Bluetooth ABR library.
+
 Package: libldacbt-enc2
 Source: libldac
 Version: 2.0.2.3+git20200429+ed310a0-5
@@ -10139,6 +10303,32 @@ Description: Development files for the Lua language version 5.2
  .
  This package contains developer resources for using the Lua library.
  Install it if you are developing programs which use the Lua C API.
+
+Package: liblua5.4-0
+Source: lua5.4 (5.4.7-1)
+Version: 5.4.7-1+b1
+Architecture: arm64
+Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
+Installed-Size: 680
+Depends: libc6 (>= 2.38), libstdc++6 (>= 4.1.1)
+Filename: dists/trixie-rockchip/base/binary-arm64/liblua5.4-0_5.4.7-1+b1_arm64.deb
+Size: 133716
+MD5sum: 57b46a021a20beb8f268e2900664687a
+SHA1: 4bbb38595d76ab13644280c08affa377bba94905
+SHA256: aa143ddaa7cecadf0ecf3b348f59efe0f767c2bd032326cf41e30ca85195d8ce
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.lua.org
+Description: Shared library for the Lua interpreter version 5.4
+ Lua is a powerful, light-weight programming language designed for extending
+ applications.  The language engine is accessible as a library, having a C
+ API which allows the application to exchange data with Lua programs and also
+ to extend Lua with C functions.  Lua is also used as a general-purpose,
+ stand-alone language through the simple command line interpreter provided.
+ .
+ This package contains runtime libraries.  You shouldn't need to install it
+ explicitly.
 
 Package: liblz4-1
 Source: lz4 (1.9.4-3)
@@ -12422,6 +12612,31 @@ Description: runtime files for the OpenEXR image library
  This package contains the following shared library:
     * IlmImf - a library that reads and writes OpenEXR images.
 
+Package: libopenfec1
+Source: openfec
+Version: 1.4.2.11+dfsg-1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 248
+Depends: libc6 (>= 2.17)
+Filename: dists/trixie-rockchip/base/binary-arm64/libopenfec1_1.4.2.11+dfsg-1_arm64.deb
+Size: 114712
+MD5sum: 7f2ac9b0c1b3106e101a605466df1352
+SHA1: 1b8f68b19600bbb2be74ace08c048e78ccfce857
+SHA256: 2db9b9213d99ad60fa38f46dc835277b6d28dcc6397751a675033ee1163fdab5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/roc-streaming/openfec
+Description: Application-Level Forward Erasure Correction codes (shared library)
+ Application-Level Forward Erasure Correction codes, or AL-FEC (also called
+ UL-FEC, for Upper-Layers FEC). The idea is to add redundancy in order to be
+ able to recover from erasures. Because of their position in the communication
+ stack, these codes are implemented as software codecs, and they find many
+ applications in robust transmission and distrituted storage systems.
+ .
+ This package provides the shared library.
+
 Package: libopengl0
 Source: libglvnd (1.7.0-1)
 Version: 1.7.0-1+b2
@@ -13202,6 +13417,37 @@ Description: libraries for the PipeWire multimedia server - development
   - Generating graphs for audio and video processing.
  .
  This package contains the development files.
+
+Package: libpipewire-0.3-modules
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 5471
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libffado2 (>= 2.4.9), libglib2.0-0t64 (>= 2.32.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.6~), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.2.7-1), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.3.0+dfsg-3), libselinux1 (>= 3.1~), libsndfile1 (>= 1.0.20), libssl3t64 (>= 3.0.0), libsystemd0
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: dists/trixie-rockchip/base/binary-arm64/libpipewire-0.3-modules_1.2.7-1_arm64.deb
+Size: 750292
+MD5sum: 535913bda926b942973123f4bfeb9278
+SHA1: 90cb24ce7e0cfa4756830653c30556f0a07f4759
+SHA256: 133aff6c9f7dd2a9391d8e9d9722063126bbc1fecd4a38e0e5cc03da95732dac
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - modules
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains modules used by the PipeWire server and by clients,
+ and should not normally be depended on directly. PipeWire clients should
+ depend on the pipewire package instead.
 
 Package: libpkcs11-helper1t64
 Source: pkcs11-helper (1.30.0-1)
@@ -14680,6 +14926,31 @@ Description: Reliable Internet Stream Transport -- shared library
  .
  This package contains the shared library.
 
+Package: libroc0.4
+Source: roc-toolkit (0.4.0+dfsg-4)
+Version: 0.4.0+dfsg-4+b1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1621
+Depends: libc6 (>= 2.38), libopenfec1 (>= 1.4.2.9+dfsg), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 4.1.1), libunwind8, libuv1t64 (>= 1.4.2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libroc0.4_0.4.0+dfsg-4+b1_arm64.deb
+Size: 321812
+MD5sum: 3b46ab53cfd9ec36e4061854fe73fb97
+SHA1: 5a79730cd5e7c62a13f88204951e04942b1af39e
+SHA256: 59b777da4fcbc89ff94df00ac54a1852115977ca5e3e36475109b689dad9db42
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://roc-streaming.org/
+Description: real-time audio streaming over the network (shared library)
+ Roc is a network transport, highly specialized for the real-time streaming use
+ case. The user writes the stream to the one end and reads it from another end,
+ and Roc deals with all the complexity of the task of delivering data in time
+ and with no loss. Encoding, decoding, adjusting rates, restoring losses - all
+ these are performed transparently under the hood.
+ .
+ This package provides the shared library.
+
 Package: librsvg2-2
 Source: librsvg
 Version: 2.59.1+dfsg-1
@@ -15425,6 +15696,32 @@ Description: SID (MOS 6581) emulation library
  information about the volunteers, who maintain the collection, look at
  the HVSC homepage http://www.hvsc.c64.org.
 
+Package: libsigc++-2.0-0v5
+Source: libsigc++-2.0 (2.12.1-2)
+Version: 2.12.1-2+b1
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 104
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.6)
+Filename: dists/trixie-rockchip/base/binary-arm64/libsigc++-2.0-0v5_2.12.1-2+b1_arm64.deb
+Size: 24508
+MD5sum: d32d1e5358c792c7d0665c13de0b2e3b
+SHA1: e9ee29e26ce403f0d50768ea49148eac63698901
+SHA256: bdede0c90e1db27e7ef44cffd76f32c9b84ba9f74f23751a33439c85b438053c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
+Description: type-safe Signal Framework for C++ - runtime
+ This library implements a full callback system for use in widget
+ libraries, abstract interfaces, and general programming. It provides
+ the ability to connect an abstract callback to a class method,
+ function, or function object, and contains adaptor classes for the
+ connection of dissimilar callbacks.
+ .
+ These are the runtime files for libsigc++, needed only if you wish to
+ run software which depends on it.
+
 Package: libsixel-dev
 Source: libsixel (1.10.3-3)
 Version: 1.10.3-3+b2
@@ -15907,6 +16204,34 @@ Description: High quality 1D sample-rate conversion library
  .
  A simple API is provided that allows interfacing using commonly-used sample
  formats and buffering schemes.
+
+Package: libspa-0.2-bluetooth
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1538
+Depends: libspa-0.2-modules (= 1.2.7-1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.80.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.0), libusb-1.0-0 (>= 2:1.0.16)
+Filename: dists/trixie-rockchip/base/binary-arm64/libspa-0.2-bluetooth_1.2.7-1_arm64.deb
+Size: 323080
+MD5sum: 9553c1fd3558b5543d668455d7d3c3fc
+SHA1: 501e2ab346cfb981776631f6001a7f5d3c690918
+SHA256: f7292e36f41fab706314e107b06485c0e37de5ad45b9232e6d7e9c234159152a
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: libraries for the PipeWire multimedia server - bluetooth plugins
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin to make Bluetooth audio devices such as
+ speakers and headsets available to the PipeWire server.
 
 Package: libspa-0.2-dev
 Source: pipewire
@@ -17384,6 +17709,35 @@ Description: production-quality unwinder
  or to operate on another process (aka remote), but only the local path has
  been implemented. Remote unwinding remains as future work.
 
+Package: libunwind8
+Source: libunwind
+Version: 1.6.2-3.1
+Architecture: arm64
+Maintainer: Adrian Bunk <bunk@debian.org>
+Installed-Size: 351
+Depends: libc6 (>= 2.34), liblzma5 (>= 5.1.1alpha+20110809)
+Conflicts: libunwind1-dev
+Replaces: libgcc1 (<< 1:4.0.0-2)
+Filename: dists/trixie-rockchip/base/binary-arm64/libunwind8_1.6.2-3.1_arm64.deb
+Size: 47688
+MD5sum: 5778cb0ef9fe6c132e13472864b2a876
+SHA1: b7ba44bc5ec3de3f18726767ef179c1cd9e93625
+SHA256: 5ddc23026618adee1ba0e6e077c42ea584ed51a27d16a2665ab3497a9d0d672e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.nongnu.org/libunwind
+Description: library to determine the call-chain of a program - runtime
+ The primary goal of this project is to define a portable and efficient C
+ programming interface (API) to determine the call-chain of a program.
+ The API additionally provides the means to manipulate the preserved
+ (callee-saved) state of each call-frame and to resume execution at any
+ point in the call-chain (non-local goto). The API supports both local
+ (same-process) and remote (across-process) operation. As such, the API
+ is useful in a number of applications.
+ .
+ This package includes the shared libraries
+
 Package: liburiparser1
 Source: uriparser
 Version: 0.9.8+dfsg-2
@@ -18264,6 +18618,30 @@ Description: software MIDI player library
  MIDI streaming library designed to process a MIDI file using sound patches
  and stream the results as stereo audio data through a buffer which an
  external program can then process further.
+
+Package: libwireplumber-0.5-0
+Source: wireplumber
+Version: 0.5.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 1689
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68), liblua5.4-0 (>= 5.4.6), libpipewire-0.3-0t64 (>= 1.1.81), libsystemd0
+Filename: dists/trixie-rockchip/base/binary-arm64/libwireplumber-0.5-0_0.5.7-1_arm64.deb
+Size: 251676
+MD5sum: e69819b2631282bd796a309510e3fc22
+SHA1: b5d94c7ec89ec4fd6ef856931e000d1760a36e6f
+SHA256: cbadcc71bd7e401bb53c6c5c7cc3e07ee0cd9eee8f68ce906dec05ebe406baca
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: Shared libraries for WirePlumber
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the shared library and plugins.
 
 Package: libwoff1
 Source: woff2 (1.0.2-2)
@@ -19999,6 +20377,32 @@ Description: X11 keyboard file manipulation library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libxkbfile
+
+Package: libxml++2.6-2v5
+Source: libxml++2.6 (2.42.3-1)
+Version: 2.42.3-1+b2
+Architecture: arm64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 289
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglibmm-2.4-1t64 (>= 2.66.7), libstdc++6 (>= 13.1), libxml2 (>= 2.7.7)
+Breaks: gnote (<< 0.4), libxml++2.6-2
+Replaces: libxml++2.6-2, libxml++2.6c2a
+Filename: dists/trixie-rockchip/base/binary-arm64/libxml++2.6-2v5_2.42.3-1+b2_arm64.deb
+Size: 75780
+MD5sum: 7eb2f1517c7242350fa457242ee173d7
+SHA1: fad9c157435a3f1240659dec776211bb3394a57d
+SHA256: 248a3189fbbdb4b30d4ff08c75eec302fb819fa8f6ec9a9d6a9f8e86b5bb7b73
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libxmlplusplus.github.io/libxmlplusplus/
+Description: C++ interface to the GNOME XML library (libxml2)
+ Libxml++ is a C++ wrapper for the libxml2 XML parser library (otherwise
+ known as the GNOME XML library).  It has SAX and DOM-like APIs, but does not
+ attempt to conform exactly to the DOM specification because they are not
+ aimed at C++.  Its API is much simpler than the underlying libxml C API.
+ .
+ This package contains shared libraries.
 
 Package: libxml2
 Source: libxml2 (2.12.7+dfsg+really2.9.14-0.2)
@@ -30235,6 +30639,157 @@ Description: curses-based PIN or pass-phrase entry dialog for GnuPG
  necessary because the sibling packages automatically fall back to
  text mode if X is not active.
 
+Package: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 130
+Depends: libpipewire-0.3-modules (= 1.2.7-1), pipewire-bin (= 1.2.7-1), init-system-helpers (>= 1.52), adduser
+Filename: dists/trixie-rockchip/base/binary-arm64/pipewire_1.2.7-1_arm64.deb
+Size: 112348
+MD5sum: c7ef39e9bef80e8b39a89ffcc9e00758
+SHA1: 8b211b6c376f9fa64926582bdc2d256b3cabcb3e
+SHA256: 65d26859faffac45c99d597990353875418415d4daf14da3e9c144ea818868d9
+Section: video
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: audio and video processing engine multimedia server
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This metapackage makes PipeWire available for programs of the same
+ architecture, and provides the systemd user service necessary to run
+ pipewire on-demand.
+
+Package: pipewire-alsa
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 179
+Depends: pipewire (= 1.2.7-1), libasound2t64 (>= 1.2.5), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.2.7-1)
+Conflicts: pulseaudio
+Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
+Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
+Filename: dists/trixie-rockchip/base/binary-arm64/pipewire-alsa_1.2.7-1_arm64.deb
+Size: 53288
+MD5sum: c1fbfc47eeef87c669a46768dad4f927
+SHA1: 7d595eb529f30ff74e252cd3ef08ceb4a2c141d8
+SHA256: 976641e7fa280674f765e90ee01e059a7513fdd38495394b1953a176b80e2a34
+Section: sound
+Priority: optional
+Multi-Arch: same
+Homepage: https://pipewire.org/
+Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains a plugin for ALSA applications to output via PipeWire.
+
+Package: pipewire-audio
+Source: pipewire
+Version: 1.2.7-1
+Architecture: all
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 30
+Depends: libspa-0.2-bluetooth, pipewire-alsa, pipewire-pulse, wireplumber
+Conflicts: pulseaudio, pulseaudio-module-bluetooth
+Replaces: pulseaudio, pulseaudio-module-bluetooth
+Filename: dists/trixie-rockchip/base/binary-arm64/pipewire-audio_1.2.7-1_all.deb
+Size: 19152
+MD5sum: 5ade4280bcedf0ca41d8b2a8175bdc99
+SHA1: 5ce5027a18a6ffad92d27e4401f90ef47752f81e
+SHA256: 138bdee9bb9ce4f8dd1afdf1eabc1c03daa381af641385ba2c882d2143681050
+Section: sound
+Priority: optional
+Homepage: https://pipewire.org/
+Description: recommended set of PipeWire packages for a standard audio desktop use
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This metapackage depends on a recommended set of pipewire packages
+ for a standard audio desktop use.
+
+Package: pipewire-bin
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 2376
+Depends: libpipewire-0.3-modules (= 1.2.7-1), libasound2t64 (>= 1.2.5), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.2.7-1), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
+Recommends: dbus-user-session, wireplumber, rtkit
+Breaks: pipewire (<< 0.3.5)
+Replaces: pipewire (<< 0.3.5)
+Filename: dists/trixie-rockchip/base/binary-arm64/pipewire-bin_1.2.7-1_arm64.deb
+Size: 352976
+MD5sum: 3917ceea08bfe49e25c567c11888d3ae
+SHA1: 2a73b45721b48910803a99243e18ef92dbab4c2d
+SHA256: 3c35a17898fa604afcee5dac1c8ae7e6d69d7477b2d1efc94b2e29bb8f5f29c4
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: PipeWire multimedia server - programs
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the server and command-line utilities, and should
+ not normally be depended on directly. PipeWire clients should depend on
+ the pipewire package instead.
+
+Package: pipewire-pulse
+Source: pipewire
+Version: 1.2.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 60
+Depends: pipewire (= 1.2.7-1), dconf-gsettings-backend | gsettings-backend, init-system-helpers (>= 1.52)
+Recommends: wireplumber
+Suggests: libspa-0.2-bluetooth, pulseaudio-utils
+Conflicts: pulseaudio-module-gsettings
+Breaks: pipewire-bin (<< 0.3.27-2)
+Replaces: pipewire-bin (<< 0.3.27-2)
+Filename: dists/trixie-rockchip/base/binary-arm64/pipewire-pulse_1.2.7-1_arm64.deb
+Size: 24148
+MD5sum: 5db0583ef085b441df454166115ef861
+SHA1: 796fa2de6f6a5f6100fcdb5e66ae5eb9b658c929
+SHA256: 6ab8758f1928818d63bc52f476ff021795abe621e2dcef4f54e955baa693febb
+Section: sound
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://pipewire.org/
+Description: PipeWire PulseAudio daemon
+ PipeWire is a server and user space API to deal with multimedia
+ pipelines. This includes:
+ .
+  - Making available sources of audio and video (such as from a capture devices
+    or application provided streams) and multiplexing this with clients.
+  - Accessing sources of audio and video for consumption.
+  - Generating graphs for audio and video processing.
+ .
+ This package contains the PulseAudio replacement daemon.
+
 Package: pkgconf
 Version: 1.8.1-4
 Architecture: arm64
@@ -31770,6 +32325,33 @@ Description: Displays user-friendly dialog boxes from shell scripts
  provides a method of displaying several different types of dialog boxes
  from shell scripts. This allows a developer of a script to interact with
  the user in a much friendlier manner.
+
+Package: wireplumber
+Version: 0.5.7-1
+Architecture: arm64
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Installed-Size: 720
+Depends: libc6 (>= 2.38), libglib2.0-0t64 (>= 2.68), libpipewire-0.3-0t64 (>= 1.0.2), libwireplumber-0.5-0 (= 0.5.7-1), init-system-helpers (>= 1.52), default-dbus-session-bus | dbus-session-bus, pipewire (>= 1.0.2)
+Recommends: pipewire-pulse
+Suggests: libspa-0.2-bluetooth, libspa-0.2-libcamera, wireplumber-doc
+Conflicts: pipewire-media-session
+Breaks: asahi-audio (<< 2.0)
+Replaces: pipewire-media-session
+Filename: dists/trixie-rockchip/base/binary-arm64/wireplumber_0.5.7-1_arm64.deb
+Size: 103568
+MD5sum: 56bfe93f7cfefef8fd58e1888fe8e7dc
+SHA1: cf8ca657e555e88122a0259341810f58fb0d5853
+SHA256: 08a7be06ba468cb6ed2a8031185ce89cc2f188f53ea47e99099c12698c76bfa9
+Section: video
+Priority: optional
+Homepage: https://gitlab.freedesktop.org/pipewire/wireplumber
+Description: modular session / policy manager for PipeWire
+ WirePlumber is a modular session / policy manager for PipeWire and a
+ GObject-based high-level library that wraps PipeWire's API, providing
+ convenience for writing the daemon's modules as well as external tools for
+ managing PipeWire.
+ .
+ This package contains the WirePlumber daemon and command-line utilities.
 
 Package: wlr-randr
 Version: 0.4.1-1

@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Thu, 27 Feb 2025 17:47:14 +0000
+Date: Thu, 27 Feb 2025 18:59:05 +0000
 MD5Sum:
  f963b3533c90d30435ee58ce56590fab 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -592,8 +592,8 @@ MD5Sum:
  5f8f613dc62e082f10273dcd4695c993 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
  4bf05ed180e072d1eba43e3b7a8256b4 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  b791cdf71cb7baf8390aa39b17e4e954 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- 7deccb30723c43def35fe26bf632330e 1409061 base/binary-arm64/Packages
- 06293e371d8881b8d359ea6f0e20ba4d 392106 base/binary-arm64/Packages.gz
+ 4935c37b088f10d97cfe5da1b8289d58 1434332 base/binary-arm64/Packages
+ 81bbd2321436479413577dd0f8394e9d 398620 base/binary-arm64/Packages.gz
  42d43da1f8b38b3da3f6da9f0d8ae857 1105196 base/binary-arm64/alsa-utils_1.2.12-1+b1_arm64.deb
  fbab41136ca5c6f4f9327feb056dd121 307380 base/binary-arm64/apt-utils_2.9.16_arm64.deb
  91e1d9049ef2126483a5c445db14d2b4 1318008 base/binary-arm64/apt_2.9.16_arm64.deb
@@ -1624,8 +1624,29 @@ MD5Sum:
  a549293aac70c5f17f3670d99c9ea4af 72968 base/binary-arm64/python3-typing-extensions_4.12.2-2_all.deb
  4b043a55d2ed8276c3b16fb6b3e976b1 18840 base/binary-arm64/terser_5.31.3-1_all.deb
  2beff09d05fff0b083a3a8a82efe707d 805636 base/binary-arm64/webpack_5.96.1+dfsg1+~cs11.18.26-1_all.deb
- 1e6ded3c19e0ab464057b2a3829c427d 531319 InRelease
- 5b045923bc903fae57661aa9851c43c4 854 Release.gpg
+ b6f5da6c875ff267a24ff05a5c83845c 65148 base/binary-arm64/gstreamer1.0-pipewire_1.2.7-1_arm64.deb
+ f43812b48918b35153667e751e41501c 37116 base/binary-arm64/libconfig++9v5_1.5-0.4+b2_arm64.deb
+ 2579051766353db16478959cc4cc54ef 586096 base/binary-arm64/libffado2_2.4.9-1+b1_arm64.deb
+ 65f288197b443595ba89023ccddab88a 115796 base/binary-arm64/libfuse2t64_2.9.9-9_arm64.deb
+ b9a1776acfe578adca610f9ccb597d1e 569852 base/binary-arm64/libglibmm-2.4-1t64_2.66.7-1+b1_arm64.deb
+ 97d3b4093453a417006aeee73d52524b 5408 base/binary-arm64/libldacbt-abr2_2.0.2.3+git20200429+ed310a0-5_arm64.deb
+ 57b46a021a20beb8f268e2900664687a 133716 base/binary-arm64/liblua5.4-0_5.4.7-1+b1_arm64.deb
+ 7f2ac9b0c1b3106e101a605466df1352 114712 base/binary-arm64/libopenfec1_1.4.2.11+dfsg-1_arm64.deb
+ 535913bda926b942973123f4bfeb9278 750292 base/binary-arm64/libpipewire-0.3-modules_1.2.7-1_arm64.deb
+ 3b46ab53cfd9ec36e4061854fe73fb97 321812 base/binary-arm64/libroc0.4_0.4.0+dfsg-4+b1_arm64.deb
+ d32d1e5358c792c7d0665c13de0b2e3b 24508 base/binary-arm64/libsigc++-2.0-0v5_2.12.1-2+b1_arm64.deb
+ 9553c1fd3558b5543d668455d7d3c3fc 323080 base/binary-arm64/libspa-0.2-bluetooth_1.2.7-1_arm64.deb
+ 5778cb0ef9fe6c132e13472864b2a876 47688 base/binary-arm64/libunwind8_1.6.2-3.1_arm64.deb
+ e69819b2631282bd796a309510e3fc22 251676 base/binary-arm64/libwireplumber-0.5-0_0.5.7-1_arm64.deb
+ 7eb2f1517c7242350fa457242ee173d7 75780 base/binary-arm64/libxml++2.6-2v5_2.42.3-1+b2_arm64.deb
+ c7ef39e9bef80e8b39a89ffcc9e00758 112348 base/binary-arm64/pipewire_1.2.7-1_arm64.deb
+ c1fbfc47eeef87c669a46768dad4f927 53288 base/binary-arm64/pipewire-alsa_1.2.7-1_arm64.deb
+ 5ade4280bcedf0ca41d8b2a8175bdc99 19152 base/binary-arm64/pipewire-audio_1.2.7-1_all.deb
+ 3917ceea08bfe49e25c567c11888d3ae 352976 base/binary-arm64/pipewire-bin_1.2.7-1_arm64.deb
+ 5db0583ef085b441df454166115ef861 24148 base/binary-arm64/pipewire-pulse_1.2.7-1_arm64.deb
+ 56bfe93f7cfefef8fd58e1888fe8e7dc 103568 base/binary-arm64/wireplumber_0.5.7-1_arm64.deb
+ d0548c15972017ca21968bca5aed6087 531319 InRelease
+ 766cc2d21ced20872bbfc58545a3578f 854 Release.gpg
 SHA1:
  c35c3960b916c2314c96848168198e421cc6abb3 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -2208,8 +2229,8 @@ SHA1:
  1526dc9d744a6431d3f477bd81add500df9c5579 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
  0963b329f166e0e625353f8ac1c58cb023911d76 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  56da8f85e6f92e0d1df8448e716e4189cf540a3b 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- a149d5e86ea3a4875fff91eba6e56aa05d89c159 1409061 base/binary-arm64/Packages
- 38f318a48d3d3613bbaf32b3dc2c917a52db958d 392106 base/binary-arm64/Packages.gz
+ 341111d3aaec50587be3a4fd49a96f0f03d223df 1434332 base/binary-arm64/Packages
+ 5197be20fc370d380d649a8fe78dbe90185f1c2b 398620 base/binary-arm64/Packages.gz
  9dd06c58cd587a8f6bec052a4a0b37cc6fbe350f 1105196 base/binary-arm64/alsa-utils_1.2.12-1+b1_arm64.deb
  76821fb16503327b0f215630daaf31cca980f4a0 307380 base/binary-arm64/apt-utils_2.9.16_arm64.deb
  542c5234058eee3f4f14b9514471edcdb8c9a72d 1318008 base/binary-arm64/apt_2.9.16_arm64.deb
@@ -3240,8 +3261,29 @@ SHA1:
  67ffb7b03d4acdb85ae5500fd69e9cd08bd616b0 72968 base/binary-arm64/python3-typing-extensions_4.12.2-2_all.deb
  1e21e94422714da036c909a34eba400dbbb3360a 18840 base/binary-arm64/terser_5.31.3-1_all.deb
  e7ff4d464cca770ff736d7b028f114f24ae86c5b 805636 base/binary-arm64/webpack_5.96.1+dfsg1+~cs11.18.26-1_all.deb
- 00488d9c60b5a6465bddbe41a9b442cb7373b595 531319 InRelease
- 2836930dfdfbb898e2b166853c7dc78f94bfe72b 854 Release.gpg
+ 22456364aca060e30e298592bb8f2784039fcd35 65148 base/binary-arm64/gstreamer1.0-pipewire_1.2.7-1_arm64.deb
+ 8b9f00bca5abc35bece33a2e7dda1ce11ce17bd1 37116 base/binary-arm64/libconfig++9v5_1.5-0.4+b2_arm64.deb
+ 4953bbc0da94a8f573fcde1ce5b08f0d1df4c3e3 586096 base/binary-arm64/libffado2_2.4.9-1+b1_arm64.deb
+ 43908c8083a04e90fcf1d20ae697058390ae32de 115796 base/binary-arm64/libfuse2t64_2.9.9-9_arm64.deb
+ 696a07ce44e1a31d022a3650dc8469e34188f2a2 569852 base/binary-arm64/libglibmm-2.4-1t64_2.66.7-1+b1_arm64.deb
+ a59eec8abcca3253f21b2c0a3f6f42e507c425c7 5408 base/binary-arm64/libldacbt-abr2_2.0.2.3+git20200429+ed310a0-5_arm64.deb
+ 4bbb38595d76ab13644280c08affa377bba94905 133716 base/binary-arm64/liblua5.4-0_5.4.7-1+b1_arm64.deb
+ 1b8f68b19600bbb2be74ace08c048e78ccfce857 114712 base/binary-arm64/libopenfec1_1.4.2.11+dfsg-1_arm64.deb
+ 90cb24ce7e0cfa4756830653c30556f0a07f4759 750292 base/binary-arm64/libpipewire-0.3-modules_1.2.7-1_arm64.deb
+ 5a79730cd5e7c62a13f88204951e04942b1af39e 321812 base/binary-arm64/libroc0.4_0.4.0+dfsg-4+b1_arm64.deb
+ e9ee29e26ce403f0d50768ea49148eac63698901 24508 base/binary-arm64/libsigc++-2.0-0v5_2.12.1-2+b1_arm64.deb
+ 501e2ab346cfb981776631f6001a7f5d3c690918 323080 base/binary-arm64/libspa-0.2-bluetooth_1.2.7-1_arm64.deb
+ b7ba44bc5ec3de3f18726767ef179c1cd9e93625 47688 base/binary-arm64/libunwind8_1.6.2-3.1_arm64.deb
+ b5d94c7ec89ec4fd6ef856931e000d1760a36e6f 251676 base/binary-arm64/libwireplumber-0.5-0_0.5.7-1_arm64.deb
+ fad9c157435a3f1240659dec776211bb3394a57d 75780 base/binary-arm64/libxml++2.6-2v5_2.42.3-1+b2_arm64.deb
+ 8b211b6c376f9fa64926582bdc2d256b3cabcb3e 112348 base/binary-arm64/pipewire_1.2.7-1_arm64.deb
+ 7d595eb529f30ff74e252cd3ef08ceb4a2c141d8 53288 base/binary-arm64/pipewire-alsa_1.2.7-1_arm64.deb
+ 5ce5027a18a6ffad92d27e4401f90ef47752f81e 19152 base/binary-arm64/pipewire-audio_1.2.7-1_all.deb
+ 2a73b45721b48910803a99243e18ef92dbab4c2d 352976 base/binary-arm64/pipewire-bin_1.2.7-1_arm64.deb
+ 796fa2de6f6a5f6100fcdb5e66ae5eb9b658c929 24148 base/binary-arm64/pipewire-pulse_1.2.7-1_arm64.deb
+ cf8ca657e555e88122a0259341810f58fb0d5853 103568 base/binary-arm64/wireplumber_0.5.7-1_arm64.deb
+ d3f7c2bb839287513b3c2d8bc536b0b6880bb4d6 531319 InRelease
+ 15d46515a840eb75debd286fc1be647181a6d2b2 854 Release.gpg
 SHA256:
  6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -3824,8 +3866,8 @@ SHA256:
  19adcd023c32dd96d5fc9a815847ad97de48be691d9e4ac5ebfc00dbc76a6a4f 118304 base/binary-arm64/libvolume-key1_0.3.12-8_arm64.deb
  2dcbf55626772ceb029489d4f1aa8dc8a79e545b465ed7bd2df2c5c1c283b719 232724 base/binary-arm64/network-manager-openvpn_1.12.0-2_arm64.deb
  6050a18fc95c16698cb5a265f7eb803a4c532814520f4f91db524d88e0a76a22 432568 base/binary-arm64/udisks2_2.10.1-11_arm64.deb
- 689fc0b791725ace8151b73be7c164bc247284e4fb053f57b4861955b98b3881 1409061 base/binary-arm64/Packages
- 7863a53e9166d6c8090b583a04cca3b7342668a76210a4d77394d603b4bd0f63 392106 base/binary-arm64/Packages.gz
+ 0746c6e7e5c3c785988f2620ef9bdebefdcb24384e727db831c14ae0b8fa3c90 1434332 base/binary-arm64/Packages
+ b43d8b25a9e7e54455af1ebcacea0a0d90db1a0a3c6c33eaab0205745673c544 398620 base/binary-arm64/Packages.gz
  813d8fe08ae05a22217f0ea834f31d087a7ac236ab08eef1a311a02e09ed3c73 1105196 base/binary-arm64/alsa-utils_1.2.12-1+b1_arm64.deb
  56f073260af5a8ca3cbe5a110f153738025345adda6b689dfff936bf7487d7da 307380 base/binary-arm64/apt-utils_2.9.16_arm64.deb
  6d48c3de34ce05dcbb9c7f1f86f3554f0f7fa8526a823bb3b345067c2cdbe415 1318008 base/binary-arm64/apt_2.9.16_arm64.deb
@@ -4856,22 +4898,43 @@ SHA256:
  ba288366b9763b50486921f20c0ab39c8263241d849ec2fba5cd5ecec9047ca8 72968 base/binary-arm64/python3-typing-extensions_4.12.2-2_all.deb
  f47ec4fd8ec0e4d7d1a78ebd68fb253b0eaca83d422923bf6de8e7e24f2231a3 18840 base/binary-arm64/terser_5.31.3-1_all.deb
  802a629b848bbddd51472e52f469976b5d80bbe857a95a7939284b55d09e27d9 805636 base/binary-arm64/webpack_5.96.1+dfsg1+~cs11.18.26-1_all.deb
- 4f422dd9a12001597764b0b461f0ebe0f42021ff737b20fa4b112e75e10f8385 531319 InRelease
- beefa40d20ec9c6fc326ba0e0a68923c99a0a0b5ee2db2ec1e8f7d6e010a95be 854 Release.gpg
+ d87cf713467ebb2a96d9414766f57064c185e6a9debf8dd82ca64b33f6595e48 65148 base/binary-arm64/gstreamer1.0-pipewire_1.2.7-1_arm64.deb
+ dba05f02d7e10fffba46a647eed7895ac53013a366605cca57fe146d004cba1f 37116 base/binary-arm64/libconfig++9v5_1.5-0.4+b2_arm64.deb
+ 3158b09de45927730c8cd16e614f941dc04452b0620e2c04df2caaf4de697b9b 586096 base/binary-arm64/libffado2_2.4.9-1+b1_arm64.deb
+ c92aa3f45505aa5fbc4495e621e76edbfbfdd5ea33e90fd9c977b8b3b8df6543 115796 base/binary-arm64/libfuse2t64_2.9.9-9_arm64.deb
+ ca0200d5d8cae23e306479f234b2861ef08dddef7748c371c729bfb954235605 569852 base/binary-arm64/libglibmm-2.4-1t64_2.66.7-1+b1_arm64.deb
+ a92ee0393921c1694ffae70fa7c328a6bbd33941447cead62759a6a07ac2a184 5408 base/binary-arm64/libldacbt-abr2_2.0.2.3+git20200429+ed310a0-5_arm64.deb
+ aa143ddaa7cecadf0ecf3b348f59efe0f767c2bd032326cf41e30ca85195d8ce 133716 base/binary-arm64/liblua5.4-0_5.4.7-1+b1_arm64.deb
+ 2db9b9213d99ad60fa38f46dc835277b6d28dcc6397751a675033ee1163fdab5 114712 base/binary-arm64/libopenfec1_1.4.2.11+dfsg-1_arm64.deb
+ 133aff6c9f7dd2a9391d8e9d9722063126bbc1fecd4a38e0e5cc03da95732dac 750292 base/binary-arm64/libpipewire-0.3-modules_1.2.7-1_arm64.deb
+ 59b777da4fcbc89ff94df00ac54a1852115977ca5e3e36475109b689dad9db42 321812 base/binary-arm64/libroc0.4_0.4.0+dfsg-4+b1_arm64.deb
+ bdede0c90e1db27e7ef44cffd76f32c9b84ba9f74f23751a33439c85b438053c 24508 base/binary-arm64/libsigc++-2.0-0v5_2.12.1-2+b1_arm64.deb
+ f7292e36f41fab706314e107b06485c0e37de5ad45b9232e6d7e9c234159152a 323080 base/binary-arm64/libspa-0.2-bluetooth_1.2.7-1_arm64.deb
+ 5ddc23026618adee1ba0e6e077c42ea584ed51a27d16a2665ab3497a9d0d672e 47688 base/binary-arm64/libunwind8_1.6.2-3.1_arm64.deb
+ cbadcc71bd7e401bb53c6c5c7cc3e07ee0cd9eee8f68ce906dec05ebe406baca 251676 base/binary-arm64/libwireplumber-0.5-0_0.5.7-1_arm64.deb
+ 248a3189fbbdb4b30d4ff08c75eec302fb819fa8f6ec9a9d6a9f8e86b5bb7b73 75780 base/binary-arm64/libxml++2.6-2v5_2.42.3-1+b2_arm64.deb
+ 65d26859faffac45c99d597990353875418415d4daf14da3e9c144ea818868d9 112348 base/binary-arm64/pipewire_1.2.7-1_arm64.deb
+ 976641e7fa280674f765e90ee01e059a7513fdd38495394b1953a176b80e2a34 53288 base/binary-arm64/pipewire-alsa_1.2.7-1_arm64.deb
+ 138bdee9bb9ce4f8dd1afdf1eabc1c03daa381af641385ba2c882d2143681050 19152 base/binary-arm64/pipewire-audio_1.2.7-1_all.deb
+ 3c35a17898fa604afcee5dac1c8ae7e6d69d7477b2d1efc94b2e29bb8f5f29c4 352976 base/binary-arm64/pipewire-bin_1.2.7-1_arm64.deb
+ 6ab8758f1928818d63bc52f476ff021795abe621e2dcef4f54e955baa693febb 24148 base/binary-arm64/pipewire-pulse_1.2.7-1_arm64.deb
+ 08a7be06ba468cb6ed2a8031185ce89cc2f188f53ea47e99099c12698c76bfa9 103568 base/binary-arm64/wireplumber_0.5.7-1_arm64.deb
+ ff9e85eec3a0a0e0966c499db9e1cb115d21edfab0bb8eb92a5510e4c16550ee 531319 InRelease
+ 4c705540c807e31d6e8a2c4df8a7ba2277aafcc17c10b91262486cdb40aa7ca6 854 Release.gpg
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmfApVoOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/V3iRAAruotT+Dzq3uqZxSINOeDiIT1jHjmtwBJvbXn
-jaNrKuhAvtgHVtiYKden3Gl2IQo9k2bb2wxGdVmeCBTBsdDPEHMbKquUnk/VCMNh
-ZU77dEbnz5X07bW6X8rIsaKwG2p3Uv06ahyQPmBlefhxJa2D5CvIS7ZgrVAepWLD
-rdklQCBzGuski35U7OHooIK/c1gnXCP95z4Tf8GEy1WhUzI9ged8XGE9jhtxzCts
-dNa96piPq8R/WO2N1XNhMy6OKQrazFmQ78nLCk4+NtHldFMjrUum5pCek5TeLCLo
-+XGUruH0lXMl8th4Icn13rXbF6qQ4yRU6lHRLqJJsj6hx3znTW9XHolwSrrQ8vRI
-vQ7LK+IwnZ+z8CGHnVcIRiidoAyQC2HyjT0ZLTr122E0uZEsJK4TRRKgRgwQXQub
-rkwjzfAp/JWhNJVQwtEDGBquuk3JqvGx/cwVTId4g9na0oXLA1xCsuGd69i/j/ga
-dEsIVQGUWLrMEcu3CduGIapGoa1zVXepeUttiYyAy2benLxVy4q0NSHvGNL4cmhB
-20saGjKwM9soxipMPmfGThTDpM62CXdpLiHGWvZIXlAP5nndlo63Amq4QIEFlzU/
-I0HZmsYmSLGv8sYU+YPuKlLYhaNxKzwARbA1k/ojTTmtXvNCfJtTRARjtN15xC51
-LNW1HFw=
-=4dN/
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmfAtjIOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/XsYhAApcVhMeXdLCNNiQvm2R5AtJnvE6FQv02Obihj
+TxAV0h3rI7XgEkIAh9AkVhncm16BRKQEH4JlhuWjpWHnQlO/+MPJZtpt3EZaV4h8
+oMyajGX0bfV7hwOaO+78pB9FqSbcY4d8OP1gcqg3Yec8m5fG7UTQHewwGl4WrP2R
+n7SvLUWSLQIgjg0dvDLSgows/+StcWrz15JlqQEVVLGXB7TjuPOsEBw76CPhd8ZF
+KH0kWYlnrLaGFK7rbtH0OhNyOxhMD7pcFrsCrp9PjQ5Z5q5+ek+VygeFKtvOIyra
+bddlw5e3QN25HYqAyFM6Ko+zQcUuTY8rsWBEnnD30lMGRTNN2LIdOSDD9RmxVibz
+Qr1piOI+dSR19b1It0FBRTpAJ12sjMal4k0Alf1OaA6+BtW7oVcMoLDK1zlZcKbk
+iJWvRahQSbW2A5uLgYJNoGcUm5gJFhe3QqWgPLft0Un8B94iZWaSjswE13v4O99/
+oDeTyrYTf7N7dppAPsTHypd9HpxjtgZ7T2CUJ+Q3lw076xsKgnzd3O90sEN1Ja/j
+kDWVTspubBYVEOPEcjrm/Hjn3l5zBOwgLpK0KyhZbElj7VP1bHBqon12IZVKFfbn
+mX3UOM+cC8R4is1i/Ng2BJrkXPWamyLGuFoJMvzT7B7/6ureU9Np97lgi+KtDXQG
+6UNBz1I=
+=EvhY
 -----END PGP SIGNATURE-----
