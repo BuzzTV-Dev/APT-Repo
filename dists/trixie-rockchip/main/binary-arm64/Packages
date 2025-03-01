@@ -56,16 +56,16 @@ Description: debug symbols for avizo
 Build-Ids: 249ed2659040872c0c498cd72cf050153eada08e aa4b951e189753496c73ee8a4aa6c734835bdb03
 
 Package: buzztv
-Version: 1.0.112+132
+Version: 1.0.117+137
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,udisks2,network-manager-openvpn
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.112+132_arm64.deb
-Size: 34910256
-MD5sum: 6cc20a4eace8af671c3d78b03a14cb8d
-SHA1: 894385986c6fb0d582bd4601fb8c37cc6805975c
-SHA256: 3560824808231e5c7475253062ce8a32f3c902c2c3c142009dfd99b12e1c833b
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.117+137_arm64.deb
+Size: 34905928
+MD5sum: f32a74a4a1265c5868d2f0d8e7a63e91
+SHA1: cf7e79441de847c7a5e1d1167b9460688781e262
+SHA256: c654d9e9b39ab05282717d3702a9dce542bff246e5b1fcf99ae86758e99ed4dd
 Priority: optional
 Description: BuzzTV IPTV player
 
@@ -83,16 +83,16 @@ Priority: optional
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.8-1
+Version: 1.0.10-1
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
 Installed-Size: 22
 Depends: coreutils, curl, tar
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.8-1_all.deb
-Size: 3944
-MD5sum: 534c1d43e4e460bee52331ff1718482e
-SHA1: 7ef5bde331fe0da3803e935508b87388be425d7d
-SHA256: cf59d47ea7ae471c3ef003c48549b8214e1c46838eff82cd6bdf36cf91436930
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.10-1_all.deb
+Size: 4120
+MD5sum: 90ebb75acc43cee6d9357afef91e7d42
+SHA1: 807c8f66c5ccbb85b032d0279ebef6b85bd945fa
+SHA256: e997f0269d3a78739604a95132c70e7f1a2f7c496964b2e25c0fb1b72e9b55ce
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
