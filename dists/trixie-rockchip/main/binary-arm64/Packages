@@ -21,16 +21,16 @@ Description: ALSA Use Case Manager configuration files
  ALSA is the Advanced Linux Sound Architecture.
 
 Package: buzztv
-Version: 1.0.132+152
+Version: 1.0.133+153
 Architecture: arm64
 Essential: no
 Maintainer: mvas
 Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,udisks2,network-manager-openvpn
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.132+152_arm64.deb
-Size: 34513576
-MD5sum: 6f06f24b44f66a17e4a4602a9ccf4b8a
-SHA1: 65dbf0bb129f57b8b43f480ebfdeeb9b8e22bf74
-SHA256: fc2bb10c43f6c07f01a720fdfb9a32c6d7cca2d39b720017d6425cbd19b8c7e7
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.133+153_arm64.deb
+Size: 34531156
+MD5sum: f9272fe076f8ad712dac36f91bb41424
+SHA1: 536eda7494ec0e5632da9e618a89eebc739061c0
+SHA256: e07cbb665db9f3136e5ec01913e612aad35fa08444994ee98eee7ae1b2c9669c
 Priority: optional
 Description: BuzzTV IPTV player
 
