@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Sat, 29 Mar 2025 12:15:59 +0000
+Date: Tue, 01 Apr 2025 16:09:28 +0000
 MD5Sum:
  f963b3533c90d30435ee58ce56590fab 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -27,8 +27,8 @@ MD5Sum:
  7df464bccd0452210c57467f3cc9803c 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  b1ba1faa69913c6af18e0ebfa25954a5 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
  a14c5c239f3c8ff2cef68268f1d8d949 4268 main/binary-arm64/buzztv-ota-tools_1.0.11-1_all.deb
- dcd2d4e0f94a252f17bc30c070446699 332379 main/binary-arm64/Packages
- f850cd3f2a2d52073f7d28b3adefe152 78603 main/binary-arm64/Packages.gz
+ 5b3e508584455a7761f7a28fe67ad8b5 332379 main/binary-arm64/Packages
+ 27dbbf2be4d752d2fd1e5f810936a8cc 78603 main/binary-arm64/Packages.gz
  c61128d3fe1c1d7e511fa01b1c088a03 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  00354e74bc1c188f017a549be76d7f7a 13380808 main/binary-arm64/chromium-common_130.0.6723.116-1_arm64.deb
  5ea87b91b275b490e5466b37b2667a6c 33349748 main/binary-arm64/chromium-dbgsym_130.0.6723.116-1_arm64.deb
@@ -238,7 +238,7 @@ MD5Sum:
  a0fed74a88f43dd9cb7f711bd6a738e7 2402724 main/binary-arm64/xserver-xorg-legacy_21.1.14-2_arm64.deb
  ed1f25dc688d96d9ae228c8cd3536b52 3273256 main/binary-arm64/xvfb-dbgsym_21.1.14-2_arm64.deb
  108f5718e7d82b9b0b8ad77cabc7db2d 3110160 main/binary-arm64/xvfb_21.1.14-2_arm64.deb
- 8fcaf45182504b7d6741b5f289264ddd 34600516 main/binary-arm64/buzztv_1.0.136+156_arm64.deb
+ 5f12003ed5718d1df298c38b53cf13d1 34593540 main/binary-arm64/buzztv_1.0.137+157_arm64.deb
  11add8fd664ac7a16d8e6f0517e3c6ab 100556 non-free/binary-arm64/Packages
  b921294444b98159ef520329ab6c676b 23517 non-free/binary-arm64/Packages.gz
  4c3fcb49dfa4a96c8a4275f78e02d2ee 12452 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_2.0-2_arm64.deb
@@ -1645,8 +1645,8 @@ MD5Sum:
  0cd2196f3c6c4438a97b2eafe925dde0 540076 base/binary-arm64/xz-utils_5.6.3-1+b1_arm64.deb
  c18342ee20443dc6775b05f41e502a9e 916612 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
  47323069c3fef2f10ccdff2be39964f1 85116 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
- c62173ac806fa2f6fa70c5df34f9a495 538108 InRelease
- 4a4cc3aa5525ce9979df907ad8e0ca59 854 Release.gpg
+ 5a3d6331b6796b2fe908f31e65d57e5e 538108 InRelease
+ 03b6c6a85845b6e3d4ab8b9641938dc0 854 Release.gpg
 SHA1:
  c35c3960b916c2314c96848168198e421cc6abb3 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -1664,8 +1664,8 @@ SHA1:
  25800ff1d749facd6904cbf2990a68901d7f7f86 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  4a7bf6a8b182d40dca2ab8921b68995d9cd875ee 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
  3fc59128779301d1221225d580a17f22b3efa8c9 4268 main/binary-arm64/buzztv-ota-tools_1.0.11-1_all.deb
- 338ff1d2202ccfd3beccdd878a1d7eff864c904c 332379 main/binary-arm64/Packages
- fd8be1106d3aa6304a23ad4801b25dd0fc0be3b5 78603 main/binary-arm64/Packages.gz
+ 9d026e456fed69499f5519c7a45a389149567612 332379 main/binary-arm64/Packages
+ 0f3ec1ebc1ebf94bd3f16eb7da7ef9e51b3245ea 78603 main/binary-arm64/Packages.gz
  9bb477f983c2fec873533d1749bea7d637604dca 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  a8ca5d91aeb1651b1aeaa04f4a2fb7884aa4ad81 13380808 main/binary-arm64/chromium-common_130.0.6723.116-1_arm64.deb
  4553a69ce997d02bf7ebcd8f0fd0b4d16ca111b0 33349748 main/binary-arm64/chromium-dbgsym_130.0.6723.116-1_arm64.deb
@@ -1875,7 +1875,7 @@ SHA1:
  3ebeca014471b0b0351a9189a496330d3bc30d37 2402724 main/binary-arm64/xserver-xorg-legacy_21.1.14-2_arm64.deb
  f3f17c3cb9ead168538a0fb9bc2e87a7f47218b4 3273256 main/binary-arm64/xvfb-dbgsym_21.1.14-2_arm64.deb
  aec3f3bdbfc4ae9f298afdb928a3d67dc8e15c43 3110160 main/binary-arm64/xvfb_21.1.14-2_arm64.deb
- d4f03a8bce1055e04f47cddef19fec13a89abcb8 34600516 main/binary-arm64/buzztv_1.0.136+156_arm64.deb
+ 0d1e697ebb3b18bc5bd7d81d0a6a424fb724092f 34593540 main/binary-arm64/buzztv_1.0.137+157_arm64.deb
  0c20b3f8bcb0548607b5f760d1303fa6a01a18b1 100556 non-free/binary-arm64/Packages
  58b19f5d54d53660a4ce80d103cf56e7c0727411 23517 non-free/binary-arm64/Packages.gz
  b197affe792cd177784d9ea563a95878745a52d7 12452 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_2.0-2_arm64.deb
@@ -3282,8 +3282,8 @@ SHA1:
  73eb67dc59dde43fe83d666beb5d72ae66c5d5a3 540076 base/binary-arm64/xz-utils_5.6.3-1+b1_arm64.deb
  8888190ff945f3e4c03d53e7bc4521afcbfeb84d 916612 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
  37dbdb01f106b4b2246e8b4e2a09988081baae4d 85116 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
- f921099f1fd73f4232565b45be8d73db0b1a264a 538108 InRelease
- 2a2bda4a744458cf22bb36fd898f3496f3fee4a4 854 Release.gpg
+ d308d467e80adc809d043a69390c1de9488af113 538108 InRelease
+ 44cdafe1dc6e53b38ba9da9871cadc8d4a716cd3 854 Release.gpg
 SHA256:
  6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104 11547304 main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
@@ -3301,8 +3301,8 @@ SHA256:
  5f8eb68107ce87945a82f6cec3480eef6cfb8689c9a36c574a4bbea3100e2e8a 4284 main/binary-arm64/libwayland-egl-backend-dev_1.23.0-1_arm64.deb
  a717e27729385f4e323cc641e1ea2a2785e24bcc0503f642ac40c6395bffa933 68600 main/binary-arm64/libwlroots-dev_0.17.4-1_arm64.deb
  08edfa853ceac6588f02796419c0178f1a4ddfe17b211fd1a411a91b5d736628 4268 main/binary-arm64/buzztv-ota-tools_1.0.11-1_all.deb
- 6b7ceaaaa46b6bfd67887746c3caddd984fa60091f104edde5f50b36c4419bbc 332379 main/binary-arm64/Packages
- 6f29102d6ee20c0793666a97ca38ed0e7e69ce7241b14f5f44a6a2c937070334 78603 main/binary-arm64/Packages.gz
+ de4fb94614356e992b687bb3f88dbd03b498d5ee0400be26dc31f727ea3f8d43 332379 main/binary-arm64/Packages
+ 9cfcc232782721cc0c4b4c2697d1482783d077ab303c45e723028b2c4534c92f 78603 main/binary-arm64/Packages.gz
  3d42f1779561a124e6d8c2afadcb7078d8b93cebfb1c2b75e27a465b94196fce 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  2ac1d47798c7e2053299441a88de69b05f5fb79bc06e2bfbe4b1e52251dc9923 13380808 main/binary-arm64/chromium-common_130.0.6723.116-1_arm64.deb
  b3f76924c54162694602d5b2a96b848aa0841754abf06a3b319daaa178771e98 33349748 main/binary-arm64/chromium-dbgsym_130.0.6723.116-1_arm64.deb
@@ -3512,7 +3512,7 @@ SHA256:
  af03816becd433fd6b747a1963ca717ad2eea6e4d979592f4f1812dc309755c8 2402724 main/binary-arm64/xserver-xorg-legacy_21.1.14-2_arm64.deb
  af672d776bfc4f50abc5b456440081a42870551645633f3e3c8af1e47eccec70 3273256 main/binary-arm64/xvfb-dbgsym_21.1.14-2_arm64.deb
  d0a3bc869122c424a0b1a9671ceccf493edd2ebececd0f0a89ed4c84e19d54b2 3110160 main/binary-arm64/xvfb_21.1.14-2_arm64.deb
- 1441bac3919c60ff6925b16e2ba55851c4ba57f9018a0971cbf24cc8e022e4fb 34600516 main/binary-arm64/buzztv_1.0.136+156_arm64.deb
+ fb58acfc67c5cfa48f5875152640b7a44c015411990be338cbf5f694fa203307 34593540 main/binary-arm64/buzztv_1.0.137+157_arm64.deb
  6261bc0b0b02775f8b51380e7404ce191b031222db80abf9bef5b11abc357025 100556 non-free/binary-arm64/Packages
  b136b48b1bf1c62d661236a3196f8add40aa67d96fc60c5bcceb57409801d379 23517 non-free/binary-arm64/Packages.gz
  c2626e6e5186802b8728cfa5c3b9f12675bfce8eedbb901bead7a719db93e661 12452 non-free/binary-arm64/libmali-bifrost-g31-g13p0-gbm-dbgsym_2.0-2_arm64.deb
@@ -4919,22 +4919,22 @@ SHA256:
  b4bd236987fe402f426aa855cd54e13216636806d2c073d7094bc4dbd7ae061f 540076 base/binary-arm64/xz-utils_5.6.3-1+b1_arm64.deb
  745ebcf1fa115e230af76216355d7290a24f1790fe3780249b519c0e4d30534f 916612 base/binary-arm64/zlib1g-dev_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
  209aa5cf671e97b9eb0410844fa6df4cae2e75b0c72e7802ab6c8ece13e6ddef 85116 base/binary-arm64/zlib1g_1%3a1.3.dfsg+really1.3.1-1+b1_arm64.deb
- d16d01f89dea69d62a55b9eaa07ab791e6fbe5c3a99bb52f115f3cdfcee7f09c 538108 InRelease
- 7d4d7ac71768d95379aa6b7b6967a6807d8088e9c12f21ecddd1e151dcbe32d9 854 Release.gpg
+ 280a8a754c8dfd5a791818c5d74e1031ed9b378e348c340d2ad00ad779a8ce94 538108 InRelease
+ 03c74c08a5b923992306e82fc8f5d452f7a6b0b28992103c4e0fa83e65d0fb71 854 Release.gpg
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmfn5JgOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/Xq7hAAqFmfJuh5h1Nr1SSf+YiuRFYMsF0hJvlNbfmH
-Q3wnJ0yoAL/ppCL4Qwg8yKojRCfJirB4vzrAVS5caWYD6XPmQMZtoUC+8BSFDqEX
-uGRhamJGNavvQ5stqSpKwZkg/ezGgPEUvGOk7U4gvh0Ag+pMQKPfeRRM4dopieM4
-aufBba493F2ZRfuIVVG2GLugHkDmMxqI7T9F7bgzig5tWjK6HVNpD+hsLYpm+oJd
-zj8foS8sF76HOxMLfSgcfUu/OvB/YhkCfohm5xJXA9eR8E2xi/ZPkh7y5k5i+FcZ
-2Tfc4BhMjSifHs0DU15BiHrcPF71A8FXiPX/044HENGNnv8qOBRZtfrggrGB6pkH
-snrTPDnvt/EeqGtgkuhnqzHLt7Mn3ggAAt+VZSTtzFfjy9cpoMzPtSSqZT616Ces
-rEe6rfYZxHtdzpQhCFSVXimDwZigD+nYW8mHUkd+qpfOV61kOmcxNr0ev+h7iord
-S1SYb8MoJQIbFk7EIUf/IR9hTe5brXARBGnlKlHr+xiq+xAycTjtbb9TMB1uOaQA
-ClQfLneGLakfY9Q7fs0Z1IAXI/v2nnGINEi80F8tK4S7+OnPgRJxSTQUP7ba9zVQ
-hoehECZH/gpWgVnFAhtS2mwbqtyEr34W1RdRCMtzyrlsXM4Pcld5B6Jiiag2I8Lq
-DGzFnuc=
-=3yW6
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmfsD9EOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/UKmBAAkLLzdnRFhrzAqTf6t5RvM30OHW/0u4ldJ5Qz
+WOODQSWFYsLQ4+HP4ljEwhM+EGdhNpekQ/lp2K/nkjhBSKAlxoymVd8NPHhGbpUp
+FHmUDiTDgf41NkER19wC1+qX466DoI+Tg/kDRp897+9kM5r5gmq92GotmNdhe7H7
+9AIcOccYHv6003Mq6o1qE9CFf+E3P9YcU6J4HuZZyvCeHZTCuNT6Z71KAqv5ZU/x
+IelumiHJT/ymHiEYDvoU+AgrRwZsnhGHuZAAOj4ja7gcjt7KDdJbZIj+PbETQUvL
+imAW2u1bz3xGgIyJrY7MMHfOUTrFgSZmVVFrbnnT1P3kUMW2szEqEzQJDbFTUxcW
+WkRTD1nk4jxXtkkNutxnhe/LGMLzzbGPNNKvImBmqvXdgl0Q6jxIRC2gIVdwdIiG
+bLaYna6/oVpYI83tOIhslnLAXd3dF19tDTOolhd0BvXytdHiqRkQovjCM06l4qd1
+msOVkSOp9cPJDNegNzybznt61Qffr7lFDMoQK8OTRfb41/WG/HV37YntgQ6XUKhj
+sjsMVV7hrdBg3xCaqOitJMpNxJzpYiAZoyP2g6rKjOZkxwdiKY1Zp0YNfdYLTl//
+f3DPvYLY9ViRR4cjtbTqdzMM04KY1FYupSH5hVGDkF1JnlGuQpnDGUwMZ9tBa/Ia
+KoSfUQo=
+=rc/w
 -----END PGP SIGNATURE-----
