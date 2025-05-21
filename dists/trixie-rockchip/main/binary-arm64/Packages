@@ -20,20 +20,6 @@ Description: ALSA Use Case Manager configuration files
  .
  ALSA is the Advanced Linux Sound Architecture.
 
-Package: buzztv
-Version: 1.0.167+187
-Architecture: arm64
-Essential: no
-Maintainer: mvas
-Depends: gir1.2-gst-plugins-bad-1.0,gstreamer1.0-plugins-bad,gstreamer1.0-plugins-bad-apps,libgstreamer-plugins-bad1.0-0,gstreamer1.0-pulseaudio,gstreamer1.0-plugins-base,udisks2,network-manager-openvpn
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv_1.0.167+187_arm64.deb
-Size: 38115292
-MD5sum: 8982baa660ed618182c5b6ac3a489bbd
-SHA1: 71aec2792f39b136e4dda3e021ab7e131c546821
-SHA256: 777deee4c947236807fc08a8170d450db762cca80fe30c29b712d1b46986ccfc
-Priority: optional
-Description: BuzzTV IPTV player
-
 Package: buzztv-dsw
 Version: 1.0.14+17
 Architecture: arm64
@@ -48,16 +34,16 @@ Priority: optional
 Description: BuzzTV Device Setup Wizard
 
 Package: buzztv-ota-tools
-Version: 1.0.12-1
+Version: 1.0.13-1
 Architecture: all
 Maintainer: Corey Moyer <cronmod.dev@gmail.com>
-Installed-Size: 23
+Installed-Size: 25
 Depends: coreutils, curl, tar
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.12-1_all.deb
-Size: 4360
-MD5sum: 5bc2256f70f306cb43c0bcf8f03e2e42
-SHA1: 9bdfb352a6e59d8d252f7ca72875937d589df5b9
-SHA256: 23b69710213cbe23a9c0b71a7ee33f2e17fd41f3902fac7b573172c4bc520358
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-ota-tools_1.0.13-1_all.deb
+Size: 4740
+MD5sum: ed211ac420af57649e67d2e41aed09c9
+SHA1: ec0895f593dceeb5114eca9eca94807ad6ebc0d0
+SHA256: 9c0c595ec04ecae7620d052d39670051f029bc7be7d71a5996bd89469310e832
 Section: utils
 Priority: optional
 Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/buzztv-ota-tools
