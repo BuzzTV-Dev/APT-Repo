@@ -9,10 +9,10 @@ Version: 1.0
 Architectures: arm64
 Components: main non-free
 Description: BuzzTV software repository
-Date: Wed, 21 May 2025 08:11:39 +0000
+Date: Wed, 28 May 2025 05:12:05 +0000
 MD5Sum:
- 2fbd871505c2ed84b643e1f52148b2a0 537798 InRelease
- dbdbd57d2d1ae27ee354a6e70226e554 854 Release.gpg
+ 7436710c2ec2eb211c704dabf8813f9d 537798 InRelease
+ e3530128419d9878f0f23d4c4f152cca 854 Release.gpg
  295a7563e7e35160deb404713ffb6d61 10332 non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_2.0-2_arm64.deb
  5b3941a3c14e61432d6d521ae28d2a1f 8014776 non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_2.0-2_arm64.deb
  e6af9a6080dba663ff843d7ce2dec165 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
@@ -169,7 +169,7 @@ MD5Sum:
  e2a2d721d599ebc5fc247031afff592c 20176 main/binary-arm64/libwayland-bin_1.23.0-1_arm64.deb
  9ed1e25598c459df580bd605bf25b56b 3237336 main/binary-arm64/xserver-xephyr_21.1.14-2_arm64.deb
  553a17b1c93045938d78113942fcac65 2003060 main/binary-arm64/libavfilter-dev_7.1-3_arm64.deb
- 26c534db3a60a1a3efdb7002399c5050 78418 main/binary-arm64/Packages.gz
+ 36e46d0bd63f6f2ee1e236dfb7d24e94 78413 main/binary-arm64/Packages.gz
  05409b1be7cde9c761161da980afafdb 3319916 main/binary-arm64/libgtk-3-doc_3.24.43-4_all.deb
  83f7fc048c20371ef4173523fa9b36fe 1277728 main/binary-arm64/libgstreamer1.0-0_1.24.10-2_arm64.deb
  2214439c09a67286e235ebc25c3bdda6 48308 main/binary-arm64/libavfilter-extra_7.1-3_arm64.deb
@@ -259,7 +259,7 @@ MD5Sum:
  df999b4a141548737f8fa28a262e90cf 1128400 main/binary-arm64/libgtk-3-dev_3.24.43-4_arm64.deb
  f95f41a9cf15ded65c5f96bf7318dbef 1091496 main/binary-arm64/qvidcap-dbgsym_1.28.1-1_arm64.deb
  9161d083ba39312191982a658936113c 1007348 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2_arm64.deb
- e7bc623bb37da37ac3c271d5637c19df 331781 main/binary-arm64/Packages
+ ad9a4d9dbca0f4c1ee4084163dbd0a0e 331781 main/binary-arm64/Packages
  ab1b36830d4efd037abcbf31a61cd4e5 19536 main/binary-arm64/libdrm-tegra0-dbgsym_2.4.123-1_arm64.deb
  c61128d3fe1c1d7e511fa01b1c088a03 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  b2ce88416323383d684130c1d05fbecb 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
@@ -324,7 +324,6 @@ MD5Sum:
  164d3b860498f29f414aea8956febb61 127964 main/binary-arm64/libdrm-intel1-dbgsym_2.4.123-1_arm64.deb
  de41cb9129f13d0cd1e3a577f6a364c1 48304 main/binary-arm64/libavcodec-extra_7.1-3_arm64.deb
  ac6b15827c787a496abd37691b0798ff 197448 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2_arm64.deb
- ed211ac420af57649e67d2e41aed09c9 4740 main/binary-arm64/buzztv-ota-tools_1.0.13-1_all.deb
  4937e3d595e4b3d3f9ee716f45de6468 2568664 main/binary-arm64/xserver-xorg-dev_21.1.14-2_arm64.deb
  fbd1c6938ac96839551ad63cabef4f50 3949668 main/binary-arm64/xserver-xephyr-dbgsym_21.1.14-2_arm64.deb
  3ae147caa5a59ee14b9e35a68b3f58c5 51684 main/binary-arm64/libdrm-cursor-dbgsym_1.4.1-1_arm64.deb
@@ -344,6 +343,7 @@ MD5Sum:
  9e6f9cf3b2e5ef8d4eb5a94938f54af1 166596 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3_arm64.udeb
  e3f91ae784340b82b4d850c1c964ecc0 70620 main/binary-arm64/libpostproc58_7.1-3_arm64.deb
  fda53be9851d7d562487f60f62866dc4 54692 main/binary-arm64/libdrm-amdgpu1-dbgsym_2.4.123-1_arm64.deb
+ d2707e69651717341e1fbe4e3c62098c 4800 main/binary-arm64/buzztv-ota-tools_1.0.14-1_all.deb
  b7f5786eb51e7472b4c4037112b9bef4 198384 main/binary-arm64/libswscale8_7.1-3_arm64.deb
  7ccd91cdf92b78a3fb5b8d5df1242cc1 54744 main/binary-arm64/seatd-dbgsym_0.9.1-1_arm64.deb
  8fc3128fb56e374673e756bfd883a53a 115316 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1_arm64.deb
@@ -1647,8 +1647,8 @@ MD5Sum:
  062659fed4766e342a2fc196c3f42587 110300 base/binary-arm64/libwebpdemux2_1.4.0-0.1+b1_arm64.deb
  d85f0deb3d169f36bb644f9bd34e9f6e 63452 base/binary-arm64/libtbb12_2021.12.0-1_arm64.deb
 SHA1:
- 7719a8d486b206e7f229877527bd99392fb5b112 537798 InRelease
- c007e16eb93f21c38a26dc8bd02fe26aeaef7a55 854 Release.gpg
+ aa9cbeb14dffa6dec293c21f5da80e057757c8c9 537798 InRelease
+ fc395d0826eac2b2e5922c9f482bf65662a45090 854 Release.gpg
  b3eea465574966fd4fa1404b25e73fe9c8896261 10332 non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_2.0-2_arm64.deb
  b46aeb88a9a143bc814050f886f05137a541ced0 8014776 non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_2.0-2_arm64.deb
  533ca356a96c84e18257cf10711685ce0bd140e7 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
@@ -1805,7 +1805,7 @@ SHA1:
  66408b8221df9fc0db8fe72e46399eebfa0efa72 20176 main/binary-arm64/libwayland-bin_1.23.0-1_arm64.deb
  c589c77d305f141d028cb404342bfbe696969f7c 3237336 main/binary-arm64/xserver-xephyr_21.1.14-2_arm64.deb
  33511e2ffabb208f3bd24217c618d6daff2081ba 2003060 main/binary-arm64/libavfilter-dev_7.1-3_arm64.deb
- d4a3acdcc1b590aa9817c22cf676e7068f155009 78418 main/binary-arm64/Packages.gz
+ 8ffa945d97a74c952474a55f02a3bbf5f13c340e 78413 main/binary-arm64/Packages.gz
  8e5a89189d9ce4c159772417bf052578ee4d505d 3319916 main/binary-arm64/libgtk-3-doc_3.24.43-4_all.deb
  abe051771a0b25308dc6ccf04c2fd55dfda65fc4 1277728 main/binary-arm64/libgstreamer1.0-0_1.24.10-2_arm64.deb
  ecad3fc681a7bedaddbd20c3655ac8dc5e00ff83 48308 main/binary-arm64/libavfilter-extra_7.1-3_arm64.deb
@@ -1895,7 +1895,7 @@ SHA1:
  b8347c1eb55aeacca79efb8fa6da9cf80c81018d 1128400 main/binary-arm64/libgtk-3-dev_3.24.43-4_arm64.deb
  a6a87883657b826c2d550a8876f8f56777edc9bf 1091496 main/binary-arm64/qvidcap-dbgsym_1.28.1-1_arm64.deb
  af3d3f345b640b7b1866d9909e06cb99cafa0ad9 1007348 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2_arm64.deb
- 2de8f53bd533dcb6d8aeb6e1236e229409a26bc4 331781 main/binary-arm64/Packages
+ eb9363eb6763be3e8979f4c7cb42ed11ab1298ff 331781 main/binary-arm64/Packages
  f0588051063ed9f84f0d2a784159f0a98d16538c 19536 main/binary-arm64/libdrm-tegra0-dbgsym_2.4.123-1_arm64.deb
  9bb477f983c2fec873533d1749bea7d637604dca 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  f93392978b30a873a45488457e3a73f07e81ed64 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
@@ -1960,7 +1960,6 @@ SHA1:
  25c39a978840822b6124e8e239c3892d4ea5fb6a 127964 main/binary-arm64/libdrm-intel1-dbgsym_2.4.123-1_arm64.deb
  685897b4b99fb0b3358e02f6432cc0ce48a837d2 48304 main/binary-arm64/libavcodec-extra_7.1-3_arm64.deb
  996a39a779cd12b893492762f2e1937c4518faa4 197448 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2_arm64.deb
- ec0895f593dceeb5114eca9eca94807ad6ebc0d0 4740 main/binary-arm64/buzztv-ota-tools_1.0.13-1_all.deb
  83ffc8672ca07d4a7210a9fea622e35c9ea9e26a 2568664 main/binary-arm64/xserver-xorg-dev_21.1.14-2_arm64.deb
  7754f840c1bd43e23e81c6d3d962b7341d7c7548 3949668 main/binary-arm64/xserver-xephyr-dbgsym_21.1.14-2_arm64.deb
  2cae5c099488c7dd365c78089db2beefbc4faa02 51684 main/binary-arm64/libdrm-cursor-dbgsym_1.4.1-1_arm64.deb
@@ -1980,6 +1979,7 @@ SHA1:
  ec25240c6295a80635f8761b3c19decfb0af7f1a 166596 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3_arm64.udeb
  a46c0dc9af641397933d5354ab8b15b00b111ea3 70620 main/binary-arm64/libpostproc58_7.1-3_arm64.deb
  07c22ab1fcbfa8b7de13ce3beeb2bef260d0ba3e 54692 main/binary-arm64/libdrm-amdgpu1-dbgsym_2.4.123-1_arm64.deb
+ 22f90b79a4c579f3ce679b40e0b08e0c048c03e0 4800 main/binary-arm64/buzztv-ota-tools_1.0.14-1_all.deb
  53707a50c0f0fcccfae28a1cb6377d96f95f25e4 198384 main/binary-arm64/libswscale8_7.1-3_arm64.deb
  e1449dd5f6dff25f2f17e7168638c86d62f772fd 54744 main/binary-arm64/seatd-dbgsym_0.9.1-1_arm64.deb
  add97048eba54f77f8c7a86a0ba5ff531c81d546 115316 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1_arm64.deb
@@ -3283,8 +3283,8 @@ SHA1:
  11b8b3aacd75398e6fdbc32784be7332e8358a46 110300 base/binary-arm64/libwebpdemux2_1.4.0-0.1+b1_arm64.deb
  de476df9330a6c5bf4375cc443b56c45a1b4d15a 63452 base/binary-arm64/libtbb12_2021.12.0-1_arm64.deb
 SHA256:
- cb6f43b4769f3e036e200ea4c7dbcef4b63e23abf1cc76eade934c98dbcbf01c 537798 InRelease
- 255fbe466072157c54b7d042f57d09ac95d4f14970be1015f1aac75cb8277db7 854 Release.gpg
+ 570a8c599da43a0cd2d8ad8fa70d5fcdd74c1af896ac451e7ae0bfebb45477a7 537798 InRelease
+ 6a930551ebb88c0c5b1e6a0bdb89eba5b9aaa057a6a57159e54e177f352815f9 854 Release.gpg
  117f716a56a13b602028d27a43c7fa37b57c8f09c3cd6f0a9be122a816c8c6bf 10332 non-free/binary-arm64/libmali-valhall-g610-g6p0-dummy-dbgsym_2.0-2_arm64.deb
  16e59a28ba4ac7579624e111f2a356c8c6927fa8318bfbba32da39b340976fc0 8014776 non-free/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_2.0-2_arm64.deb
  23d01f04ab969f6b76a4e75da7d3a7ae54f775af161b2065e28bac554416b7cf 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
@@ -3441,7 +3441,7 @@ SHA256:
  e8ce01e7aec2c945ed9377b50633bcf0568e49c1d04e950a5c1e88a41b3f0992 20176 main/binary-arm64/libwayland-bin_1.23.0-1_arm64.deb
  2b3d37eac3e1cb67d109455f94cc293d964d45890ec3c9d4c8340a8157db1542 3237336 main/binary-arm64/xserver-xephyr_21.1.14-2_arm64.deb
  00146787b0fa51697142c94e443a3474030aa0cb0d53be7235b58f55f327a4d7 2003060 main/binary-arm64/libavfilter-dev_7.1-3_arm64.deb
- 44011bc17d69f35614c211eb2c0fb79552438efe3bcd1389c1d338baaf0cdf1d 78418 main/binary-arm64/Packages.gz
+ 3f4598ba344a332f0fd3a72e7b05c2d9b32433bd27ba1e3b3f02c3f358dec4d7 78413 main/binary-arm64/Packages.gz
  cb75da76753b388bf98c4dd5308f4d068797ec001d309273ab6410f725dd434d 3319916 main/binary-arm64/libgtk-3-doc_3.24.43-4_all.deb
  4db19ff84fed99be23b22f59cdf8a5eddceb488cb60137d31e8a59de6130021f 1277728 main/binary-arm64/libgstreamer1.0-0_1.24.10-2_arm64.deb
  a9d2a4fd8d280d310954d75096fa1e692a00b372db0b962dac77ef0a28a82133 48308 main/binary-arm64/libavfilter-extra_7.1-3_arm64.deb
@@ -3531,7 +3531,7 @@ SHA256:
  b46aec10b395796830992e5f923adc5153f74c3b8cdc8d691eaef14e6f1f332a 1128400 main/binary-arm64/libgtk-3-dev_3.24.43-4_arm64.deb
  09944339e83b1f420a26b9f6b419d72e7245fb1fc8ce8de38b05564e604b979b 1091496 main/binary-arm64/qvidcap-dbgsym_1.28.1-1_arm64.deb
  eda5f979879b4ce3ae7474c4e1cf4c4f8e5dc3f00cf85612cc46985435b2bcd9 1007348 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2_arm64.deb
- 00f89078912116ef3f95304ebaa1f5c5069ce421d0f98cb3afd95c7e004a1ae6 331781 main/binary-arm64/Packages
+ 816469c49ca15af5ae7a3759fe759825852970ec441736be71d9567b51ecc485 331781 main/binary-arm64/Packages
  05443ad74bc3d7ddc7e686521edbc3e4a312b3f0c990d15ddb8f77c1a453bcea 19536 main/binary-arm64/libdrm-tegra0-dbgsym_2.4.123-1_arm64.deb
  3d42f1779561a124e6d8c2afadcb7078d8b93cebfb1c2b75e27a465b94196fce 5349828 main/binary-arm64/chromium-common-dbgsym_130.0.6723.116-1_arm64.deb
  cd9c4c6b12ec25535364d7db14a938add29004f4b6f5e0334c07f21ce7b45fee 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
@@ -3596,7 +3596,6 @@ SHA256:
  d812193fde8102f87eff483b5f521d6e45c1190caad07f2f4c463ba95c1c9399 127964 main/binary-arm64/libdrm-intel1-dbgsym_2.4.123-1_arm64.deb
  2ba41575c762cb5e6f5be3fb3eba1474f49627fd6e18d31d81fcf40c3adcc5db 48304 main/binary-arm64/libavcodec-extra_7.1-3_arm64.deb
  8abdeff95ca2b7b5fb16d5edc06458a2aacb5f4b7f67d6c918f7a8271c37823c 197448 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2_arm64.deb
- 9c0c595ec04ecae7620d052d39670051f029bc7be7d71a5996bd89469310e832 4740 main/binary-arm64/buzztv-ota-tools_1.0.13-1_all.deb
  c9bd1fbb4695e41bdd5a9397f6b7d327acee4d4574675c130c96f23c10f13b3b 2568664 main/binary-arm64/xserver-xorg-dev_21.1.14-2_arm64.deb
  cf725e187f803d5e45f6ef96557ad27814c4bf936adc7fd3b0d3d6d4113a59f7 3949668 main/binary-arm64/xserver-xephyr-dbgsym_21.1.14-2_arm64.deb
  c7191267eba6b780d62a9c19f425a5eff61abcb3da9ec4c918bfb70c5d5aeadf 51684 main/binary-arm64/libdrm-cursor-dbgsym_1.4.1-1_arm64.deb
@@ -3616,6 +3615,7 @@ SHA256:
  bb0a9be5df15b7311fb52d7cc5394d0072655123e148beb8ecf211ad0b591500 166596 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3_arm64.udeb
  dfb4965e3959f894ece30c2a3cab50f5e1e9d0e4aacda755e62c356b271c7303 70620 main/binary-arm64/libpostproc58_7.1-3_arm64.deb
  a63a94e3311aa72196da53f3d70d8e8c6576d02df4e38089b7d11a541e916cd5 54692 main/binary-arm64/libdrm-amdgpu1-dbgsym_2.4.123-1_arm64.deb
+ 06915cb252e73fb020f433f66bc368a3614f6bf85b82c6ba626f778ef144c7e6 4800 main/binary-arm64/buzztv-ota-tools_1.0.14-1_all.deb
  ecf3688d5b1722b2f41a7d57815f2bdf8ec13152978e9af31eb252dd108450b5 198384 main/binary-arm64/libswscale8_7.1-3_arm64.deb
  1c7cc7937017de0c925ed60ad26623aa86eb0ed8437f0f32a360f82d3703a88f 54744 main/binary-arm64/seatd-dbgsym_0.9.1-1_arm64.deb
  eea8f1ecd74ec88c2d9c034fe32c27ad415828778701fff78208d5efb368918c 115316 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1_arm64.deb
@@ -4920,18 +4920,18 @@ SHA256:
  49383ac4dc985abe1190158a0b3f2a2c255e515485f1af262589b8c10bb30fb6 63452 base/binary-arm64/libtbb12_2021.12.0-1_arm64.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmgtivEOHGNzQGJ1enp0
-di5jb20ACgkQBqlmJTAct/X+DA/+LNRCY2REZUp5dHdSN75+Hc7XTIYkUuCmtAzS
-lZ/XYA3oXrDgaNxeD+lk13U8yLsdPW2ngjQ3dPuvptPSnMQfpUJvY+pqHCSU3ysR
-Bn1KoLuE5vVdTUXXvV8KQ++ETqoUyCxhi5UqPOdIq2AGCpE/oqiDiUi8UMTTJVja
-VLh/93/OKF6xj3c7+h8whatJ3kYRpP4BJyJz6CP6qTsVH8cPGRLUsU/vQR4pHYxE
-UcVpPhBjE5Ma27OfNocO2ZIiFHAbjLaqmX7+0KhH+zI17LNL6RygGLSEZKo1UI6U
-EDta8bwms2hTXP17OTKdY8pU+FL03Abe95ltPBwRu16oAGocFFArG7YyeI4EdIie
-BgXYTPFXgc0HUBsXEuH6VsczysyuBKmV0SS3bvVpPLKyJuhyQFkwhNa5K3UT2Nni
-7xdlMtpS0++Qb19pLJfTd9y3ZOLm8XQsZCI0GZSRVr2UsepfXfXfw7mwQiW+tRgy
-caIOVLftu3eBKyIHwB0NRHEnhBPJ3TD9nQG+nsmCqvCOnHTWifWRBzzw1BM81RGh
-kZ0TXFHERyPqfK0opYM5+PBYXsJwYGV0/slQRr4+XBedRsmWsTJX3290XgTnJowF
-Q6uOuVmAfMNwhsjEKLcYOBkWO2qv+x9/m6eKQAwlJkAj1cIdkZGheNnPw1FVhF4h
-cZrJFfo=
-=nHD7
+iQJCBAEBCgAsFiEEJitBrLYms9FSHqyrBqlmJTAct/UFAmg2m1wOHGNzQGJ1enp0
+di5jb20ACgkQBqlmJTAct/V5IxAAkP8LL960gP78EO5MiiCiP2FzFiVFPm84PpMr
+XXY/xxkYBBuGmvkAih4g6Ixe5CnqLyGc+7Gux2VWi6aq3D8uLu9AYOc3R0Dkhsdl
+VfTrbAsKUPPuQMCGTyIXQc35OgcpEMHKTRe02DjQJxYruPnG51vFgMPAqCewST6f
+NoK0RSdB//HGv3oqRG/FZdlD02yabZIVR+JRGfz2kLmmS3QMy6pI+bPOfL4WHi5b
+RLpIETo0+7qzs937Fz10B5mG0M7m/rYY2Sw3HIMEVv9OXDvHM/3yovqohKVVhsuo
+y76h1CRgzI/LkBeBzVJsz/fOj1+NSMOVzlEqXxqzePqZq4IKa30FuHWEUuqKFyOP
+3htFtYrJeNMCC63HsPfQ+5SjnDxiycpcg28/Y3odHDVtnEQ6ZW6q7ELkV8mUC7j3
+q/+DPXWCDv/4dnYMjQKAlg4qW7/kNIMRO2qyOylXbtDdE4Kx/+Bq3ZdC/auuOkMw
+XhxvMJGeGgPWQaIp4cwokWcgb6CkFlZ0/47/wAJIEjehbrp1jOHBgXSzfXzK/prC
+JWPY7boAyn/eD3oanS5S1S/v0lXRKcb4tirgSaTKQW8E9UMfe8A/hDOL9iXN2F9n
+ziUVq16bEiG9Hog30+jxtBuXO+UZ15s/zs6/SISML3SOD7vFFXvNI/Y914TNrpMX
+DdrmYOA=
+=NTiJ
 -----END PGP SIGNATURE-----
