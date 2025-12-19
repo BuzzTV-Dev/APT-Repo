@@ -789,9 +789,9 @@ Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plug
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2-rk_arm64.deb
 Size: 2786300
-MD5sum: 3c48aa18bbfb3eaf92b50e30b17d9061
-SHA1: 598129f468b4a152d48c6dd4fd37e10fba906ad8
-SHA256: 3a62fdaeb929e9fbd39460ade5abc915248f10fea4c7d542413dffae8059b926
+MD5sum: 2100f5293b10f93ca8a669cfceca626e
+SHA1: f9195ecf3783904f7f44d97d44dc41654a90a50d
+SHA256: 9a840438c685986fbd030861a7aeede3a96008ab6479022b05eda2cf3a88cb80
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -808,8 +808,8 @@ Description: GStreamer plugins from the "bad" set
  to the rest. They might be close to being good quality, but they're missing
  something - be it a good code review, some documentation, a set of tests, a
  real live maintainer, or some actual wide use.
-Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8; video/x-vp9
-Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, v4l2slav1dec, v4l2slh264dec, v4l2slmpeg2dec, v4l2slvp8alphadecodebin, v4l2slvp8dec, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
+Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
+Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
 Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, srt
 Gstreamer-Uri-Sources: dvb, dvd, http, https, mse, rfb, rist, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, sdp, srt, testbin
@@ -873,16 +873,16 @@ Installed-Size: 12747
 Depends: gstreamer1.0-plugins-bad (= 1.24.10-2-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2-rk_arm64.deb
 Size: 10456736
-MD5sum: 377deac955d5e27a688c1fd1e24cc956
-SHA1: 6ee0a2bb5de803eb36540bd9c487668408565f9f
-SHA256: 14b47eec4bfbbcf96110f5944dfb216521f5a5426303ac56792584ffce4e9731
+MD5sum: 4a8c5c2c5c9b6b35821609163ad0899e
+SHA1: 9f0b34ed35f1419186f374b9f8144383c381b866
+SHA256: e463543c4d1fa23d645438c3d230510f0d323bf401640e53c2388227262a5f58
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-bad
 Build-Ids: 010b380c78c01c62d8abb4c12766e4e10ffc0fd7 019f26815f63737c84b23fad8bcc1499b1f5299b 026eeeb276c220943afed5e442c4bc18359eaeb2 04983e0643d67ede37f242f8df40c03a939b073b 05af47aabbad0e743fbb5ab2f0f1bddd97098f96 074e2cc91d4021bb58b7c03f07bed2202be8ec37 0b7d8597146a6aa867b853b1cae173afcafea41e 0e080aeddab2a35110551d64b7e657c0796d7824 0e2256e23e4b102afad1676bac4a026df5b30296 105b90e291491fa7bd09c4d966a1b62e3ca8ad0d 10a130fad1032c867ccb76c40e7c02188140647b 1183ff785bf122623f52def63073327e6eca7db8 154b63a09beedb119a48189f647036cb7b97bac0 174ab99add4412a3857c5cd2085ad9b6e6f7fd74 19dc09375103a088dfae0ae3d602fbb6e1ff704e 1a93e03742e72d45a1e5f3cb124c6aa51b0b742e 1c716d4c879c0b0eb83db15c0c0537b2cccaf073 1de6ae265c03787ea5557b7bb137a05b5693fa16 202ee4334fa5db067af4d18a399093c12f01b124 214f62d65bd0cae65789bb858c63531ce34ac5ee 21be2ca449ce2dd3f79382f900a9f6ef647b391c 21c2256d8127c624840f292c85395653d885b8f0 232f2249e31a8789fbeafa01f7d801831c09ce73 2343172236da1e51a9ed2bc3ad62f5d830660eb0 2344b39d5e1384e134355b47b923c3669be7df77 236135cbb07be554782e4d666b3871396435fdd0 2378bacf3fee8594abf7ec9ccc535b1dfa52bfab 2398ac63b8a8373e931f180580c33e80ee48f471 25fc3ce060697e84d40ad31506183334acb65798 28d94ce83d827650922701a616e4780239209191 28ea330ef300aa2d2ebe01cd92085ebf7c187793 2ab67245ed6f7f20ffcd25c1c6faaf21a03c6d71 2b30af1d4c50e6640693f4411ecbe0048e8aaac4 2f3eb6c8a4532ffb468520474f1cd3c6ce8f84d5 325568f03a357235e31a93ba6b5e3ab577324130 32ce35062f06e6dde070cd17b6193228c32fc9ad 34f7d6b67ff07f7360f7f7433732d77cde1aedad 35cad4ee397c5a8b8ae8191842437c39ce9523e4 390a86862bf2618bbaf7fcaf88adcc1b5f979a89 3987530722d5b5d67fa1aeaba273f7ddb478d980 399c4311bef42e48dcc075da39a94c955183ca73 39bf4425696e15a6a5bc958eafadf9834d41ac2f 4034333ddd4b6dc6da4b4729b3c2bdce23770a8f 43cb2505b4bdf9dc06319e7a88f616284439cea2 4405b180f1d9eb84a6f5748b38db70438bfca2bb 4649817bd38660df88ef30b3fb5b05c60a34997c 46cc8992e7cf8a0a3d04520c7b3587a321184b56 48a7da511923aa8689915d44acf42dc5fbd4ff1f 49ce5dd225ee317d64987ffed1dad2b29e861e73 4a4100ca62b3aa2a55348cadebab891965fe9855 4e5a1c6aa4318493b183c4cd2d17f7358be6bcf3 4e8aaf965b8e16e14726d2c8c55fff8c923bf9a7 5215eddba6645d01f7676e2a78f9482cf13ab4fd 543a9fb848f8177594d39693589e87c868e8a62d 596e8af167c7e5b46f3f8fb03832baefdf576325 5c8e2cdfabf6a7fbcd8ae90e06b5a763ba2e851c 6017bc04379bf37fb8dc4d32aaaa43a2574fe4f7 61de9b595888290c7ad477f4579a28bfbff8da23 679e61b8208168f80df2b1b2805eda0e70a5045d 6cf185315dad8bcca24bf84ab7338a9b49b37950 6da57c6273f0be0c8284f51dcd165ea608828810 6ecca3af1882b9faff30a14901ee41ff1a8fbb3e 6ff58c743bcffdffe3642261a787a9e48d1b5ca6 7131938cd9d7ee3b5edf4f7e1a21ec6298ac064f 721161f73d6484def1f1dce38bf19be574e6f4a4 7226b4e2b5bb06ea53e557f6bdaeed646a25f9ab 729bdc4eb8dbf2caeb4a4d7dac86f6a958f3c4ca 7947e53a26813f3b410bf68be57b7f1f740e691c 7a0392ee4899fa6aa00302426657948e19963b08 7bffbad2e2a1ff4dc1e617cb77fe4aedc73cf34f 7c968974a4265b1eb4b5919437481c8a6efb10ff 7f4d8c0e7da5f2321e24ee7f5fd3430edbd3b097 802a2f5a190beecd020702b3ad24f093949cd11a 851681f39adf76547f17a40e7428d13ac177e759 85c26635b126591e037353d5d51976ae3aba929a 87eab153ec40e1d30b3bd82c41f9aed8b9b748d4 8ace4ad4ffc72f0cd17f7795e4735ae2fa2c051f 8f3f7dac14a5281334a4f5426e49e67fd5a267e1 9065193d193a1ac056fe5cde970f0b8811ddbd92 9315036e1ab072c772058422adfcb2da6cd8a67a 94d5ef105c820099ca060a25d2589e8e8b9fbf45 953d09317fba48ee761d345eaaa07c7e4390b26f 9708835f12bae580cb7a276cfc9dc3e24adc69f8 978dc490db8adb9b12ed928b36cac8a865e1d476 98987affdb119d9b9358762c0b8195ea1d482b35 9a4fa675ec75481a7e47ee95ee444d36be9d2590 9b0ecb2667faa2609ad30dccb61a3e01a09c195d 9b40205618972f1036c82dd823539004e4d2d6f7 9c9fda9a0d0992985f06dceea9155250b65a834d 9e1af5822254da7d152ed7105d8c6685a9589509 a17888b2b6577010ee2656f71449277ee7096db3 a35a7ec8071364d3e82728121cf2008aeb7a8ae4 aa2bea68bcc9e2491d452f3642e48fdd9b194a11 aacc855d6e23e3d602dd7ff8b2fd4a3bea319c6a ad621843b9e2a15a6a6bab0eb46224d0767f3596 adb0ec5b8033c04f35c32f0ed029ffb02cb0c7ca ae2d222ca039ad4517aec3000bb2f05a2d2dafbc b268f3a9af2a6644d3c6f1400cb5c61553a8cefd b28d0939ecff160c26c7d6a5adc4be730e277d7a b2a59eb0d671873fedd632b7b77d7833a8c40147 b39859ae9026334a698888c815503a7710563840 b69b8885e34962d12ad24198b5ad2d15b9a28c35 b86d6b139a57d20c51e24c63c528b2b05af4e5ca b90c09f31116dcd5eea5175f66141d0554205c37 b94761c262de129dc969f7d5bc8f17cc6ebd5406 bc13241561ebe1b0a74404830415a004dc6950f6 bc64201fff86793dfc2b52436fef68e23034abb6 bcb0aac8c68ac6bf47963877c7f1b818e1ca46ff bdfe42314a3ca3c0c57076ef666555dbbf024ee8 c21397cb7b2e7e36d665548810a56fc605809001 c8c822cee165a763eb109d30e19528dddd296f9b c90bfb7e9a1fa8d4f96701c3f3a8c9371f726520 c9810612dde5b996df853de546ebb8c0b06d1ae6 c9d187d74c124f513957c04ed9e21e51f86b7168 ca9d12499e8e2e0cb787d6b8b9fd7a5994b79453 cb975920ec11b40ed03fd327a39ccd37a364159d cbfcc9f3e07a2b852198eb4c369fa8831fefc41c ccf672e9488e095d38290ff7fe3bff7b5f5873a6 cd6112742165b33738974ed04c6a4c786adad82f d02e247df77e864fe132e6dd8eb598267812c121 d2454b0896ade7a14871c4e2fa3bda02d70ee781 d570ef9af40f153a18c1e301c90217657ab26f66 d72402a960c092e771c1c7c596560281a64f32ac d8808230dcdb37870fc329df038a61d6a1d89229 db54b70a619d8d987d724c4b176512ddb3d4b1a2 db72d8e6f20ca9acc86a1786ea3a0ccddd7bb1ac dca667a2775938d9224149368798efad7463772c dfda380418dbcc90bcf3a374af0c7d70eafaf593 e19ff61622a5633d0485ffa244c999973947327c e2af8a63e72a01dad2615e364d4322efb8c125dd e6642e8b041ecb4103c6887fc1191a98ff873cd2 e6766121bf19aeae03d8a734bac1ef8c9e47d6ee e7616c0395a3a56e01d873efd0722cd231cd11fb e7891a8f3185161baa922624ec901217a7caf261 e8a24f0698c4843d1d5609ca61b281fcff1bb413 eb22e19a234dfc60f360ea86ad81e42873a71d62 eb91bdec868fb550ca914bedd7855c0c78605589 ec2d7f1a5e7eee6c57a6c902f9f074b7d507afdb ee1b3b73b8210a18f10dfa984b732c826c449d62 ee95ba1c8e04eb95284ff6a2c4222645615a93cc efe02c7d0f068501f364205bb552f704a6554593 f1165038e266ef054b7b84b0b04b6952c62b2c66 f221cf3fb7012e20733876ab744cb643b090b050 f4724bc024d547638a0b434e5559eb5a4e7aec72 f5f22a49fe0246e55161e6964e43629a1d01621a f6bade76da388ae2bbec640a30418a97ab4ae9e6 f75b834779a537397f2e51a4838c09d32d779e72 f7e3ff3e0ab06c1384c51b49024fec42bd5adf95 fc05ea88d36188bbb1a12692de5fc63f39a19ee8 fceb46fd160ade6009126d9e6b4d7f4500604d0a
-Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8; video/x-vp9
-Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, v4l2slav1dec, v4l2slh264dec, v4l2slmpeg2dec, v4l2slvp8alphadecodebin, v4l2slvp8dec, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
+Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
+Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
 Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, srt
 Gstreamer-Uri-Sources: dvb, dvd, http, https, mse, rfb, rist, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, sdp, srt, testbin
@@ -900,10 +900,10 @@ Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1-rk_arm64.deb
-Size: 689644
-MD5sum: 9c16a34e4a8bdcb3f4ad2e6a50e265d6
-SHA1: b73dd0fe2715c7528beeed89341d4b4306cec25c
-SHA256: 6e8ad86ab62e6487927537ecb62b05eec5783a4e3870e3342e4a65bc82a61922
+Size: 689664
+MD5sum: acde6fccceca0df6af75ea678fd812c3
+SHA1: 8d67bdc70e2f4529c2b19dd7d737c5441168a92c
+SHA256: 0d6896c3aae3a8974ea2511e14ccca203886dd72753a11e87d60973aa81aee6e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -978,15 +978,15 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debi
 Installed-Size: 2608
 Depends: gstreamer1.0-plugins-base (= 1.24.10-1-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 2131752
-MD5sum: 8d1998ed46902303f0e1f12d3cc26f28
-SHA1: c104f175edc02eee422bfe484bb0bc99293651ec
-SHA256: 742fa160f0e0488f49ac1ff9ad877cdc7b100eecd38411c8ecfdef337f9379f9
+Size: 2131784
+MD5sum: 03c7c4e66c9efc9d1dd06aac30eb9921
+SHA1: 0fd9633d2f6e8ed2507bdba94070bd3198bb7157
+SHA256: 91191bf9693c6a8816e03dafd68faf874df63389256a363e594c1955283bebcd
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-base
-Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0818f065ac62afdc8a4641f062b4b91beac8b6b2 0e32494e13aa5a3ad165cd1be11f2d2b635de4b4 0f885d9b5731d78ac7818402baf267d6f5dcbe5e 157136842567b82d419918582eb8afbbfcc398d5 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 24d8720bcd83921bfb151bc87d20dceaee1978ad 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 36314f267ea31999645febaf1649883e03131592 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 48ffd6a13fb00162eadbeb59b7e09bf74fab973d 5507b3203c31136bf2e39962369f7760f5601097 58b438f91772bffdb6d946ea4e4f9a40bbc75752 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 67f519d3e126cea0466fec958be1ce8dea84c242 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 9e0cae81214e5cd6f1bdb9ff715332ee2104844d ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b faf1ff0e0d2a774bda529911369b39ae80d367e9
+Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0818f065ac62afdc8a4641f062b4b91beac8b6b2 0e32494e13aa5a3ad165cd1be11f2d2b635de4b4 0f885d9b5731d78ac7818402baf267d6f5dcbe5e 157136842567b82d419918582eb8afbbfcc398d5 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 36314f267ea31999645febaf1649883e03131592 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 48ffd6a13fb00162eadbeb59b7e09bf74fab973d 5507b3203c31136bf2e39962369f7760f5601097 58b438f91772bffdb6d946ea4e4f9a40bbc75752 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 67f519d3e126cea0466fec958be1ce8dea84c242 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 9e0cae81214e5cd6f1bdb9ff715332ee2104844d a5e60e3f8ed8743d45eb01ff6fe42a251b56ccd2 ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b faf1ff0e0d2a774bda529911369b39ae80d367e9
 Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ A444_16LE, A444_16BE, AYUV64, RGBA64_LE, ARGB64, ARGB64_LE, BGRA64_LE, ABGR64_LE, RGBA64_BE, ARGB64_BE, BGRA64_BE, ABGR64_BE, A422_16LE, A422_16BE, A420_16LE, A420_16BE, A444_12LE, GBRA_12LE, A444_12BE, GBRA_12BE, Y412_LE, Y412_BE, A422_12LE, A422_12BE, A420_12LE, A420_12BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, BGR10A2_LE, RGB10A2_LE, Y410, A444, GBRA, AYUV, VUYA, RGBA, RBGA, ARGB, BGRA, ABGR, A422, A420, AV12, Y444_16LE, GBR_16LE, Y444_16BE, GBR_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, NV16_10LE40, Y210, UYVP, v210, I420_10LE, I420_10BE, P010_10LE, NV12_10LE40, NV12_10LE32, P010_10BE, MT2110R, MT2110T, NV12_10BE_8L128, NV12_10LE40_4L4, Y444, BGRP, GBR, RGBP, NV24, v308, IYU2, RGBx, xRGB, BGRx, xBGR, RGB, BGR, Y42B, NV16, NV61, YUY2, YVYU, UYVY, VYUY, I420, YV12, NV12, NV21, NV12_16L32S, NV12_32L32, NV12_4L4, NV12_64Z32, NV12_8L128, Y41B, IYU1, YUV9, YVU9, BGR16, RGB16, BGR15, RGB15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
 Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, dsdconvert, encodebin, encodebin2, fakevideodec, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
 Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
@@ -1006,10 +1006,10 @@ Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.24), gstreamer1.0-pulseaudio (<< 1.18.0)
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-good_1.24.10-1-rk_arm64.deb
-Size: 2045416
-MD5sum: 5406b7b3dc4e3cb54fc3c4e0da9a2b59
-SHA1: b4879c8de21c2c976a5a700298cb729938d724f0
-SHA256: 300bd89d2452b2c92bbab9b0085c1931305badbc638789ac7a441cde536efb4f
+Size: 2045396
+MD5sum: 6a318c4f173d7c980813393443efe750
+SHA1: eb46964497ae391469f62385d427925808e621d2
+SHA256: 047f57808e601186ed65371b0cec9500ab98ea0785aaf7f8baef244899bb70ff
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1025,8 +1025,8 @@ Description: GStreamer plugins from the "good" set
  This package contains the GStreamer plugins from the "good" set, a set
  of good-quality plug-ins under the LGPL license.
 Gstreamer-Decoders: application/dash+xml; application/vnd.ms-sstr+xml; application/x-3gp; application/x-apetag; application/x-hls; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, ISAC, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00, MULTIOPUS }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr, aac-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/AMR; audio/AMR-WB; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
-Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrnbdec, amrnbenc, amrparse, amrwbdec, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppassthroughpay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2convert, v4l2jpegenc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, xingmux, y4menc
-Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac, framed=(boolean)true; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/jpeg, parsed=(boolean)true; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
+Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrnbdec, amrnbenc, amrparse, amrwbdec, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppassthroughpay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, xingmux, y4menc
+Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac, framed=(boolean)true; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
 Gstreamer-Uri-Sinks: udp
 Gstreamer-Uri-Sources: dv, hdv, http, https, icy, icyx, imagesequence, multifile, pushfile, radio, rtsp, rtsp-sdp, rtsph, rtsps, rtspsh, rtspst, rtspsu, rtspt, rtspu, splitfile, splitmux, udp, v4l2
 Gstreamer-Version: 1.24
@@ -1040,18 +1040,18 @@ Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debi
 Installed-Size: 7737
 Depends: gstreamer1.0-plugins-good (= 1.24.10-1-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-good-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 6396212
-MD5sum: 9d8843b6604dcf3f8513371b71cc12d0
-SHA1: ab7ce935025f9ed72d3749cfc8ab8024048a09e4
-SHA256: 86bc8ae343edd8343f23ac4a358c22668643998438be50410b57704c358e2820
+Size: 6396200
+MD5sum: ff4399f7ff9ccba5e8c11c79babd1b65
+SHA1: ab1024a885c98d87023f99bfed88b257c56e9d1b
+SHA256: 4b7856e360891e442c3a4edac70eb6b36b6099cd2cdacb890a7287dff613be20
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-good
 Build-Ids: 017cc6689b8dc6ccabac816ebc29e959b185fe14 0c78c9afbe0eb671e4e63fc4007274c98a80a573 10d4d0c5ec4c1e4cb306a4e232fde6cccb89fbf2 115c56a24c191b1be57aedfdbd3e1f711ccddd88 1d83e0767b1f775f3e1437f75fcc0ab0618e5beb 2758e3e598d0686c5e42c01ebb78f6fb7e5b6f03 290bd73d6355169c2a36d7b07d915cacd324ac12 29f7e1eec9452a724059066c927d1c52a2a24275 2bad3bfccb671abc68ea46a1297d76bfe1f9481e 300f78a32134e416a56c41e83425f97987977a68 327e31baa10d3f1909b050b07973b9b01d619667 34d7e98d24b9645c586f6ddfa0d37b39673a5bec 34fd86ba546441f0cf795f872ebc86c837f06c5a 398a45d69f581eecacb220aaff672fc85d9282a1 470e528e4b35bb1c999befb61543d6f06db9345d 4897ecb334e72bc7b33e8b68414afaead88f2892 4ea5a5945a4b19086813ec837930292d29a521bb 4ec3ed1b49792a933008a4eb3148dd24ac65dd02 4edc55131b2740a3958dd78a16460dcbdec365fd 511c165daa9a168a6fbaccd9fcc59755bced7b02 541a20914ec349a2bdabaab603ce17b2973f70f9 5ccf6118822e77eaa22b7f6cbcfa8b4657ea47e2 608254b1b15a1a9996b49c1b5bef4b35c457026a 619adba3985f35d939ba20057eaaa84c99b0669d 63376ffe7a0010b9915e7f6d880513c148d1c1e7 6f4431fbf85af82ca4ee4b2ef800a80b5f25483f 77f27084ea8d7030c28cf05673d32ab1d8e3cafd 8289278df2d6dc8b7682ed2ff8ed9fd851040d69 8aa68bfe0467c81fc1f18dfc262bf02e7c7c5dca 8b76f592771899951535df2eb63e98b316027949 8bf51da9c38d43f941283ae7d82cf292c7f1ca39 8e58b4a13e0d633af1bcd9df74a887d5a0ed9045 9312095588cec029410488761c4476f7399f5ea9 9512c2b86340ac11422467cedf0644b9c012cb79 9576c4d8bedb6650d0dd07fbc9750fd7738dd9e0 967d24ab1e218a069fa60bef8a26116a206cf610 96a176f78928f84d3b4cffa2955dfec2c34ee88c 96c6626abd5357ef939d5f40b855eb97b167f032 9fcfbc7fedc7df8afd811673d6fc80206ae0291a a1844de90dccf4f77078bc55cbbc6723ebea456e a4cca1e6cc25d162a91608b419070f0f38d51dd9 af6d3e2954b59d3f6c6f51b1621fbfc7b215017d b01b7461d9371d8dc91c4011f9ab181b9ccf9942 b66283c3cbd2131abef3e3ab824e398601dc2975 b71b495446b150611d97ced08df5dd98c7fa1e5a b8afd19882800f76f5f24f6f547db062dd7dfa23 bae51007c040169c016083640d5dc49b5da33f4e c02b9e59488e3736f1ede146b6aded4e9274c3a3 c1414dcec279de55299822b8d21222380907d491 c19fee9ae7ff8238221c7c6e680a238421388a73 c4bb27cbf5901b9259e2a9851f3f7b16c9ff62a5 c50e67fd0007be8dd8cf84a34697d588b356a46e c510f5c5504d1c5542da9496c511712436be4279 c74b11311a0945d2de6e51433c2d4ab678aefaa6 c7eeabd697c5180f6c66aaa1c497cdd8886079d1 c9e14bf159b6bc8c8beedd4ebdd8189d4f7c8021 cc00506dadf04bfa4d5d136fca1075f5b8007ea3 d1c694d28f33e859df46d329c50e6fd8235037cd d5e7b7344fa87b752b5501573166d93dd0cbe57b dc5bc1853f9826eccd6703446e3dc4fd023ba596 dceca4e5995124a20c66b13ef1e2be9a5c79d8cc de58388c3fdb1317f50269938686e29babaf000b e0da25c8c6c6f37151a5310ec4c93b51562b1d77 e4d80255f984f734a77832b99d6c5f7dc185f36e e4edfdeb4b542108545ba1df4e5de6a754e293de e6317a4edab16da442b4c546e5a2e6e47df344b0 eacea2d298c9246ee7731042cf0920fe815e42a2 f3b33325146c516aba9eed150f6950682b38cec8 f6c9c101d8523f65e669ae747af60c159ce4e11b f7866ea5dca0ca36756287e4592583d98f029fa2 fb30bd192384f3b4ebb3d697c3b6b3cc50bf61b9 fe84381687d044d244c002662d76158dd603c910 ff1f8953d94eccdd871f66c4df6bb19396554e56 ffd5e8ba07fbbd1169b0165684784f93a6b270c0
 Gstreamer-Decoders: application/dash+xml; application/vnd.ms-sstr+xml; application/x-3gp; application/x-apetag; application/x-hls; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, ISAC, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00, MULTIOPUS }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr, aac-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/AMR; audio/AMR-WB; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
-Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrnbdec, amrnbenc, amrparse, amrwbdec, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppassthroughpay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2convert, v4l2jpegenc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, xingmux, y4menc
-Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac, framed=(boolean)true; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/jpeg, parsed=(boolean)true; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
+Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrnbdec, amrnbenc, amrparse, amrwbdec, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jpegdec, jpegenc, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppassthroughpay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, ximagesrc, xingmux, y4menc
+Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/AMR; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac, framed=(boolean)true; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
 Gstreamer-Uri-Sinks: udp
 Gstreamer-Uri-Sources: dv, hdv, http, https, icy, icyx, imagesequence, multifile, pushfile, radio, rtsp, rtsp-sdp, rtsph, rtsps, rtspsh, rtspst, rtspsu, rtspt, rtspu, splitfile, splitmux, udp, v4l2
 Gstreamer-Version: 1.24
@@ -1251,10 +1251,10 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 346
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.108), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.14), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-3_arm64.deb
-Size: 63880
-MD5sum: 9b3ab8df9f0bce0749652fee4505b5f1
-SHA1: bcfbf1f19d2e9159156ed05be1cf7d6c83d37a11
-SHA256: f8183b10bea64c6c265ce68edbb004b6c399750a3d80a7046b20adc82f9d1aee
+Size: 63936
+MD5sum: fa49119c9685b28559563fd05cdc9376
+SHA1: 9f581ca75feeb854375e8c28f003651b83672b6c
+SHA256: 47973b67b29516f0c6ae7409bfb90d657c04722a8a2caaab92f335f9f052c855
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
@@ -1269,14 +1269,14 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 400
 Depends: gstreamer1.0-rockchip1 (= 1.14.4-3)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-3_arm64.deb
-Size: 334024
-MD5sum: 355c11a4349e2d174a9603a5c9bd9712
-SHA1: f0118ac440fb21acaffcb49b0dda0e24b250a846
-SHA256: 2e874d896518d6b49b0bf23a58137abb2e5db2c2aa0ecc861f32705e231a8b74
+Size: 334212
+MD5sum: a3315ad9a3be04900c7dd7efed795ce2
+SHA1: 6500573c24fc1de53f0374cb9fab6c5100b86aca
+SHA256: fa41801a8d7fa6c5fcf2ef3285e16d04afae276277168f664c01ca0e8fdd64e0
 Section: debug
 Priority: optional
 Description: debug symbols for gstreamer1.0-rockchip1
-Build-Ids: 4a99531330c18a28b5e81eddced05bf9a581e223 ada3e6408762871ff82296bb1e515423c956d771 ff84c7382675e2d0a5a4adfe90948f2d26f093db
+Build-Ids: 4a99531330c18a28b5e81eddced05bf9a581e223 ebaedfc5f02a58c5f010d3d75d5bb1fc50e81c1b ff84c7382675e2d0a5a4adfe90948f2d26f093db
 
 Package: gstreamer1.0-tools
 Source: gstreamer1.0
@@ -1287,10 +1287,10 @@ Installed-Size: 505
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer1.0-0 (>= 1.23.90)
 Suggests: gstreamer1.0-plugins-base
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-tools_1.24.10-2-rk_arm64.deb
-Size: 102840
-MD5sum: e2e0c30c3f05df557ae116f82b540a85
-SHA1: 5c87c3bc39397a841bc7a5775624a8fd732d5f9d
-SHA256: 9d37af29055b846e6b08f478dbe105a9ef33dfededdbb7fe80d9834df2a5cfa7
+Size: 102876
+MD5sum: 0e329486269f69ff30b76ac4b145ae84
+SHA1: ac648f7a009558fc4e1c2dada11fd2c5633a9a27
+SHA256: 6b2828cc3609b9b93a5b1c7a4c713cf41afb50f7beb75af0ea734eb1df0d3715
 Section: utils
 Priority: optional
 Homepage: https://gstreamer.freedesktop.org
@@ -1313,14 +1313,14 @@ Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
 Installed-Size: 340
 Depends: gstreamer1.0-tools (= 1.24.10-2-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-tools-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 134580
-MD5sum: 21ca0a62c3c4b2770fe797ee4d95ef39
-SHA1: a6f9933d41f0f197530478785baf4e05be5f9203
-SHA256: f3a895a8380bb8583f8141e152ca9011f5bb44254b51f68f700e10bf413c6d4d
+Size: 134516
+MD5sum: 2160a954946b96cce5fb7ac2b4b7956c
+SHA1: 74e740199a31d365ba6449a1c835e02e26e6083c
+SHA256: cb33d40db22da5c3c945b62687a166b5f2ea2f4dd1a94fdf6937fbf95aeb1143
 Section: debug
 Priority: optional
 Description: debug symbols for gstreamer1.0-tools
-Build-Ids: 7cff049d8a2d04ae39d5ebef7d00156251c391c4 a4664436232331bdf60b343be060180f7d1d943b a474e02d6e59679ba4ebfd6d47055eab0fe0de11 aaac89b6265eac9c3a3ec8825cce0d033cecc0bd b3337327960cf3f007e190236593be231d73ce25 c072f8cd654d8e6a252790b62253c5f180957694
+Build-Ids: 7cff049d8a2d04ae39d5ebef7d00156251c391c4 a4664436232331bdf60b343be060180f7d1d943b a474e02d6e59679ba4ebfd6d47055eab0fe0de11 aaac89b6265eac9c3a3ec8825cce0d033cecc0bd ba9deb1e05d88f502392fa4812c4d20b1deb2866 c072f8cd654d8e6a252790b62253c5f180957694
 
 Package: gstreamer1.0-wpe
 Source: gst-plugins-bad1.0
@@ -2158,16 +2158,16 @@ Build-Ids: 236d5dd75712e0c7055afe22b3325448d6d6ce9c
 
 Package: libdrm-amdgpu1
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 101
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-amdgpu1_2.4.123-1-rk_arm64.deb
-Size: 21632
-MD5sum: 9a1bedd16882bd548fa3a2ccb170bb48
-SHA1: 916e130ff136fb552e1cfd4a29bcf1a32f160d3a
-SHA256: bc1bb9c82033f1df9a18792c5a03a1b9d3d2af84918889e16a4c7d02525b834b
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-amdgpu1_2.4.123-1_arm64.deb
+Size: 21592
+MD5sum: 96b5d2ae48f0843d503ac1d64c17d9a8
+SHA1: 12d04d58b87a057a9fd2168fc1e56cc587d16126
+SHA256: 3b97c1b18a90ba98ebb92f72cab2fb8035ddf64b6df49159188a2432d5be930c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2181,17 +2181,17 @@ Description: Userspace interface to amdgpu-specific kernel DRM services -- runti
 
 Package: libdrm-amdgpu1-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 74
-Depends: libdrm-amdgpu1 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-amdgpu1-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 54688
-MD5sum: c22456df6021982ed36146f20576264c
-SHA1: 783e5ebc9906de3e5553bb1e2f100a4e3abd5696
-SHA256: dcff3d2be5fb530938ddeb99fd48009c29dded6ab6a02a7074d42bedc1c1e542
+Depends: libdrm-amdgpu1 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-amdgpu1-dbgsym_2.4.123-1_arm64.deb
+Size: 54692
+MD5sum: fda53be9851d7d562487f60f62866dc4
+SHA1: 07c22ab1fcbfa8b7de13ce3beeb2bef260d0ba3e
+SHA256: a63a94e3311aa72196da53f3d70d8e8c6576d02df4e38089b7d11a541e916cd5
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2200,15 +2200,15 @@ Build-Ids: f3f3240b49764e552662ec8c6cf2bd596a714f5c
 
 Package: libdrm-common
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 45
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-common_2.4.123-1-rk_all.deb
-Size: 8136
-MD5sum: b40a2decb8efa4957bb6c0b475bab166
-SHA1: eaf9750710adbb02dac8e5591150c70781b437ce
-SHA256: e9c4b5be0bbcefac25f9877f8005195fff834a7b8ee2d50412d39bca132cbc35
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-common_2.4.123-1_all.deb
+Size: 8084
+MD5sum: 6d77e52816f14975a2d7d871a161c5d6
+SHA1: dec5fa0269588dfed0b8aa9f09661f5dde4979b3
+SHA256: e636dfde103e9bef068f9b1645de11441dc3938d6608b558fd7e07199d5b54d9
 Section: libs
 Priority: optional
 Multi-Arch: foreign
@@ -2223,16 +2223,16 @@ Description: Userspace interface to kernel DRM services -- common files
  This package provides common files for libdrm.
 
 Package: libdrm-cursor
-Version: 1.4.1-2
+Version: 1.4.1-3
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.71), libegl1, libgbm1 (>= 17.3.0~rc1), libgles2
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor_1.4.1-2_arm64.deb
-Size: 19572
-MD5sum: 290157e02fc25f4c952ee3bfc0c99897
-SHA1: 3fe6d9ba4cf7e35284d21a12a0cc47abc9387bf0
-SHA256: 7a4cbf6ba250162ba191b195c3574bef4ced359fd89a14aefe10ba2c022bccaa
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor_1.4.1-3_arm64.deb
+Size: 19600
+MD5sum: 263e6c1195e4d589ba9b517785fb84d5
+SHA1: 9293ddfc5fe96eeab3db7fdadc58fd0625ffbabe
+SHA256: b1ea0d707915f3d375ed361c4dfd06617bab110f5a9be4d8c6876039804113ef
 Section: libs
 Priority: optional
 Homepage: https://github.com/JeffyCN/libdrm-cursor
@@ -2240,33 +2240,33 @@ Description: A hook of drm cursor APIs to fake cursor plane.
 
 Package: libdrm-cursor-dbgsym
 Source: libdrm-cursor
-Version: 1.4.1-2
+Version: 1.4.1-3
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
-Installed-Size: 69
-Depends: libdrm-cursor (= 1.4.1-2)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor-dbgsym_1.4.1-2_arm64.deb
-Size: 51660
-MD5sum: c7f683b98470cb7a7e7a4a8748c62921
-SHA1: 26c7729e86376f23cbfd629c2e2c12a891b5ba4a
-SHA256: 54f135da3e55214bd07c65ee8f1836f9d78bc4f97899a9cfc54d9bd22188d933
+Installed-Size: 70
+Depends: libdrm-cursor (= 1.4.1-3)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor-dbgsym_1.4.1-3_arm64.deb
+Size: 51988
+MD5sum: 1dc7e3e034e0f4548d4bce84521ac679
+SHA1: 919ced67cd028bc5674e4f4053c63a1a537d1149
+SHA256: 5aff3db06c79805e6cf2f691df043130d908ced88c6c787a767992915f9e7729
 Section: debug
 Priority: optional
 Description: debug symbols for libdrm-cursor
-Build-Ids: 0af752c851af638519a580e144ee7e24a260c168
+Build-Ids: 854219f98582694a5e3b34145167c0d124fd8ef6
 
 Package: libdrm-cursor-dev
 Source: libdrm-cursor
-Version: 1.4.1-2
+Version: 1.4.1-3
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 15
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor-dev_1.4.1-2_arm64.deb
-Size: 3164
-MD5sum: e30b816d726cf459f090a71dc73339e0
-SHA1: eb9bc8ebeb5ea3d9267d9adccd227d1708abfc1b
-SHA256: ce5a15fa8c7a8a83918ffa4ace538a736427aa83821fd56c2275049e94817160
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-cursor-dev_1.4.1-3_arm64.deb
+Size: 3216
+MD5sum: 8c8f69c49718754b407954c4d5311349
+SHA1: 843cfde5d5a52866d5bee7069cf860a3addb223d
+SHA256: adb4dc0718fb7062322ec9398f1c619f9b897b93f2338efb95baa045b7126fdb
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/JeffyCN/libdrm-cursor
@@ -2274,16 +2274,16 @@ Description: A hook of drm cursor APIs to fake cursor plane.
 
 Package: libdrm-dev
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1526
-Depends: libdrm2 (= 2.4.123-1-rk), libdrm-radeon1 (= 2.4.123-1-rk), libdrm-nouveau2 (= 2.4.123-1-rk), libdrm-amdgpu1 (= 2.4.123-1-rk), libdrm-freedreno1 (= 2.4.123-1-rk), libdrm-tegra0 (= 2.4.123-1-rk), libdrm-etnaviv1 (= 2.4.123-1-rk), libpciaccess-dev
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-dev_2.4.123-1-rk_arm64.deb
-Size: 318048
-MD5sum: b925fc2240aa480a0f35a694dd569710
-SHA1: 186972811457c54b43e4a43dc793961cbe3b30d9
-SHA256: 57c7c63fa1f45239c265108125af0ddbc7c12cc7b2447e42afbd9722c17c66c0
+Installed-Size: 1525
+Depends: libdrm2 (= 2.4.123-1), libdrm-radeon1 (= 2.4.123-1), libdrm-nouveau2 (= 2.4.123-1), libdrm-amdgpu1 (= 2.4.123-1), libdrm-freedreno1 (= 2.4.123-1), libdrm-tegra0 (= 2.4.123-1), libdrm-etnaviv1 (= 2.4.123-1), libpciaccess-dev
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-dev_2.4.123-1_arm64.deb
+Size: 317996
+MD5sum: 0f097f88e223b805d5bc93d62ad17c12
+SHA1: f082214f530f4a118a5adfe04d218bb9fdb89a35
+SHA256: c59d44c622fa01938689f70c724ff759a333f1008e347ecd603981860be77c06
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -2299,16 +2299,16 @@ Description: Userspace interface to kernel DRM services -- development files
 
 Package: libdrm-etnaviv1
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-etnaviv1_2.4.123-1-rk_arm64.deb
-Size: 14340
-MD5sum: 698128bfdc928657b2f6cf141f9f08cb
-SHA1: 844c1eff872711c828f213e4f46ab89a2d7238b5
-SHA256: 1ba368e62d94b121f45d03b1393b858dc711ff84eaec2c086abecdf1d5fb6157
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-etnaviv1_2.4.123-1_arm64.deb
+Size: 14292
+MD5sum: 38aba362686fb02076784572ae3be781
+SHA1: c48ec731391f2a76aaa5f3651be6b58f719abd03
+SHA256: 25808d77ef66a1ac506faf3e4b1705402740b6825901f84edac0f90ca57c5b52
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2322,17 +2322,17 @@ Description: Userspace interface to etnaviv-specific kernel DRM services -- runt
 
 Package: libdrm-etnaviv1-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 43
-Depends: libdrm-etnaviv1 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-etnaviv1-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 25840
-MD5sum: 0843a34ccf337dfb76ef518e39bd4c7a
-SHA1: 4dddec019192b5ac97e48060a76d40df4408afa6
-SHA256: 45c67c6849c907ada1fc7518f193680f3cf65f942a7ddf9267a71caa7651ccfb
+Depends: libdrm-etnaviv1 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-etnaviv1-dbgsym_2.4.123-1_arm64.deb
+Size: 25836
+MD5sum: 2ca8f71e8fd9619da3b083863487330e
+SHA1: 98180df922ec1e7b8509c1e6b701c069e805b8d6
+SHA256: 3e2b65bcbe0eb6126d8e4e3de3d471402737a04439c247c02804fd99ab949aff
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2341,16 +2341,16 @@ Build-Ids: cbf217e2c606f70f5ee591299a94a44bee9e4110
 
 Package: libdrm-freedreno1
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-freedreno1_2.4.123-1-rk_arm64.deb
-Size: 20972
-MD5sum: de11b268cca2e49d3b4af4e3f54f049c
-SHA1: f152927fc73d86039852b009d0a909d79c30516d
-SHA256: 84c04859519322de151cd7034dd5da46d5474f044101ca149b03821de793289e
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-freedreno1_2.4.123-1_arm64.deb
+Size: 20936
+MD5sum: 37fb1e3a70b10e5770c608192cb0ed0b
+SHA1: e5b9de28a368dfc0b394f8f799201188bd3cad34
+SHA256: 1566ca8804f6710a3fcc8403205fff5520ca28beadab24185a2ca3658b90ea67
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2364,17 +2364,17 @@ Description: Userspace interface to msm/kgsl kernel DRM services -- runtime
 
 Package: libdrm-freedreno1-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 70
-Depends: libdrm-freedreno1 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-freedreno1-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 50300
-MD5sum: 684da13f06a8aa4fa2e3577d6de7313f
-SHA1: 50226128f2a0c372314c7fb90cad1f5b0dde0627
-SHA256: 0bc1774e5c1a7a50096fde75e4eb131d73246ba83c855afbbdf639c70d2e1016
+Depends: libdrm-freedreno1 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-freedreno1-dbgsym_2.4.123-1_arm64.deb
+Size: 50316
+MD5sum: fc56085f5e88f584300c41b3304398b9
+SHA1: 757888ce61416b3a00a5fbcc225e78c5e017ac47
+SHA256: 1c9664ba6912013558f3c9a607d1213b29f3f067e18bf0e40de52ccae493b45b
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2383,16 +2383,16 @@ Build-Ids: 79d02284f93742edf2bd0516d7075a34fcd5c9b0
 
 Package: libdrm-intel1
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 231
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libpciaccess0
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-intel1_2.4.123-1-rk_arm64.deb
-Size: 60076
-MD5sum: e1a07e5c6870a48f1081cdcae7bbab4f
-SHA1: 167547e6df3c07ca0292c77eae901da011b80c41
-SHA256: 562764a48e35c009dab729729c73ef71f2b19ed42fb27a7239f0e3c55dbad5c9
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-intel1_2.4.123-1_arm64.deb
+Size: 60044
+MD5sum: 8f0437668945491a478e91c1223a1feb
+SHA1: ca5554fb7c1b033b862d4c46f0eb08898f63d9e3
+SHA256: 1d81dc3a64a8a777b162f7a686c77a00077129c9f3bb5463791b2647e2b62ab5
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2406,17 +2406,17 @@ Description: Userspace interface to intel-specific kernel DRM services -- runtim
 
 Package: libdrm-intel1-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 150
-Depends: libdrm-intel1 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-intel1-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 127980
-MD5sum: d0ddd97431d0f2260a7a02c511618fab
-SHA1: f2e0fc4909856d0a55482e117b8a8a2a865d2773
-SHA256: 5cbc4c61d7ca30c66fec07af26e2cdf83c201e85031a6bafe2accdf579c8dcc7
+Depends: libdrm-intel1 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-intel1-dbgsym_2.4.123-1_arm64.deb
+Size: 127964
+MD5sum: 164d3b860498f29f414aea8956febb61
+SHA1: 25c39a978840822b6124e8e239c3892d4ea5fb6a
+SHA256: d812193fde8102f87eff483b5f521d6e45c1190caad07f2f4c463ba95c1c9399
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2425,16 +2425,16 @@ Build-Ids: f778c99becd14a4dcc7de365161e1457663a14f0
 
 Package: libdrm-nouveau2
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-nouveau2_2.4.123-1-rk_arm64.deb
-Size: 19032
-MD5sum: 3b960c2ec72895f66191a84c03ce6573
-SHA1: 37cac58e1b1469cb04a4cb23c92b237aa0736ca8
-SHA256: dd9a0784f75f15dcc0bb542da8500421932609e10796f5c863665274b5d74649
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-nouveau2_2.4.123-1_arm64.deb
+Size: 18984
+MD5sum: ddc07ba930ee6084bfc77fb2df3372df
+SHA1: 69b7fdc9cb0f4dccb3d05b53e9ed352298206fce
+SHA256: 7de05564689399600c9594598b02cb9db63ee8a31e57e52ba40d6e8b97107660
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2448,17 +2448,17 @@ Description: Userspace interface to nouveau-specific kernel DRM services -- runt
 
 Package: libdrm-nouveau2-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 56
-Depends: libdrm-nouveau2 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-nouveau2-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 39948
-MD5sum: 6a33209e12f2f1b38fe72110be77c5cd
-SHA1: c059a3bb1032a7b357718c1a91b3c73879d98e01
-SHA256: 838f53b0bbe38099cde8babd28e2a46a7f03b6eb9046b71edf3c6a6172a9c6e9
+Depends: libdrm-nouveau2 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-nouveau2-dbgsym_2.4.123-1_arm64.deb
+Size: 39936
+MD5sum: 4523b7e704391233c7548ae94bc870a5
+SHA1: 16018e7796c3252d0c92fa502e4d560743f96198
+SHA256: 179f22477d732eadd6677eef51ecf08d331750519dc5e9465b7933c16bec86ee
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2467,16 +2467,16 @@ Build-Ids: 115b0942983eaa2881ad2dfb6ae6dbd3fddb88d9
 
 Package: libdrm-radeon1
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-radeon1_2.4.123-1-rk_arm64.deb
-Size: 21356
-MD5sum: 72f9f92b1f7dcd7ae170ee3a5af62145
-SHA1: af5cd84eb5169d737031e1802aae8768683afbaa
-SHA256: cefa690e5ea5f0f82709f51e2e2c3f858425f2351171c97cd25e2d82a7e04e38
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-radeon1_2.4.123-1_arm64.deb
+Size: 21316
+MD5sum: d2cf5d77f5272fe8c5db81747aa1467a
+SHA1: 6692d6474d1244c5088c0820913746f7ce2da435
+SHA256: e97552300469a903570791049eafcf69d0f98a1c615fbd5fb113604fbe629fb9
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2490,17 +2490,17 @@ Description: Userspace interface to radeon-specific kernel DRM services -- runti
 
 Package: libdrm-radeon1-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 64
-Depends: libdrm-radeon1 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-radeon1-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 46540
-MD5sum: d4cfee0cac37a6932379a030c2c3e973
-SHA1: 811115fc93abb8cd168e1c1c4d3adc68241ecb58
-SHA256: fa9ea03142d169b85d2d0215d9dae94a9434f8439bc019faa326a946b9407578
+Depends: libdrm-radeon1 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-radeon1-dbgsym_2.4.123-1_arm64.deb
+Size: 46532
+MD5sum: 828b0b6b3fa76ef547c218dcb28f2f83
+SHA1: 9ee8cd1a2a8655a93b6cb1a544e73e6be8cffec3
+SHA256: cf00336449973fe36fa2aa2c5d338312bcf6cc8c7e3109ea75dca174fd336f86
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2509,16 +2509,16 @@ Build-Ids: f4db2bc6ec80746fc2ffcbd83ba064255840f6ad
 
 Package: libdrm-tegra0
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 99
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tegra0_2.4.123-1-rk_arm64.deb
-Size: 11648
-MD5sum: 58e2edbbe530469384a8a03e93798142
-SHA1: e62648306f647d1f030d891c2e79163b23ea6412
-SHA256: 76902d944d857008179201b17ffdf894c7daeaa9256096524685cfa407665436
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tegra0_2.4.123-1_arm64.deb
+Size: 11588
+MD5sum: 97fa11763bef1ee9100644e4c2d65658
+SHA1: e45669cfb528ffbbcbaf608c54a76529bc08eb1e
+SHA256: 57fb699c5d69b0fe5ea97364fe47b80e746fe85cc2d2bfc2a8b8840d5365e369
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2532,17 +2532,17 @@ Description: Userspace interface to tegra-specific kernel DRM services -- runtim
 
 Package: libdrm-tegra0-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 35
-Depends: libdrm-tegra0 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tegra0-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 19532
-MD5sum: f5a2b22037cd9f29d4da5f2937063061
-SHA1: e73f2fd2d6f01069920ba10a2e6d1951900db49c
-SHA256: 50f4f5737f2f7de045d1127e5102d626d34737110c9a237f81e0cf103ac4fb60
+Depends: libdrm-tegra0 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tegra0-dbgsym_2.4.123-1_arm64.deb
+Size: 19536
+MD5sum: ab1b36830d4efd037abcbf31a61cd4e5
+SHA1: f0588051063ed9f84f0d2a784159f0a98d16538c
+SHA256: 05443ad74bc3d7ddc7e686521edbc3e4a312b3f0c990d15ddb8f77c1a453bcea
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2551,16 +2551,16 @@ Build-Ids: 4a9c89a3e607f630bfa8cd0996205379710d4c14
 
 Package: libdrm-tests
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1163
-Depends: libdrm2 (= 2.4.123-1-rk), libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.77), libdrm-etnaviv1, libdrm-tegra0 (>= 2.4.112)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tests_2.4.123-1-rk_arm64.deb
-Size: 70720
-MD5sum: a8833b6ba580bc3ba2aae27753df5351
-SHA1: 144f9315913cd24f1cd2f7b0a33b1006f48c66cb
-SHA256: f640e8f2954d8c83082d391c98fecd67d768368bae8ab4b9739d521a14845738
+Depends: libdrm2 (= 2.4.123-1), libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.77), libdrm-etnaviv1, libdrm-tegra0 (>= 2.4.112)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tests_2.4.123-1_arm64.deb
+Size: 70016
+MD5sum: b89aec85fa9338ca5e7ba63d3c01c9a6
+SHA1: 25be9b686567fb8d7c8979e2c2534e1093f3ac16
+SHA256: bf9d1066a32f6f3f0be1426db736cc0bcf964541b8fa2ee97756eeeb79d6ea1c
 Section: libs
 Priority: optional
 Homepage: https://gitlab.freedesktop.org/mesa/drm/
@@ -2575,34 +2575,34 @@ Description: Testing tools from the libdrm project
 
 Package: libdrm-tests-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 653
-Depends: libdrm-tests (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tests-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 280388
-MD5sum: e23fbc883913b4e94f8d53afa5b13ca6
-SHA1: 7075a9f5149ca5bf225117caafacfa05cd6004d2
-SHA256: 52247f9c307ae1c1685e89f7f6be8e0e0d2d496665809eebf48c948af8288eb9
+Installed-Size: 652
+Depends: libdrm-tests (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm-tests-dbgsym_2.4.123-1_arm64.deb
+Size: 279936
+MD5sum: df30b8bb72a512b940fb1fbef8bb90dd
+SHA1: 072addf6437cca82ab1f929de40d953104117a5e
+SHA256: add1d374a8e325ca5c3162a4f197f955b8f94c5d33fbaf8b32949007e0c25b06
 Section: debug
 Priority: optional
 Description: debug symbols for libdrm-tests
-Build-Ids: 0d84cfeb289ff37f0467dc501f14578f0f42630d 1e49545f52dda595cba88cdf47c1c0810e4cc5fb 32dc4d8b1dd53cdcab1a3dafc985f5d2baca5d8f 51e3f0075198df1ff41979f371718c09807ce880 55069e9cbe21fbf26266750252e6541f5548eeb6 614e2e656dd56de0858192a8a7591d52efec85a1 6380206d1531996f0e1bdda3164da4b6011b4690 8039cd764ceb1e388a01a1c0a8f281ffc410efa7 9d59d632647bfdd6aff8d7da671e0efc57ccb86f a73d030cc2d12f35f1548bb16e281bc8a43cf21a a8ad1589cbc22bb0333aec77f3394dad39c44978 b14c1265a3560495827055ddbada73a4e207b146 b29a004d87b1a9c6332a84b73a28a34fd481a893 e3fb02eeca1ba4272c04ac29618bcfb3f4560d95 f3f63040fe5b82ef9894d414500ca4c334857e26 fb8fc7bee4a7543b851b92e3a63f8fc7e2e370a8
+Build-Ids: 0d84cfeb289ff37f0467dc501f14578f0f42630d 1e49545f52dda595cba88cdf47c1c0810e4cc5fb 32dc4d8b1dd53cdcab1a3dafc985f5d2baca5d8f 55069e9cbe21fbf26266750252e6541f5548eeb6 62e8f215d8274e48cadeadf83573806c7cce4902 667d4dd95a730028dbd2c7522aafd5c0d91471c1 6c060f6c0199f80ebf2601cd1e09713544ea4cfd 8039cd764ceb1e388a01a1c0a8f281ffc410efa7 9d59d632647bfdd6aff8d7da671e0efc57ccb86f 9f23116f1c49b90699e22933cd6794acf484963a a73d030cc2d12f35f1548bb16e281bc8a43cf21a a8ad1589cbc22bb0333aec77f3394dad39c44978 b14c1265a3560495827055ddbada73a4e207b146 b29a004d87b1a9c6332a84b73a28a34fd481a893 f3f63040fe5b82ef9894d414500ca4c334857e26 fb8fc7bee4a7543b851b92e3a63f8fc7e2e370a8
 
 Package: libdrm2
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 168
-Depends: libdrm-common (>= 2.4.123-1-rk), libc6 (>= 2.38)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm2_2.4.123-1-rk_arm64.deb
-Size: 38020
-MD5sum: a17895b99867866595aa93b98c4d0ca6
-SHA1: b723332803c67e7a6e7a9fb227d76c23ce37b0df
-SHA256: 8340a674994685f5a25e3540d46e3dc3f774637d95ab1156881bb356147680f6
+Depends: libdrm-common (>= 2.4.123-1), libc6 (>= 2.38)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm2_2.4.123-1_arm64.deb
+Size: 38016
+MD5sum: 9d750c7b29ee994455b13bafd899e399
+SHA1: a051ca876df0fa091340ee7dfc2c91a14e6ce6bd
+SHA256: 990ce72b97bcf4b791066638abc430d1490d3eee7642f3af2312454e4baa8a3d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2618,22 +2618,22 @@ Description: Userspace interface to kernel DRM services -- runtime
 
 Package: libdrm2-dbgsym
 Source: libdrm
-Version: 2.4.123-1-rk
+Version: 2.4.123-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 127
-Depends: libdrm2 (= 2.4.123-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libdrm2-dbgsym_2.4.123-1-rk_arm64.deb
-Size: 107112
-MD5sum: d81f8124d7e57ee6cd83c6e8a88c150a
-SHA1: dc52dc4292ac7884f5c3d14d6439f74cb96567b8
-SHA256: d6dcbf57956c3e1494167b66a7ff276194e8e77487e3e10f5c435eaa31eab26f
+Depends: libdrm2 (= 2.4.123-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libdrm2-dbgsym_2.4.123-1_arm64.deb
+Size: 106760
+MD5sum: e0a9440441e6306e9b4872da7e50be03
+SHA1: 8284a0d75c3ff2928243c36e5f0e5b81a928fd55
+SHA256: 4c5165dff708115c300f2e6328d0316d9ad391667cf568fff1b9208b8d36550d
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libdrm2
-Build-Ids: f8e1dcf40737cc50ecf41968ad97927e39a75c6f
+Build-Ids: 667e6957cb9ed3948aee34f06ee0dc131ca32337
 
 Package: libdvbv5-0t64
 Source: v4l-utils
@@ -3088,13 +3088,13 @@ Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
 Installed-Size: 5365
-Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.80.0), libcap2-bin
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1t64 (>= 0.126), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.80.0), libunwind8, libcap2-bin
 Suggests: gstreamer1.0-tools
 Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer1.0-0_1.24.10-2-rk_arm64.deb
-Size: 1277924
-MD5sum: 7776d95e97932a75805b177840c05ca3
-SHA1: 70a28380dea1797e8d26de0913b3998b949a8e21
-SHA256: 5ff4a65fcdc43d52d6f98edaf09300c9cd675e13c4d36cce4b5df47c32d54418
+Size: 1279460
+MD5sum: 6d59635389958073883675a68b6cee3e
+SHA1: 6c39fff8e5b63cf07dafcc566da9933f30cbe7e3
+SHA256: 73b0603d4926709aa2635516fbd4d7132bbe9126ee5145ef50453133e8b5abbb
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3115,18 +3115,18 @@ Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
-Installed-Size: 6126
+Installed-Size: 6132
 Depends: libgstreamer1.0-0 (= 1.24.10-2-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 5124292
-MD5sum: 33d9159fb49d5df0f24cf75cf91bd873
-SHA1: 1315391499fa456e1d08415f82b8f99964ca265f
-SHA256: eab99531307c41fe8a3f093e19eb914ed852f61d2e2140ec98aecf28b459877b
+Size: 5128408
+MD5sum: 19161d0b664f0a47cbad0655c5c3fd8e
+SHA1: 4df706960363821a137c861fcd0bd51764b1bef4
+SHA256: 964babca4d3a10d25b2089007022414db50bdaf858a0275998ce3a455c97a5ba
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libgstreamer1.0-0
-Build-Ids: 0a2aa09fd003fafb1cd1dcdde23f5c70b46e4c3e 16d762dda1e79d33d586b8fb22024a209ea647a8 618ea8f44457d9f9af26de4ebf052e962ef34c7c 6bb9f14d02192c9d352548011eb0852aaa459581 72227fc90b560d4bdd01ac9c7df16e1087a0fa99 9ff19c8414c21710ad012e2f28b4420945d1d300 a5758c2b3af552c0492219d0f929ab761e36640d c6e85aaac1e64a995d163a7ae61080616c7a3cca e7556c919ce9259f2ad66dab14050bfa11e8624f
+Build-Ids: 0a2aa09fd003fafb1cd1dcdde23f5c70b46e4c3e 16d762dda1e79d33d586b8fb22024a209ea647a8 3b8a1ef0a0c68b8b63ba87f4f8aa8ed3136cee9c 618ea8f44457d9f9af26de4ebf052e962ef34c7c 6bb9f14d02192c9d352548011eb0852aaa459581 72227fc90b560d4bdd01ac9c7df16e1087a0fa99 9ff19c8414c21710ad012e2f28b4420945d1d300 c6e85aaac1e64a995d163a7ae61080616c7a3cca e7556c919ce9259f2ad66dab14050bfa11e8624f
 
 Package: libgstreamer1.0-dev
 Source: gstreamer1.0
@@ -3134,13 +3134,13 @@ Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
 Installed-Size: 6322
-Depends: libgstreamer1.0-0 (= 1.24.10-2-rk), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.10-2-rk)
+Depends: libgstreamer1.0-0 (= 1.24.10-2-rk), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.10-2-rk)
 Suggests: gstreamer1.0-doc
 Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer1.0-dev_1.24.10-2-rk_arm64.deb
-Size: 572236
-MD5sum: 057e856e7ed487b269bdaa3e636e335a
-SHA1: e9d69b3b30b7b0cb0411fcb02847e5ec4c1e4a5f
-SHA256: 35b96c5b34410b84030a14f240904d241a66b297c9fe7951d357f36e4077438b
+Size: 572288
+MD5sum: 9466cf5812af492c65544fc270688031
+SHA1: cb803c4cdb4d263aae0e581cfc4919430d50d0fa
+SHA256: a74804a45a5c2470e3065f05be40653bf345540c884fee8953da7696089e1ea8
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3552,10 +3552,10 @@ Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 150
 Filename: dists/trixie-rockchip/main/binary-arm64/librga-dev_2.10.4-1_arm64.deb
-Size: 24372
-MD5sum: 06c8540c331eaad0631a3826d52d2ddb
-SHA1: 23256055835385332156cd1b2644e9af8dd8af24
-SHA256: b3e200f2605cb2d7fd78c9daca67b2489ae2469428989f2b4b19750f6ec4a942
+Size: 24356
+MD5sum: 3781d33a5c3f89126d9bd6668345e512
+SHA1: 2d26a587e39a240a72d9ae395c0c7ba8e95ef737
+SHA256: 25457baac0b52e30b8ce7bfbf5291b8114d4314b75a099777e0306df1458ca90
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -3569,10 +3569,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 282
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Filename: dists/trixie-rockchip/main/binary-arm64/librga2_2.10.4-1_arm64.deb
-Size: 80164
-MD5sum: 10a1d472fb8d3ea1b1e7425451e14a68
-SHA1: a1882b9aed619d8a6629ba26231cc4fb83ba3964
-SHA256: ef9f17f215d29103228541f28224fd868212b86c968a17e3efb8e68894be007e
+Size: 80188
+MD5sum: a9e589c0c07ebbe726852f305d1484c5
+SHA1: 51f4247e9810434ec92db2c116184214eb6e37fa
+SHA256: 26f1b90f5a4a6319c83c5cf6d89cb3eb066fcd4992225f2af68c979e53dfe6b4
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -3587,10 +3587,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 407
 Depends: librga2 (= 2.10.4-1)
 Filename: dists/trixie-rockchip/main/binary-arm64/librga2-dbgsym_2.10.4-1_arm64.deb
-Size: 380892
-MD5sum: e85d78545c3688095634c8320298207f
-SHA1: 9d69383493cfa148e3f7c11cfc5287802a45fe81
-SHA256: e0eeb2d94e2af0da055d2b5ee235141a6855ccc7ceea30c98bfebfdf8eed512e
+Size: 380884
+MD5sum: 5471fe1d9c05a7a5a181df8cf01b56f8
+SHA1: 7e4c328b141eb082ed6838190086ce66d7ffa4b5
+SHA256: 533735ca3d619afe8e113e544e3e21c61effb9fd719f2b55c26b89bd99c2edba
 Section: debug
 Priority: optional
 Description: debug symbols for librga2
@@ -3598,16 +3598,16 @@ Build-Ids: f0bb85b9ef0c6ea1da29a6050b6d7ec8d06e21c1
 
 Package: librockchip-mpp-dev
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 259
-Depends: librockchip-mpp1 (= 1.0.9-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp-dev_1.0.9-1_arm64.deb
-Size: 61584
-MD5sum: 218bc9911e6c3cb1f49539a11c05ba93
-SHA1: f8ecb256277fbb7825599010db1945b456088757
-SHA256: 967e4466bd0f9ea9918b01c4a6c9fcb15bc7a9f83f57b297d66feb774bd2ae30
+Installed-Size: 258
+Depends: librockchip-mpp1 (= 1.0.11-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp-dev_1.0.11-2_arm64.deb
+Size: 65620
+MD5sum: d90c6418522ca3ed5b8c764899bcdbd7
+SHA1: 70dca365c0cafa15cea33f4bf890471bd6198ca7
+SHA256: 8731a8d7cc5dfb1e7c047c6c99e3ea26518360528830e69792bb03357d5214a6
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3615,16 +3615,16 @@ Description: Media Process Platform
 
 Package: librockchip-mpp1
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 2418
-Depends: libc6 (>= 2.40), libstdc++6 (>= 5)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1_1.0.9-1_arm64.deb
-Size: 854228
-MD5sum: 33c3b6c78d48dd29075bdfad04d23858
-SHA1: 4810cc1da0de64f91afabd5d928d85435073f32b
-SHA256: 3c7384c2ed27fc02b7aca8ec5379928aba1f278e64f098ed5ddd4dbaf9ccbd43
+Installed-Size: 2617
+Depends: libc6 (>= 2.38)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1_1.0.11-2_arm64.deb
+Size: 905992
+MD5sum: 2e71fa0ff39542fe0d762831d060bc06
+SHA1: ddb7af7652525e8ee10e7d31b53ad82d0d584ac9
+SHA256: 550355f935bb2cad417f58d08aefa299d5c9a23f1cb4b3f2ef1e3965bcdb7606
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3632,34 +3632,34 @@ Description: Media Process Platform
 
 Package: librockchip-mpp1-dbgsym
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 3698
-Depends: librockchip-mpp1 (= 1.0.9-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1-dbgsym_1.0.9-1_arm64.deb
-Size: 3517292
-MD5sum: ffa433949f6698557556841e1eb8cf92
-SHA1: 46db3a6b6701815d9002cc7d353f8e6b1c24fcf9
-SHA256: 13abbdc28487cbc79a73a485f7190476232d6bfcc3d4893a83f62ccc99b2dad8
+Installed-Size: 280
+Depends: librockchip-mpp1 (= 1.0.11-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-mpp1-dbgsym_1.0.11-2_arm64.deb
+Size: 54916
+MD5sum: 23f18603c6c8b4ae4be9a3c932835478
+SHA1: 9be1c68ef76647e15f70113e594cdb3b6bb216dc
+SHA256: 3a79299262c348ae7c1dff767627b48394b04aeeef14a1f290451e392b20a3c8
 Section: debug
 Priority: optional
 Description: debug symbols for librockchip-mpp1
-Build-Ids: 34ff31dfd430709d3ab63bec815e9aa84a1e4d3b
+Build-Ids: 17df3ae3e74c22d3d0f69785bfed5ddc90b49444
 
 Package: librockchip-vpu0
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 163
+Installed-Size: 168
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0_1.0.9-1_arm64.deb
-Size: 42732
-MD5sum: cc52c3d9f74f1f82db2fe0028e3e32d0
-SHA1: 36184d472ebacb60db24b9f1194ae681c7995414
-SHA256: dec330d824c85b510bf3543f6f20803525338a0142df7bb03fb05825c8969cf6
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0_1.0.11-2_arm64.deb
+Size: 47388
+MD5sum: 0290dd71904dd20cd117fe6ed43da6db
+SHA1: b7b241ff8e12b4a902a6d8baaa7c55c5d419e5a6
+SHA256: 591a89edcc52ed7dc51d30a4f1be96396e9452327fc9e5ee59f69771c5e7d65a
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -3667,34 +3667,34 @@ Description: Media Process Platform
 
 Package: librockchip-vpu0-dbgsym
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 108
-Depends: librockchip-vpu0 (= 1.0.9-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0-dbgsym_1.0.9-1_arm64.deb
-Size: 86592
-MD5sum: ff0993602cc6c65c3e0ef735f2c34070
-SHA1: 24608082ac4ae82e782c02a6ae13e279fb32bcae
-SHA256: 8f333c2c4ad5fcfeb31731737ed1ab8d2c4fd4fac6ff9b428f1312148385778f
+Installed-Size: 28
+Depends: librockchip-vpu0 (= 1.0.11-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/librockchip-vpu0-dbgsym_1.0.11-2_arm64.deb
+Size: 5164
+MD5sum: 84bbde53b9e462e95f94dd15d702f5d1
+SHA1: ff7a806369d821f9d5fdf872a10ffd5bfa320f89
+SHA256: 6a11eadd4efd6873a1c71953ae9540c71ab7244fcd0251ecbc8dbed2ff224b45
 Section: debug
 Priority: optional
 Description: debug symbols for librockchip-vpu0
-Build-Ids: 99a67e4e8673a819034b756d75f51457fa024c23
+Build-Ids: 63e9e5915c222e8f072f7f88407662ece06fb288
 
 Package: libseat-dev
 Source: seatd
-Version: 0.9.1-1-rk
+Version: 0.9.1-1
 Architecture: arm64
 Maintainer: Mark Hindley <leepen@debian.org>
 Installed-Size: 27
-Depends: libseat1 (= 0.9.1-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libseat-dev_0.9.1-1-rk_arm64.deb
-Size: 6648
-MD5sum: 12d60fe7cd87d53055941adfef53b107
-SHA1: 8303087a5b3d095f076c15fce1facd96d692164f
-SHA256: 36d0d34aab409be762a93fd585244f02a9304181a54c4db627c733aeb45babbb
+Depends: libseat1 (= 0.9.1-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libseat-dev_0.9.1-1_arm64.deb
+Size: 6584
+MD5sum: 3ff003067a27fb7064e3cec379488a90
+SHA1: 904c54137edb6bbd8d192ee4e7479a05be7e24bc
+SHA256: bfa392ecc29fc760ea670bfc21cefee2f788e1661f47092d35937676c3ffa185
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -3704,16 +3704,16 @@ Description: flexible user, seat and session management library (development fil
 
 Package: libseat1
 Source: seatd
-Version: 0.9.1-1-rk
+Version: 0.9.1-1
 Architecture: arm64
 Maintainer: Mark Hindley <leepen@debian.org>
 Installed-Size: 83
 Depends: seatd | logind, libc6 (>= 2.33), libsystemd0 (>= 238)
-Filename: dists/trixie-rockchip/main/binary-arm64/libseat1_0.9.1-1-rk_arm64.deb
-Size: 26648
-MD5sum: 8f54ed85dace40bc7943931f28d8ee47
-SHA1: 19cee7e96bd1ecf0279490ec4f071725fe37f60b
-SHA256: 13ee3253072752cb59999832454ac25fa5267dd15715198fcbdd78e7ceb8e01e
+Filename: dists/trixie-rockchip/main/binary-arm64/libseat1_0.9.1-1_arm64.deb
+Size: 26500
+MD5sum: d66d267a15bdd7d4390970281d2d02bf
+SHA1: ee74417924385753355b965e66a2de13638a5861
+SHA256: 328b9d54a296dfb2df1331467c7f207f801c3f30ca0cb6002668f04f1a20d8a4
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -3725,22 +3725,22 @@ Description: flexible user, seat and session management library
 
 Package: libseat1-dbgsym
 Source: seatd
-Version: 0.9.1-1-rk
+Version: 0.9.1-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Mark Hindley <leepen@debian.org>
 Installed-Size: 92
-Depends: libseat1 (= 0.9.1-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libseat1-dbgsym_0.9.1-1-rk_arm64.deb
-Size: 71668
-MD5sum: 520aa856719b4a1386a2bb3fed963250
-SHA1: c18a9a0dfdb896d9d13b13ef2f3d3f8615a111bc
-SHA256: 663d9c14e031ad9525bed0901e15114a8e02012e8bc01e881d6ec8b0bb64cd5f
+Depends: libseat1 (= 0.9.1-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/libseat1-dbgsym_0.9.1-1_arm64.deb
+Size: 71588
+MD5sum: be0ff089b0fef3159f52f30a97fdddc3
+SHA1: d682dd62c5db7f9bdffa3e970c6f676b8f3d6983
+SHA256: e204e768149ffc72319b08d3debb6dd16f61f54a509adfbd7a5594c1cfbdc8ef
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libseat1
-Build-Ids: 29383aa608542407aa27ada51dbef5303baf44f3
+Build-Ids: 5aae58cb6fecda1840f1809500acf17cf8cb6a2a
 
 Package: libswresample-dev
 Source: ffmpeg
@@ -4037,10 +4037,10 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 210
 Depends: libc6 (>= 2.34), librockchip-mpp1
 Filename: dists/trixie-rockchip/main/binary-arm64/libv4l-rkmpp_1.8.0-1_arm64.deb
-Size: 44348
-MD5sum: 051ab303ba5dd78e5df09b1f928984da
-SHA1: 02ceae407d4e6eb1371f34bb58beb4f811ad3ff9
-SHA256: 3453f01bcf9e3e7b95fd09a44d53bfaa943aafa2101c2a04d2f259792db1614e
+Size: 44384
+MD5sum: 16288b7b96a1b5db82bdb5313960f428
+SHA1: 50c8f27257290e46d2f0099c303e1760815ade37
+SHA256: 81fbc041bfb997cc45dc06f7c2506cb4313699b8ad77cd89c7c9a2ec5459d0df
 Section: libs
 Priority: optional
 Homepage: https://github.com/JeffyCN/libv4l-rkmpp
@@ -4055,17 +4055,17 @@ Version: 1.8.0-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
-Installed-Size: 166
+Installed-Size: 167
 Depends: libv4l-rkmpp (= 1.8.0-1)
 Filename: dists/trixie-rockchip/main/binary-arm64/libv4l-rkmpp-dbgsym_1.8.0-1_arm64.deb
-Size: 148416
-MD5sum: 37e88919f6b3414827a79a183d1de0ad
-SHA1: 065db41013e0c7d5aaf2a2feb32e7403466829db
-SHA256: f97f0728e6553da82eadd59988269ceb66540d4ec89a5e9a70e67e8a7dbface2
+Size: 149008
+MD5sum: 3ba3c355f8d2ca4d241b5f7b69a40038
+SHA1: 876f79bc0e2f7dbb9c6018f871540ddd875a0613
+SHA256: 08340004a2eaaa558f6559c28f71679659ed9ad55ebbbd4ee0a1078d25e6b5ae
 Section: debug
 Priority: optional
 Description: debug symbols for libv4l-rkmpp
-Build-Ids: 86ec8f229a1a670ada47f034d9aaa8bf7bb672ef
+Build-Ids: 8ed70396686dfa5a1830619afadc864df791e62b
 
 Package: libv4l2rds0t64
 Source: v4l-utils
@@ -4803,16 +4803,16 @@ Description: System config for Rockchip devices
 
 Package: rockchip-mpp-demos
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 1345
-Depends: librockchip-mpp1 (= 1.0.9-1), librockchip-vpu0 (= 1.0.9-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.9-1_arm64.deb
-Size: 166220
-MD5sum: d5539c5f6f8ed0fcbbfd1546ddff9cd7
-SHA1: 388eb6a9cb276a6181142b1872541c0de1be5b0e
-SHA256: 6daa5b3b00c0d1cc3a14958618391af3522119f249d4deb818f482a28db104de
+Installed-Size: 1160
+Depends: librockchip-mpp1 (= 1.0.11-2), librockchip-vpu0 (= 1.0.11-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos_1.0.11-2_arm64.deb
+Size: 133992
+MD5sum: ad13a0836d3e2dc579a055995cf6f2e1
+SHA1: 20e034893a90fe37120cfc6888a9975a66ae209d
+SHA256: 250dd096b7874ec18b55f2f5681dcf90732624f4023b02a24309d73faf2e9bca
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/mpp
@@ -4820,35 +4820,35 @@ Description: Media Process Platform Demos
 
 Package: rockchip-mpp-demos-dbgsym
 Source: mpp
-Version: 1.0.9-1
+Version: 1.0.11-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Herman Chen <herman.chen@rock-chips.com>
-Installed-Size: 2305
-Depends: rockchip-mpp-demos (= 1.0.9-1)
-Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.9-1_arm64.deb
-Size: 993928
-MD5sum: 6c5add6a4e06a78d9b30d6560b420859
-SHA1: 079aa82fbd95eb3ff6edf0b6542e4ef4f96f8af1
-SHA256: f0b45801e2f833004b89156e1d53367849f8583f1cb3cb9a70a8230839bb6e6f
+Installed-Size: 783
+Depends: rockchip-mpp-demos (= 1.0.11-2)
+Filename: dists/trixie-rockchip/main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.11-2_arm64.deb
+Size: 19548
+MD5sum: 5329036ef86979d08603b09ee6d58547
+SHA1: b148a5b2d223c7f83b70b179db3d6d10d97883ac
+SHA256: 203df454697a86113c0d1034e400763739cd7fec1cf7b5b40c439b03d83e838c
 Section: debug
 Priority: optional
 Description: debug symbols for rockchip-mpp-demos
-Build-Ids: 0df3bb8a475b27ffdd6ceb57e099f03e651fe317 2606b615c26617221c3ef70a495961358ec4847c 3dab375747ce6c6d0ec286634e84490f5c1b8df5 453cea5ad4e6dd4c0c3b955a5bab63fa4a23983a 56fd5fd39cfea6f7a9e639d5bc029824ef9f081a 873c28a254746e089a47a8d8106b81f9dd1a5867 d57c99dca7d0c2abe889bf6bf65d6d1147dbda1f d67f22abf75e358040c7d8d2a7e1fa8e08d48bf0 ff735c95efe4595ee25e1db9f3e501686b3da9da
+Build-Ids: 0b6a018e9f6eb53323818ac2b5bbc4961142ee97 0c15f79151d610f98c8e3fe2dac8bcbddc09cc46 4209fe69adaa09e02e378fd78918becd35760799 85ef2409907e1aec2d42a143f13c7c2cc61360fe c074f25509d6e78273d681b53b5155b3d31fda9f d347b5d7c6a4f1427ec638c1a55b32c328d1324e e5fdbf6ec6cf617273690ac2614b90977a5673a4 edd0281c5befab02bb26e24fa92194870b377fd4 f5c2b01ad6680ed0748f95d7e98bb48245709633
 
 Package: seatd
-Version: 0.9.1-1-rk
+Version: 0.9.1-1
 Architecture: arm64
 Maintainer: Mark Hindley <leepen@debian.org>
 Installed-Size: 172
 Pre-Depends: debconf, init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34)
 Recommends: libseat1
-Filename: dists/trixie-rockchip/main/binary-arm64/seatd_0.9.1-1-rk_arm64.deb
-Size: 26456
-MD5sum: b3d87bc1d2fcfe7070282991ee8b6853
-SHA1: 7823c1c57f84d49dd3407046b92443fca9066690
-SHA256: 553c23d9fabd30bc1dc8dd1134fdbcc4b29cb92ddeb284babc70d81519596054
+Filename: dists/trixie-rockchip/main/binary-arm64/seatd_0.9.1-1_arm64.deb
+Size: 26336
+MD5sum: 2bebb7c6be5f5dcef113d3425ec6513a
+SHA1: a79bc15effe2e99f8711c7f4916ab8122d1ad0fe
+SHA256: 14b4b878edb6a87ab8b1403dc49fa1617ac01452f0320d2614092b2e2f99f4e9
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -4858,21 +4858,21 @@ Description: minimal user, seat and session management daemon
 
 Package: seatd-dbgsym
 Source: seatd
-Version: 0.9.1-1-rk
+Version: 0.9.1-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Mark Hindley <leepen@debian.org>
 Installed-Size: 130
-Depends: seatd (= 0.9.1-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/seatd-dbgsym_0.9.1-1-rk_arm64.deb
-Size: 54772
-MD5sum: 42fdb09d20827c3c4cbd70a7adbe2c06
-SHA1: 498978ac0119a79cfd4641ced18a47c8cde0695d
-SHA256: 5c0a764c67517d24d798fa4d0adf908b8b5eb45d42a32e88cee87d5d2883b2ae
+Depends: seatd (= 0.9.1-1)
+Filename: dists/trixie-rockchip/main/binary-arm64/seatd-dbgsym_0.9.1-1_arm64.deb
+Size: 54588
+MD5sum: bd1b7b47f11296da9b260f4361222b84
+SHA1: 0883aa1f5839905d025a17031188153df3545ffa
+SHA256: c34623806cdf9f2ca358dbf398225173d1ab8350b6b816d1276a1461483156e9
 Section: debug
 Priority: optional
 Description: debug symbols for seatd
-Build-Ids: 3678e590ef509cffd89e60009cdc44fc9c94a096 a70a697e98f4d17c34dd9adecea271b81fdc1d68
+Build-Ids: 0c7c19a5c0a3c0f8edc3b9ee635c6f6506417907 3678e590ef509cffd89e60009cdc44fc9c94a096
 
 Package: speedtest
 Version: 1.2.0.84-1.ea6b6773cf
@@ -4900,10 +4900,10 @@ Depends: libv4l-0t64 (= 1.28.1-1-rk), libv4l2rds0t64 (= 1.28.1-1-rk), libc6 (>= 
 Breaks: ivtv-utils (<< 1.4.1-2), media-ctl
 Replaces: ivtv-utils (<< 1.4.1-2), media-ctl
 Filename: dists/trixie-rockchip/main/binary-arm64/v4l-utils_1.28.1-1-rk_arm64.deb
-Size: 667888
-MD5sum: 7acc22db95fbab852b58a8c741487779
-SHA1: 5d12ab3938ef5dc1b7513f3ec2927112d8257070
-SHA256: 7c3e4f6daadaee403b66260c9a7863384b50da6d1054d05e18bb0f4395b32f1c
+Size: 665200
+MD5sum: 65dd1b05032715f1d7bd8f8cb6a618bc
+SHA1: 9b338e72bb67cbafa50edc13d509242203dd14a1
+SHA256: 2602e0f8b142baeb4c63fc2a7833a0bc65f85d71ce703616b0d856c00069a291
 Section: utils
 Priority: optional
 Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
@@ -4923,17 +4923,17 @@ Version: 1.28.1-1-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Gregor Jasny <gjasny@googlemail.com>
-Installed-Size: 7685
+Installed-Size: 7711
 Depends: v4l-utils (= 1.28.1-1-rk)
 Filename: dists/trixie-rockchip/main/binary-arm64/v4l-utils-dbgsym_1.28.1-1-rk_arm64.deb
-Size: 5243760
-MD5sum: a10150318a214a7c906c04a9839b4f59
-SHA1: 8685c646aa73da443dccecb61817f4302559bd66
-SHA256: 0b0e3911822ed3b4d6ecab14f0a8638f13a50e280063e51dca269ad236b971cc
+Size: 5243852
+MD5sum: e7fee8b1971e67805ae8d82e7edcbd87
+SHA1: d8f2be788232a4377ca624661d089d510cc8c8db
+SHA256: a369bf8e1b63c34047d0890ed7fd9be2cd8b46888b9acfe730ba28bcbeb11719
 Section: debug
 Priority: optional
 Description: debug symbols for v4l-utils
-Build-Ids: 1ace123248b9c435fae66070038326734bede43d 3c9a9c47f4b92d9839390070c64b474bc7cb998c 45a838b0d69622f5bc59ec656a929b54b684c8c3 56a9cf6476d0dc77d9a80ae5d56504b83bdfc02a 82b7cdb97474b9ac74ef4a1aea52c0f60a70ed5d 8959b78c6cd0215b55e5598076b907d8e10fb584 c06ac9db06a8718a9c2d1927d3c23d29b4d717db c8cb18fc65bd42a5d13afc0e4223456a7a744edd deceba106fc6148d660adc4cf807b3a488039b9e e2114e8d95ccd10c9df9428d602210f97f36347b f82bae339c15ba6eb317ef5c7007346c74b83972 fa6d87954dbf19151de45d45b166e73e1aac2ca1 faccf80bd2f0a2d96e250f8e6f19e1284a35d997
+Build-Ids: 0f5236f2ae3b4d99293a4384fea1aca679b3f47a 134d3c5947da65319580221b0743468f65906582 1ace123248b9c435fae66070038326734bede43d 36af02c63e4dc4dc097c8191c84544b385be32ee 3c9a9c47f4b92d9839390070c64b474bc7cb998c 45a838b0d69622f5bc59ec656a929b54b684c8c3 56a9cf6476d0dc77d9a80ae5d56504b83bdfc02a 72ed7e3e013fc98050b0513c5cfccf2cde4ae722 82b7cdb97474b9ac74ef4a1aea52c0f60a70ed5d b0c308b9d2c8c60dd8dc5f78ef61b8dfc581d3be bfe931a99a2ca91f2a8336a60c82e0c27408a8cf deceba106fc6148d660adc4cf807b3a488039b9e f82bae339c15ba6eb317ef5c7007346c74b83972
 
 Package: weston
 Version: 14.0.1-3-rk
