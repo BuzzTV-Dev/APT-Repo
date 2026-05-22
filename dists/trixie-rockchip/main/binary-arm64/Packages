@@ -21,15 +21,15 @@ Description: ALSA Use Case Manager configuration files
  ALSA is the Advanced Linux Sound Architecture.
 
 Package: buzztv-dsw
-Version: 1.0.14+17
+Version: 1.0.15+18
 Architecture: arm64
 Essential: yes
 Maintainer: mvas
-Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.14+17_arm64.deb
-Size: 11547304
-MD5sum: f963b3533c90d30435ee58ce56590fab
-SHA1: c35c3960b916c2314c96848168198e421cc6abb3
-SHA256: 6c0d9cf6b21bcc18672e55e2249c59bba6fad564f9f9cfe67af91d2b2c4f8104
+Filename: dists/trixie-rockchip/main/binary-arm64/buzztv-dsw_1.0.15+18_arm64.deb
+Size: 12273388
+MD5sum: 2754ffdb983c9e6caad87549c2ac8b0b
+SHA1: 1f917490ddc6a42267a71d5b6dc8a082fa6cf4ad
+SHA256: d434933d3bc1fc86c39b9597ad3b8cb9be916a953cde1d7bf405b54fa488e1cd
 Priority: optional
 Description: BuzzTV Device Setup Wizard
 
