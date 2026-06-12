@@ -50,17 +50,17 @@ Homepage: https://gitlab.buzztv.app/buzztv/linux/rockchip/debian-devel/packages/
 Description: BuzzTV OTA Tools
 
 Package: cobalt
-Version: 1.0.1-rk
+Version: 1.0.2-rk
 Architecture: arm64
 Maintainer: BuzzTV <buzztv@cprime.duckdns.org>
 Installed-Size: 59152
 Depends: libc6, libstdc++6, libasound2, libdrm2, libgbm1, libpulse0, libxkbcommon0, ca-certificates
 Recommends: librockchip-mpp1, libmali-valhall-g610-g13p0-x11 | libmali
-Filename: dists/trixie-rockchip/main/binary-arm64/cobalt_1.0.1-rk.deb
-Size: 34176008
-MD5sum: 70c8a4e88fb1931ccc706b0f416f8249
-SHA1: 1f8c8d34531890b19287e3091320fe13ec343e45
-SHA256: 0048652af41ea572b816c01703c2ebae056d20bd02562c9bc8fe838f665484e9
+Filename: dists/trixie-rockchip/main/binary-arm64/cobalt_1.0.2-rk.deb
+Size: 34178748
+MD5sum: 7c42376cc646b1e42fec8b9cc295e39e
+SHA1: 213fcba994a90549ea3d27ea3dc1ef437d2394a0
+SHA256: 1b900fe07ba3fbf3cb67f46b9208fc636b4545d4afea667b65d20566d03d4f21
 Section: web
 Priority: optional
 Description: Cobalt YouTube TV runtime for Rockchip DRM/KMS devices
