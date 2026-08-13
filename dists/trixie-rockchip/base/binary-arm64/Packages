@@ -23187,6 +23187,29 @@ Description: minimalistic service to synchronize local time with NTP servers
  The package contains the systemd-timesyncd system service that may be used to
  synchronize the local system clock with a remote Network Time Protocol server.
 
+Package: systemd-zram-generator
+Source: rust-zram-generator
+Version: 1.2.1-1
+Architecture: arm64
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Installed-Size: 740
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2), systemd
+Built-Using: rust-ahash (= 0.8.11-8), rustc (= 1.83.0+dfsg1-1)
+Static-Built-Using: rust-ahash (= 0.8.11-8), rust-allocator-api2 (= 0.2.16-1), rust-anstyle (= 1.0.8-1), rust-anyhow (= 1.0.86-1), rust-cfg-if (= 1.0.0-1), rust-clap (= 4.5.16-1), rust-clap-builder (= 4.5.15-2), rust-clap-lex (= 0.7.2-2), rust-dlv-list (= 0.3.0-1), rust-fasteval (= 0.2.4-5), rust-hashbrown (= 0.14.5-5), rust-liboverdrop (= 0.1.0-1), rust-log (= 0.4.22-1), rust-once-cell (= 1.20.2-1), rust-ordered-multimap (= 0.4.3-2), rust-rust-ini (= 0.18.0-1), rust-zerocopy (= 0.7.32-1), rustc (= 1.83.0+dfsg1-1)
+Filename: dists/trixie-rockchip/base/binary-arm64/systemd-zram-generator_1.2.1-1_arm64.deb
+Size: 287932
+MD5sum: 3d35f45c06b82c024d121048cc420730
+SHA1: a226b541a873a80ca609dc4f518c9462c76a81ad
+SHA256: e4dad082786724d29bd507e5160641b4cb46c3baa8c7514926cf003a9bbc1982
+Section: admin
+Priority: optional
+Multi-Arch: allowed
+Homepage: https://github.com/systemd/zram-generator
+Description: Systemd unit generator for zram devices
+ This generator provides a simple and fast mechanism to configure swap
+ on /dev/zram* devices. The main use case is create swap devices, but
+ devices with a file system can be created too, see below.
+
 Package: sysvinit-utils
 Source: sysvinit
 Version: 3.11-1
